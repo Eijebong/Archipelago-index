@@ -456,3 +456,9 @@ name = "Outer Wilds"
 version = "0.2.0"
 url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.0/outer_wilds.apworld"
 home = "https://discord.com/channels/731205301247803413/1178700404637311086"
+
+[worlds.osrs]
+name = "Old School Runescape"
+version = "1.1"
+url = "https://github.com/digiholic/Archipelago/releases/download/rc-1.1/osrs.apworld"
+home = "https://discord.com/channels/731205301247803413/1113198991845376170"
