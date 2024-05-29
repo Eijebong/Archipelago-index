@@ -328,6 +328,12 @@ version = "0.1.5"
 url = "https://github.com/gaithernOrg/LoLAP/releases/download/0.1.5/lol.apworld"
 home = "https://discord.com/channels/731205301247803413/1184691812099686492"
 
+[worlds.megamix]
+name  = "Hatsune Miku Project Diva Mega Mix+"
+version = "1.0.7"
+url = "https://github.com/Cynichill/DivaAPworld/releases/download/1.0.7/megamix.apworld"
+home = "https://discord.com/channels/731205301247803413/1241134454391443580"
+
 [worlds.mlss]
 name = "Mario and Luigi Superstar Saga"
 version = "1.6.3"
