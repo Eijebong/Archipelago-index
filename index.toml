@@ -270,8 +270,8 @@ home = "https://discord.com/channels/731205301247803413/1120157130100572260"
 
 [worlds.banjo_tooie]
 name = "Banjo Tooie"
-version = "1.5.1-beta"
-url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V1.5.1-beta/banjo_tooie.apworld"
+version = "1.6.2-beta"
+url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V1.6.2-beta/banjo_tooie.apworld"
 home = "https://discord.com/channels/731205301247803413/1135352499172286505"
 
 [worlds.bloonstd6]
