@@ -264,14 +264,14 @@ supported = "zork_grand_inquisitor"
 
 [worlds.ahit]
 name = "A Hat in Time"
-version = "1.5.3"
-url = "https://github.com/CookieCat45/Archipelago-ahit/releases/download/1.5.3/ahit.apworld"
+version = "1.5.4"
+url = "https://github.com/CookieCat45/Archipelago-ahit/releases/download/1.5.4/ahit.apworld"
 home = "https://discord.com/channels/731205301247803413/1120157130100572260"
 
 [worlds.banjo_tooie]
 name = "Banjo Tooie"
-version = "1.5.1-beta"
-url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V1.5.1-beta/banjo_tooie.apworld"
+version = "1.8.1-beta"
+url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V1.8.1-beta/banjo_tooie.apworld"
 home = "https://discord.com/channels/731205301247803413/1135352499172286505"
 
 [worlds.bloonstd6]
@@ -352,22 +352,16 @@ version = "1.1.4"
 url = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/v1.1.4/monster_sanctuary.apworld"
 home = "https://discord.com/channels/731205301247803413/1217944663864901632"
 
-[worlds.ootbijmqwt]
-name = "Ocarina of Time but it's just Master Quest Water Temple"
-version = "1.5"
-url = "https://github.com/Alchav/ootbijmqwt/releases/download/v1.5/ootbijmqwt.apworld"
-home = "https://discord.com/channels/731205301247803413/1211745516807782410"
-
 [worlds.osu]
 name = "osu!"
-version = "0.1.8-alpha"
-url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v0.1.8/osu.apworld"
+version = "1.0.0-beta"
+url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v1.0/osu.apworld"
 home = "https://discord.com/channels/731205301247803413/1195040661171355730"
 
 [worlds.pokemon_crystal]
 name = "Pokemon Crystal"
-version = "2.0.2"
-url = "https://github.com/AliceMousie/Archipelago/releases/download/2.0.2/pokemon_crystal.apworld"
+version = "2.1.0"
+url = "https://github.com/AliceMousie/Archipelago/releases/download/2.1.0/pokemon_crystal.apworld"
 home = "https://discord.com/channels/731205301247803413/1057476528419647572"
 
 [worlds.papermario]
@@ -384,8 +378,8 @@ home = "https://discord.com/channels/731205301247803413/1147564210436452393"
 
 [worlds.psychonauts]
 name = "Psychonauts"
-version = "0.5.0"
-url = "https://github.com/Akashortstack/Psychonauts_AP/releases/download/v0.5.0/psychonauts.apworld"
+version = "0.6.0"
+url = "https://github.com/Akashortstack/Psychonauts_AP/releases/download/v0.6.0/psychonauts.apworld"
 home = "https://discord.com/channels/731205301247803413/1191273397976584212"
 
 [worlds.reventure]
@@ -448,7 +442,13 @@ home = "https://discord.com/channels/1097532591650910289/1229917306709344316"
 [worlds.manual_touhou6theembodimentofscarletdevil_serterd]
 name = "Manual: Touhou 6 by Serterd"
 version = "1"
-local = "./apworlds/manual_touhou6theembodimentofscarletdevil_serterd"
+local = "./apworlds/manual_touhou6theembodimentofscarletdevil_serterd.apworld"
+home = ""
+
+[worlds.manual_snakepass_thegmeister]
+name = "Manual: Snake pass"
+version = "2"
+local = "./apworlds/manual_snakepass_thegmeister.apworld"
 home = ""
 
 [worlds.into_the_breach]
@@ -459,8 +459,8 @@ home = "https://github.com/Ishigh1/ITB-randomizer-for-AP"
 
 [worlds.outer_wilds]
 name = "Outer Wilds"
-version = "0.2.0"
-url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.0/outer_wilds.apworld"
+version = "0.2.1-rc"
+url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.1-rc/outer_wilds.apworld"
 home = "https://discord.com/channels/731205301247803413/1178700404637311086"
 
 [worlds.osrs]
@@ -468,3 +468,21 @@ name = "Old School Runescape"
 version = "1.1"
 url = "https://github.com/digiholic/Archipelago/releases/download/rc-1.1/osrs.apworld"
 home = "https://discord.com/channels/731205301247803413/1113198991845376170"
+
+[worlds.manual_pizzatower_steph]
+name = "Manual: Pizza Tower"
+version = "1"
+local = "./apworlds/manual_pizzatower_steph.apworld"
+home = "https://discord.com/channels/1097532591650910289/1109918404812492922"
+
+[worlds.yachtdice]
+name = "Yacht Dice"
+version = "2.0.3"
+url = "https://github.com/spinerak/ArchipelagoYachtDice/releases/download/v2.0.3/yachtdice.apworld"
+home = "https://discord.com/channels/731205301247803413/1217570899549491411"
+
+[worlds.jakanddexter]
+name = "Jak & Dexter"
+version = "0.0.4"
+url = "https://github.com/ArchipelaGOAL/Archipelago/releases/download/alpha-v0.0.4/jakanddaxter.apworld"
+home = "https://discord.com/channels/731205301247803413/1138467653552451606"
