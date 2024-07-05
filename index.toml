@@ -318,8 +318,8 @@ home = "https://discord.com/channels/731205301247803413/1142985359563685898"
 
 [worlds.kh1]
 name = "Kingdom Hearts 1 Final Mix"
-version = "1.2.4"
-url = "https://github.com/gaithernOrg/KH1FM-AP/releases/download/1.2.4/kh1.apworld"
+version = "2.3.1"
+url = "https://github.com/gaithernOrg/KH1FM-AP/releases/download/2.3.1/kh1.apworld"
 home = "https://discord.com/channels/731205301247803413/1155095286113390694"
 
 [worlds.lol]
