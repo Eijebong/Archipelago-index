@@ -3,4 +3,4 @@ name = "Manual_PowerwashSimulator_hallojasper"
 home = "https://discord.com/channels/1097532591650910289/1181412855187243079"
 
 [versions]
-"0.0.4" = { local = "../apworlds/manual_powerwashsimulator_hallojasper-0.0.4.apworld" }
+"0.0.5" = { local = "../apworlds/manual_powerwashsimulator_hallojasper-0.0.5.apworld" }
