@@ -1,0 +1,6 @@
+name = "Shapez"
+home = "https://discord.com/channels/731205301247803413/1259157584783478814"
+default_url = "https://github.com/BlastSlimey/shapezipelago/releases/download/{{version}}/shapez.apworld"
+
+[versions]
+"0.5.3" = {}
