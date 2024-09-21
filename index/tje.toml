@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1204326236415856671"
 default_url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v{{version}}/tje.apworld"
 
 [versions]
-"0.1.3" = {}
+"0.1.4-a" = { url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v0.1.4a/tje.apworld" }
