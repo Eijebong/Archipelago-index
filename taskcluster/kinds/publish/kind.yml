@@ -1,3 +1,10 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
 task-defaults:
   worker:
     docker-image: {in-tree: publish}

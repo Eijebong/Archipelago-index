@@ -1,12 +1,11 @@
----
 loader: taskgraph.loader.transform:loader
 
 transforms:
     - taskgraph.transforms.docker_image:transforms
     - taskgraph.transforms.cached_tasks:transforms
     - taskgraph.transforms.task:transforms
-    - eije_taskgraph.transforms.reduce_artifacts:transforms
-    - eije_taskgraph.transforms.podman:transforms
+    - eije_taskgraph.transforms.build_image:transforms
+    - eije_taskgraph.transforms.common:transforms
 
 tasks:
     publish: {}
