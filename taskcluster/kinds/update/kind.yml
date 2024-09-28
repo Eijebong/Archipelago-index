@@ -7,7 +7,7 @@ transforms:
 
 task-defaults:
   worker:
-    docker-image: ghcr.io/eijebong/apwm:main-47
+    docker-image: ghcr.io/eijebong/apwm:latest
     max-run-time: 1800
     volumes:
       - /builds/worker/checkouts
