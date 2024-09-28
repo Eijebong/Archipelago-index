@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1158149027385319434"
 default_url = "https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/download/{{version}}/khbbs.apworld"
 
 [versions]
-"0.1.0" = {}
+"0.1.2" = {}
