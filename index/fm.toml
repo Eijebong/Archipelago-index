@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1210743818564149288"
 default_url = "https://github.com/sg4e/Archipelago/releases/download/v{{version}}/fm.apworld"
 
 [versions]
-"2.1.0" = {}
+"2.1.1" = {}
