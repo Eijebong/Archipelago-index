@@ -3,4 +3,4 @@ home = "https://archipelago.gg"
 supported = true
 
 [versions]
-"6.4.5" = { local = "../apworlds/stardew_valley-6.4.5.apworld" }
+"6.5.2" = { local = "../apworlds/stardew_valley-6.5.2.apworld" }
