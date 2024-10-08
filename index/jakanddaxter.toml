@@ -2,4 +2,4 @@ name = "Jak and Daxter The Precursor Legacy"
 home = "https://discord.com/channels/731205301247803413/1138467653552451606"
 
 [versions]
-"0.1.2" = { url = "https://github.com/ArchipelaGOAL/Archipelago/releases/download/beta-v0.1.2/jakanddaxter.apworld" }
+"0.2.0" = { url = "https://github.com/ArchipelaGOAL/Archipelago/releases/download/beta-v0.2.0/jakanddaxter.apworld" }
