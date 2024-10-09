@@ -9,6 +9,7 @@ reporting: checks-v1
 autoCancelPreviousChecks: true
 policy:
     pullRequests: public
+    allowComments: collaborators
 tasks:
     - $let:
           trustDomain: "ap"
