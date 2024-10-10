@@ -8,7 +8,7 @@ version: 1
 reporting: checks-v1
 autoCancelPreviousChecks: true
 policy:
-    pullRequests: public
+    pullRequests: public_untrusted
     allowComments: collaborators
 tasks:
     - $let:
