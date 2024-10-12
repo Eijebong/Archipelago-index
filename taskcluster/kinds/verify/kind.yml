@@ -29,7 +29,7 @@ tasks:
         apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
         cd /ap/archipelago &&
         . .venv/bin/activate &&
-        python3 /ap/archipelago/self_check.py /ap/supported_worlds /tmp/download ${TEST_APWORLD_NAME} ${TEST_APWORLD_VERSION} /builds/worker/
+        unshare -r -n python3 /ap/archipelago/self_check.py /ap/supported_worlds /tmp/download ${TEST_APWORLD_NAME} ${TEST_APWORLD_VERSION} /builds/worker/
     worker:
       artifacts:
         - type: file
