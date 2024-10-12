@@ -1,0 +1,5 @@
+name = "Dome Keeper"
+home = "https://discord.com/channels/731205301247803413/1195385214877306921"
+
+[versions]
+"0.7.1" = { url = "https://github.com/Arrcival/ArchipelagoDK/releases/download/v0.7.1/0.7.1_TORENAME_dome_keeper.apworld" }
