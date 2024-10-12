@@ -10,6 +10,6 @@ taskgraph.util.schema.OptimizationSchema = voluptuous.Any(
     # skip this task if none of the given file patterns match
     {"skip-unless-changed": [str]},
 
-    {"skip-unless-changed-or-cached": {"skip-unless-changed": [str], "index-path": str}},
+    {"skip-unless-changed-or-cached": {"skip-unless-changed": [str], "index-path": [str]}},
 )
 

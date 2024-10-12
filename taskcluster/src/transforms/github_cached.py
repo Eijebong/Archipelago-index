@@ -16,7 +16,7 @@ def github_task(config, tasks):
         if task_for == "github-issue-comment":
             opt = task.setdefault("optimization", {})
             skip_unless_changed = opt.pop("skip-unless-changed", [])
-            task["optimization"] = {"skip-unless-changed-or-cached": {"index-path": index_path, "skip-unless-changed": skip_unless_changed}}
+            task["optimization"] = {"skip-unless-changed-or-cached": {"index-path": [index_path], "skip-unless-changed": skip_unless_changed}}
         elif task_for.startswith("github-pull-request"):
             task.setdefault("routes", []).append(f"index.{index_path}")
 
