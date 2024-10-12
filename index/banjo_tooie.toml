@@ -2,4 +2,4 @@ name = "Banjo-Tooie"
 home = "https://discord.com/channels/731205301247803413/1135352499172286505"
 
 [versions]
-"2.0.0" = { url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V2.0-beta/banjo_tooie.apworld" }
+"2.1.4" = { url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V2.1.4-beta/banjo_tooie.apworld" }
