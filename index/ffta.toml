@@ -1,0 +1,6 @@
+name = "Final Fantasy Tactics Advance"
+home = "https://discord.com/channels/731205301247803413/1100823015819837449"
+default_url = "https://github.com/spicynun/Archipelago/releases/download/{{version}}/ffta.apworld"
+
+[versions]
+"0.6.0" = {}
