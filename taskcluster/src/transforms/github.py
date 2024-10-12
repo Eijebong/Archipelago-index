@@ -12,7 +12,7 @@ def github_task(config, tasks):
 
         task_for = config.params["tasks_for"]
         task_label = task['name']
-        index_path = f"index.ap.v2.archipelago-index.{task_label}.level-1.pr.{pr_number}.latest"
+        index_path = f"ap.v2.archipelago-index.{task_label}.level-1.pr.{pr_number}.latest"
 
         # Re-use indexed PR tasks with comments
         if task_for == "github-issue-comment":
