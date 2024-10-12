@@ -9,4 +9,3 @@ transforms:
 
 tasks:
     publish: {}
-    check: {}

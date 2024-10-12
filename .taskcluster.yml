@@ -231,6 +231,9 @@ tasks:
                                   - $if: 'isPullRequest || tasks_for == "github-issue-comment"'
                                     then:
                                         ${normProjectUpper}_PULL_REQUEST_NUMBER: '${event.pull_request.number}'
+                                  - $if: 'tasks_for == "github-issue-comment"'
+                                    then:
+                                        TASKCLUSTER_COMMENT: '${event.taskcluster_comment}'
                                   - $if: 'tasks_for in ["action", "pr-action"]'
                                     then:
                                         ACTION_TASK_GROUP_ID: '${action.taskGroupId}'  # taskGroupId of the target task
