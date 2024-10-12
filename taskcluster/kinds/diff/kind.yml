@@ -5,7 +5,6 @@ transforms:
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
   - eije_taskgraph.transforms.common:transforms
-
 task-defaults:
   worker:
     docker-image: ghcr.io/eijebong/apwm:latest

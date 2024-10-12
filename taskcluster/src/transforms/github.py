@@ -4,8 +4,22 @@ import os
 transforms = TransformSequence()
 
 @transforms.add
-def set_env(config, tasks):
+def github_task(config, tasks):
     for task in tasks:
         env = task["worker"].setdefault("env", {})
-        env["GITHUB_PR"] = str(os.environ.get("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER", -1))
+        pr_number = str(os.environ.get("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER", -1))
+        env["GITHUB_PR"] = pr_number
+
+        task_for = config.params["tasks_for"]
+        task_label = task['name']
+        index_path = f"index.ap.v2.archipelago-index.{task_label}.level-1.pr.{pr_number}.latest"
+
+        # Re-use indexed PR tasks with comments
+        if task_for == "github-issue-comment":
+            opt = task.setdefault("optimization", {})
+            skip_unless_changed = opt.pop("skip-unless-changed", [])
+            task["optimization"] = {"skip-unless-changed-or-cached": {"index-path": index_path, "skip-unless-changed": skip_unless_changed}}
+        elif task_for.startswith("github-pull-request"):
+            task.setdefault("routes", []).append(f"index.{index_path}")
+
         yield task

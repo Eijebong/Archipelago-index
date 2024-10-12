@@ -1,0 +1,24 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.github:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker:
+    max-run-time: 1800
+  run-on-tasks-for: ["github-issue-comment"]
+
+tasks:
+  check:
+    worker-type: linux-small
+    description: Check apworlds with current yaml checker
+    worker:
+      docker-image: {in-tree: check}
+    dependencies:
+      diff: diff-index
+    run:
+      using: run-task
+      command: ls

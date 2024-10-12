@@ -8,6 +8,8 @@ taskgraph:
     archipelago_lobby:
       name: "Archipelago-lobby"
 
+  register: src:register
+
 workers:
   aliases:
     linux-small:
