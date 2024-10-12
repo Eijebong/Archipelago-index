@@ -1,0 +1,7 @@
+name = "Manual_SMO_mp3"
+display_name = "Manual: Super Mario Odyssey"
+home = "https://discord.com/channels/1097532591650910289/1146498720792334336"
+default_url = "https://github.com/empathy-mp3/SMO-manual-AP/releases/download/v{{version}}/manual_smo_mp3.apworld"
+
+[versions]
+"2.2.2" = {}
