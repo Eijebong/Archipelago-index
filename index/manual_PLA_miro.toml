@@ -1,0 +1,6 @@
+name = "Manual_PLA_Miro"
+display_name = "Manual: Pokemon Legends Arceus"
+home = "https://discord.com/channels/1097532591650910289/1155150756622643260"
+
+[versions]
+"1.1.1" = { url = "https://github.com/Miro-n1/archipelago_manuals/releases/download/PLA_1.1.1/manual_PLA_miro.apworld" }
