@@ -3,5 +3,5 @@ home = "https://discord.com/channels/731205301247803413/1241134454391443580"
 default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{version}}/megamix.apworld"
 
 [versions]
-# 1.0.3 BETA with https://github.com/Cynichill/DivaAPworld/pull/2 applied
-"1.0.3-beta" = { local = "../apworlds/megamix-1.0.3-beta.patched.apworld" }
+# 1.0.6B with https://github.com/RePod/DivaAPworld-R/blob/ce18682c57644344de2a86962d0315c689fb00e9/diffs/early/0_mod_folder.diff
+"1.0.6-beta" = { local = "../apworlds/megamix-1.0.6-beta.patched.apworld" }
