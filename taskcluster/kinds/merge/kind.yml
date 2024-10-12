@@ -1,0 +1,28 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.merge:transforms
+  - src.transforms.github:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker:
+    max-run-time: 1800
+    docker-image: {in-tree: merge}
+  run-on-tasks-for: ["github-issue-comment"]
+
+kind-dependencies:
+  - verify
+
+tasks:
+  pr:
+    worker-type: linux-small
+    description: Merge PR
+    run:
+      using: run-task
+      command: >-
+        /usr/local/bin/merge.sh
+    scopes:
+      - secrets:get:Archipelago-index
