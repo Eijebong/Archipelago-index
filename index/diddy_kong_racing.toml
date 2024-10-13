@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1057754627795337387"
 default_url = "https://github.com/zakwiz/DiddyKongRacingAP/releases/download/v{{version}}/diddy_kong_racing.apworld"
 
 [versions]
-"0.3.0" = {}
+"0.3.1" = {}
