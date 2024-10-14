@@ -20,8 +20,6 @@ tasks:
     worker-type: linux-small
     description: Check apworlds with current yaml checker
     diff-index-path: "ap.v2.archipelago-index.index.level-1.pr"
-    dependencies:
-      diff: diff-index
     run:
       using: run-task
       command: >-
