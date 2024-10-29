@@ -1,0 +1,5 @@
+name = "Balatro"
+home = "https://discord.com/channels/1085716850370957462/1217203888717828307"
+
+[versions]
+"0.1.9-b" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9b/balatro.apworld" }
