@@ -28,8 +28,13 @@ tasks:
       using: run-task
       command: >-
         cd $VCS_PATH &&
+        mkdir -p /builds/worker/diffs &&
         apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
-        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Review changes](https://apdiff.bananium.fr/${TASK_ID})\"}"
+        (
+          [ -z "$( ls -A '/builds/worker/diffs' )" ] &&
+          /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"No reviewable changes\"}" ||
+          /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Review changes](https://apdiff.bananium.fr/${TASK_ID})\"}"
+        )
     worker:
       artifacts:
         - type: directory
