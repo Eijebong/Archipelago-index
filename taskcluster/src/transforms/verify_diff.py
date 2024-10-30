@@ -22,8 +22,8 @@ def generate_tasks(config, tasks):
             print("Not a PR, ignoring transform verify_diff, graph will be incomplete. Set `ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER` to a valid PR number")
             return
 
-        diff_index_path = task.pop('diff-index-path')
         if comment in ["test", "r+"]:
+            diff_index_path = task.pop('diff-index-path')
             yield from create_check_tasks_from_diff(task, diff_index_path, pr_number)
         if comment in ["test-all"]:
             yield from create_check_tasks_for_all(task, pr_number)
