@@ -11,4 +11,19 @@ taskgraph:
   register: src:register
 
 workers:
-  aliases: {}
+  aliases:
+    linux-small:
+      provisioner: ap
+      implementation: docker-worker
+      os: linux
+      worker-type: linux-test
+    linux-medium:
+      provisioner: ap
+      implementation: docker-worker
+      os: linux
+      worker-type: linux-medium
+    images:
+      provisioner: ap
+      implementation: docker-worker
+      os: linux
+      worker-type: linux-medium
