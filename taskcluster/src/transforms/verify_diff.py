@@ -45,11 +45,12 @@ def create_check_tasks_from_diff(task, diff_index_path, pr_number):
 
         diff = json.loads(diff_response.read())
         world_name = diff["world_name"]
+        apworld_name = diff["apworld_name"]
         for version_range, diff_status in diff["diffs"].items():
             if "VersionAdded" not in diff_status:
                 continue
             _, new_version = version_range.split('...', 1)
-            yield create_task_for_apworld(task, world_name, new_version, {"diff": "diff-index"})
+            yield create_task_for_apworld(task, world_name, apworld_name, new_version, {"diff": "diff-index"})
 
 
 
@@ -60,6 +61,8 @@ def create_check_tasks_for_all(task, pr_number):
         if world.get("disabled"):
             continue
 
+        world_name = world["name"]
+
         apworld_name = Path(world_path).stem
         versions = list(world.get("versions", {}).keys())
         if world.get("supported", False):
@@ -67,15 +70,16 @@ def create_check_tasks_for_all(task, pr_number):
 
 
         for version in versions:
-            yield create_task_for_apworld(task, apworld_name, version)
+            yield create_task_for_apworld(task, world_name, apworld_name, version)
 
 
-def create_task_for_apworld(original_task, apworld, version, dependencies=None):
+def create_task_for_apworld(original_task, world_name, apworld_name, version, dependencies=None):
     task = copy.deepcopy(original_task)
     env = task["worker"].setdefault("env", {})
-    env["TEST_APWORLD_NAME"] = apworld
+    env["TEST_WORLD_NAME"] = world_name
+    env["TEST_APWORLD_NAME"] = apworld_name
     env["TEST_APWORLD_VERSION"] = version
-    task["label"] = f"test-{apworld}-{version}"
+    task["label"] = f"test-{apworld_name}-{version}"
 
     if dependencies is not None:
         task["dependencies"] = dependencies
