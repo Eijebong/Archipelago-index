@@ -1,0 +1,5 @@
+name = "Shadow The Hedgehog"
+home = "https://discord.com/channels/731205301247803413/1142558464242094200"
+
+[versions]
+"0.0.3" = { local = "../apworlds/shadow_the_hedgehog-0.0.3.apworld" }
