@@ -1,0 +1,6 @@
+name = "Simon Tatham's Portable Puzzle Collection"
+home = "https://discord.com/channels/731205301247803413/1278733078516207719"
+default_url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v{{version}}/sgtpuzzles.apworld"
+
+[versions]
+"0.1.1-prealpha" = {}
