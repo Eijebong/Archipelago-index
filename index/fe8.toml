@@ -1,0 +1,6 @@
+home = "https://discord.com/channels/731205301247803413/1098762105445953546"
+name = "Fire Emblem Sacred Stones"
+default_url = "https://github.com/CT075/Archipelago/releases/download/fe8-alpha-{{version}}/fe8.apworld"
+
+[versions]
+"0.3.2" = {}
