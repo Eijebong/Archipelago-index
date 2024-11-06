@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1217570899549491411"
 default_url = "https://github.com/spinerak/ArchipelagoYachtDice/releases/download/v{{version}}/yachtdice.apworld"
 
 [versions]
-"2.1.2" = {}
+"2.1.4" = {}
