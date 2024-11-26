@@ -4,3 +4,5 @@ default_url = "https://github.com/doshyw/CelesteArchipelago/releases/download/{{
 
 [versions]
 "0.3.0" = {}
+# https://discord.com/channels/731205301247803413/1021069526625947729/1266000112715436114
+"0.4.0-alpha+unreleased" = { local = "../apworlds/celeste-0.4.0-alpha+unreleased.apworld" }
