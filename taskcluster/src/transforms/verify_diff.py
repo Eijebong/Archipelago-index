@@ -26,6 +26,7 @@ def generate_tasks(config, tasks):
             diff_index_path = task.pop('diff-index-path')
             yield from create_check_tasks_from_diff(task, diff_index_path, pr_number)
         if comment in ["test-all"]:
+            del task["diff-index-path"]
             yield from create_check_tasks_for_all(task, pr_number)
 
 
