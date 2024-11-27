@@ -1,6 +1,3 @@
 name = "Stardew Valley"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-"6.5.2" = { local = "../apworlds/stardew_valley-6.5.2.apworld" }

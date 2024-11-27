@@ -1,6 +1,3 @@
 name = "The Witness"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-"0.5.1-beta17" = { url = "https://github.com/NewSoupVi/Archipelago/releases/download/0.5.1p17/witness.apworld" }

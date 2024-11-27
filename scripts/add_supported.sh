@@ -16,7 +16,7 @@ if [[ ! -d "$INDEX_ROOT/index" ]] then
 fi
 
 git clone https://github.com/ArchipelagoMW/Archipelago.git /tmp/ap
-(cd /tmp/ap && git reset --hard 0.5.0)
+(cd /tmp/ap && git reset --hard 0.5.1)
 
 for f in /tmp/ap/worlds/*; do
     if [[ -f $f ]]; then
@@ -37,6 +37,11 @@ for f in /tmp/ap/worlds/*; do
     # LADX is a special child and defines its world name from a const for some reason so we can't easily guess it.
     if [[ "$(basename $f)" == "ladx" ]]; then
         GAME="Links Awakening DX"
+    fi
+
+    # same with stardew valley
+    if [[ "$(basename $f)" == "stardew_valley" ]]; then
+        GAME="Stardew Valley"
     fi
 
     if [[ "$GAME" == "" ]]; then
