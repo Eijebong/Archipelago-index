@@ -1,3 +1,7 @@
 name = "TUNIC"
 home = "https://archipelago.gg"
 supported = true
+default_url =  "https://github.com/silent-destroyer/tunic-randomizer/releases/download/{{version}}/tunic.apworld"
+
+[versions]
+"4.0.1" = {}
