@@ -1,6 +1,3 @@
 name = "Dark Souls III"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-"3.0.0-beta.24" = { local = "../apworlds/dark_souls_3-3.0.0-beta.24.apworld" }
