@@ -1,0 +1,5 @@
+name = "Kingdom Hearts Days"
+
+[versions]
+# https://canary.discord.com/channels/731205301247803413/1087405565069766756/1261047591970279556
+"0.0.1" = { local = "../apworlds/khdays-0.0.1.apworld" }
