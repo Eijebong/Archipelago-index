@@ -2,4 +2,4 @@ name = "The Legend of Zelda - Oracle of Seasons"
 home = "https://discord.com/channels/731205301247803413/1130706151303041054"
 
 [versions]
-"7.2.1" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-7.2b/tloz_oos.apworld" }
+"7.2.1+0.5.1-fixes" = { local = "../apworlds/tloz_oos-7.2.1+0.5.1-fixes.apworld" }
