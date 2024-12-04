@@ -6,3 +6,4 @@ default_url = "https://github.com/hallojasper/Powerwash-Simulator-Archipelago-Ma
 [versions]
 "0.0.5" = { local = "../apworlds/manual_powerwashsimulator_hallojasper-0.0.5.apworld" }
 "0.1.6" = {}
+"0.1.7" = {}
