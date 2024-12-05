@@ -150,7 +150,7 @@ tasks:
                                     description: 'Created by a [cron task](https://firefox-ci-tc.services.mozilla.com/tasks/${cron.task_id})'
 
                   provisionerId: "ap"
-                  workerType: "linux-small"
+                  workerType: "linux-test"
 
                   tags:
                       $switch:

@@ -16,7 +16,7 @@ workers:
       provisioner: ap
       implementation: docker-worker
       os: linux
-      worker-type: linux-small
+      worker-type: linux-test
     linux-medium:
       provisioner: ap
       implementation: docker-worker
