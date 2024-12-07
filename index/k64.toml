@@ -1,0 +1,6 @@
+name = "Kirby 64 - The Crystal Shards"
+home = "https://canary.discord.com/channels/731205301247803413/1175344681928904806"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/k64_{{version}}/k64.apworld"
+
+[versions]
+"0.1.3" = {}
