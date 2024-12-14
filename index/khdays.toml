@@ -1,4 +1,5 @@
 name = "Kingdom Hearts Days"
+disabled = true
 
 [versions]
 # https://canary.discord.com/channels/731205301247803413/1087405565069766756/1261047591970279556
