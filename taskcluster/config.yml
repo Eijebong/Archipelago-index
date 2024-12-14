@@ -9,7 +9,6 @@ taskgraph:
       name: "Archipelago-index"
 
   register: src:register
-  register: eije_taskgraph:register
 
 workers:
   aliases: {}
