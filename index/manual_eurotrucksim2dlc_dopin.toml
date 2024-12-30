@@ -1,5 +1,0 @@
-display_name = "Manual: Euro Truck Simulator 2 all DLCs"
-name = "Manual_EuroTruckSim2DLC_dopin"
-
-[versions]
-"0.0.3" = { local = "../apworlds/manual_eurotrucksim2dlc_dopin-0.0.3.apworld" }
