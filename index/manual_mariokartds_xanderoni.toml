@@ -1,0 +1,7 @@
+name = "Manual_MarioKartDS_Xanderoni"
+display_name = "Manual: Mario Kart DS"
+home = "https://discord.com/channels/1097532591650910289/1226021777025536050"
+
+[versions]
+# https://canary.discord.com/channels/1097532591650910289/1226021777025536050/1324543828484690042
+"0.0.2" = { local = "../apworlds/manual_mariokartds_xanderoni-0.0.2.apworld" }
