@@ -2,4 +2,8 @@ name = "The Legend of Zelda - Oracle of Seasons"
 home = "https://discord.com/channels/731205301247803413/1130706151303041054"
 
 [versions]
+# This is a fix made by myself, it's just the 7.2.1 version with fixes to make it gen on 0.5.1
 "7.2.1+0.5.1-fixes" = { local = "../apworlds/tloz_oos-7.2.1+0.5.1-fixes.apworld" }
+# This is the same as 7.2.1+0.5.1-fixes but with 2 extra options added by ishigh
+# https://discord.com/channels/105852066324365312/214865144218517504/1325998194743578675
+"7.2.2+ishigh" = { local = "../apworlds/tloz_oos-7.2.2+ishigh.apworld" }
