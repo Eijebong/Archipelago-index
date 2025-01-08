@@ -5,4 +5,4 @@ default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{vers
 [versions]
 # 1.0.6B with https://github.com/RePod/DivaAPworld-R/blob/ce18682c57644344de2a86962d0315c689fb00e9/diffs/early/0_mod_folder.diff
 "1.0.6-beta" = { local = "../apworlds/megamix-1.0.6-beta.patched.apworld" }
-"1.1.4-beta" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.1.4B-R_241127-b6fccc5/megamix.apworld" }
+"1.1.4-beta-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.1.4B-R_241127-b6fccc5/megamix.apworld" }
