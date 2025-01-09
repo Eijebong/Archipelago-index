@@ -1,0 +1,7 @@
+name = "Scooby-Doo! Night of 100 Frights"
+home = "https://discord.com/channels/731205301247803413/1188152412498829352"
+
+# When updating, repack the whole thing, remove pythonnet, clr_loader, clr from inc/packages
+# Do not report issues upstream
+[versions]
+"0.3.1-unofficial" = { local = "../apworlds/no100f-0.3.1-beta.apworld" }
