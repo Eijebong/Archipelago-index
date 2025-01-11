@@ -1,0 +1,10 @@
+# This is a special apworld, it's both the manual for Ultimate Marvel VS Capcom 3 but also the base for every single manual apworld.
+
+name = "Manual_UltimateMarvelVsCapcom3_ManualTeam"
+display_name = "Manual: Ultimate Marvel VS Capcom 3"
+home = "https://github.com/ManualForArchipelago/Manual"
+
+[versions]
+# To update, repack by renaming it from `manual_stable_{{version}}` to `manual_ultimatemarvelvscapcom3_manualteam.apworld`, don't forget to rename the folder inside to the same.
+# You also need to update `data/game.json`, set game to `UltimateMarvelVsCapcom3` and author to `ManualTeam`
+"0.0.0+20241119" = { local = "../apworlds/manual_ultimatemarvelvscapcom3_manualteam-20241119.apworld" }
