@@ -1,0 +1,5 @@
+name = "Manual: Empty"
+home = "https://github.com/ManualForArchipelago/Manual"
+
+[versions]
+"0.0.0+20241119" = { url = "https://github.com/ManualForArchipelago/Manual/releases/download/manual_stable_20241119/manual_stable_20241119.apworld" }
