@@ -40,12 +40,6 @@ def create_check_tasks_from_diff(task, diff_index_path, pr_number):
             continue
 
         diff_name = artifact['name'].removeprefix('public/diffs/')
-        # The "manual" world is an empty manual and is invalid on purpose.
-        # Its only reason to be in the index is for ease of review of other manuals
-        # as they can be compared to it
-        if diff_name == "manual.apdiff":
-            continue
-
         diff_response = get_artifact(diff_task, artifact['name'])
         if diff_response.status != 200:
             raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
@@ -71,12 +65,6 @@ def create_check_tasks_for_all(task, pr_number):
         world_name = world["name"]
 
         apworld_name = Path(world_path).stem
-        # The "manual" world is an empty manual and is invalid on purpose.
-        # Its only reason to be in the index is for ease of review of other manuals
-        # as they can be compared to it
-        if apworld_name == "manual":
-            continue
-
         versions = list(world.get("versions", {}).keys())
         if world.get("supported", False):
             versions.append(index["archipelago_version"])
