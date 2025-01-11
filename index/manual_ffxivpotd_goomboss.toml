@@ -1,0 +1,8 @@
+name = "Manual_FFXIVPotD_Goomboss"
+display_name = "Manual: Final Fantasy XIV - Palace of the Dead"
+home = "https://discord.com/channels/1097532591650910289/1201994522465403041/1201994522465403041"
+
+[versions]
+# https://discord.com/channels/1097532591650910289/1201994522465403041/1327663247750467614
+"0.0.1-dopin" = { local = "../apworlds/manual_ffxiv_goomboss-0.0.1-dopin.apworld" }
+
