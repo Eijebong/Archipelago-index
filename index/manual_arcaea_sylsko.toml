@@ -1,0 +1,5 @@
+name = "Manual_Arcaea_Sylsko"
+display_name = "Manual: Arcaea"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_arcaea_sylsko-0.0.1.apworld" }
