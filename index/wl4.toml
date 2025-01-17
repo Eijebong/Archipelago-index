@@ -1,0 +1,6 @@
+name = "Wario Land 4"
+home = "https://discord.com/channels/731205301247803413/1079899101732290620"
+default_url = "https://github.com/lilDavid/Archipelago-Wario-Land-4/releases/download/{{version}}/wl4.apworld"
+
+[versions]
+"3.0.0" = {}
