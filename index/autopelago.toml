@@ -1,0 +1,6 @@
+name = "Autopelago"
+home = "https://discord.com/channels/731205301247803413/1307517897194868768"
+default_url = "https://github.com/airbreather/Autopelago/releases/download/v{{version}}/autopelago.apworld"
+
+[versions]
+"0.7.3" = {}
