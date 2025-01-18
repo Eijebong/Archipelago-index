@@ -4,3 +4,4 @@ default_url = "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/download/{
 
 [versions]
 "2.2.2" = {}
+"3.0.1" = {}
