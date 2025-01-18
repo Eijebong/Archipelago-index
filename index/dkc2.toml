@@ -1,0 +1,6 @@
+name = "Donkey Kong Country 2"
+home = "https://discord.com/channels/731205301247803413/1023381145565548646"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v{{version}}/dkc2.apworld"
+
+[versions]
+"2.0.0" = {}
