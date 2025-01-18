@@ -4,3 +4,5 @@ home = "https://discord.com/channels/731205301247803413/1311946326040383589"
 [versions]
 # https://discord.com/channels/731205301247803413/1311946326040383589/1323042990322614335
 "0.0.5" = { local = "../apworlds/factorio_saws-0.0.5.apworld" }
+# https://discord.com/channels/731205301247803413/1311946326040383589/1329822970096521399
+"0.0.6" = { local = "../apworlds/factorio_saws-0.0.6.apworld" }
