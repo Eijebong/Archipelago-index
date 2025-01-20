@@ -1,0 +1,6 @@
+name = "Ratchet & Clank 2"
+home = "https://discord.com/channels/731205301247803413/1325015730218860554"
+default_url = "https://github.com/evilwb/APRac2/releases/download/v{{version}}/rac2.apworld"
+
+[versions]
+"0.4.2" = {}
