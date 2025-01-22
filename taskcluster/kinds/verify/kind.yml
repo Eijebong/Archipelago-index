@@ -10,7 +10,7 @@ transforms:
 task-defaults:
   worker:
     max-run-time: 1800
-    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
+    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:next-77
     volumes:
       - /builds/worker/checkouts
   run-on-tasks-for: ["github-issue-comment"]
