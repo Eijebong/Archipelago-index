@@ -1,0 +1,7 @@
+name = "Manual_Betrayal_Axxroy"
+display_name = "Manual: Betrayal at the House on the Hill"
+home= "https://github.com/axxroytovu/archipelago_manuals"
+default_url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Betrayal_{{version}}/manual_betrayal_axxroy.apworld"
+
+[versions]
+"0.0.2" = {}
