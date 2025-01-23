@@ -1,0 +1,6 @@
+name = "MetroCUBEvania"
+home = "https://discord.com/channels/731205301247803413/1259263968245977128"
+default_url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_{{version}}/MetroCUBEvania.apworld"
+
+[versions]
+"0.1.1" = {}
