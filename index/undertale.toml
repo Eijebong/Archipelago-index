@@ -1,3 +1,7 @@
 name = "Undertale"
 home = "https://archipelago.gg"
 supported = true
+
+[versions]
+# https://discord.com/channels/731205301247803413/1148330675452264499/1196534846365896825
+"2.0.0+beta" = { local = "../apworlds/undertale-2.0.0+beta.apworld" }
