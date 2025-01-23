@@ -1,6 +1,10 @@
 name = "Bloons TD6"
 home = "https://discord.com/channels/731205301247803413/1188559959508668527"
 default_url = "https://github.com/GamingInfinite/Archipelago/releases/download/{{version}}.0/bloonstd6.apworld"
+# Broken:
+# - Submits more progression items to the pool than locations
+# - Does not generate properly with start inventory/plando/item links/anything else that creates items by name
+disabled = true
 
 [versions]
 "0.2.3" = {}
