@@ -13,7 +13,6 @@ task-defaults:
     max-run-time: 1800
     volumes:
       - /builds/worker/checkouts
-      - /builds/worker/.cache
     taskcluster-proxy: true
   run-on-tasks-for: ["github-issue-comment"]
 
