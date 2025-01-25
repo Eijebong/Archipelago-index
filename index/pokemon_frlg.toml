@@ -5,3 +5,4 @@ default_url = "https://github.com/vyneras/Archipelago/releases/download/{{versio
 [versions]
 "0.7.2-beta" = {}
 "0.7.3-beta" = {}
+"0.8.0" = {}
