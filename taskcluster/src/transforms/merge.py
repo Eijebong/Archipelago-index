@@ -10,7 +10,7 @@ transforms = TransformSequence()
 @transforms.add
 def generate_tasks(config, tasks):
     comment = os.environ.get("TASKCLUSTER_COMMENT")
-    if comment != "r+":
+    if comment not in {"r+", "merge"}:
         print("Not generating merge tasks as it didn't come from a valid comment:", comment)
         return
 
@@ -21,18 +21,9 @@ def generate_tasks(config, tasks):
 
     for task in tasks:
         new_task = copy.deepcopy(task)
-        deps = new_task.setdefault("dependencies", {})
-        for dep in config.kind_dependencies_tasks:
-            deps[dep] = dep
+        if comment != "merge":
+            deps = new_task.setdefault("dependencies", {})
+            for dep in config.kind_dependencies_tasks:
+                deps[dep] = dep
         yield new_task
-
-def create_task_for_apworld(original_task, apworld, version):
-    task = copy.deepcopy(original_task)
-    env = task["worker"].setdefault("env", {})
-    env["TEST_APWORLD_NAME"] = apworld
-    env["TEST_APWORLD_VERSION"] = version
-    task["label"] = f"test-{apworld}-{version}"
-
-    return task
-
 
