@@ -1,7 +1,7 @@
 name = "Wario Land"
 home = "https://discord.com/channels/731205301247803413/1173641836502454303"
-default_url = "https://github.com/randomcodegen/Archipelago_WL/releases/download/{{version}}/wl.apworld"
+default_url = "https://github.com/randomcodegen/Archipelago/releases/download/{{version}}/wl.apworld"
 
 [versions]
-"1.2.4" = {}
+"1.2.5" = {}
 
