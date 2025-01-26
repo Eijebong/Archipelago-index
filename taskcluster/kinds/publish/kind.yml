@@ -44,6 +44,7 @@ tasks:
       checkout:
         archipelago_index:
           head_ref: "{base_ref}"
+          head_rev: null
     fetches:
       diff-index:
         - artifact: index.lock
