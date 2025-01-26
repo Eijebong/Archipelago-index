@@ -24,6 +24,7 @@ def generate_tasks(config, tasks):
         if comment != "merge":
             deps = new_task.setdefault("dependencies", {})
             for dep in config.kind_dependencies_tasks:
-                deps[dep] = dep
+                if dep not in deps:
+                    deps[dep] = dep
         yield new_task
 

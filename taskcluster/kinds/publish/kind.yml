@@ -1,6 +1,7 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
+  - src.transforms.merge:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
   - eije_taskgraph.transforms.common:transforms
@@ -10,18 +11,20 @@ task-defaults:
     docker-image: {in-tree: publish}
     max-run-time: 1800
   worker-type: "linux-small"
-  run-on-tasks-for: ["github-push"]
-  run-on-git-branches: ["main"]
-  optimization:
-    skip-unless-changed: ["index.toml", "index/**", "taskcluster/**"]
+  run-on-tasks-for: ["github-issue-comment"]
 
 kind-dependencies:
-  - update
+  - diff
+  - merge
 
 tasks:
   index:
     dependencies:
-      index: update-index
+      diff-index: diff-index
+      merge-pr: merge-pr
+    if-dependencies:
+      - merge-pr
+      - diff-index
     description: Push changed index.lock
     scopes:
       - secrets:get:Archipelago-index
@@ -33,7 +36,7 @@ tasks:
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
         git push repo HEAD:main
     fetches:
-      index:
+      diff-index:
         - artifact: index.lock
           extract: false
           dest: /builds/worker/checkouts/vcs

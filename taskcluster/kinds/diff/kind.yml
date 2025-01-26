@@ -46,3 +46,6 @@ tasks:
         - type: directory
           path: /builds/worker/diffs
           name: public/diffs
+        - type: file
+          path: /builds/worker/checkouts/vcs/index.lock
+          name: public/build/index.lock
