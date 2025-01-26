@@ -35,6 +35,7 @@ tasks:
       command: >-
         cd $VCS_PATH &&
         mkdir -p /builds/worker/diffs &&
+        apwm update -i ./ &&
         apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -r {base_rev} -o /builds/worker/diffs &&
         (
           [ -z "$( ls -A '/builds/worker/diffs' )" ] &&
