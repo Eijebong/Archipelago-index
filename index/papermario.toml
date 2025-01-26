@@ -5,3 +5,4 @@ default_url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v{{v
 [versions]
 "0.4.1" = {}
 "0.4.2" = {}
+"0.4.4" = {}
