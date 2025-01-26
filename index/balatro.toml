@@ -1,9 +1,5 @@
 name = "Balatro"
 home = "https://discord.com/channels/1085716850370957462/1217203888717828307"
-# This world was added before we started looking for randomness issue
-# There's a ton of direct random module usage, we can re-enable it once that's fixed.
-# Reported upstream at: https://discord.com/channels/1085716850370957462/1217203888717828307/1333121803757031555
-disabled = true
 
 [versions]
 "0.1.9-b" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9b/balatro.apworld" }
