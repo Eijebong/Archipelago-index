@@ -1,6 +1,7 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
+  - taskgraph.transforms.task_context:transforms
   - src.transforms.merge:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -19,6 +20,11 @@ kind-dependencies:
 
 tasks:
   index:
+    task-context:
+      from-parameters:
+        base_ref: base_ref
+      substitution-fields:
+        - run.checkout.archipelago_index.head_ref
     dependencies:
       diff-index: diff-index
       merge-pr: merge-pr
@@ -35,6 +41,9 @@ tasks:
         (git commit -am "Update lockfile" || exit 0) &&
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
         git push repo HEAD:main
+      checkout:
+        archipelago_index:
+          head_ref: "{base_ref}"
     fetches:
       diff-index:
         - artifact: index.lock
