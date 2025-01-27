@@ -23,8 +23,9 @@ tasks:
     task-context:
       from-parameters:
         base_ref: base_ref
+        base_repository: base_repository
       substitution-fields:
-        - run.checkout.archipelago_index.head_ref
+        - run.checkout.archipelago_index
     dependencies:
       diff-index: diff-index
       merge-pr: merge-pr
@@ -43,6 +44,7 @@ tasks:
         git push repo HEAD:main
       checkout:
         archipelago_index:
+          head_repository: "{base_repository}"
           head_ref: "{base_ref}"
           head_rev: null
     fetches:
