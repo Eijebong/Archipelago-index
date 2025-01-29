@@ -15,6 +15,7 @@ task-defaults:
 
 kind-dependencies:
   - diff
+  - verify
 
 tasks:
   index:
@@ -32,8 +33,9 @@ tasks:
         (git commit -am "Update lockfile" || exit 0) &&
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
         git pull -r origin main &&
-        git push repo HEAD:main &&
-        /usr/local/bin/merge.sh
+        /usr/local/bin/merge.sh &&
+        git pull -r origin main &&
+        git push repo HEAD:main
     fetches:
       diff-index:
         - artifact: index.lock
