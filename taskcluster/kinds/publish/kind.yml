@@ -2,6 +2,7 @@ loader: taskgraph.loader.transform:loader
 
 transforms:
   - src.transforms.merge:transforms
+  - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
   - eije_taskgraph.transforms.common:transforms
