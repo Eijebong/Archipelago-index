@@ -21,8 +21,6 @@ tasks:
   index:
     dependencies:
       diff-index: diff-index
-    if-dependencies:
-      - diff-index
     description: Push changed index.lock
     scopes:
       - secrets:get:Archipelago-index
