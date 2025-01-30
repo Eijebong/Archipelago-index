@@ -16,6 +16,9 @@ task-defaults:
       - /builds/worker/checkouts
   run-on-tasks-for: ["github-issue-comment"]
 
+kind-dependencies:
+  - diff
+
 tasks:
   check:
     description: Check apworlds with current yaml checker
@@ -32,6 +35,11 @@ tasks:
         - type: file
           path: /builds/worker/template.yaml
           name: public/template.yaml
+    fetches:
+      diff:
+        - artifact: index.lock
+          extract: false
+          dest: /builds/worker/checkouts/vcs
   ap-test:
     description: Run archipelago test suite
     scopes:
@@ -54,3 +62,8 @@ tasks:
         - type: directory
           path: /builds/worker/test_results
           name: public/test_results
+    fetches:
+      diff:
+        - artifact: index.lock
+          extract: false
+          dest: /builds/worker/checkouts/vcs
