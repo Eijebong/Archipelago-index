@@ -1,0 +1,7 @@
+name = "Manual_NewSuperMarioBrosWii_zuils"
+display_name = "Manual: New Super Mario Bros Wii"
+home = "https://discord.com/channels/1097532591650910289/1207348591371227186"
+
+[versions]
+# https://discord.com/channels/1097532591650910289/1207348591371227186/1325306290787844177
+"0.0.1" = { local = "../apworlds/manual_newsupermariobroswii_zuils-0.0.1.apworld" }
