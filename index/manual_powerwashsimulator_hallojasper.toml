@@ -4,6 +4,5 @@ home = "https://discord.com/channels/1097532591650910289/1181412855187243079"
 default_url = "https://github.com/hallojasper/Powerwash-Simulator-Archipelago-Manual-Randomizer/releases/download/v{{version}}/manual_powerwashsimulator_hallojasper.apworld"
 
 [versions]
-"0.0.5" = { local = "../apworlds/manual_powerwashsimulator_hallojasper-0.0.5.apworld" }
-"0.1.6" = {}
 "0.1.7" = {}
+"0.1.8" = {}
