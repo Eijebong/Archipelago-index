@@ -3,7 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1232325933902467082"
 default_url = "https://github.com/vyneras/Archipelago/releases/download/{{version}}/pokemon_frlg.apworld"
 
 [versions]
-"0.7.2-beta" = {}
 "0.7.3-beta" = {}
 "0.8.1" = {}
 "0.8.2" = {}
+"0.8.3-hotfix" = {}
