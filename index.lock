@@ -79,6 +79,7 @@
 
 [enderlilies]
 "0.7.0" = "fdb9508c98b5bca7abefa427c31569bcb4225116eddaa3c43eaeca0a1a4c602c"
+"0.8.0" = "58271963b8ef318a934a27bec3f11cb34217614e2414a1596dd3a116027b6480"
 
 [factorio_saws]
 "0.0.5" = "a520d6a9c6ad0e544df8ded04f397c807e6ec43ccf35a80aaa83d73eb453e685"
@@ -98,6 +99,7 @@
 
 [ffta2]
 "0.0.8" = "2cb44dc9576bc5508a91ace61d6b123ce512054c4968d8e20f8e4e1b6c3662da"
+"0.0.9" = "070365af8ae48f77d1dd6506cc0bef9b425a5ff25998092b9963127379294c61"
 
 [ffxiv]
 "0.19.2" = "8548e0a0de702a2404b63f6f20961fcad8d3da74a6d0e530890034a1b01e1ca6"
@@ -167,6 +169,9 @@
 [manual_diddykongracing_decoytroy]
 "0.0.1" = "a1ae9a26d2fadd6bc8d94f7e25f60fe9679e969b12025260082f1b32e9a107fd"
 
+[manual_donaldduckquackattack_1313e]
+"0.0.2" = "b5e2f8342d6866e2e73ed0280b71cc94e2d46c40adc68e1162f2eb6e92c64046"
+
 [manual_ets2_dopin]
 "0.1.0" = "1a83ff1facfbed399ac16ddeee0e2afda82449946ccac9b486bbf9d711bad8ee"
 
@@ -193,6 +198,9 @@
 
 [manual_newsupermariobroswii_zuils]
 "0.0.1" = "a53dec92cead6ad890c751c2efeca872135cdf7b6d14fbb2d50e20fa3f0930b3"
+
+[manual_nightmarekart_lolz]
+"0.0.1" = "5f388c76c20562e1a3187d4b49c690e234fb11d6d10d4651c7641f12d694a5be"
 
 [manual_peggledeluxe_freezinater]
 "0.0.8" = "5ac77c6f3515bc94ac0199c84af80d51ee70b49b927ccf68fd3bf62ef6aa8f43"
@@ -289,10 +297,10 @@
 "2.1.2" = "c0faf235919e62fb3c252dd07e49800648d89eb3ea1882b6c2e3ae6d41cd4cbf"
 
 [pokemon_frlg]
-"0.7.2-beta" = "2953e9e3b5e591e359481f0297aced0ba5d23378290893388e76018fc03f10e8"
 "0.7.3-beta" = "cd541ecb176c6a92e9f08e88e762815823b81715e09b9d1458838f72b2f1c41b"
 "0.8.1" = "dbaf25e2693ac7f8ea1c32cde714a00889eb5dd3ad9c9a2fdddab25311b1890f"
 "0.8.2" = "3aef2321db2d19f68529bb0c8303844c21a3f03723007af6e4d4892d18086b2d"
+"0.8.3-hotfix" = "baae0357ffcbad47452121aea7806b587777f0371eaa7ce32c75048ee675a8b3"
 
 [pseudoregalia]
 "0.7.2" = "f4731e1a80fba6129f7c6db68775e839ce8207214422f00bac6505dea2e38dcb"
