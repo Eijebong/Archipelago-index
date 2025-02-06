@@ -3,3 +3,4 @@ name = "Manual_ETS2_dopin"
 
 [versions]
 "0.1.0" = { local = "../apworlds/manual_ets2_dopin-0.1.0.apworld" }
+"0.1.1" = { local = "../apworlds/manual_ets2_dopin-0.1.1.apworld" }
