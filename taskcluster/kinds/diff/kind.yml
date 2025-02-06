@@ -1,7 +1,6 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
-  - taskgraph.transforms.task_context
   - src.transforms.github:transforms
   - src.transforms.github_cached:transforms
   - taskgraph.transforms.run:transforms
@@ -25,11 +24,6 @@ tasks:
     description: Run apwm diff
     scopes:
       - github:create-comment:Eijebong/Archipelago-index
-    task-context:
-      from-parameters:
-        base_rev: base_rev
-      substitution-fields:
-        - run.command
     run:
       using: run-task
       command: >-
@@ -39,11 +33,11 @@ tasks:
         (git pull -r origin main || (git rebase --abort && exit 1)) &&
         mkdir -p /builds/worker/diffs &&
         apwm update -i ./ &&
-        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -r {base_rev} -o /builds/worker/diffs &&
+        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
         (
           [ -z "$( ls -A '/builds/worker/diffs' )" ] &&
-          /usr/bin/curl --header "Content-Type: application/json" ${{TASKCLUSTER_PROXY_URL}}/github/v1/repository/Eijebong/Archipelago-index/issues/${{GITHUB_PR}}/comments --data "{{\"body\": \"No reviewable changes\"}}" ||
-          /usr/bin/curl --header "Content-Type: application/json" ${{TASKCLUSTER_PROXY_URL}}/github/v1/repository/Eijebong/Archipelago-index/issues/${{GITHUB_PR}}/comments --data "{{\"body\": \"[Review changes](https://apdiff.bananium.fr/${{TASK_ID}})\"}}"
+          /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"No reviewable changes\"}" ||
+          /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Review changes](https://apdiff.bananium.fr/${TASK_ID})\"}"
         )
     worker:
       artifacts:
