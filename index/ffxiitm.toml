@@ -1,0 +1,6 @@
+name = "Final Fantasy XII Trial Mode"
+home = "https://discord.com/channels/731205301247803413/1177092493981007922"
+default_url = "https://github.com/silasary/Archipelago/releases/download/ffxiitm-{{version}}/ffxiitm.apworld"
+
+[versions]
+"0.0.9" = {}
