@@ -55,7 +55,7 @@ tasks:
         export STATUS=$?;
         [[ "STATUS" -ne "0" ]] &&
         [[ "$TEST_ALL" -eq "0" ]] &&
-        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
+        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures for ${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
         exit $STATUS
     worker:
       artifacts:
