@@ -7,4 +7,5 @@ default_url = "https://github.com/vyneras/Archipelago/releases/download/{{versio
 "0.8.1" = {}
 "0.8.2" = {}
 "0.8.3-hotfix" = {}
-"0.8.4" = {}
+# 0.8.4 got rereleased after we merged it to the index, this forces a new version number onto it.
+"0.8.4-hotfix" = { url = "https://github.com/vyneras/Archipelago/releases/download/0.8.4/pokemon_frlg.apworld" }
