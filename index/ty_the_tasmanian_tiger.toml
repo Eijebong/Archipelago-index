@@ -1,0 +1,6 @@
+name = "Ty the Tasmanian Tiger"
+home = "https://discord.com/channels/731205301247803413/1111533202184613991"
+default_url = "https://github.com/xMcacutt/Archipelago-TyTheTasmanianTiger/releases/download/{{version}}/ty_the_tasmanian_tiger.apworld"
+
+[versions]
+"1.1.2" = {}
