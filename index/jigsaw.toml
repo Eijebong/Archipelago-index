@@ -1,0 +1,6 @@
+name = "Jigsaw"
+home = "https://discord.com/channels/731205301247803413/1337582193802870907"
+default_url = "https://github.com/spineraks-org/ArchipelagoJigsaw/releases/download/v{{version}}/jigsaw.apworld"
+
+[versions]
+"0.0.4" = {}
