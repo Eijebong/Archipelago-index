@@ -4,3 +4,4 @@ default_url = "https://github.com/Satisha10/APwotw_release/releases/download/v{{
 
 [versions]
 "0.0.2" = {}
+"0.1.1" = {}
