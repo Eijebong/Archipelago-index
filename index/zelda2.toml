@@ -1,0 +1,5 @@
+name = "Zelda II: The Adventure of Link"
+home = "https://discord.com/channels/731205301247803413/1239454398367924325"
+
+[versions]
+"1.0.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/Zelda2ap1.0/zelda2.apworld" }
