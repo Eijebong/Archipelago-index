@@ -3,7 +3,8 @@ home = "https://discord.com/channels/731205301247803413/1183347590981505075"
 default_url = "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/download/v{{version}}/sadx.apworld"
 
 [versions]
-"1.0.1" = { url = "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/download/v1.0.1/sadx.apworld" }
-"1.0.0" = { url = "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/download/v1.0.0/sadx.apworld" }
 "0.8.7-b" = { url = "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/download/v0.8.7b/sadx.apworld" }
-"0.8.8" = { url = "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/download/v0.8.8/sadx.apworld" }
+"0.8.8" = {}
+"1.0.0" = {}
+"1.0.1" = {}
+"1.1.0" = {}
