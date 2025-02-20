@@ -1,6 +1,9 @@
-display_name = "Manual: Euro Truck Simulator 2 (dopin)"
 name = "Manual_ETS2_dopin"
+display_name = "Manual: Euro Truck Simulator 2 (dopin)"
+home = "https://github.com/dopinpt/ETS2Manual"
+default_url = "https://github.com/dopinpt/ETS2Manual/releases/download/{{version}}/manual_ets2_dopin.apworld"
 
 [versions]
 "0.1.0" = { local = "../apworlds/manual_ets2_dopin-0.1.0.apworld" }
 "0.1.1" = { local = "../apworlds/manual_ets2_dopin-0.1.1.apworld" }
+"1.0.0" = {}
