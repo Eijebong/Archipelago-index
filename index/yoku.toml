@@ -1,0 +1,6 @@
+name = "Yoku's Island Express"
+home = "https://discord.com/channels/731205301247803413/1225283906333446245"
+default_url = "https://git.makuluni.com/Archipelago/YokuAPWorld/releases/download/{{version}}/yoku.apworld"
+
+[versions]
+"0.0.2" = {}
