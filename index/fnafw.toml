@@ -2,5 +2,5 @@ name = "FNaFW"
 home = "https://discord.com/channels/731205301247803413/1104088448127729704"
 
 [versions]
-# https://discord.com/channels/731205301247803413/1104088448127729704/1318348706449195120
-"0.0.2" = { local = "../apworlds/fnafw-0.0.2.apworld" }
+# https://discord.com/channels/731205301247803413/1104088448127729704/1341146579909742753
+"0.0.3" = { local = "../apworlds/fnafw-0.0.3.apworld" }
