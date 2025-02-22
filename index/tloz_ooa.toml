@@ -4,4 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1279722186902601750"
 [versions]
 # https://canary.discord.com/channels/731205301247803413/1279722186902601750/1312234685325246515
 "0.2.5+ishigh" = { local = "../apworlds/tloz_ooa-0.2.5+ishigh.apworld" }
-"0.3.1" = { url = "https://github.com/SenPierre/ArchipelagoOoA/releases/download/ooa_3/tloz_ooa.apworld" }
+"0.3.2" = { url = "https://github.com/SenPierre/ArchipelagoOoA/releases/download/ooa_3/tloz_ooa.apworld" }
