@@ -1,0 +1,5 @@
+name = "Twilight Princess"
+home = "https://discord.com/channels/731205301247803413/1110253490875404388"
+
+[versions]
+"0.2.0" = { local = "../apworlds/Twilight Princess-0.2.0.apworld" }
