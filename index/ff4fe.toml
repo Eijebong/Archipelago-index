@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1170144930610557008"
 default_url = "https://github.com/thefiz/FreeEnterprise4/releases/download/{{version}}/ff4fe.apworld"
 
 [versions]
-"0.0.5" = {}
+"0.5.0" = {}
