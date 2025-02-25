@@ -1,0 +1,6 @@
+name = "Final Fantasy IV Free Enterprise"
+home = "https://discord.com/channels/731205301247803413/1170144930610557008"
+
+# APWorld from Free Enterprise Discord Thread on AP Server - https://discord.com/channels/731205301247803413/1170144930610557008
+[versions]
+"0.5.0" = { local = "../apworlds/ff4fe-0.5.0.apworld" }
