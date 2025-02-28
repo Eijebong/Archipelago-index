@@ -1,0 +1,6 @@
+name = "Golden Sun The Lost Age"
+home = "https://discord.com/channels/731205301247803413/1055515261270241320"
+default_url = "https://github.com/cjmang/Archipelago/releases/download/{{version}}/gstla.apworld"
+
+[versions]
+"0.1.1-alpha" = {}

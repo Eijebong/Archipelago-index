@@ -3,6 +3,6 @@ home = "https://discord.com/channels/731205301247803413/1128180904926396437"
 default_url = "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/download/{{version}}/crosscode.apworld"
 
 [versions]
-"0.6.1" = {}
 "0.6.3" = {}
 "0.6.4" = {}
+"0.6.5" = {}

@@ -16,6 +16,9 @@ task-defaults:
       - /builds/worker/checkouts
   run-on-tasks-for: ["github-issue-comment"]
 
+kind-dependencies:
+  - diff
+
 tasks:
   check:
     description: Check apworlds with current yaml checker
@@ -32,6 +35,11 @@ tasks:
         - type: file
           path: /builds/worker/template.yaml
           name: public/template.yaml
+    fetches:
+      diff:
+        - artifact: index.lock
+          extract: false
+          dest: /builds/worker/checkouts/vcs
   ap-test:
     description: Run archipelago test suite
     scopes:
@@ -47,10 +55,15 @@ tasks:
         export STATUS=$?;
         [[ "STATUS" -ne "0" ]] &&
         [[ "$TEST_ALL" -eq "0" ]] &&
-        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
+        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures for ${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
         exit $STATUS
     worker:
       artifacts:
         - type: directory
           path: /builds/worker/test_results
           name: public/test_results
+    fetches:
+      diff:
+        - artifact: index.lock
+          extract: false
+          dest: /builds/worker/checkouts/vcs

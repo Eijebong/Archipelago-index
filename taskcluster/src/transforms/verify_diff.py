@@ -27,6 +27,7 @@ def generate_tasks(config, tasks):
         if diff_task is None:
             raise Exception("Couldn't find diff task for current PR")
 
+        tasks = list(tasks)
         for artifact in list_artifacts(diff_task):
             if not artifact['name'].startswith('public/diffs/'):
                 continue

@@ -245,8 +245,6 @@ tasks:
 
                           features:
                               taskclusterProxy: true
-                          capabilities:
-                            containerEngine: podman
 
                           image: ghcr.io/eijebong/taskcluster-images/decision-task:main
                           maxRunTime: 1800

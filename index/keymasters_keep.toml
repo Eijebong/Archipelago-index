@@ -1,0 +1,5 @@
+name = "Keymaster's Keep"
+home = "https://discord.com/channels/731205301247803413/1321323711676284939"
+
+[versions]
+"0.0.7" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/kmk-pre-0007/keymasters_keep.apworld" }
