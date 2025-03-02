@@ -8,7 +8,7 @@ from taskgraph.transforms.base import TransformSequence
 from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifact
 
 transforms = TransformSequence()
-DIFF_INDEX_PATH = "ap.v2.archipelago-index.index.level-1.pr"
+DIFF_INDEX_PATH = "ap.archipelago-index.index.pr"
 
 @transforms.add
 def generate_tasks(config, tasks):
@@ -17,9 +17,11 @@ def generate_tasks(config, tasks):
         print("Not a PR, ignoring transform verify_diff, graph will be incomplete. Set `ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER` to a valid PR number")
         return
 
-    diff_task = find_task_id(f"{DIFF_INDEX_PATH}.{pr_number}.latest")
-    if diff_task is None:
-        raise Exception("Couldn't find diff task for current PR")
+    try:
+        diff_task = find_task_id(f"{DIFF_INDEX_PATH}.{pr_number}.latest")
+    except KeyError:
+        print(f"No diff yet for PR {pr_number}, not generating verify tasks")
+        return
 
     tasks = list(tasks)
     for artifact in list_artifacts(diff_task):

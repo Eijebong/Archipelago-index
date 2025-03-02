@@ -12,6 +12,6 @@ def generate_tasks(config, tasks):
 
     for task in tasks:
         routes = task.setdefault("routes", [])
-        routes.append("index.ap.v2.archipelago-index.index.level-1.pr.{}.latest".format(pr_number))
+        routes.append("index.ap.archipelago-index.index.pr.{}.latest".format(pr_number))
         yield task
 
