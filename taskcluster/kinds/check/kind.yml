@@ -1,0 +1,52 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.key_per_tasks_for:transforms
+  - src.transforms.per_apworld:transforms
+  - src.transforms.github:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 1800
+    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
+    volumes:
+      - /builds/worker/checkouts
+  run-on-tasks-for: []
+
+kind-dependencies:
+  - diff
+
+tasks:
+  apworld:
+    description: Check apworld with current yaml checker
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH &&
+        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
+        cd /ap/archipelago &&
+        . .venv/bin/activate &&
+        unshare -r -n python3 -O /ap/archipelago/self_check.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/
+    worker:
+      artifacts:
+        - type: file
+          path: /builds/worker/template.yaml
+          name: public/template.yaml
+    dependencies:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff: diff-index
+    fetches:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff:
+            - artifact: index.lock
+              extract: false
+              dest: /builds/worker/checkouts/vcs
+

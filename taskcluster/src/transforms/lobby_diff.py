@@ -7,7 +7,7 @@ transforms = TransformSequence()
 def generate_tasks(config, tasks):
     pr_number = os.environ.get("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER")
     if pr_number is None:
-        print("Not a PR, ignoring transform merge, graph will be incomplete. Set `ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER` to a valid PR number")
+        yield from tasks
         return
 
     for task in tasks:

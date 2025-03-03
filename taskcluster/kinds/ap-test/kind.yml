@@ -1,7 +1,8 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
-  - src.transforms.verify_diff:transforms
+  - src.transforms.key_per_tasks_for:transforms
+  - src.transforms.per_apworld:transforms
   - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -20,30 +21,12 @@ kind-dependencies:
   - diff
 
 tasks:
-  check:
-    description: Check apworlds with current yaml checker
-    run:
-      using: run-task
-      command: >-
-        cd $VCS_PATH &&
-        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
-        cd /ap/archipelago &&
-        . .venv/bin/activate &&
-        unshare -r -n python3 -O /ap/archipelago/self_check.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/
-    worker:
-      artifacts:
-        - type: file
-          path: /builds/worker/template.yaml
-          name: public/template.yaml
-    fetches:
-      diff:
-        - artifact: index.lock
-          extract: false
-          dest: /builds/worker/checkouts/vcs
-  ap-test:
-    description: Run archipelago test suite
+  apworld:
+    description: Run archipelago test suite on an apworld
     scopes:
-      - github:create-comment:Eijebong/Archipelago-index
+      by-tasks-for:
+        github-issue-comment: [github:create-comment:Eijebong/Archipelago-index]
+        default: []
     run:
       using: run-task
       command: >-
@@ -54,7 +37,7 @@ tasks:
         unshare -r -n python3 -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/test_results;
         export STATUS=$?;
         [[ "STATUS" -ne "0" ]] &&
-        [[ "$TEST_ALL" -eq "0" ]] &&
+        [[ "$NOTIFY" -eq "1" ]] &&
         /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures for ${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
         exit $STATUS
     worker:
@@ -62,8 +45,25 @@ tasks:
         - type: directory
           path: /builds/worker/test_results
           name: public/test_results
+      env:
+        by-tasks-for:
+          github-issue-comment:
+            notify: "1"
+          default:
+            notify: "0"
+    ap-deps:
+      - check
+    dependencies:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff: diff-index
     fetches:
-      diff:
-        - artifact: index.lock
-          extract: false
-          dest: /builds/worker/checkouts/vcs
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff:
+            - artifact: index.lock
+              extract: false
+              dest: /builds/worker/checkouts/vcs
+

@@ -16,7 +16,8 @@ task-defaults:
 
 kind-dependencies:
   - diff
-  - verify
+  - check
+  - ap-test
 
 tasks:
   index:
