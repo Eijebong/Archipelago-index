@@ -4,3 +4,4 @@ default_url = "https://github.com/cjmang/Archipelago/releases/download/{{version
 
 [versions]
 "0.1.1-alpha" = {}
+"0.1.2-alpha" = {}

@@ -1,0 +1,7 @@
+name = "Final Fantasy IV Free Enterprise"
+home = "https://discord.com/channels/731205301247803413/1170144930610557008"
+
+[versions]
+# https://discord.com/channels/731205301247803413/1170144930610557008/1341433328536129557
+"0.5.0" = { local = "../apworlds/ff4fe-0.5.0.apworld" }
+"0.5.1" = { local = "../apworlds/ff4fe-0.5.1.apworld" }

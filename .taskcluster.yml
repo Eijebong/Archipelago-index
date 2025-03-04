@@ -105,7 +105,7 @@ tasks:
           in:
               $if: >
                   tasks_for in ["action", "pr-action", "cron", "github-issue-comment"]
-                  || (tasks_for == "github-push" && short_head_ref in ["main", "prod", "ci"])
+                  || (tasks_for == "github-push" && short_head_ref in ["main", "prod", "ci", "try"])
                   || (isPullRequest && pullRequestAction in ["opened", "reopened", "synchronize"])
               then:
                   taskId: {$if: 'tasks_for != "action" && tasks_for != "pr-action"', then: '${ownTaskId}'}
@@ -234,6 +234,9 @@ tasks:
                                   - $if: 'tasks_for == "github-issue-comment"'
                                     then:
                                         TASKCLUSTER_COMMENT: '${event.taskcluster_comment}'
+                                  - $if: 'tasks_for == "github-push" && short_head_ref == "try"'
+                                    then:
+                                      TRY_CONFIG: '${event.head_commit.message}'
                                   - $if: 'tasks_for in ["action", "pr-action"]'
                                     then:
                                         ACTION_TASK_GROUP_ID: '${action.taskGroupId}'  # taskGroupId of the target task
@@ -256,7 +259,14 @@ tasks:
                               - bash
                               - -cx
                               - $let:
-                                    extraArgs: {$if: 'tasks_for == "cron"', then: '${cron.quoted_args}', else: ''}
+                                    extraArgs:
+                                        # Can't use $switch statement here, see https://github.com/json-e/json-e/issues/541
+                                        $if: 'tasks_for == "cron"'
+                                        then: '${cron.quoted_args}'
+                                        else:
+                                            $if: 'tasks_for == "github-issue-comment"'
+                                            then: '--target-tasks-method=${event.taskcluster_comment}'
+                                            else: ''
                                 in:
                                     $if: 'tasks_for in ["action", "pr-action"]'
                                     then: >

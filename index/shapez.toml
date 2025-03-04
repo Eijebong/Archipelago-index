@@ -5,3 +5,4 @@ default_url = "https://github.com/BlastSlimey/shapezipelago/releases/download/{{
 [versions]
 "0.5.3" = {}
 "0.5.13" = {}
+"0.6.2" = {}

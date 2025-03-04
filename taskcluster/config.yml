@@ -3,7 +3,7 @@ trust-domain: "ap"
 task-priority: low
 
 taskgraph:
-  cached-task-prefix: "ap.v2.archipelago-index"
+  cached-task-prefix: "ap.archipelago-index"
   repositories:
     archipelago_index:
       name: "Archipelago-index"

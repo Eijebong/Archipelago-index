@@ -1,7 +1,7 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
-  - src.transforms.merge:transforms
+  - src.transforms.publish:transforms
   - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -12,11 +12,12 @@ task-defaults:
     docker-image: {in-tree: publish}
     max-run-time: 1800
   worker-type: "linux-small"
-  run-on-tasks-for: ["github-issue-comment"]
+  run-on-tasks-for: []
 
 kind-dependencies:
   - diff
-  - verify
+  - check
+  - ap-test
 
 tasks:
   index:
@@ -31,7 +32,6 @@ tasks:
         cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
         (git commit -am "Update lockfile" || exit 0) &&
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
-        git pull -r origin main &&
         /usr/local/bin/merge.sh &&
         git pull -r origin main &&
         git push repo HEAD:main

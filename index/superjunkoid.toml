@@ -1,5 +1,0 @@
-name = "Super Junkoid"
-home = "https://discord.com/channels/731205301247803413/1196920710724071555"
-
-[versions]
-"0.0.3" = { local = "../apworlds/superjunkoid-0.0.3.apworld" }

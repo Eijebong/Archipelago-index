@@ -6,6 +6,7 @@ transforms:
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
   - eije_taskgraph.transforms.common:transforms
+
 task-defaults:
   worker:
     docker-image: ghcr.io/eijebong/apwm:latest
@@ -13,7 +14,7 @@ task-defaults:
     volumes:
       - /builds/worker/checkouts
     taskcluster-proxy: true
-  run-on-tasks-for: ["github-issue-comment"]
+  run-on-tasks-for: []
 
 tasks:
   index:

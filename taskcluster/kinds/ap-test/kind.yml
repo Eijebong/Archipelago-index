@@ -1,0 +1,69 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.key_per_tasks_for:transforms
+  - src.transforms.per_apworld:transforms
+  - src.transforms.github:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 1800
+    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
+    volumes:
+      - /builds/worker/checkouts
+  run-on-tasks-for: []
+
+kind-dependencies:
+  - diff
+
+tasks:
+  apworld:
+    description: Run archipelago test suite on an apworld
+    scopes:
+      by-tasks-for:
+        github-issue-comment: [github:create-comment:Eijebong/Archipelago-index]
+        default: []
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH &&
+        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
+        cd /ap/archipelago &&
+        . .venv/bin/activate &&
+        unshare -r -n python3 -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/test_results;
+        export STATUS=$?;
+        [[ "STATUS" -ne "0" ]] &&
+        [[ "$NOTIFY" -eq "1" ]] &&
+        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures for ${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
+        exit $STATUS
+    worker:
+      artifacts:
+        - type: directory
+          path: /builds/worker/test_results
+          name: public/test_results
+      env:
+        by-tasks-for:
+          github-issue-comment:
+            NOTIFY: "1"
+          default:
+            NOTIFY: "0"
+    ap-deps:
+      - check
+    dependencies:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff: diff-index
+    fetches:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff:
+            - artifact: index.lock
+              extract: false
+              dest: /builds/worker/checkouts/vcs
+

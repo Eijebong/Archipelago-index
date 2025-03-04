@@ -10,4 +10,4 @@ curl -X PUT -f \
     -H "Authorization: Bearer ${TOKEN}" \
     -H "X-GitHub-Api-Version: 2022-11-28" \
     https://api.github.com/repos/Eijebong/Archipelago-index/pulls/${GITHUB_PR}/merge \
-    -d "{\"merge_method\": \"rebase\", \"sha\": \"$ARCHIPELAGO_INDEX_HEAD_REV\"}" || exit 1
+    -d "{\"merge_method\": \"squash\", \"commit_message\": \"\", \"sha\": \"$ARCHIPELAGO_INDEX_HEAD_REV\"}" || exit 1

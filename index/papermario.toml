@@ -6,3 +6,5 @@ default_url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v{{v
 "0.4.1" = {}
 "0.4.2" = {}
 "0.4.4" = {}
+# They pushed over the apworld at least once after inclusion in the index
+"0.5.0+hotfix1" = { url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v0.5.0/papermario.apworld" }

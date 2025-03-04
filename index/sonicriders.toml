@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1292128680046235739"
 
 [versions]
 "0.1.2" = { local = "../apworlds/sonicriders-0.1.2.apworld" }
+"0.2.1" = { local = "../apworlds/sonicriders-0.2.1.apworld" }

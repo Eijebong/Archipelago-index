@@ -1,6 +1,7 @@
 name = "OpenRCT2"
 home = "https://discord.com/channels/731205301247803413/1095746758774108240"
-default_url =  "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/download/{{version}}/openrct2.apworld"
+default_url =  "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/download/v{{version}}/openrct2.apworld"
 
 [versions]
-"0.1.13-beta" = {}
+"0.1.13-beta" = { url = "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/download/0.1.13-beta/openrct2.apworld" }
+"0.1.15-beta" = {}
