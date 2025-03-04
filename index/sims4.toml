@@ -1,0 +1,8 @@
+name = "The Sims 4"
+home = "https://discord.com/channels/731205301247803413/1079002955262480424"
+default_url = "https://github.com/benny-dreamly/Archipelago/releases/download/sims-{{version}}/sims4.apworld"
+
+[versions]
+
+"1.5.0" = {url = "https://github.com/meaomeaomeaoo/Archipelago/releases/download/1.5/sims4.apworld"}
+"1.5.1" = {}
