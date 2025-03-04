@@ -48,9 +48,9 @@ tasks:
       env:
         by-tasks-for:
           github-issue-comment:
-            notify: "1"
+            NOTIFY: "1"
           default:
-            notify: "0"
+            NOTIFY: "0"
     ap-deps:
       - check
     dependencies:
