@@ -1,0 +1,5 @@
+name = "Super Metroid Map Rando"
+home = "https://discord.com/channels/731205301247803413/1156395911874875473"
+
+[versions]
+"0.111.2" = { local = "../apworlds/sm_map_rando-0.111.2.apworld" }
