@@ -4,3 +4,4 @@ default_url = "https://github.com/studkid/RoR_Archipelago/releases/download/v{{v
 
 [versions]
 "0.4.6" = {}
+"0.5.1" = {}
