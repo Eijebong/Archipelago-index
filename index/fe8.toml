@@ -4,3 +4,4 @@ default_url = "https://github.com/CT075/Archipelago/releases/download/fe8-alpha-
 
 [versions]
 "0.3.2" = {}
+"0.3.3-rc1" = { url = "https://github.com/CT075/Archipelago/releases/download/fe8-alpha-0.3.3-rc1/fe8.apworld" }
