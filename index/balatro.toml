@@ -3,3 +3,4 @@ home = "https://discord.com/channels/1085716850370957462/1217203888717828307"
 
 [versions]
 "0.1.9-b" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9b/balatro.apworld" }
+"0.1.9-d" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9d/balatro.apworld" }
