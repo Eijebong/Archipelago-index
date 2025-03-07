@@ -6,3 +6,4 @@ home = "https://discord.com/channels/731205301247803413/1135352499172286505"
 "3.3.1" = { url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V3.3.1-beta/banjo_tooie.apworld" }
 "4.1.0" = { url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V4.1/banjo_tooie.apworld" }
 "4.2.0" = { url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V4.2/banjo_tooie.apworld" }
+"4.3.0" = { url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V4.3/banjo_tooie.apworld" }
