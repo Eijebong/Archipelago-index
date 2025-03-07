@@ -4,3 +4,4 @@ default_url = "https://github.com/qwint/APMinit/releases/download/v{{version}}/m
 
 [versions]
 "0.6.4" = {}
+"0.6.6" = {}
