@@ -4,3 +4,4 @@ default_url = "https://github.com/spicynun/Archipelago/releases/download/{{versi
 
 [versions]
 "0.6.3" = {}
+"0.6.5" = {}
