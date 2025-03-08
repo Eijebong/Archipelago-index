@@ -4,3 +4,4 @@ default_url = "https://github.com/Bartz24/Archipelago/releases/download/{{versio
 
 [versions]
 "0.4.2" = {}
+"0.5.1" = {}
