@@ -4,3 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1195040661171355730"
 [versions]
 "1.1.1-beta" = { url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v1.1.1/osu.apworld" }
 "1.2.0-beta" = { url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v1.2/osu.apworld" }
+"1.2.4" = { url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v1.2.4/osu.apworld" }
