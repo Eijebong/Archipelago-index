@@ -1,8 +1,7 @@
 name = "Monster Sanctuary"
 home = "https://discord.com/channels/731205301247803413/1217944663864901632"
 default_url = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/v{{version}}/monster_sanctuary.apworld"
-disabled = true
 
 [versions]
-# This is 1.1.4 with the patch here: https://discord.com/channels/731205301247803413/1096278752142577684/1282368545254281236
 "1.1.4+fast-createitems" = { local = "../apworlds/monster_sanctuary-1.1.4+fast-createitems.apworld" }
+"1.2.0" = {}
