@@ -6,3 +6,4 @@ default_url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/
 "0.1.4-a" = { url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v0.1.4a/tje.apworld" }
 "0.2.4-c" = { url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v0.2.4c/tje.apworld" }
 "0.3.1" = { url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v0.3.1/tje.apworld" }
+"0.3.2" = {}
