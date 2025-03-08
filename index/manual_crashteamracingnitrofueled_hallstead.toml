@@ -5,3 +5,4 @@ display_name = "Manual: Crash Team Racing: Nitro Fueled"
 [versions]
 "4.1.0" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v4.1/manual_crashteamracingnitrofueled_hallstead.apworld" }
 "4.5.1" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v4.5.1/manual_crashteamracingnitrofueled_hallstead.apworld" }
+"5.0.0" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v5.0/manual_crashteamracingnitrofueled_hallstead.apworld" }
