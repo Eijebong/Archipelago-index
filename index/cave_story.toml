@@ -4,3 +4,4 @@ default_url = "https://github.com/kl3cks7r/Archipelago/releases/download/v{{vers
 
 [versions]
 "0.4.1" = {}
+"0.5.0" = { url = "https://github.com/kl3cks7r/Archipelago/releases/download/v0.5/cave_story.apworld" }
