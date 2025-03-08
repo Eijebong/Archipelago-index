@@ -1,9 +1,6 @@
 name = "Dome Keeper"
 home = "https://discord.com/channels/731205301247803413/1195385214877306921"
-# Broken:
-# - Crashes generation with start inventory/plando/item links/anything else that creates items by name
-disabled = true
-
+default_url = "https://github.com/Arrcival/ArchipelagoDK/releases/download/v{{version}}/dome_keeper.apworld"
 
 [versions]
-"0.7.1" = { url = "https://github.com/Arrcival/ArchipelagoDK/releases/download/v0.7.1/0.7.1_TORENAME_dome_keeper.apworld" }
+"1.1.4" = {}
