@@ -1,0 +1,6 @@
+name = "Pokemon Mystery Dungeon Explorers of Sky"
+home = "https://discord.com/channels/731205301247803413/1175911373822242946"
+default_url = "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/download/v{{version}}/pmd_eos.apworld"
+
+[versions]
+"0.2.0" = {}
