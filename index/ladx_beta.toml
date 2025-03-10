@@ -1,7 +1,8 @@
 name = "Links Awakening DX Beta"
 home = "https://canary.discord.com/channels/731205301247803413/1316960757526695997"
+default_url = "https://github.com/threeandthreee/Archipelago/releases/download/v{{version}}/ladx_beta.apworld"
 
 [versions]
-"beta-11.6" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v11.6/ladx_beta.apworld" }
-"beta-11.0" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v11.0/ladx_beta.apworld" }
-"beta-10.2" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v10.2/ladx_beta.apworld" }
+"11.6" = {}
+"11.0" = {}
+"10.2" = {}
