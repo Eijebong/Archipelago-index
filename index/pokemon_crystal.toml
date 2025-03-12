@@ -1,8 +1,6 @@
 name = "Pokemon Crystal"
 home = "https://discord.com/channels/731205301247803413/1057476528419647572"
-default_url = "https://github.com/AliceMousie/Archipelago/releases/download/{{version}}/pokemon_crystal.apworld"
+default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{version}}/pokemon_crystal.apworld"
 
 [versions]
 "2.1.2" = {}
-"2.1.1" = {}
-"2.1.0" = {}
