@@ -1,0 +1,6 @@
+name = "Nine Sols"
+home = "https://discord.com/channels/731205301247803413/1291949699150123048"
+default_url = "https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/download/{{version}}/nine_sols.apworld"
+
+[versions]
+"0.1.1" = {}
