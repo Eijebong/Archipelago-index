@@ -4,3 +4,4 @@ default_url = "https://github.com/natronium/GatorArchipelago/releases/download/v
 
 [versions]
 "1.0.1" = {}
+"1.0.2" = {}
