@@ -3,6 +3,7 @@ loader: taskgraph.loader.transform:loader
 transforms:
   - src.transforms.key_per_tasks_for:transforms
   - src.transforms.per_apworld:transforms
+  - src.transforms.fuzz_params:transforms
   - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -38,7 +39,7 @@ tasks:
           ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
           true
         ) &&
-        cd /ap/archipelago && unshare -r -n uv run -n python3 -O fuzz.py -g "${TEST_APWORLD_NAME}" -r100 -n1 -t10 -j8;
+        cd /ap/archipelago && unshare -r -n uv run -n python3 -O fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8;
         export STATUS=$?;
         (cd /ap/archipelago && tar caf fuzz_output.tar.gz fuzz_output) || exit 1;
         exit $STATUS
