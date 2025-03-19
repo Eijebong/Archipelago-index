@@ -1,0 +1,6 @@
+name = "Iji"
+home = "https://discord.com/channels/731205301247803413/1335786670641123400"
+default_url = "https://github.com/Minish-Link/Iji-Archipelago/releases/download/v{{version}}/iji.apworld"
+
+[versions]
+"1.1.3" = {}
