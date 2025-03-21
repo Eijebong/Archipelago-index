@@ -1,0 +1,6 @@
+name = "Sonic Heroes"
+home = "https://discord.com/channels/731205301247803413/1234592520403423352"
+default_url = "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases/download/{{version}}/sonic_heroes.apworld"
+
+[versions]
+"1.0.2" = {}
