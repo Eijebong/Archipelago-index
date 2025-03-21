@@ -5,3 +5,4 @@ home = "https://discord.com/channels/1097532591650910289/1251699106058080296"
 [versions]
 "2.1.0" = { local = "../apworlds/manual_pokemonplatinum_linneus-2.1.0.apworld" }
 "2.2.1" = { url = "https://github.com/Linneus/PlatinumAPManual/releases/download/2.2.1/manual_pokemonplatinum_linneus.apworld" }
+"2.3.0" = { url = "https://github.com/Linneus/PlatinumAPManual/releases/download/2.3/manual_pokemonplatinum_linneus.apworld" }
