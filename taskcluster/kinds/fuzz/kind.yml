@@ -41,7 +41,7 @@ tasks:
         ) &&
         cd /ap/archipelago && unshare -r -n uv run -n python3 -O fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8;
         export STATUS=$?;
-        (cd /ap/archipelago && zip fuzz_output.zip fuzz_output) || exit 1;
+        (cd /ap/archipelago && zip -r fuzz_output.zip fuzz_output) || exit 1;
         exit $STATUS
     worker:
       artifacts:
