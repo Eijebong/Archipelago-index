@@ -7,3 +7,4 @@ default_url = "https://github.com/evilwb/APRac2/releases/download/v{{version}}/r
 "0.5.0" = {}
 "0.5.1" = {}
 "0.6.1" = {}
+"0.6.2" = {}
