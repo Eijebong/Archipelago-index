@@ -1,0 +1,6 @@
+name  = "Paint"
+home = "https://discord.com/channels/731205301247803413/1350649606605766746"
+default_url = "https://github.com/MarioManTAW/jspaint/releases/download/v{{version}}/paint.apworld"
+
+[versions]
+"0.2.0" = {}
