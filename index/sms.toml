@@ -1,0 +1,5 @@
+name = "Super Mario Sunshine"
+home = "https://discord.com/channels/731205301247803413/1092579545615450183"
+
+[versions]
+"0.4.1-alpha" = { local = "../apworlds/sms-0.4.1-alpha.apworld" }
