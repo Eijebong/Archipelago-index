@@ -1,0 +1,6 @@
+name = "XCOM 2 War of the Chosen"
+home = "https://discord.com/channels/731205301247803413/1037751568700805141"
+default_url = "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases/download/{{version}}/x2wotc.apworld"
+
+[versions]
+"0.5.0-alpha" = {}
