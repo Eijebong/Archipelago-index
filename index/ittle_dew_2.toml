@@ -4,3 +4,4 @@ default_url = "https://github.com/Extra-2-Dew/ArchipelagoRandomizer/releases/dow
 
 [versions]
 "0.2.1+region-gates" = { url = "https://github.com/arborelia/Archipelago-GW/releases/download/0.2.1.1/ittle_dew_2.apworld" }
+"0.3.0" = {}
