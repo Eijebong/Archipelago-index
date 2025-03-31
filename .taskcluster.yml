@@ -295,7 +295,7 @@ tasks:
                                         --head-ref='${head_ref}'
                                         --head-rev='${head_sha}'
                                         ${extraArgs} &&
-                                        rm artifacts/actions.json
+                                        echo "{}" > artifacts/actions.json
 
                           artifacts:
                               'public':
