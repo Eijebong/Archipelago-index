@@ -4,3 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1278498367399526472"
 
 [versions]
 "3.5.0" = { url = "https://github.com/pizzaking405/Jump-Ultimate-Stars-Manual-Archipelago/releases/download/v3.5/manual_jumpultimatestars_pizzaking405.apworld" }
+"4.0.0" = { url = "https://github.com/pizzaking405/Jump-Ultimate-Stars-Manual-Archipelago/releases/download/v4/manual_jumpultimatestars_pizzaking405.apworld" }
