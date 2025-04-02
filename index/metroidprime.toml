@@ -5,3 +5,4 @@ home = "https://discord.com/channels/731205301247803413/1172631093837570068"
 [versions]
 "0.4.5" = { local = "../apworlds/metroidprime-0.4.5.apworld" }
 "0.4.8" = { local = "../apworlds/metroidprime-0.4.8.apworld" }
+"0.4.9" = { local = "../apworlds/metroidprime-0.4.9.apworld" }
