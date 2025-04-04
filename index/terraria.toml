@@ -4,3 +4,4 @@ supported = true
 
 [versions]
 "0.5.0+beta" = { local = "../apworlds/terraria-0.5.0+beta.apworld" }
+"1.4.4-rc1+calamity" = { local = "../apworlds/terraria-1.4.4-rc1+calamity.apworld" }

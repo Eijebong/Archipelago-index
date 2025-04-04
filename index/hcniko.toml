@@ -1,0 +1,6 @@
+name = "Here Comes Niko!"
+home = "https://discord.com/channels/731205301247803413/1289974001434886287"
+default_url = "https://github.com/niieli/Niko-Archipelago/releases/download/{{version}}/hcniko.apworld"
+
+[versions]
+"0.6.0" = {}

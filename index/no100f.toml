@@ -5,3 +5,4 @@ home = "https://discord.com/channels/731205301247803413/1188152412498829352"
 # Do not report issues upstream
 [versions]
 "0.3.1-unofficial" = { local = "../apworlds/no100f-0.3.1-beta.apworld" }
+"1.0.0" = { local = "../apworlds/no100f-1.0.0.apworld" }
