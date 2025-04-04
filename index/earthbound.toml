@@ -7,3 +7,4 @@ home = "https://discord.com/channels/731205301247803413/1077266688657068032"
 "3.0.2-b" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/earthboundap3.0.2B/earthbound.apworld" }
 "3.1.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/earthboundap3.1/earthbound.apworld" }
 "3.2.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/earthboundap3.2/earthbound.apworld" }
+"3.3.1" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/earthboundap3.3.1/earthbound.apworld" }

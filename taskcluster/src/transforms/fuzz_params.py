@@ -7,7 +7,7 @@ transforms = TransformSequence()
 
 parser = argparse.ArgumentParser(exit_on_error=False)
 parser.add_argument("-r", "--runs", default=100, type=int)
-parser.add_argument("-n", "--yamls_per_run", default=1, type=int)
+parser.add_argument("-n", "--yamls_per_run", default="1", type=str)
 
 @transforms.add
 def fuzz_params(config, tasks):
