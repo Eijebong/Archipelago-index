@@ -1,6 +1,3 @@
 name = "Castlevania - Circle of the Moon"
-home = "https://discord.com/channels/731205301247803413/1220211910700564581"
-
-[versions]
-"0.4.0" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvcotm_v4/cvcotm.apworld" }
-"4.2.0" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvcotm_v4.2/cvcotm.apworld" }
+home = "https://archipelago.gg"
+supported = true

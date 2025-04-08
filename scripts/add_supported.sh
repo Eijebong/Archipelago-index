@@ -16,7 +16,8 @@ if [[ ! -d "$INDEX_ROOT/index" ]] then
 fi
 
 git clone https://github.com/ArchipelagoMW/Archipelago.git /tmp/ap
-(cd /tmp/ap && git reset --hard 0.5.1)
+(cd /tmp/ap && git reset --hard 0.6.1)
+(cd /tmp/ap && find . -type f -exec dos2unix {} \;)
 
 for f in /tmp/ap/worlds/*; do
     if [[ -f $f ]]; then
@@ -42,6 +43,11 @@ for f in /tmp/ap/worlds/*; do
     # same with stardew valley
     if [[ "$(basename $f)" == "stardew_valley" ]]; then
         GAME="Stardew Valley"
+    fi
+
+    # same with saving princess
+    if [[ "$(basename $f)" == "saving_princess" ]]; then
+        GAME="Saving Princess"
     fi
 
     if [[ "$GAME" == "" ]]; then

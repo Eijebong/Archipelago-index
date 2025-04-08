@@ -1,6 +1,0 @@
-name = "Civilization VI"
-home = "https://discord.com/channels/731205301247803413/1235473969487024189"
-
-# XXX: Add LICENSE.md in the apworld when updating
-[versions]
-"0.5.1" = { local = "../apworlds/civ6-0.5.1.apworld" }

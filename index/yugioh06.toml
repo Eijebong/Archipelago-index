@@ -1,10 +1,3 @@
 name = "Yu-Gi-Oh! 2006"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-# https://discord.com/channels/731205301247803413/1257454640950149151/1325460326359240776
-# Note tha this version is patched because it depends on ladx being present.
-# See: https://discord.com/channels/731205301247803413/1257454640950149151/1325476454313627679
-"0.5.2-beta" = { local = "../apworlds/yugioh06-0.5.2-beta.apworld" }
-"0.5.2-beta2.4" = { url = "https://github.com/Rensen3/ArchipelagoYGO06/releases/download/YuGiOh2006v2.4/yugioh06.apworld" }
