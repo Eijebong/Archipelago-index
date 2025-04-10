@@ -1,0 +1,7 @@
+name = "Another Crabs Treasure"
+home = "https://discord.com/channels/731205301247803413/1239467743116525688"
+default_url = "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases/download/{{version}}/another_crab.apworld"
+
+[versions]
+"0.3.1" = {}
+"0.4.0" = {}

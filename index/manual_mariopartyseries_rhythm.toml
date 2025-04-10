@@ -1,6 +1,0 @@
-name = "Manual_MarioPartySeries_Rhythm"
-home = "https://discord.com/channels/1097532591650910289/1296552107414913074"
-
-[versions]
-"1.0.2" = { url = "https://github.com/Umbrew-Foxiroe/Archipelago-Manuals/releases/download/v1.02-MarioPartySeries/manual_mariopartyseries_rhythm.apworld" }
-

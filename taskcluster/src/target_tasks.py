@@ -52,7 +52,7 @@ def _filter_for_pr(tasks, force=[]):
 
 @register_target_task("diff")
 def diff_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind == "diff-from-lobby"])
+    return [label for label, task in full_task_graph.tasks.items() if task.kind == "diff-from-lobby"]
 
 
 @register_target_task("test")

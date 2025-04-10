@@ -4,3 +4,4 @@ default_url = "https://github.com/Arrcival/ArchipelagoDK/releases/download/v{{ve
 
 [versions]
 "1.1.4" = {}
+"1.2.0" = {}
