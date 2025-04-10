@@ -1,3 +1,4 @@
 name = "Sudoku"
 home = "https://archipelago.gg"
 supported = true
+disabled = true
