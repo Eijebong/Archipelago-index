@@ -7,6 +7,7 @@ transforms = TransformSequence()
 
 parser = argparse.ArgumentParser(exit_on_error=False)
 parser.add_argument("-r", "--runs", default=100, type=int)
+parser.add_argument("-t", "--timeout", default=10, type=int)
 parser.add_argument("-n", "--yamls_per_run", default="1", type=str)
 parser.add_argument("--classifier", default=None)
 parser.add_argument("--skip-output", default=False, action='store_true')
@@ -26,15 +27,16 @@ def fuzz_params(config, tasks):
                 break
 
     if raw_params is None:
-        raw_params = "-r 100 -n 1"
+        raw_params = "-r 100 -n 1 -t 10"
 
     args = parser.parse_args(shlex.split(raw_params))
 
-    extra_args = ""
+    extra_args = "-t " + str(args.timeout)
     if args.classifier:
         extra_args += " --classifier " + shlex.quote(args.classifier)
     if args.skip_output:
         extra_args += " --skip-output"
+
 
     for task in tasks:
         env = task["worker"].setdefault("env", {})
