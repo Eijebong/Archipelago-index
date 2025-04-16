@@ -1,3 +1,6 @@
 name = "Yacht Dice"
 home = "https://archipelago.gg"
 supported = true
+
+[versions]
+"2.2.2-testing" = { url = "https://github.com/spinerak/ArchipelagoYachtDice/releases/download/v2.2.2/yachtdice.apworld" }
