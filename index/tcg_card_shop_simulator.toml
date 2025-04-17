@@ -1,0 +1,7 @@
+name = "TCG Card Shop Simulator"
+home = "https://discord.com/channels/731205301247803413/1302063649812250665"
+default_url = "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/download/v{{version}}/tcg_card_shop_simulator.apworld"
+
+[versions]
+"0.1.1" = {}
+
