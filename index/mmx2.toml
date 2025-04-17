@@ -1,0 +1,6 @@
+name = "Mega Man X2"
+home = "https://discord.com/channels/731205301247803413/1232388647127613490"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx2-v{{version}}/mmx2.apworld"
+
+[versions]
+"1.1.1" = {}

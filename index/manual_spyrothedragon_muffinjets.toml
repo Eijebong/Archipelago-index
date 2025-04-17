@@ -1,0 +1,7 @@
+name = "Manual_SpyroTheDragon_MuffinJets"
+display_name = "Manual: Spyro the dragon"
+home = "https://discordapp.com/channels/1097532591650910289/1101017660520665189"
+
+[versions]
+# https://discordapp.com/channels/1097532591650910289/1101017660520665189/1295523604129120307 with `data.zip` removed from the apworld
+"0.0.3" = { local = "../apworlds/manual_spyrothedragon_muffinjets-0.0.3.apworld" }
