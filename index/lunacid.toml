@@ -1,0 +1,6 @@
+name = "Lunacid"
+home = "https://discord.com/channels/731205301247803413/1176614031067455528"
+default_url = "https://github.com/Witchybun/LunacidAPClient/releases/download/{{version}}/lunacid.apworld"
+
+[versions]
+"0.8.13" = {}
