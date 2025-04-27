@@ -82,7 +82,7 @@ def default_target_task(full_task_graph, parameters, graph_config):
 
 def try_target_tasks(full_task_graph, try_config):
     targets = parse_try_config(try_config)
-    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz"}]
+    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():
