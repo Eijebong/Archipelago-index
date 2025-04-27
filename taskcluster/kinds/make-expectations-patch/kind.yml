@@ -1,0 +1,44 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.github:transforms
+  - src.transforms.make_expectations_patch:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 1800
+    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:ci-141
+    volumes:
+      - /builds/worker/checkouts
+    taskcluster-proxy: true
+  run-on-tasks-for: []
+
+kind-dependencies:
+  - update-expectations
+
+tasks:
+  make-patch:
+    description: Make an expectations update patch
+    run:
+      using: run-task
+      command: |-
+        cd /builds/worker/checkouts/vcs
+        git config --global user.name "Taskcluster"
+        git config --global user.email "eijebong+taskcluster@bananium.fr"
+
+        for f in meta/*.toml; do
+          if [[ ! -s "$f" ]]; then
+            rm $f
+          fi
+        done
+
+        git add meta && git commit -am "Update expectations" && git format-patch -o /builds/worker/artifacts @^
+    worker:
+      artifacts:
+        - type: directory
+          path: /builds/worker/artifacts
+          name: public/
