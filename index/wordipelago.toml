@@ -4,3 +4,4 @@ default_url = "https://github.com/ProfDeCube/Archipelago/releases/download/{{ver
 
 [versions]
 "0.8.4" = {}
+"0.8.5" = {}
