@@ -5,3 +5,4 @@ default_url = "https://github.com/wcolding/SWR_apworld/releases/download/v{{vers
 [versions]
 "0.6.2" = {}
 "0.7.0-preview" = {}
+"0.7.0" = {}
