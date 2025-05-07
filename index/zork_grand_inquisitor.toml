@@ -1,3 +1,7 @@
 name = "Zork Grand Inquisitor"
 home = "https://archipelago.gg"
 supported = true
+default_url =  "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v{{version}}/zork_grand_inquisitor.apworld"
+
+[versions]
+"2.0.4" = {}
