@@ -1,0 +1,6 @@
+name = "Air Delivery"
+home = "https://discord.com/channels/731205301247803413/1252453771661803523"
+default_url = "https://github.com/qwint/ap-air-delivery/releases/download/{{version}}/air_delivery.apworld"
+
+[versions]
+"0.1.5" = {}
