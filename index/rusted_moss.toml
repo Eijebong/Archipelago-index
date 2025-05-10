@@ -1,0 +1,7 @@
+name = "Rusted Moss"
+home = "https://discord.com/channels/731205301247803413/1239286100472758302"
+default_url = "https://github.com/dgrossmann144/Archipelago/releases/download/v{{version}}/rusted_moss.apworld"
+
+[versions]
+# XXX: There's an eval for rules, make sure to review `convert_to_rule` and CSV files.
+"0.1.5-alpha" = {url = "https://github.com/dgrossmann144/Archipelago/releases/download/v0.1.5-alpha/rusted_moss.zip"}
