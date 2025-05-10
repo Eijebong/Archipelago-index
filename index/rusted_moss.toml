@@ -1,0 +1,6 @@
+name = "Rusted Moss"
+home = "https://discord.com/channels/731205301247803413/1239286100472758302"
+default_url = "https://github.com/dgrossmann144/Archipelago/releases/download/v{{version}}/RustedMoss.yaml"
+
+[versions]
+"0.1.4-alpha" = {url = "https://github.com/dgrossmann144/Archipelago/releases/download/v0.1.4-alpha/RustedMoss.yaml"}
