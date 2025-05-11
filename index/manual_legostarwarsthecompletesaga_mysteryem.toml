@@ -1,4 +1,4 @@
-name = "Manual_LegoStarWarsTheCompleteSaga_mysteryem"
+name = "Manual_LegoStarWarsTheCompleteSaga_Mysteryem"
 display_name = "Manual: Lego Star Wars The Complete Saga"
 home = "https://discord.com/channels/1097532591650910289/1156373916370083880"
 default_url = "https://github.com/Mysteryem/ManualForArchipelago/releases/download/lsw_tcs_{{version}}/manual_legostarwarsthecompletesaga_mysteryem.apworld"
