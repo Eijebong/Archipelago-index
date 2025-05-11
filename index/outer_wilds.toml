@@ -3,6 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1178700404637311086"
 default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v{{version}}/outer_wilds.apworld"
 
 [versions]
+"0.3.15" = {}
 "0.3.14" = {}
 "0.3.13" = {}
 "0.3.12" = {}
