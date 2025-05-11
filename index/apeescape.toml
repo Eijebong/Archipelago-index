@@ -3,4 +3,5 @@ home = "https://discord.com/channels/731205301247803413/1168645708103028856"
 default_url = "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/download/v{{version}}/apeescape.apworld"
 
 [versions]
+"0.8.2" = {}
 "0.8.4" = {}
