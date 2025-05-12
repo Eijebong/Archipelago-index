@@ -7,3 +7,4 @@ default_url =  "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer
 "0.1.15-beta" = {}
 "0.1.16-beta" = {}
 "0.1.17-beta" = { url = "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/download/v.0.1.17-beta/openrct2.apworld" }
+"0.1.18-beta" = { url = "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/download/v.0.1.18-beta/openrct2.apworld" }
