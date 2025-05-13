@@ -1,0 +1,53 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_classic_cataclysm"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_the_burning_crusade"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_wrath_of_the_lich_king"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_mists_of_pandaria"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_warlords_of_draenor"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_legion"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_battle_for_azeroth"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_shadowlands"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps"]]
+game = "Manual_WorldofWarcraftDungeons_Chakraa"
+option = "include_dragonflight"
+__expected__ = "fail"
+__version__ = ">=2025.2.13"

@@ -1,0 +1,166 @@
+[["test.general.test_entrances.TestBase.test_all_state_before_connect_entrances"]]
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.1.4-a,<0.2.4-c"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Promotion"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.2.4-c,<0.3.1"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Icarus Wings"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Spring Shoes"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Innertube"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Tomatoes"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Slingshot"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Rocket Skates"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Rose Bushes"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Super Hitops"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Doorway"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Food Present"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Rootbeer"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Promotion"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Un-fall"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Fudge Sundae Present"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Decoy"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Extra Life"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Telephone"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Extra Buck Present"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Jackpot"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Tomato Rain"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Boombox"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Mystery Present"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item"]]
+item_name = "Bonus Hitops"
+game_name = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Funkotron"
+game = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.2.4-c"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+location = "Promoted to Rapmaster"
+game = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.1,<0.3.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+location = "Promoted to Funk Lord"
+game = "ToeJam and Earl"
+__expected__ = "fail"
+__version__ = ">=0.3.1,<0.3.2"

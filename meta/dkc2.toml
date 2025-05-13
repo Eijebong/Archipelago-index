@@ -1,0 +1,11 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Krocodile Kore: Map"
+game = "Donkey Kong Country 2"
+__expected__ = "fail"
+__version__ = ">=2.0.0+patch1,<2.2.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Krocodile Kore: Level"
+game = "Donkey Kong Country 2"
+__expected__ = "fail"
+__version__ = ">=2.0.0+patch1"

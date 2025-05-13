@@ -1,0 +1,11 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Puzzle Piece"
+game_name = "Jigsaw"
+__expected__ = "fail"
+__version__ = ">=0.0.4,<0.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Puzzle Pieces"
+game_name = "Jigsaw"
+__expected__ = "fail"
+__version__ = ">=0.2.0,<0.3.0"

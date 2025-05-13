@@ -1,0 +1,59 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Warrior of Light"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Firion"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Onion Knight"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Cecil"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Bartz"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Terra"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Cloud"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Squall"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Zidane"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Tidus"
+game_name = "Manual_ffdissidia_silasary"
+__expected__ = "fail"
+__version__ = ">=0.0.3"

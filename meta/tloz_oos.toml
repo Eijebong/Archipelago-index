@@ -1,0 +1,149 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "pre_fill"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2,<9.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "dry swamp"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2,<9.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "d5 stump autumn"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "natzu west (ricky)"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2,<8.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "natzu west (dimitri)"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2,<9.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "natzu east (ricky)"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2,<8.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "natzu east (dimitri)"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2,<9.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 1"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 2"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 3"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 4"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 5"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 6"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 7"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 8"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 9"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 10"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 11"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 12"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 13"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 14"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 15"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "gasha tree 16"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=7.2.2+ishigh-2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "natzu west (moosh)"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=8.0.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "natzu east (moosh)"
+game = "The Legend of Zelda - Oracle of Seasons"
+__expected__ = "fail"
+__version__ = ">=8.0.0"

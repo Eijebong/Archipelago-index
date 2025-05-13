@@ -1,0 +1,77 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Ancient Forest"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Wildspire Waste"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Coral Highlands"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Rotten Vale"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Elder's Recess"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Everstream"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Hoarfrost Reach"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Guiding Lands"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Confluence of Fates"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict"]]
+group_name = "Origin Isle"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "generate_basic"
+game = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "pre_fill"
+game = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group"]]
+group_name = "Kestodon"
+game_name = "Manual_MonsterHunterWorld_PaNIC"
+__expected__ = "fail"
+__version__ = ">=0.0.2"

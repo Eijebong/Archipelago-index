@@ -1,0 +1,4 @@
+[["test.general.test_locations.TestBase.test_location_creation_steps"]]
+game_name = "Ty the Tasmanian Tiger"
+__expected__ = "fail"
+__version__ = ">=1.1.2,<1.1.4"

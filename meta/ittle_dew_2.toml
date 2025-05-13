@@ -1,0 +1,1331 @@
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Loot"
+game_name = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_locations.TestBase.test_location_group"]]
+group_name = "Secret Dungeons"
+game_name = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_locations.TestBase.test_location_group"]]
+group_name = "Dreamworld"
+game_name = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_locations.TestBase.test_location_group"]]
+group_name = "Portal Worlds"
+game_name = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth H"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth P"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth S"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth T"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sunken Labyrinth U"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress H"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Machine Fortress K"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle H"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle K"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle L"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle M"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle N"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle O"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle P"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle Q"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle T"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle U"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle V Upper"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle V Lower"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dark Hypostyle W"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum H"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum K"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum L"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum M"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum N"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum O"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum P"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum Q"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum S"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum T"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum X"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum Y"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AC"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AD"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AH"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AI"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AJ"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AO Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AO Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AP"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Tomb of Simulacrum AQ"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy H"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy K Top"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy K Middle"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy K Bottom"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy L"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy M"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy N"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy O"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy P"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy S"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Promised Remedy T"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Scrap Yard A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Test Chamber"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dreamfly Nursery"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bad Dream"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Dreamworld - Outside Quietus"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope D Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope D Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope K"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope L"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope N"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope V"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope W"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope X"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope Y"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope Z"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AB"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AF"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AG"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AH"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AI"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AL"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AM"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AO"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AS"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Syncope AT"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab K Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab K Center"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab K Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab L Top"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab L Bottom"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab M Top"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab M Bottom"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab W"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab X"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab Z"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab AA"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Wizardry Lab AH"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram H Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram H Center"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram H Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram K"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram L"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram M"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram N"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Antigram O"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower K Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower K Top"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower K Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower L Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower L Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower M"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower O"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower P"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower Q"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower S"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower T"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower U"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower V Left"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower V Right"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower W"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower X"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower Y"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower Z"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower AA"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower AB"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower AC"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower AD"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bottomless Tower AE"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus A"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus B"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus C"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus D"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus E"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus F"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus G"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus H"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus I"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus J"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus K"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus L"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus M"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus N"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus O"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus P"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus Q"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus R"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus S"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus T"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus U"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus V"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus W"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus X"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus Y"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus Z"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus AA"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus AB"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus AC"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Quietus AD"
+game = "Ittle Dew 2"
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"

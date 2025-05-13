@@ -1,0 +1,4 @@
+[["test.general.test_implemented.TestImplemented.test_explicit_indirect_conditions_spheres"]]
+game = "Wordipelago"
+__expected__ = "fail"
+__version__ = ">=0.8.6"

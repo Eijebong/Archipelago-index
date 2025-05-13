@@ -1,0 +1,29 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Glitter Gulch Mine Warp Pads"
+game = "Banjo-Tooie"
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Witchyworld Warp Pads"
+game = "Banjo-Tooie"
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Hailfire Peaks Warp Pads"
+game = "Banjo-Tooie"
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Cloud Cuckooland Warp Pads"
+game = "Banjo-Tooie"
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Cauldron Keep Warp Pads"
+game = "Banjo-Tooie"
+__expected__ = "fail"
+__version__ = ">=4.4.2"

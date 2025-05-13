@@ -1,0 +1,10 @@
+[["test.general.test_items.TestBase.test_item_count_equal_locations"]]
+game = "Shadow The Hedgehog"
+__expected__ = "fail"
+__version__ = ">=0.0.9"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "REGION_Weapon:Shadow Rifle"
+game = "Shadow The Hedgehog"
+__expected__ = "fail"
+__version__ = ">=0.0.9"

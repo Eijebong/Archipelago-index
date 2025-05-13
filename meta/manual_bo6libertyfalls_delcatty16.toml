@@ -1,0 +1,11 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "generate_basic"
+game = "Manual_BO6LibertyFalls_Delcatty16"
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "pre_fill"
+game = "Manual_BO6LibertyFalls_Delcatty16"
+__expected__ = "fail"
+__version__ = ">=0.0.1"

@@ -1,0 +1,11 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Mirage Arena"
+game = "Kingdom Hearts Birth by Sleep"
+__expected__ = "fail"
+__version__ = ">=0.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Realm of Darkness"
+game = "Kingdom Hearts Birth by Sleep"
+__expected__ = "fail"
+__version__ = ">=0.1.2"

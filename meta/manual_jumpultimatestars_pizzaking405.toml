@@ -1,0 +1,11 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "generate_basic"
+game = "Manual_JumpUltimateStars_Pizzaking405"
+__expected__ = "fail"
+__version__ = ">=3.5.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified"]]
+step = "pre_fill"
+game = "Manual_JumpUltimateStars_Pizzaking405"
+__expected__ = "fail"
+__version__ = ">=3.5.0"

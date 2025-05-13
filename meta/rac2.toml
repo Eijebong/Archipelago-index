@@ -1,0 +1,5 @@
+[["test.general.test_locations.TestBase.test_location_group"]]
+group_name = "Yeedil"
+game_name = "Ratchet & Clank 2"
+__expected__ = "fail"
+__version__ = ">=0.6.1"

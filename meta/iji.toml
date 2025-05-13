@@ -1,0 +1,59 @@
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Weapons"
+game_name = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Normal Weapons"
+game_name = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Special Weapons"
+game_name = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Weapons"
+game_name = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Normal Weapons"
+game_name = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item"]]
+group_name = "Special Weapons"
+game_name = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sector Z Inner Prey"
+game = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.4"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sector Y"
+game = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.4"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sector Z Inner Prey"
+game = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Sector Y"
+game = "Iji"
+__expected__ = "fail"
+__version__ = ">=1.1.3"

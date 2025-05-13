@@ -1,0 +1,4 @@
+[["test.general.test_ids.TestIDs.test_postgen_datapackage"]]
+game = "Cavern of Dreams"
+__expected__ = "fail"
+__version__ = ">=1.10.1"

@@ -1,0 +1,77 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bosnia and Herzegovina"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Bulgaria"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Estonia"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Kosovo"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Lithuania"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Montenegro"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "North Macedonia"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Norway"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Portugal"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Romania"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Russia"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Serbia"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything"]]
+region = "Türkiye"
+game = "Manual_ETS2_dopin"
+__expected__ = "fail"
+__version__ = ">=0.1.0"
