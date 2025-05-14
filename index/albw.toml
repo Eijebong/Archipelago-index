@@ -1,0 +1,6 @@
+name = "A Link Between Worlds"
+home = "https://discord.com/channels/731205301247803413/1183624197935730758"
+default_url = "https://github.com/randomsalience/albw-archipelago/releases/download/v{{version}}/albw.apworld"
+
+[versions]
+"0.1.2" = {}
