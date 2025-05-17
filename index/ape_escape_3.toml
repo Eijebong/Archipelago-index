@@ -1,0 +1,6 @@
+name = "Ape Escape 3"
+home = "https://discord.com/channels/731205301247803413/1336332485788831825"
+default_url = "https://github.com/aidanii24/ae3-archipelago/releases/download/v{{version}}/ape_escape_3.apworld"
+
+[versions]
+"1.0.60" = {}
