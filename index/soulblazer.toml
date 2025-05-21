@@ -3,7 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1209689725057761310"
 default_url = "https://github.com/Tranquilite0/Archipelago-SoulBlazer/releases/download/v{{version}}/soulblazer.apworld"
 
 [versions]
-# This is 0.4.0-beta.1 with patches to remove the dependency on datawizard
-# Code is here: https://github.com/Eijebong/Archipelago/tree/soulblazer_dataclass_wizard_removal
-# Discussion with the dev about it: https://discord.com/channels/731205301247803413/1209689725057761310/1358050769915347134
-"0.4.0-beta.1+pbt-patch-unofficial" = { local = "../apworlds/soulblazer-0.4.0-beta.1+pbt-patch-unofficial.apworld" }
+"0.4.1" = {}
