@@ -1,0 +1,6 @@
+name = "APBingo"
+home = "https://discord.com/channels/731205301247803413/1252051532971638784"
+default_url = "https://github.com/Cynichill/APBingo/releases/download/{{version}}/bingo.apworld"
+
+[versions]
+"0.1.9" = {}
