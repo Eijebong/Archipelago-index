@@ -4,3 +4,4 @@ default_url = "https://github.com/Witchybun/LunacidAPClient/releases/download/{{
 
 [versions]
 "0.8.13" = {}
+"0.8.14" = {}
