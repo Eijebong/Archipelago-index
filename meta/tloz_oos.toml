@@ -10,20 +10,29 @@ __version__ = ">=7.2.2+ishigh-2"
 __expected__ = "fail"
 __version__ = ">=7.2.2+ishigh-2"
 
+# Same as OoA, this is all dependent on something that you randomly start with
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='natzu west (ricky)', game='The Legend of Zelda - Oracle of Seasons')"]]
-__expected__ = "fail"
-__version__ = ">=7.2.2+ishigh-2,<9.0.0"
+__expected__ = "flaky"
+__version__ = ">=7.2.2+ishigh-2,<9.2.0"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='natzu west (moosh)', game='The Legend of Zelda - Oracle of Seasons')"]]
-__expected__ = "fail"
+__expected__ = "flaky"
+__version__ = ">=7.2.2+ishigh-2,<9.2.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='natzu west (dimitri)', game='The Legend of Zelda - Oracle of Seasons')"]]
+__expected__ = "flaky"
 __version__ = ">=7.2.2+ishigh-2,<9.2.0"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='natzu east (ricky)', game='The Legend of Zelda - Oracle of Seasons')"]]
-__expected__ = "fail"
-__version__ = ">=7.2.2+ishigh-2,<9.0.0"
+__expected__ = "flaky"
+__version__ = ">=7.2.2+ishigh-2,<9.2.0"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='natzu east (moosh)', game='The Legend of Zelda - Oracle of Seasons')"]]
-__expected__ = "fail"
+__expected__ = "flaky"
+__version__ = ">=7.2.2+ishigh-2,<9.2.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='natzu east (dimitri)', game='The Legend of Zelda - Oracle of Seasons')"]]
+__expected__ = "flaky"
 __version__ = ">=7.2.2+ishigh-2,<9.2.0"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='gasha tree 1', game='The Legend of Zelda - Oracle of Seasons')"]]

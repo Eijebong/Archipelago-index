@@ -3,5 +3,5 @@ __expected__ = "fail"
 __version__ = ">=0.15.1"
 
 [["test.general.test_implemented.TestImplemented.test_explicit_indirect_conditions_spheres (game='Into the Breach', seed=<random>)"]]
-__expected__ = "fail"
+__expected__ = "flaky"
 __version__ = ">=0.15.1"

@@ -1,5 +1,5 @@
 [["test.general.test_implemented.TestImplemented.test_explicit_indirect_conditions_spheres (game='Banjo-Tooie', seed=<random>)"]]
-__expected__ = "fail"
+__expected__ = "flaky"
 __version__ = ">=4.1.0,<4.3.0"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Glitter Gulch Mine Warp Pads', game='Banjo-Tooie')"]]

@@ -1,3 +1,3 @@
 [["test.general.test_implemented.TestImplemented.test_explicit_indirect_conditions_spheres (game='Star Wars Episode I Racer', seed=<random>)"]]
-__expected__ = "fail"
+__expected__ = "flaky"
 __version__ = ">=0.6.2,<0.7.0-preview"

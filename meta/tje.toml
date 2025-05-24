@@ -10,9 +10,18 @@ __version__ = ">=0.2.4-c"
 __expected__ = "fail"
 __version__ = ">=0.2.4-c"
 
+# The 3 following seem to be mutually exclusive but they're both the same and both fail
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Promoted to Funk Lord', game='ToeJam and Earl')"]]
-__expected__ = "fail"
-__version__ = ">=0.3.1,<0.3.2"
+__expected__ = "flaky"
+__version__ = ">=0.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Promoted to Rapmaster', game='ToeJam and Earl')"]]
+__expected__ = "flaky"
+__version__ = ">=0.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Promoted to Homey', game='ToeJam and Earl')"]]
+__expected__ = "flaky"
+__version__ = ">=0.3.1"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Icarus Wings', game_name='ToeJam and Earl')"]]
 __expected__ = "fail"
