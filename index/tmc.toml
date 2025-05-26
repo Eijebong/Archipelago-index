@@ -1,0 +1,6 @@
+name = "The Minish Cap"
+home = "https://discord.com/channels/731205301247803413/1091489558325112873"
+default_url = "https://github.com/eternalcode0/Archipelago/releases/download/v{{version}}/tmc.apworld"
+
+[versions]
+"0.0.9-hotfix-1" = {}

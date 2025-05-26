@@ -4,3 +4,4 @@ default_url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/d
 
 [versions]
 "0.1.1" = {}
+"0.2.0-beta" = {url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_0.2.0_beta/MetroCUBEvania.apworld"}

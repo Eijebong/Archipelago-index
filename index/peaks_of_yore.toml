@@ -1,0 +1,6 @@
+name = "Peaks of Yore"
+home = "https://discord.com/channels/731205301247803413/1332506808182378677"
+
+[versions]
+# https://discord.com/channels/731205301247803413/1332506808182378677/1368886577325015113
+"1.6.0" = { local = "../apworlds/peaks_of_yore-1.6.0.apworld" }

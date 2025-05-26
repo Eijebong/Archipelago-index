@@ -1,0 +1,7 @@
+name = "Trackmania"
+display_name = "Trackmania 2020"
+home = "https://discord.com/channels/731205301247803413/1368696493904625785"
+default_url = "https://github.com/SerialBoxes/ArchipelagoTrackmania/releases/download/v{{version}}/trackmania.apworld"
+
+[versions]
+"1.2.0" = {}

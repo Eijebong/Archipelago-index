@@ -4,8 +4,9 @@
 - In the `toml` file, add a name, `name = "A Link to the Past`. That name **MUST** match the world name. If you're unsure what that means, it's the name used in your YAML.
 - If the `name` field is nondescriptive or "ugly", add a `display_name` field with a pretty name. This especially useful for manuals where the name is `Manual_{game}_{author}`. In that case, add a `display_name` with `"Manual: {game}"`.
 - Add a `home` field if applicable. In order of preference, it should contain a link to the discord thread, the github repo, any other webpage where the apworld might live. If there's none (i.e you made this apworld and it's not publically available anywhere else, omit the field).
+- If the world needs to be tagged specifically, add a `tags = [...]`, available tags are: `ad` to mark the world as being from the after dark server.
 - Add a `[versions]` section, one version per line. It should look something like this: `"{version}" = { src }`. Read the following sections to understand what that means.
-  
+
 ## Version
 
 Each version **MUST** be valid [semver](https://semver.org/). It doesn't matter if the apworld doesn't respect semver or doesn't even have a version that would be valid. We use this to make sure versions can be ordered.
@@ -41,6 +42,6 @@ This makes it easier to update and can be used to automatically fetch newer vers
 > Do **NOT** go make demands for apworlds author to cater their apworlds for inclusion in this index.
 
 - The apworld must not be banned on the archipelago server for copyright reasons
-- The apworld must not contain big unknown executable binary blobs that we cannot trace back to trusted sources
+- The apworld must not contain big unknown executable binary blobs or depend on any.
 - The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, test failures that are deemed problematic...
 - The apworld must not make any use of a remote resource during generation.

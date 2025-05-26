@@ -5,3 +5,4 @@ default_url = "https://github.com/zakwiz/DiddyKongRacingAP/releases/download/v{{
 [versions]
 "0.3.1" = {}
 "0.5.2" = {}
+"0.6.1" = {}

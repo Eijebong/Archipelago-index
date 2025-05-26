@@ -30,14 +30,13 @@ tasks:
       using: run-task
       command: >-
         cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
-        (git commit -am "Update lockfile" || exit 0) &&
-        cp index.lock /tmp/index.lock &&
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
-        /usr/local/bin/merge.sh &&
-        git reset --hard origin/main &&
-        git pull origin main &&
-        cp /tmp/index.lock index.lock &&
         (git commit -am "Update lockfile" || exit 0) &&
+        export UPDATE_COMMIT="$(git log --pretty=format:'%H' -n 1)" &&
+        /usr/local/bin/merge.sh &&
+        git fetch origin main &&
+        git reset --hard origin/main &&
+        git cherry-pick "${UPDATE_COMMIT}" &&
         git push repo HEAD:main
     fetches:
       diff-index:

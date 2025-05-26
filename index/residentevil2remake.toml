@@ -1,6 +1,8 @@
 name = "Resident Evil 2 Remake"
 home = "https://discord.com/channels/1085716850370957462/1259648589039272028"
 default_url = "https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/download/{{version}}/residentevil2remake.apworld"
+tags = ["ad"]
 
 [versions]
 "0.2.5" = {}
+"0.2.6" = {}
