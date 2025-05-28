@@ -1,0 +1,6 @@
+name = "Little Witch Nobeta"
+home = "https://discord.com/channels/731205301247803413/1170655339323080796"
+default_url = "https://github.com/danielgruethling/RandomizedWitchNobeta/releases/download/{{version}}/little_witch_nobeta.apworld"
+
+[versions]
+"0.1.4" = {}
