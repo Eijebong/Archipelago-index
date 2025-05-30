@@ -1,0 +1,6 @@
+name = "Tevi"
+home = "https://discord.com/channels/731205301247803413/1320015979736203304"
+default_url = "https://github.com/BlackSoulKnight/Tevi_Archipelago/releases/download/{{version}}/tevi.apworld"
+
+[versions]
+"0.5.0" = { url = "https://github.com/BlackSoulKnight/Tevi_Archipelago/releases/download/AP_World_Beta_5/tevi.apworld" }
