@@ -6,3 +6,4 @@ default_url =  "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v
 
 [versions]
 "2.0.4" = {}
+"2.0.5" = {}
