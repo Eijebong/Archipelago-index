@@ -1,0 +1,7 @@
+name = "Resident Evil 3 Remake"
+home = "https://discord.com/channels/1085716850370957462/1261562909809709056"
+default_url = "https://github.com/TheRealSolidusSnake/RE3R_AP_World/releases/download/{{version}}/residentevil3remake.apworld"
+tags = ["ad"]
+
+[versions]
+"0.2.4" = {}
