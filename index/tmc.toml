@@ -4,3 +4,4 @@ default_url = "https://github.com/eternalcode0/Archipelago/releases/download/v{{
 
 [versions]
 "0.0.9-hotfix-1" = {}
+"0.0.9" = {}
