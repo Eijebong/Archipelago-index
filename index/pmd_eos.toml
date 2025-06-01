@@ -5,3 +5,4 @@ default_url = "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/rele
 [versions]
 "0.2.2" = {}
 "0.2.3" = {}
+"0.3.0-rc8" = {url = "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/download/v0.3.0rc8/pmd_eos.apworld"}
