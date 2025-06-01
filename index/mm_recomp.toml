@@ -1,0 +1,6 @@
+name = "Majora's Mask Recompiled"
+home = "https://discord.com/channels/731205301247803413/1368653154241089546"
+default_url = "https://github.com/RecompRando/MMRecompRando/releases/download/v{{version}}/mm_recomp.apworld"
+
+[versions]
+"0.9.4" = {}
