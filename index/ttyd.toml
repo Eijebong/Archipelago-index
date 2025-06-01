@@ -1,4 +1,5 @@
-name = "Paper Mario: The Thousand-Year Door"
+name = "Paper Mario The Thousand Year Door"
+display_name = "Paper Mario: The Thousand-Year Door"
 home = "https://discord.com/channels/731205301247803413/1205136944259145728"
 default_url = "https://github.com/jamesbrq/ArchipelagoTTYD/releases/download/v{{version}}/ttyd.apworld"
 
