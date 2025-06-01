@@ -5,3 +5,4 @@ default_url = "https://github.com/axxroytovu/archipelago_manuals/releases/downlo
 [versions]
 # This is a repack of the released one with https://github.com/ManualForArchipelago/Manual/pull/124 applied
 "0.1.1" = { local = "../apworlds/manual_slimerancher_axxroy-0.1.1.apworld" }
+"0.1.2-a" = { local = "../apworlds/manual_slimerancher_axxroy-0.1.2-a.apworld" }
