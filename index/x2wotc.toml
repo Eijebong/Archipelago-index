@@ -4,3 +4,4 @@ default_url = "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases/down
 
 [versions]
 "0.7.5-alpha" = {}
+"0.9.1-beta" = {}
