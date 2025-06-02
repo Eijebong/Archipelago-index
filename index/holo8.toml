@@ -1,5 +1,5 @@
 name = "holo8"
-homepage = "https://discord.com/channels/731205301247803413/1368677346869252228"
+home = "https://discord.com/channels/731205301247803413/1368677346869252228"
 default_url = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/download/v{{version}}/holo8.apworld"
 
 [versions]
