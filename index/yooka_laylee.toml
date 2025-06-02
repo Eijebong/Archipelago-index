@@ -1,0 +1,6 @@
+name = "Yooka-Laylee"
+home = "https://discord.com/channels/731205301247803413/1103936661156536330"
+default_url = "https://github.com/Awareqwx/Archipelago/releases/download/{{version}}/yooka_laylee.apworld"
+
+[versions]
+"1.0.0-beta.7" = {}
