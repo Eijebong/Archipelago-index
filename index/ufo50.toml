@@ -1,0 +1,6 @@
+name = "UFO 50"
+home = "https://discord.com/channels/731205301247803413/1286076770445164575"
+default_url = "https://github.com/UFO-50-Archipelago/Archipelago/releases/download/{{version}}/ufo50.apworld"
+
+[versions]
+"0.1.4" = {}
