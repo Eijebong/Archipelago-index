@@ -1,0 +1,6 @@
+name = "Cat Quest"
+home = "https://discord.com/channels/731205301247803413/1319965826601844736"
+default_url = "https://github.com/Nikkilites/Archipelago-CatQuest/releases/download/{{version}}/cat_quest.apworld"
+
+[versions]
+"0.2.2-alpha" = {}
