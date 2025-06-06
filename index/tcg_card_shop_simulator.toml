@@ -4,4 +4,4 @@ default_url = "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/relea
 
 [versions]
 "0.1.1" = {}
-
+"0.3.2" = {}
