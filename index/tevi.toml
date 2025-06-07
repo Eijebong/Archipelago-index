@@ -1,0 +1,5 @@
+name = "Tevi"
+home = "https://discord.com/channels/731205301247803413/1320015979736203304"
+
+[versions]
+"0.5.5" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.3/tevi.apworld" }
