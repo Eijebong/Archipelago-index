@@ -1,0 +1,6 @@
+name = "Gauntlet Legends"
+home = "https://discord.com/channels/731205301247803413/1195336830258778183"
+default_url = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/v{{version}}/gl.apworld"
+
+[versions]
+"0.1.7" = {}
