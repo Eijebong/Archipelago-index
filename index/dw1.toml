@@ -1,0 +1,6 @@
+name = "Digimon World"
+home = "https://discord.com/channels/731205301247803413/1224418923861118977"
+default_url = "https://github.com/ArsonAssassin/DWAP/releases/download/{{version}}/dw1.apworld"
+
+[versions]
+"0.3.4" = {}
