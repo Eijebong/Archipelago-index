@@ -1,5 +1,7 @@
 name = "Chrono Trigger Jets of Time"
 home = "https://discord.com/channels/731205301247803413/1063559984148906035"
+default_url = "https://github.com/Anguirel86/Archipelago/releases/download/v{{version}}/ctjot.apworld"
 
 [versions]
 "0.0.1" = { url = "https://multiworld.ctjot.com/static/multiworld/ctjot.apworld" }
+"0.0.2" = {}
