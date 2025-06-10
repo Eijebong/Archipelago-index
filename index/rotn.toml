@@ -1,0 +1,6 @@
+name = "Rift of the Necrodancer"
+home = "https://discord.com/channels/731205301247803413/1337112354130759757"
+default_url = "https://github.com/studkid/RiftArchipelago/releases/download/v{{version}}/rotn.apworld"
+
+[versions]
+"0.2.0" = { url = "https://github.com/studkid/RiftArchipelago/releases/download/v0.2/rotn.apworld" }
