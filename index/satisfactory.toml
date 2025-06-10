@@ -1,6 +1,6 @@
 name = "Satisfactory"
 home = "https://discord.com/channels/731205301247803413/1018853131859267656"
-default_url = "https://github.com/Jarno458/SatisfactoryArchipelagoMod/releases/download/world-v{{version}}/satisfactory.apworld"
+default_url = https://github.com/Jarno458/SatisfactoryArchipelagoMod/releases/download/v{{version}}/satisfactory.apworld"
 
 [versions]
-"1.0.3" = {}
+"2.0.2" = {}
