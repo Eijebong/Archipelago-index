@@ -7,3 +7,4 @@ home = "https://discord.com/channels/731205301247803413/1142558464242094200"
 [versions]
 "0.0.8" = { local = "../apworlds/shadow_the_hedgehog-0.0.8.apworld" }
 "0.0.9" = { local = "../apworlds/shadow_the_hedgehog-0.0.9.apworld" }
+"0.1.5" = { local = "../apworlds/shadow_the_hedgehog-0.1.5.apworld" }
