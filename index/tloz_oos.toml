@@ -2,8 +2,4 @@ name = "The Legend of Zelda - Oracle of Seasons"
 home = "https://discord.com/channels/731205301247803413/1130706151303041054"
 
 [versions]
-"7.2.2+ishigh-2" = { local = "../apworlds/tloz_oos-7.2.2+ishigh-2.apworld" }
-"8.0.0" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-8.0/tloz_oos.apworld" }
-"9.0.0" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-9.0/tloz_oos.apworld" }
-"9.2.0" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-9.2/tloz_oos.apworld" }
-"9.4.0" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-9.4/tloz_oos.apworld" }
+"10.1.0" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-10.1/tloz_oos.apworld" }
