@@ -1,0 +1,6 @@
+name = "Sentinels of the Multiverse"
+home = "https://discord.com/channels/731205301247803413/1241869295848521730"
+default_url = "https://github.com/Totox00/Archipelago-sotm/releases/download/v{{version}}/sotm.apworld"
+
+[versions]
+"0.3.1" = {}
