@@ -1,5 +1,7 @@
 name = "Pizza Tower"
 home = "https://discord.com/channels/731205301247803413/1079671816257277972"
+default_url = "https://github.com/unsafetyskizzers/Archipelago/releases/download/{{version}}/pizza_tower.apworld"
 
 [versions]
-"1.0.0" = { url = "https://github.com/unsafetyskizzers/Archipelago/releases/download/release/pizza_tower.apworld" }
+"1.0.0" = {}
+"1.0.1" = {}
