@@ -31,7 +31,8 @@ tasks:
         (git pull -r origin main || (git rebase --abort && exit 1)) &&
         mkdir -p /builds/worker/diffs &&
         apwm update -i ./ &&
-        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs
+        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
+        git diff index.lock &> lock.diff
     worker:
       artifacts:
         - type: directory
@@ -40,3 +41,6 @@ tasks:
         - type: file
           path: /builds/worker/checkouts/vcs/index.lock
           name: public/build/index.lock
+        - type: file
+          path: /builds/worker/checkouts/vcs/lock.diff
+          name: public/build/lock.diff

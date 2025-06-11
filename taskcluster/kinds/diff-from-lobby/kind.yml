@@ -32,7 +32,8 @@ tasks:
         (git pull -r origin main || (git rebase --abort && exit 1)) &&
         apwm update -i ./ &&
         echo 'LOBBY_API_KEY=$(curl -q "${TASKCLUSTER_PROXY_URL}/secrets/v1/secret/ap-lobby" | jq -r ".secret.admin_key_prod") apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs -l https://ap-lobby.bananium.fr' > diff.sh &&
-        bash diff.sh
+        bash diff.sh &&
+        git diff index.lock &> lock.diff
     worker:
       artifacts:
         - type: directory
@@ -41,3 +42,6 @@ tasks:
         - type: file
           path: /builds/worker/checkouts/vcs/index.lock
           name: public/build/index.lock
+        - type: file
+          path: /builds/worker/checkouts/vcs/lock.diff
+          name: public/build/lock.diff
