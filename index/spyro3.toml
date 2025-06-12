@@ -1,0 +1,6 @@
+name = "Spyro 3"
+home = "https://discord.com/channels/731205301247803413/1018847303722872843"
+default_url = "https://github.com/ArsonAssassin/S3AP/releases/download/{{version}}/spyro3.apworld"
+
+[versions]
+"0.2.2" = {}
