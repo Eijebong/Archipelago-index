@@ -4,3 +4,4 @@ default_url = "https://github.com/niieli/Niko-Archipelago/releases/download/{{ve
 
 [versions]
 "0.6.0" = {}
+"0.7.1" = {}
