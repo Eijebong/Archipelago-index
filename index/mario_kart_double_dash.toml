@@ -1,0 +1,6 @@
+name = "Mario Kart Double Dash"
+home = "https://discord.com/channels/731205301247803413/1257102472967884882"
+default_url = "https://github.com/aXu-AP/archipelago-double-dash/releases/download/v{{version}}/mario_kart_double_dash.apworld"
+
+[versions]
+"0.1.1" = {}
