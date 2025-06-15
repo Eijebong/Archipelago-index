@@ -7,17 +7,16 @@ import json
 import os
 import shlex
 
-DIFF_INDEX_PATH = "ap.archipelago-index.index.pr"
 
-
-def _filter_for_pr(tasks, force=[]):
+def _filter_for_pr(tasks, parameters, force=[]):
     pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
     if pr_number is None:
         print("GITHUB_PULL_REQUEST_NUMBER missing, returning empty task set")
         return []
 
+    project = parameters.get('project', 'unknown').lower()
     try:
-        diff_task = find_task_id(f"{DIFF_INDEX_PATH}.{pr_number}.latest")
+        diff_task = find_task_id(f"ap.{project}.index.pr.{pr_number}.latest")
     except KeyError:
         print(f"No diff yet for PR {pr_number}, returning empty task set")
         return []
@@ -56,7 +55,7 @@ def diff_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("test")
 def test_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report"}])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report"}], parameters)
 
 
 @register_target_task("test-fuzz")
@@ -66,11 +65,11 @@ def test_fuzz_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("r+")
 def rplus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], force=["publish"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], parameters, force=["publish"])
 
 @register_target_task("fuzz")
 def fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}], parameters)
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):

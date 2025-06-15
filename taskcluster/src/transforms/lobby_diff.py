@@ -10,8 +10,10 @@ def generate_tasks(config, tasks):
         yield from tasks
         return
 
+    project = config.params.get('project', 'unknown').lower()
+
     for task in tasks:
         routes = task.setdefault("routes", [])
-        routes.append("index.ap.archipelago-index.index.pr.{}.latest".format(pr_number))
+        routes.append("index.ap.{}.index.pr.{}.latest".format(project, pr_number))
         yield task
 

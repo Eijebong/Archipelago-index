@@ -5,12 +5,14 @@ transforms = TransformSequence()
 
 @transforms.add
 def github_task(config, tasks):
+    project = config.params.get('project', 'unknown').lower()
+
     for task in tasks:
         pr_number = str(os.environ.get("GITHUB_PULL_REQUEST_NUMBER", -1))
 
         task_for = config.params["tasks_for"]
         task_label = task['name']
-        index_path = f"ap.archipelago-index.{task_label}.pr.{pr_number}.latest"
+        index_path = f"ap.{project}.{task_label}.pr.{pr_number}.latest"
 
         # Re-use indexed PR tasks with comments
         if task_for == "github-issue-comment":
