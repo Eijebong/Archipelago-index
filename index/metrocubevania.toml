@@ -1,6 +1,6 @@
 name = "MetroCUBEvania"
 home = "https://discord.com/channels/731205301247803413/1259263968245977128"
-default_url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_{{version}}/MetroCUBEvania.apworld"
+default_url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_{{version}}/metrocubevania.apworld"
 
 [versions]
 "0.2.0-beta" = {url = "https://github.com/ap-metrocubevania/ap-metrocubevania/releases/download/v_0.2.0_beta/metrocubevania.apworld"}
