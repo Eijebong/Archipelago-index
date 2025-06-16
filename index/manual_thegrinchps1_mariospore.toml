@@ -4,3 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1241790605508608029"
 
 [versions]
 "1.0.0" = { url = "https://github.com/MarioSpore/manual_thegrinchps1_mariospore/releases/download/v1.0/manual_thegrinchps1_mariospore.apworld" }
+"1.0.2" = { url = "https://github.com/MarioSpore/manual_thegrinchps1_mariospore/releases/download/v1.0.2/manual_thegrinchps1_mariospore.apworld" }
