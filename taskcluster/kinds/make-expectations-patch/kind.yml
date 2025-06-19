@@ -11,7 +11,7 @@ task-defaults:
   worker-type: linux-small
   worker:
     max-run-time: 1800
-    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:ci-141
+    docker-image: {in-tree: ap-checker}
     volumes:
       - /builds/worker/checkouts
     taskcluster-proxy: true

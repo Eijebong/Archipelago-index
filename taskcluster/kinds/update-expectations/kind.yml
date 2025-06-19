@@ -12,7 +12,7 @@ task-defaults:
   worker-type: linux-small
   worker:
     max-run-time: 1800
-    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:ci-141
+    docker-image: {in-tree: ap-checker}
     volumes:
       - /builds/worker/checkouts
     taskcluster-proxy: true
@@ -41,8 +41,8 @@ tasks:
 
         set +e
 
-        cd /ap/archipelago &&
-        unshare -r -n uv run -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results;
+        cd /ap/archipelago && source .venv/bin/activate
+        unshare -r -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results;
         export STATUS=$?;
         touch "/builds/worker/test_results/${TEST_APWORLD_NAME}";
 

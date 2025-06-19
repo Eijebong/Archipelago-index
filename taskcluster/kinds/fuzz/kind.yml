@@ -13,7 +13,7 @@ task-defaults:
   worker-type: linux-medium
   worker:
     max-run-time: 1800
-    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
+    docker-image: {in-tree: ap-checker}
     volumes:
       - /builds/worker/checkouts
   run-on-tasks-for: []
@@ -35,7 +35,7 @@ tasks:
           ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
           true
         ) &&
-        cd /ap/archipelago && unshare -r -n uv run -n python3 fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8 ${FUZZ_EXTRA_ARGS};
+        cd /ap/archipelago && source .venv/bin/activate && unshare -r -n python3 fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8 ${FUZZ_EXTRA_ARGS};
         export STATUS=$?;
         mv /ap/archipelago/fuzz_output /ap/archipelago/fuzz_output_n${FUZZ_YAMLS_PER_RUN};
         (cd /ap/archipelago && zip -r "artifacts/fuzz_output_${TEST_APWORLD_NAME}_n${FUZZ_YAMLS_PER_RUN}.zip" fuzz_output_n${FUZZ_YAMLS_PER_RUN}) || exit 1;
