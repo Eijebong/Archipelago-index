@@ -20,6 +20,7 @@ task-defaults:
 
 kind-dependencies:
   - diff
+  - check
 
 tasks:
   apworld:
@@ -76,6 +77,8 @@ tasks:
         github-push: {}
         default:
           diff: diff-index
+    ap-deps:
+      - check
     fetches:
       by-tasks-for:
         github-push: {}
