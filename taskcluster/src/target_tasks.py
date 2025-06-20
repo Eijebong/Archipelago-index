@@ -75,12 +75,15 @@ def fuzz_target_task(full_task_graph, parameters, graph_config):
 def merge_target_task(full_task_graph, parameters, graph_config):
     return [label for label, task in full_task_graph.tasks.items() if task.kind == "publish"]
 
-
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
     if "TRY_CONFIG" in os.environ:
         return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"].split('\n')[0])
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
+
+@register_target_task("rebuild-ap-worker")
+def rebuild_ap_worker_target_task(full_task_graph, parameters, graph_config):
+    return [label for label, task in full_task_graph.tasks.items() if task.label == "docker-image-ap-checker"]
 
 
 def try_target_tasks(full_task_graph, try_config):
