@@ -36,7 +36,8 @@ tasks:
 
         apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}"
         cd /ap/archipelago
-        unshare -r -n uv run -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results
+        source .venv/bin/activate
+        unshare -r -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results
     worker:
       retry-exit-status: [69]
       artifacts:
