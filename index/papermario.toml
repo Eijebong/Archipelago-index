@@ -10,3 +10,4 @@ default_url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v{{v
 "0.5.0+hotfix1" = { url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v0.5.0/papermario.apworld" }
 "0.6.2" = {}
 "0.6.3" = {}
+"0.6.4" = {}
