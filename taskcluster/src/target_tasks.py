@@ -35,14 +35,21 @@ def _filter_for_pr(tasks, parameters, force=[]):
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]
-            if "VersionAdded" not in diff_status:
-                continue
-            _, new_version = version_range.split('...', 1)
 
-            suffix = f"-{apworld_name}-{new_version}"
+            new_version = None
+            if "VersionAdded" in diff_status:
+                _, new_version = version_range.split('...', 1)
+            full_suffix = f"-{apworld_name}-{new_version}"
+
+            if new_version is None:
+                continue
 
             for label, task in tasks:
-                if label.endswith(suffix):
+                # If we're scheduling update-expectations, schedule them all
+                if label.startswith(f"update-expectations-{apworld_name}"):
+                    filtered_tasks.append(label)
+
+                if label.endswith(full_suffix):
                     filtered_tasks.append(label)
 
     return filtered_tasks
@@ -66,6 +73,10 @@ def test_fuzz_target_task(full_task_graph, parameters, graph_config):
 @register_target_task("r+")
 def rplus_target_task(full_task_graph, parameters, graph_config):
     return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], parameters, force=["publish"])
+
+@register_target_task("r++")
+def rplus_plus_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "update-expectations", "make-expectations-patch", "ap-test", "test-report", "publish"}], parameters, force=["publish", "make-expectations-patch"])
 
 @register_target_task("fuzz")
 def fuzz_target_task(full_task_graph, parameters, graph_config):

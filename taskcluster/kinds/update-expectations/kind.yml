@@ -31,6 +31,11 @@ tasks:
         set -e;
 
         cd $VCS_PATH;
+        git config --global user.name "Nobody"
+        git config --global user.email "nobody@localhost"
+        (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true)
+        git pull -r origin main || exit 1
+
         apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
         if [[ "${PREVIOUS_TASK}" != "" ]]; then
           curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${TEST_APWORLD_NAME}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"

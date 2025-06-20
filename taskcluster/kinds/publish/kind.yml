@@ -23,25 +23,41 @@ tasks:
   index:
     dependencies:
       diff-index: diff-index
+    soft-dependencies:
+      - make-expectations-patch-make-patch
     description: Push changed index.lock
     scopes:
       - secrets:get:Archipelago-index
     run:
       using: run-task
-      command: >-
-        cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
-        (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
-        (git commit -am "Update lockfile" || exit 0) &&
-        export UPDATE_COMMIT="$(git log --pretty=format:'%H' -n 1)" &&
-        /usr/local/bin/merge.sh &&
-        git fetch origin main &&
-        git reset --hard origin/main &&
-        git cherry-pick "${UPDATE_COMMIT}" &&
+      command: |
+        set -e
+
+        cd $VCS_PATH
+        /usr/local/bin/setup-ssh.sh
+
+        if [[ -f expectations.patch ]]; then
+          patch -p1 < expectations.patch
+        fi
+
+        (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true)
+        (git commit -am "Update lockfile" || exit 0)
+        export UPDATE_COMMIT="$(git log --pretty=format:'%H' -n 1)"
+        /usr/local/bin/merge.sh
+        git fetch origin main
+        git reset --hard origin/main
+        git cherry-pick "${UPDATE_COMMIT}"
         git push repo HEAD:main
     fetches:
       diff-index:
         - artifact: index.lock
           extract: false
           dest: /builds/worker/checkouts/vcs
+    attributes:
+      soft-fetches:
+        make-expectations-patch:
+          artifact: expectations.patch
+          extract: false
+          dest: /builds/worker/checkout/vcs
     scopes:
       - secrets:get:Archipelago-index
