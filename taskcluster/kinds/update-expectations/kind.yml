@@ -20,7 +20,6 @@ task-defaults:
 
 kind-dependencies:
   - diff
-  - check
 
 tasks:
   apworld:
@@ -34,7 +33,7 @@ tasks:
         cd $VCS_PATH;
         git config --global user.name "Nobody"
         git config --global user.email "nobody@localhost"
-        (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true)
+        (git remote add repo https://github.com/Eijebong/Archipelago-index.git || true)
         git commit -am WIP
         git pull -r repo main || exit 1
 
@@ -78,8 +77,6 @@ tasks:
         github-push: {}
         default:
           diff: diff-index
-    ap-deps:
-      - check
     fetches:
       by-tasks-for:
         github-push: {}
