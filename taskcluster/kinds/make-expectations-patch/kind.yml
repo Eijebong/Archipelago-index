@@ -36,7 +36,7 @@ tasks:
           fi
         done
 
-        git add meta && git commit --allow-empty -am "Update expectations" && git format-patch -o /builds/worker/artifacts --stdout @^ > /builds/worker/artifacts/expectations.patch
+        git add meta && git commit --allow-empty -am "Update expectations" && git format-patch --stdout @^ > /builds/worker/artifacts/expectations.patch
     worker:
       artifacts:
         - type: directory
