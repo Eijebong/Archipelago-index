@@ -1,0 +1,6 @@
+name = "Dark Souls II"
+home = "https://discord.com/channels/731205301247803413/1124935172287123466"
+default_url = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/download/v{{version}}/dark_souls_2.apworld"
+
+[versions]
+"0.5.4" = {}
