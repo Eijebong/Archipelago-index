@@ -1,0 +1,7 @@
+name = "Manual_TheHenryStickminCollection_Drawoon"
+display_name = "Manual: The Henry Stickmin Collection"
+home = "https://discord.com/channels/1097532591650910289/1270921623612162099"
+
+[versions]
+# https://discord.com/channels/1097532591650910289/1270921623612162099/1372712840775077949
+"1.0.5" = { local = "../apworlds/manual_thehenrystickmincollection_drawoon-1.0.5.apworld" }
