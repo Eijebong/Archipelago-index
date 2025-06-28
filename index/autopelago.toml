@@ -7,3 +7,4 @@ default_url = "https://github.com/airbreather/Autopelago/releases/download/v{{ve
 "0.8.0" = {}
 "0.9.0" = {}
 "0.10.0" = {}
+"0.10.3" = {}
