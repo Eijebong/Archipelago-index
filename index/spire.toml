@@ -5,3 +5,4 @@ default_url = "https://github.com/cjmang/StS-AP-World/releases/download/{{versio
 
 [versions]
 "2.0.2" = {}
+"2.1.2" = {}
