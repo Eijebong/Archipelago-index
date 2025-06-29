@@ -1,0 +1,6 @@
+display_name = "Manual: Mega Man X Legacy Collections: X Challenge"
+name = "Manual_MMXLCXCHalllenge_Pizzaking405"
+home = "https://github.com/pizzaking405/Mega-Man-X-Legacy-Collections-X-Challenge-Archipelago-Manual-/"
+
+[versions]
+"2.1.0" = { url = "https://github.com/pizzaking405/Mega-Man-X-Legacy-Collections-X-Challenge-Archipelago-Manual-/releases/download/V2.1/manual_mmxlcxchalllenge_pizzaking405.apworld" }

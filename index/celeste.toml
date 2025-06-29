@@ -1,5 +1,5 @@
 name = "Celeste"
-home = "https://discord.com/channels/731205301247803413/1021069526625947729"
+home = "https://discord.com/channels/731205301247803413/1367624611256205443"
 default_url = "https://github.com/doshyw/CelesteArchipelago/releases/download/{{version}}/celeste.apworld"
 
 [versions]

@@ -9,3 +9,4 @@ default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{vers
 "1.1.9-beta-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.1.9B-R_250306-a0c4577/megamix.apworld" }
 "1.1.9-beta2-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.1.9B-R_250313-cf59e79/megamix.apworld" }
 "1.1.9-beta3-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.1.9B-R_250427-f5afe77/megamix.apworld" }
+"1.2.0-beta-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250619-b5367f7/megamix.apworld" }

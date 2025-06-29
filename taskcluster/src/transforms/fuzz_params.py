@@ -26,7 +26,7 @@ def fuzz_params(config, tasks):
                 break
 
     if raw_params is None:
-        raw_params = "-r 100 -n 1"
+        raw_params = "-r 10000 -n 1"
 
     args = parser.parse_args(shlex.split(raw_params))
 

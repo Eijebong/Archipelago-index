@@ -1,0 +1,7 @@
+name = "Touhou Youyoumu ~ Perfect Cherry Blossom"
+home = "https://discord.com/channels/1085716850370957462/1368333426142216342"
+default_url = "https://github.com/Nepley/pcb-apworld/releases/download/v{{version}}/th07.apworld"
+tags = ["ad"]
+
+[versions]
+"1.1.2" = {}

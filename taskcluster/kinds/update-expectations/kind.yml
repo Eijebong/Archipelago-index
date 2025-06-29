@@ -1,0 +1,88 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.key_per_tasks_for:transforms
+  - src.transforms.per_apworld:transforms
+  - src.transforms.github:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 1800
+    docker-image: {in-tree: ap-checker}
+    volumes:
+      - /builds/worker/checkouts
+    taskcluster-proxy: true
+  run-on-tasks-for: []
+
+kind-dependencies:
+  - diff
+
+tasks:
+  apworld:
+    description: Get new test expectations for an apworld
+    chained: true
+    run:
+      using: run-task
+      command: |-
+        set -e;
+
+        cd $VCS_PATH;
+        git config --global user.name "Nobody"
+        git config --global user.email "nobody@localhost"
+        (git remote add repo https://github.com/Eijebong/Archipelago-index.git || true)
+        git commit -am WIP
+        git pull -r repo main || exit 1
+
+        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
+        if [[ "${PREVIOUS_TASK}" != "" ]]; then
+          curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${TEST_APWORLD_NAME}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
+          if [[ ! -s "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml" ]]; then
+            rm "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
+          fi
+        fi
+
+        set +e
+
+        cd /ap/archipelago && source .venv/bin/activate
+        unshare -r -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results;
+        export STATUS=$?;
+        touch "/builds/worker/test_results/${TEST_APWORLD_NAME}";
+
+        # If status is 69; we had a fill error and we can't trust the results, exit with the proper code so it retries
+        if [[ $STATUS -eq 69 ]]; then
+          exit $STATUS
+        fi
+
+        # exit 0 if $STATUS != 0 and expectations changed.
+        # exit $STATUS otherwise as something must've gone very wrong
+
+
+        if [[ -s "/builds/worker/test_results/${TEST_APWORLD_NAME}.toml" ]]; then
+          exit 0
+        else
+          exit $STATUS
+        fi
+    worker:
+      retry-exit-status: [69]
+      artifacts:
+        - type: directory
+          path: /builds/worker/test_results
+          name: public/test_results
+    dependencies:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff: diff-index
+    fetches:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff:
+            - artifact: index.lock
+              extract: false
+              dest: /builds/worker/checkouts/vcs
+

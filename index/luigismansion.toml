@@ -1,0 +1,6 @@
+name = "Luigi's Mansion"
+home = "https://discord.com/channels/731205301247803413/1378465872917827614"
+default_url = "https://github.com/BootsinSoots/Archipelago/releases/download/V{{version}}/luigismansion.apworld"
+
+[versions]
+"0.4.9" = {}

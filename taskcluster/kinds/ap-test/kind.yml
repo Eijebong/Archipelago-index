@@ -12,7 +12,7 @@ task-defaults:
   worker-type: linux-small
   worker:
     max-run-time: 1800
-    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
+    docker-image: {in-tree: ap-checker}
     volumes:
       - /builds/worker/checkouts
   run-on-tasks-for: []
@@ -23,40 +23,43 @@ kind-dependencies:
 tasks:
   apworld:
     description: Run archipelago test suite on an apworld
-    scopes:
-      by-tasks-for:
-        github-issue-comment: [github:create-comment:Eijebong/Archipelago-index]
-        default: []
     run:
       using: run-task
-      command: >-
-        cd $VCS_PATH &&
-        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
-        cd /ap/archipelago &&
-        unshare -r -n uv run -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/test_results;
-        export STATUS=$?;
-        [[ "STATUS" -ne "0" ]] &&
-        [[ "$NOTIFY" -eq "1" ]] &&
-        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Test failures for ${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}](https://apdiff.bananium.fr/tests/${TASK_ID})\"}";
-        exit $STATUS
+      command: |
+        set -ex
+
+        cd $VCS_PATH
+
+        if [[ -f expectations.patch ]]; then
+          patch -p1 < expectations.patch
+        fi
+
+        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}"
+        cd /ap/archipelago
+        source .venv/bin/activate
+        unshare -r -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results
     worker:
+      retry-exit-status: [69]
       artifacts:
         - type: directory
           path: /builds/worker/test_results
           name: public/test_results
-      env:
-        by-tasks-for:
-          github-issue-comment:
-            NOTIFY: "1"
-          default:
-            NOTIFY: "0"
     ap-deps:
       - check
+      - make-expectations-patch
     dependencies:
       by-tasks-for:
         github-push: {}
         default:
           diff: diff-index
+    soft-dependencies:
+      - make-expectations-patch-make-patch
+    attributes:
+      soft-fetches:
+        make-expectations-patch-make-patch:
+          artifact: public/expectations.patch
+          extract: false
+          dest: /builds/worker/checkouts/vcs
     fetches:
       by-tasks-for:
         github-push: {}

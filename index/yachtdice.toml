@@ -4,3 +4,4 @@ supported = true
 
 [versions]
 "2.2.2-testing" = { url = "https://github.com/spinerak/ArchipelagoYachtDice/releases/download/v2.2.2/yachtdice.apworld" }
+"2.2.3" = { url = "https://github.com/spinerak/ArchipelagoYachtDice/releases/download/v2.2.3/yachtdice.apworld" }

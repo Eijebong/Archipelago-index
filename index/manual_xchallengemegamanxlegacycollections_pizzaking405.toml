@@ -1,6 +1,0 @@
-display_name = "Manual: Mega-Man-X-Legacy-Collections-X-Challenge"
-name = "Manual_XChallengeMegaManXLegacyCollections_Pizzaking405"
-home = "https://github.com/pizzaking405/Mega-Man-X-Legacy-Collections-X-Challenge-Archipelago-Manual-/"
-
-[versions]
-"0.0.1" = { url = "https://github.com/pizzaking405/Mega-Man-X-Legacy-Collections-X-Challenge-Archipelago-Manual-/releases/download/Update/manual_xchallengemegamanxlegacycollections_pizzaking405.apworld" }

@@ -7,17 +7,16 @@ import json
 import os
 import shlex
 
-DIFF_INDEX_PATH = "ap.archipelago-index.index.pr"
 
-
-def _filter_for_pr(tasks, force=[]):
-    pr_number = os.environ.get("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER")
+def _filter_for_pr(tasks, parameters, force=[]):
+    pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
     if pr_number is None:
-        print("ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER missing, returning empty task set")
+        print("GITHUB_PULL_REQUEST_NUMBER missing, returning empty task set")
         return []
 
+    project = parameters.get('project', 'unknown').lower()
     try:
-        diff_task = find_task_id(f"{DIFF_INDEX_PATH}.{pr_number}.latest")
+        diff_task = find_task_id(f"ap.{project}.index.pr.{pr_number}.latest")
     except KeyError:
         print(f"No diff yet for PR {pr_number}, returning empty task set")
         return []
@@ -29,7 +28,6 @@ def _filter_for_pr(tasks, force=[]):
         if not artifact['name'].startswith('public/diffs/'):
             continue
 
-        diff_name = artifact['name'].removeprefix('public/diffs/')
         diff_response = get_artifact(diff_task, artifact['name'])
         if diff_response.status != 200:
             raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
@@ -37,14 +35,21 @@ def _filter_for_pr(tasks, force=[]):
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]
-            if "VersionAdded" not in diff_status:
-                continue
-            _, new_version = version_range.split('...', 1)
 
-            suffix = f"-{apworld_name}-{new_version}"
+            new_version = None
+            if "VersionAdded" in diff_status:
+                _, new_version = version_range.split('...', 1)
+            full_suffix = f"-{apworld_name}-{new_version}"
+
+            if new_version is None:
+                continue
 
             for label, task in tasks:
-                if label.endswith(suffix):
+                # If we're scheduling update-expectations, schedule them all
+                if label.startswith(f"update-expectations-{apworld_name}"):
+                    filtered_tasks.append(label)
+
+                if label.endswith(full_suffix):
                     filtered_tasks.append(label)
 
     return filtered_tasks
@@ -52,26 +57,34 @@ def _filter_for_pr(tasks, force=[]):
 
 @register_target_task("diff")
 def diff_target_task(full_task_graph, parameters, graph_config):
-    return [label for label, task in full_task_graph.tasks.items() if task.kind == "diff-from-lobby"]
+    return [label for label, task in full_task_graph.tasks.items() if task.kind in ("diff-from-lobby", "comment")]
 
 
 @register_target_task("test")
-def merge_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test"}])
+def test_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report"}], parameters)
+
+
+@register_target_task("test-fuzz")
+def test_fuzz_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz"}], parameters)
 
 
 @register_target_task("r+")
 def rplus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "publish"}], force=["publish"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], parameters, force=["publish"])
+
+@register_target_task("r++")
+def rplus_plus_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "update-expectations", "make-expectations-patch", "ap-test", "test-report", "publish"}], parameters, force=["publish", "make-expectations-patch"])
 
 @register_target_task("fuzz")
-def merge_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}])
+def fuzz_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}], parameters)
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):
     return [label for label, task in full_task_graph.tasks.items() if task.kind == "publish"]
-
 
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
@@ -79,10 +92,14 @@ def default_target_task(full_task_graph, parameters, graph_config):
         return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"].split('\n')[0])
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
+@register_target_task("rebuild-ap-worker")
+def rebuild_ap_worker_target_task(full_task_graph, parameters, graph_config):
+    return [label for label, task in full_task_graph.tasks.items() if task.label == "docker-image-ap-checker"]
+
 
 def try_target_tasks(full_task_graph, try_config):
     targets = parse_try_config(try_config)
-    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz"}]
+    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():

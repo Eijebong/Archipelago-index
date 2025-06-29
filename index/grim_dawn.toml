@@ -1,0 +1,6 @@
+name = "Grim Dawn"
+home = "https://discord.com/channels/731205301247803413/1114646643225137224"
+default_url = "https://github.com/routhken/Archipelago/releases/download/grimdawn-v{{version}}/grim_dawn.apworld"
+
+[versions]
+"0.1.5" = {}

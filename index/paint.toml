@@ -7,3 +7,4 @@ default_url = "https://github.com/MarioManTAW/jspaint/releases/download/v{{versi
 "0.3.0" = {}
 "0.5.0" = {}
 "0.5.1" = {}
+"0.5.2" = {}

@@ -22,8 +22,6 @@ tasks:
   index:
     worker-type: linux-small
     description: Run apwm diff
-    scopes:
-      - github:create-comment:Eijebong/Archipelago-index
     run:
       using: run-task
       command: >-
@@ -34,11 +32,7 @@ tasks:
         mkdir -p /builds/worker/diffs &&
         apwm update -i ./ &&
         apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
-        (
-          [ -z "$( ls -A '/builds/worker/diffs' )" ] &&
-          /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"No reviewable changes\"}" ||
-          /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Review changes](https://apdiff.bananium.fr/${TASK_ID})\"}"
-        )
+        git diff index.lock &> lock.diff
     worker:
       artifacts:
         - type: directory
@@ -47,3 +41,6 @@ tasks:
         - type: file
           path: /builds/worker/checkouts/vcs/index.lock
           name: public/build/index.lock
+        - type: file
+          path: /builds/worker/checkouts/vcs/lock.diff
+          name: public/build/lock.diff

@@ -1,5 +1,5 @@
 name = "Ittle Dew 2"
-homepage = "https://discord.com/channels/731205301247803413/1260030530217574500"
+home = "https://discord.com/channels/731205301247803413/1260030530217574500"
 default_url = "https://github.com/Extra-2-Dew/ArchipelagoRandomizer/releases/download/{{version}}/ittle_dew_2.apworld"
 
 [versions]

@@ -1,0 +1,383 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Gate: Shoreline to Silent Construct] (group_name='Gate: Shoreline to Silent Construct', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Gate: The Struts to Waterfront Facility] (group_name='Gate: The Struts to Waterfront Facility', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Slime Mold] (group_name='Food Quest - Slime Mold', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Blue Fruit] (group_name='Food Quest - Blue Fruit', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Batfly] (group_name='Food Quest - Batfly', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Mushroom] (group_name='Food Quest - Mushroom', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Black Lizard] (group_name='Food Quest - Black Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Bubble Fruit] (group_name='Food Quest - Bubble Fruit', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Jellyfish] (group_name='Food Quest - Jellyfish', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Jetfish] (group_name='Food Quest - Jetfish', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Glow Weed] (group_name='Food Quest - Glow Weed', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Snail] (group_name='Food Quest - Snail', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Hazer] (group_name='Food Quest - Hazer', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Eggbug] (group_name='Food Quest - Eggbug', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Lilypuck] (group_name='Food Quest - Lilypuck', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Yellow Lizard] (group_name='Food Quest - Yellow Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Grappling Worm] (group_name='Food Quest - Grappling Worm', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Neuron Fly] (group_name='Food Quest - Neuron Fly', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Centiwing] (group_name='Food Quest - Centiwing', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Dandelion Peach] (group_name='Food Quest - Dandelion Peach', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Cyan Lizard] (group_name='Food Quest - Cyan Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Gooieduck] (group_name='Food Quest - Gooieduck', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Popcorn Plant] (group_name='Food Quest - Popcorn Plant', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Centipede] (group_name='Food Quest - Centipede', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Vulture Grub] (group_name='Food Quest - Vulture Grub', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Green Lizard] (group_name='Food Quest - Green Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Blue Lizard] (group_name='Food Quest - Blue Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Pink Lizard] (group_name='Food Quest - Pink Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - White Lizard] (group_name='Food Quest - White Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Red Lizard] (group_name='Food Quest - Red Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Caramel Lizard] (group_name='Food Quest - Caramel Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Strawberry Lizard] (group_name='Food Quest - Strawberry Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Train Lizard] (group_name='Food Quest - Train Lizard', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Big Spider] (group_name='Food Quest - Big Spider', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Spitter Spider] (group_name='Food Quest - Spitter Spider', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Mother Spider] (group_name='Food Quest - Mother Spider', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Vulture] (group_name='Food Quest - Vulture', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - King Vulture] (group_name='Food Quest - King Vulture', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Miros Vulture] (group_name='Food Quest - Miros Vulture', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Lantern Mouse] (group_name='Food Quest - Lantern Mouse', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Yeek] (group_name='Food Quest - Yeek', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Dropwig] (group_name='Food Quest - Dropwig', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Miros Bird] (group_name='Food Quest - Miros Bird', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Scavenger] (group_name='Food Quest - Scavenger', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Pole Plant] (group_name='Food Quest - Pole Plant', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Monster Kelp] (group_name='Food Quest - Monster Kelp', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Leviathan] (group_name='Food Quest - Leviathan', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Food Quest - Inspector] (group_name='Food Quest - Inspector', game_name='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Rain World', option='debug_output')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Rain World', option='predetermined_dynamic_warp_network_minimum_necklace_length')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Rain World', option='so_peeping')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Silent Construct', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Looks to the Moon', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Rubicon', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Metropolis', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Waterfront Facility', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Submerged Superstructure', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Bitter Aerie', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Outer Expanse', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Outer Expanse filtration', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='The Rot', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Broken Precipice', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Shoreline above puppet', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Outskirts filtration', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Spearmaster spawn area', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Undergrowth', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Pipeyard', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Sump Tunnel', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Pipeyard filtration', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Shattered Terrace', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Salination', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Fetid Glen', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Cold Storage', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Heat Ducts', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Aether Ridge', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='The Surface', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Ancient Urban', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Badlands', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Decaying Tunnels', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Infested Wastes', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Corrupted Factories', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Outer Rim', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Signal Spires', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Coral Caves', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Turbulent Pump', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Rusted Wrecks', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Daemon', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Torrential Railways', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Sunlit Port', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Stormy Coast', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Shrouded Coast', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Unfortunate Evolution', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Crumbling Fringes', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Torrid Desert', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Desolate Tract', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Verdant Waterways', game='Rain World')"]]
+__expected__ = "fail"
+__version__ = ">=1.3.1"
