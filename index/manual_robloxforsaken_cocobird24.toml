@@ -1,0 +1,5 @@
+name = "Manual_RobloxForsaken_Cocobird24"
+display_name = "Manual: Roblox Forsaken"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_robloxforsaken_cocobird24-0.0.1.apworld" }
