@@ -1,0 +1,9 @@
+name = "Manual_DeadByDaylight-Killer-C36_nivomi"
+display_name = "Manual: Dead By Daylight (Killer)"
+home = "https://discord.com/channels/1097532591650910289/1219470964312510595"
+
+[versions]
+# Every update the apworld itself changes because this is an online game where you cannot access previous versions.
+# The name will change, the version and the apworld name... Because we can't have nice things
+# This is a repack of https://discord.com/channels/1097532591650910289/1200060248577298485/1285705507247489024 without the .git folder checked in...
+"0.0.36+repacked" = { local = "../apworlds/manual_deadbydaylight-killer-c36_nivomi.apworld" }
