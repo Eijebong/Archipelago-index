@@ -8,3 +8,4 @@ default_url = "https://github.com/MarioSpore/manual_thegrinchps1_mariospore/rele
 "1.0.2" = {}
 "1.1.0" = {}
 "1.1.2" = {}
+"1.1.4+hotfix1" = { url = "https://github.com/MarioSpore/manual_thegrinchps1_mariospore/releases/download/v1.1.4.1/manual_thegrinchps1_mariospore.apworld" }
