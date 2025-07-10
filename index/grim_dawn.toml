@@ -4,3 +4,4 @@ default_url = "https://github.com/routhken/Archipelago/releases/download/grimdaw
 
 [versions]
 "0.1.5" = {}
+"0.2.0" = {}
