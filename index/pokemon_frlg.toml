@@ -3,14 +3,6 @@ home = "https://discord.com/channels/731205301247803413/1365127226533871718"
 default_url = "https://github.com/vyneras/Archipelago/releases/download/{{version}}/pokemon_frlg.apworld"
 
 [versions]
-"0.8.1" = {}
-"0.8.2" = {}
-"0.8.3-hotfix" = {}
-# 0.8.4 got rereleased after we merged it to the index, this forces a new version number onto it.
-"0.8.4-hotfix2" = { url = "https://github.com/vyneras/Archipelago/releases/download/0.8.4/pokemon_frlg.apworld" }
-"0.8.5" = {}
-# 0.8.6 got rereleased after getting into the index
-"0.8.6-hotfix1" = { url = "https://github.com/vyneras/Archipelago/releases/download/0.8.6/pokemon_frlg.apworld"}
 "0.8.7" = {}
 "0.9.1" = {}
 "0.9.2" = {}
