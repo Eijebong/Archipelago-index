@@ -1,0 +1,11 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Bestiary Entry - Tulip snake', game='Lethal Company')"]]
+__expected__ = "fail"
+__version__ = ">=0.6.9-beta,<0.6.13-beta"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Tulip snake', game='Lethal Company')"]]
+__expected__ = "fail"
+__version__ = ">=0.6.9-beta,<0.6.13-beta"
+
+[["test.general.test_groups.TestNameGroups.test_location_name_groups_not_empty (game='Lethal Company')"]]
+__expected__ = "fail"
+__version__ = ">=0.7.1-beta"

@@ -1,0 +1,99 @@
+[["test.general.test_entrances.TestBase.test_all_state_before_connect_entrances [Game] (game_name='ToeJam and Earl')"]]
+__expected__ = "error"
+__version__ = ">=0.1.4-a,<0.2.4-c"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Promotion', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.4-c"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Funkotron', game='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.4-c"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Icarus Wings', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Spring Shoes', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Innertube', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Tomatoes', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Slingshot', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Rocket Skates', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Rose Bushes', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Super Hitops', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Doorway', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Food Present', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Rootbeer', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Un-fall', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Fudge Sundae Present', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Decoy', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Extra Life', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Telephone', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Extra Buck Present', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Jackpot', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Tomato Rain', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Boombox', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Mystery Present', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bonus Hitops', game_name='ToeJam and Earl')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"

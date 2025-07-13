@@ -1,0 +1,887 @@
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Loot] (group_name='Loot', game_name='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_locations.TestBase.test_location_group [Secret Dungeons] (group_name='Secret Dungeons', game_name='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_locations.TestBase.test_location_group [Dreamworld] (group_name='Dreamworld', game_name='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_locations.TestBase.test_location_group [Portal Worlds] (group_name='Portal Worlds', game_name='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_b: 'Sunken Labyrinth B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_f: 'Sunken Labyrinth F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_g: 'Sunken Labyrinth G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_h: 'Sunken Labyrinth H'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_j: 'Sunken Labyrinth J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_p: 'Sunken Labyrinth P'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_r: 'Sunken Labyrinth R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_s: 'Sunken Labyrinth S'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_t: 'Sunken Labyrinth T'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s1_u: 'Sunken Labyrinth U'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_a: 'Machine Fortress A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_b: 'Machine Fortress B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_c: 'Machine Fortress C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_d: 'Machine Fortress D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_e: 'Machine Fortress E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_f: 'Machine Fortress F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_g: 'Machine Fortress G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_h: 'Machine Fortress H'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_i: 'Machine Fortress I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_j: 'Machine Fortress J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s2_k: 'Machine Fortress K'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_b: 'Dark Hypostyle B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_c: 'Dark Hypostyle C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_d: 'Dark Hypostyle D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_e: 'Dark Hypostyle E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_g: 'Dark Hypostyle G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_h: 'Dark Hypostyle H'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_i: 'Dark Hypostyle I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_j: 'Dark Hypostyle J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_k: 'Dark Hypostyle K'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_l: 'Dark Hypostyle L'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_m: 'Dark Hypostyle M'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_n: 'Dark Hypostyle N'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_o: 'Dark Hypostyle O'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_p: 'Dark Hypostyle P'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_q: 'Dark Hypostyle Q'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_r: 'Dark Hypostyle R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_t: 'Dark Hypostyle T'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_u: 'Dark Hypostyle U'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_v_upper: 'Dark Hypostyle V Upper'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_v_lower: 'Dark Hypostyle V Lower'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s3_w: 'Dark Hypostyle W'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_a: 'Tomb of Simulacrum A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_b: 'Tomb of Simulacrum B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_c: 'Tomb of Simulacrum C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_d: 'Tomb of Simulacrum D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_e: 'Tomb of Simulacrum E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_f: 'Tomb of Simulacrum F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_g: 'Tomb of Simulacrum G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_h: 'Tomb of Simulacrum H'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_i: 'Tomb of Simulacrum I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_j: 'Tomb of Simulacrum J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_k: 'Tomb of Simulacrum K'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_l: 'Tomb of Simulacrum L'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_m: 'Tomb of Simulacrum M'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_n: 'Tomb of Simulacrum N'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_o: 'Tomb of Simulacrum O'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_p: 'Tomb of Simulacrum P'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_q: 'Tomb of Simulacrum Q'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_r: 'Tomb of Simulacrum R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_s: 'Tomb of Simulacrum S'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_t: 'Tomb of Simulacrum T'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_x: 'Tomb of Simulacrum X'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_y: 'Tomb of Simulacrum Y'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ac: 'Tomb of Simulacrum AC'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ad: 'Tomb of Simulacrum AD'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ah: 'Tomb of Simulacrum AH'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ai: 'Tomb of Simulacrum AI'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_aj: 'Tomb of Simulacrum AJ'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ao_left: 'Tomb of Simulacrum AO Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ao_right: 'Tomb of Simulacrum AO Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_ap: 'Tomb of Simulacrum AP'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.s4_aq: 'Tomb of Simulacrum AQ'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_b: 'Promised Remedy B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_c: 'Promised Remedy C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_d: 'Promised Remedy D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_e: 'Promised Remedy E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_f: 'Promised Remedy F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_g: 'Promised Remedy G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_h: 'Promised Remedy H'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_i: 'Promised Remedy I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_j: 'Promised Remedy J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_k_top: 'Promised Remedy K Top'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_k_middle: 'Promised Remedy K Middle'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_k_bottom: 'Promised Remedy K Bottom'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_l: 'Promised Remedy L'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_m: 'Promised Remedy M'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_n: 'Promised Remedy N'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_o: 'Promised Remedy O'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_p: 'Promised Remedy P'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_r: 'Promised Remedy R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_s: 'Promised Remedy S'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.pr_t: 'Promised Remedy T'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.scrap_yard_a: 'Scrap Yard A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.test_chamber: 'Test Chamber'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dreamfly_nursery: 'Dreamfly Nursery'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.bad_dream: 'Bad Dream'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dreamworld_end: 'Dreamworld - Outside Quietus'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_a: 'Syncope A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_b: 'Syncope B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_c: 'Syncope C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_d_left: 'Syncope D Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_d_right: 'Syncope D Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_e: 'Syncope E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_f: 'Syncope F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_i: 'Syncope I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_k: 'Syncope K'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_l: 'Syncope L'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_n: 'Syncope N'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_r: 'Syncope R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_v: 'Syncope V'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_w: 'Syncope W'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_x: 'Syncope X'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_y: 'Syncope Y'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_z: 'Syncope Z'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_ab: 'Syncope AB'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_af: 'Syncope AF'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_ag: 'Syncope AG'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_ah: 'Syncope AH'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_ai: 'Syncope AI'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_al: 'Syncope AL'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_am: 'Syncope AM'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_ao: 'Syncope AO'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_as: 'Syncope AS'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dd_at: 'Syncope AT'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_b: 'Wizardry Lab B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_c: 'Wizardry Lab C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_e: 'Wizardry Lab E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_i: 'Wizardry Lab I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_j: 'Wizardry Lab J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_k_left: 'Wizardry Lab K Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_k_center: 'Wizardry Lab K Center'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_k_right: 'Wizardry Lab K Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_l_top: 'Wizardry Lab L Top'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_l_bottom: 'Wizardry Lab L Bottom'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_m_top: 'Wizardry Lab M Top'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_m_bottom: 'Wizardry Lab M Bottom'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_w: 'Wizardry Lab W'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_x: 'Wizardry Lab X'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_z: 'Wizardry Lab Z'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_aa: 'Wizardry Lab AA'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.df_ah: 'Wizardry Lab AH'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_a: 'Antigram A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_b: 'Antigram B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_c: 'Antigram C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_d: 'Antigram D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_e: 'Antigram E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_f: 'Antigram F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_g: 'Antigram G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_h_left: 'Antigram H Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_h_center: 'Antigram H Center'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_h_right: 'Antigram H Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_i: 'Antigram I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_j: 'Antigram J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_k: 'Antigram K'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_l: 'Antigram L'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_m: 'Antigram M'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_n: 'Antigram N'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.dfc_o: 'Antigram O'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_a: 'Bottomless Tower A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_d: 'Bottomless Tower D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_e: 'Bottomless Tower E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_f: 'Bottomless Tower F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_j: 'Bottomless Tower J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_k_left: 'Bottomless Tower K Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_k_top: 'Bottomless Tower K Top'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_k_right: 'Bottomless Tower K Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_l_left: 'Bottomless Tower L Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_l_right: 'Bottomless Tower L Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_m: 'Bottomless Tower M'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_o: 'Bottomless Tower O'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_p: 'Bottomless Tower P'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_q: 'Bottomless Tower Q'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_r: 'Bottomless Tower R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_s: 'Bottomless Tower S'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_t: 'Bottomless Tower T'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_u: 'Bottomless Tower U'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_v_left: 'Bottomless Tower V Left'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_v_right: 'Bottomless Tower V Right'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_w: 'Bottomless Tower W'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_x: 'Bottomless Tower X'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_y: 'Bottomless Tower Y'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_z: 'Bottomless Tower Z'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_aa: 'Bottomless Tower AA'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_ab: 'Bottomless Tower AB'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_ac: 'Bottomless Tower AC'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_ad: 'Bottomless Tower AD'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.di_ae: 'Bottomless Tower AE'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_a: 'Quietus A'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_b: 'Quietus B'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_c: 'Quietus C'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_d: 'Quietus D'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_e: 'Quietus E'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_f: 'Quietus F'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_g: 'Quietus G'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_h: 'Quietus H'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_i: 'Quietus I'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_j: 'Quietus J'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_k: 'Quietus K'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_l: 'Quietus L'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_m: 'Quietus M'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_n: 'Quietus N'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_o: 'Quietus O'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_p: 'Quietus P'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_q: 'Quietus Q'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_r: 'Quietus R'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_s: 'Quietus S'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_t: 'Quietus T'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_u: 'Quietus U'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_v: 'Quietus V'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_w: 'Quietus W'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_x: 'Quietus X'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_y: 'Quietus Y'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_z: 'Quietus Z'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_aa: 'Quietus AA'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_ab: 'Quietus AB'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_ac: 'Quietus AC'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=<RegionNames.da_ad: 'Quietus AD'>, game='Ittle Dew 2')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1+region-gates"

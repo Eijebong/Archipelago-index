@@ -1,0 +1,3 @@
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='3x Star Pieces', game_name='Paper Mario')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"

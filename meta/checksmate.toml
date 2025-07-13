@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Enemy Pawn] (group_name='Enemy Pawn', game_name='ChecksMate')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.7"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Enemy Piece] (group_name='Enemy Piece', game_name='ChecksMate')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.7"

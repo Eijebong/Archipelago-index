@@ -1,0 +1,19 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_SlimeRancher_Axxroy')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.1"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_SlimeRancher_Axxroy')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SlimeRancher_Axxroy', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=0.1.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SlimeRancher_Axxroy', option='Notesanity')"]]
+__expected__ = "error"
+__version__ = ">=0.1.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SlimeRancher_Axxroy', option='SevenZeeRewards')"]]
+__expected__ = "error"
+__version__ = ">=0.1.1"

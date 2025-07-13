@@ -1,0 +1,75 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='SpiritCavernsACWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='AboveChargeFlameTreeExpWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='SpiderSacEnergyDoorWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='LostGroveLaserLeverWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='GroveWaterStompAbilityCellWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='HollowGroveTreeAbilityCellWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='OuterSwampHealthCellWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='UpperGinsoEnergyCellWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='AboveGrottoCrushersWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='GrottoEnergyVaultWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='SwampWaterWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='StompAreaRoofExpWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='ValleyRightFastStomplessCellWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='VallleyThreeBirdACWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WilhelmExpWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='SorrowMapstoneWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='LeftSorrowTumbleweedDoorWarp', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='ChargeJumpDoorOpenLeft', game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0-alpha"
+
+[["test.general.test_items.TestBase.test_item_count_equal_locations [Game] (game='Ori and the Blind Forest')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.0-alpha,<0.3.2-alpha"

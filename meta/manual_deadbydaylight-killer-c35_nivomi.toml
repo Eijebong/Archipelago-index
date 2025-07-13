@@ -1,0 +1,11 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_DeadByDaylight-Killer-C35_nivomi')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.6"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_DeadByDaylight-Killer-C35_nivomi')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.6"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_DeadByDaylight-Killer-C35_nivomi', option='the_ghoul')"]]
+__expected__ = "error"
+__version__ = ">=0.0.6"

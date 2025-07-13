@@ -1,0 +1,43 @@
+[["test.general.test_implemented.TestImplemented.test_explicit_indirect_conditions_spheres (game='Banjo-Tooie', seed=<random>)"]]
+__expected__ = "fail"
+__version__ = ">=4.1.0,<4.2.0"
+
+[["test.general.test_implemented.TestImplemented.test_explicit_indirect_conditions_spheres (game='Banjo-Tooie', seed=<random>)"]]
+__expected__ = "fail"
+__version__ = ">=4.4.2,<4.5.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Glitter Gulch Mine Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Witchyworld Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Hailfire Peaks Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Cloud Cuckooland Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Cauldron Keep Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.4.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Mayahem Temple Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.5.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Jolly Roger Lagoon Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.5.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Terrydactyland Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.5.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Grunty Industries Warp Pads', game='Banjo-Tooie')"]]
+__expected__ = "fail"
+__version__ = ">=4.5.1"

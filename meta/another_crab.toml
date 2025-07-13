@@ -1,0 +1,15 @@
+[["test.general.test_items.TestBase.test_item_count_equal_locations [Game] (game='Another Crabs Treasure')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1,<0.4.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Shells] (group_name='Shells', game_name='Another Crabs Treasure')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1"
+
+[["test.general.test_locations.TestBase.test_location_creation_steps [Game] (game_name='Another Crabs Treasure')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Shells] (group_name='Shells', game_name='Another Crabs Treasure')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1"

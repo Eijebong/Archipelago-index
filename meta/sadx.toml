@@ -1,0 +1,7 @@
+[["test.general.test_groups.TestNameGroups.test_location_name_groups_not_empty (game='Sonic Adventure DX')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0,<1.1.1-b"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Sonic Adventure DX', option='progression_balancing')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.1-b"

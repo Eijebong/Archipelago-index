@@ -1,23 +1,31 @@
 [["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Dungeon Maps] (group_name='Dungeon Maps', game_name='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.3"
+__version__ = ">=0.2.5+ishigh"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Master Keys] (group_name='Master Keys', game_name='The Legend of Zelda - Oracle of Ages')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.5+ishigh,<0.4.2"
 
 [["test.general.test_locations.TestBase.test_location_group [D3] (group_name='D3', game_name='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.3"
+__version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_locations.TestBase.test_location_group [D8] (group_name='D8', game_name='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.3"
+__version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_locations.TestBase.test_location_group [Trade Sequence] (group_name='Trade Sequence', game_name='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.3"
+__version__ = ">=0.2.5+ishigh"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (ricky)', game='The Legend of Zelda - Oracle of Ages')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.5+ishigh,<0.4.2"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (moosh)', game='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.3"
+__version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (dimitri)', game='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.3"
+__version__ = ">=0.4.2"

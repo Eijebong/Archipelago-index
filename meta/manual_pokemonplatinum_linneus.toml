@@ -1,0 +1,23 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Pokétch] (group_name='Pokétch', game_name='Manual_PokemonPlatinum_Linneus')"]]
+__expected__ = "fail"
+__version__ = ">=2.1.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_PokemonPlatinum_Linneus')"]]
+__expected__ = "fail"
+__version__ = ">=2.1.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_PokemonPlatinum_Linneus')"]]
+__expected__ = "fail"
+__version__ = ">=2.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=2.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Storage Key] (group_name='Storage Key', game_name='Manual_PokemonPlatinum_Linneus')"]]
+__expected__ = "fail"
+__version__ = ">=2.2.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Marsh Pass] (group_name='Marsh Pass', game_name='Manual_PokemonPlatinum_Linneus')"]]
+__expected__ = "fail"
+__version__ = ">=2.3.0"

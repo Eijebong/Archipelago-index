@@ -1,0 +1,3 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SMO_mp3', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=2.2.2"

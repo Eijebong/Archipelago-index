@@ -1,0 +1,3 @@
+[["test.general.test_patches.TestPatches.test_patch_name_matches_game (game='Night of 100 Frights')"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1-unofficial"

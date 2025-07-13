@@ -1,0 +1,111 @@
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Cassette (Chapter 8: Core A-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 7: The Summit A-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Epilogue)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 8: Core A-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 9: Farewell A-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 7: The Summit B-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 8: Core B-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 7: The Summit C-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Completion (Chapter 8: Core C-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Crystal Heart (Chapter 8: Core A-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Crystal Heart (Chapter 7: The Summit B-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Crystal Heart (Chapter 8: Core B-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Crystal Heart (Chapter 7: The Summit C-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Item Name] (item_name='Crystal Heart (Chapter 8: Core C-Side)', game_name='Celeste')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Cassette (Chapter 8: Core A-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 7: The Summit A-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Epilogue)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 8: Core A-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 9: Farewell A-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 7: The Summit B-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 8: Core B-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 7: The Summit C-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Completion (Chapter 8: Core C-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Crystal Heart (Chapter 8: Core A-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Crystal Heart (Chapter 7: The Summit B-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Crystal Heart (Chapter 8: Core B-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Crystal Heart (Chapter 7: The Summit C-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
+
+[["test.general.test_items.TestBase.test_create_item [Create Item] (item_name='Crystal Heart (Chapter 8: Core C-Side)', game_name='Celeste')"]]
+__expected__ = "error"
+__version__ = ">=0.4.0-alpha+unreleased"
