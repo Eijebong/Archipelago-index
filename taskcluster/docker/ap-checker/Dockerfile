@@ -1,6 +1,6 @@
 FROM ghcr.io/eijebong/apwm:latest as apwm
 
-FROM ghcr.io/eijebong/archipelago-worker:latest
+FROM ghcr.io/eijebong/archipelago-worker:ci-647
 
 # %include-run-task
 COPY --from=apwm /usr/local/bin/apwm /usr/local/bin/apwm
