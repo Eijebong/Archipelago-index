@@ -4,3 +4,4 @@ default_url = "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/downloa
 
 [versions]
 "0.2.0-alpha" = {}
+"0.2.1-alpha" = {}
