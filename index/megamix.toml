@@ -3,6 +3,5 @@ home = "https://discord.com/channels/731205301247803413/1241134454391443580"
 default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{version}}/megamix.apworld"
 
 [versions]
-"1.1.9-beta3-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.1.9B-R_250427-f5afe77/megamix.apworld" }
 "1.2.0-beta-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250619-b5367f7/megamix.apworld" }
 "1.2.0-beta2-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250714-371e2cf/megamix.apworld" }
