@@ -1,0 +1,7 @@
+name = "WEBFISHING"
+display_name = "Webfishing"
+home = "https://discord.com/channels/731205301247803413/1299564055597416449"
+default_url = "https://github.com/mwoiii/webfishing-ap/releases/download/v{{version}}/webfishing.apworld"
+
+[versions]
+"1.1.8-alpha" = {}
