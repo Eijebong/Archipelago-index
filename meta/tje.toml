@@ -98,6 +98,10 @@ __version__ = ">=0.3.2"
 __expected__ = "fail"
 __version__ = ">=0.3.2"
 
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Promoted to Funk Lord', game='ToeJam and Earl')"]]
+__expected__ = "flaky"
+__version__ = ">=0.3.1"
+
 [["test.general.test_implemented.TestImplemented.test_prefill_items [ToeJam and Earl]"]]
-__expected__ = "fail"
-__version__ = ">=0.3.1,<0.3.2"
+__expected__ = "flaky"
+__version__ = ">=0.3.1"

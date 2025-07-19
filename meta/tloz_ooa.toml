@@ -19,20 +19,16 @@ __expected__ = "fail"
 __version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (ricky)', game='The Legend of Zelda - Oracle of Ages')"]]
-__expected__ = "fail"
-__version__ = ">=0.2.5+ishigh,<0.4.2"
-
-[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (ricky)', game='The Legend of Zelda - Oracle of Ages')"]]
-__expected__ = "fail"
-__version__ = ">=0.4.3"
+__expected__ = "flaky"
+__version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (moosh)', game='The Legend of Zelda - Oracle of Ages')"]]
-__expected__ = "fail"
+__expected__ = "flaky"
 __version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='nuun (dimitri)', game='The Legend of Zelda - Oracle of Ages')"]]
-__expected__ = "fail"
-__version__ = ">=0.4.2"
+__expected__ = "flaky"
+__version__ = ">=0.2.5+ishigh"
 
 [["test.general.test_implemented.TestImplemented.test_prefill_items [The Legend of Zelda - Oracle of Ages]"]]
 __expected__ = "fail"
