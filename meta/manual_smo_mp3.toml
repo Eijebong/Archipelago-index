@@ -1,3 +1,7 @@
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SMO_mp3', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=2.2.2"
+
+[["test.general.test_implemented.TestImplemented.test_prefill_items [Manual_SMO_mp3]"]]
+__expected__ = "fail"
+__version__ = ">=2.2.2"

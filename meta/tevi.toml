@@ -493,3 +493,7 @@ __version__ = ">=0.5.5"
 [["test.general.test_locations.TestBase.test_location_group [Orb Type Upgrade] (group_name='Orb Type Upgrade', game_name='Tevi')"]]
 __expected__ = "fail"
 __version__ = ">=0.5.5"
+
+[["test.general.test_implemented.TestImplemented.test_prefill_items [Tevi]"]]
+__expected__ = "fail"
+__version__ = ">=0.5.5"

@@ -97,3 +97,7 @@ __version__ = ">=0.3.2"
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bonus Hitops', game_name='ToeJam and Earl')"]]
 __expected__ = "fail"
 __version__ = ">=0.3.2"
+
+[["test.general.test_implemented.TestImplemented.test_prefill_items [ToeJam and Earl]"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1,<0.3.2"

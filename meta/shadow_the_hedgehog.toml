@@ -5,3 +5,11 @@ __version__ = ">=0.0.9"
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='REGION_Weapon:Shadow Rifle', game='Shadow The Hedgehog')"]]
 __expected__ = "fail"
 __version__ = ">=0.0.9"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Shadow The Hedgehog')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate without link replacement] (game='Shadow The Hedgehog')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"

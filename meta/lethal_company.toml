@@ -9,3 +9,11 @@ __version__ = ">=0.6.9-beta,<0.6.13-beta"
 [["test.general.test_groups.TestNameGroups.test_location_name_groups_not_empty (game='Lethal Company')"]]
 __expected__ = "fail"
 __version__ = ">=0.7.1-beta"
+
+[["test.general.test_implemented.TestImplemented.test_prefill_items [Lethal Company]"]]
+__expected__ = "fail"
+__version__ = ">=0.6.9-beta,<0.6.13-beta"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Lethal Company')"]]
+__expected__ = "error"
+__version__ = ">=0.6.9-beta"

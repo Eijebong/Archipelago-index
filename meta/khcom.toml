@@ -1,3 +1,7 @@
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Heartless Neoshadow', game='Kingdom Hearts Chain of Memories')"]]
 __expected__ = "fail"
 __version__ = ">=1.0.0"
+
+[["test.general.test_implemented.TestImplemented.test_prefill_items [Kingdom Hearts Chain of Memories]"]]
+__expected__ = "fail"
+__version__ = ">=1.0.0"

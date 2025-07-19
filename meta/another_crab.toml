@@ -13,3 +13,7 @@ __version__ = ">=0.3.1"
 [["test.general.test_locations.TestBase.test_location_group [Shells] (group_name='Shells', game_name='Another Crabs Treasure')"]]
 __expected__ = "fail"
 __version__ = ">=0.3.1"
+
+[["test.general.test_implemented.TestImplemented.test_prefill_items [Another Crabs Treasure]"]]
+__expected__ = "fail"
+__version__ = ">=0.3.1"
