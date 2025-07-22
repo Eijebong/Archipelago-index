@@ -1,4 +1,4 @@
-name = "ActRaiser"
+name = "Actraiser"
 home = "https://discord.com/channels/731205301247803413/1113529234800005181"
 default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/apraiser_v{{version}}/actraiser.apworld"
 
