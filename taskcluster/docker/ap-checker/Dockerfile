@@ -17,6 +17,12 @@ RUN mkdir -p /builds && \
     mkdir /builds/worker/checkouts && \
     chown -R worker:worker /builds/worker /ap/archipelago
 
+# Add UT to worlds
+ADD --chmod=755 --checksum=sha256:279128ceb716e9954b38ea8e246276adb133411cec31157eed6b0a3fcabb572b https://github.com/FarisTheAncient/Archipelago/releases/download/Tracker_v0.2.23/tracker.apworld /ap/archipelago/worlds
+
+# UT needs that even if it doesn't use it?
+RUN mkdir /ap/archipelago/Players
+
 ENV SHELL=/bin/bash \
     HOME=/builds/worker \
     PATH=/builds/worker/.local/bin:$PATH

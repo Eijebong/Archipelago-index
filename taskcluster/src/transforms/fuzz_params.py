@@ -35,7 +35,7 @@ def fuzz_params(config, tasks):
 
     extra_args = ""
     if args.hook:
-        extra_args += " --hook " + shlex.quote(args.hook)
+        extra_args += "-t60 --dump-ignored --hook " + shlex.quote(args.hook)
     if args.skip_output:
         extra_args += " --skip-output"
 
