@@ -3,7 +3,9 @@ FROM ghcr.io/eijebong/apwm:latest as apwm
 FROM ghcr.io/eijebong/archipelago-worker:latest
 
 # %include-run-task
+# %include scripts/aplint_from_diff.py
 COPY --from=apwm /usr/local/bin/apwm /usr/local/bin/apwm
+COPY /topsrcdir/scripts/aplint_from_diff.py /ap/archipelago/aplint_from_diff.py
 
 RUN apt update && apt install -y git jq zip
 

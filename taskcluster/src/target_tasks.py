@@ -25,7 +25,7 @@ def _filter_for_pr(tasks, parameters, force=[]):
 
 
     for artifact in list_artifacts(diff_task):
-        if not artifact['name'].startswith('public/diffs/'):
+        if not artifact['name'].startswith('public/diffs/') or not artifact['name'].endswith('.apdiff'):
             continue
 
         diff_response = get_artifact(diff_task, artifact['name'])

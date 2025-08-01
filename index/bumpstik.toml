@@ -1,3 +1,7 @@
 name = "Bumper Stickers"
 home = "https://archipelago.gg"
 supported = true
+# Client is busted on 0.6.2
+# There's a fix but that version doesn't receive items properly
+# https://discord.com/channels/731205301247803413/1148330200891932742/1395222893662703749
+disabled = true

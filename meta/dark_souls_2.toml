@@ -1,6 +1,6 @@
 [["test.general.test_items.TestBase.test_item_name_group_conflict [Fragrant Branch of Yore] (group_name='Fragrant Branch of Yore', game_name='Dark Souls II')"]]
 __expected__ = "fail"
-__version__ = ">=0.5.4"
+__version__ = ">=0.5.4,<0.5.5"
 
 [["test.general.test_items.TestBase.test_item_name_group_has_valid_item [fire_res_rings] (group_name='fire_res_rings', game_name='Dark Souls II')"]]
 __expected__ = "fail"
