@@ -1,0 +1,39 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_PeggleDeluxe_Freezinater')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.8"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_PeggleDeluxe_Freezinater')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='full_clears_are_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='challenges_are_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='insane_challenges_are_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='bonus_stage_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='purpleless_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='orangesanity')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='fever_bonus_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PeggleDeluxe_Freezinater', option='shuffle_starting_balls')"]]
+__expected__ = "error"
+__version__ = ">=0.0.8"

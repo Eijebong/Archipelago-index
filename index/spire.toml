@@ -1,6 +1,5 @@
 name = "Slay the Spire"
 home = "https://discord.com/channels/731205301247803413/884926940182609920"
-supported = true
 default_url = "https://github.com/cjmang/StS-AP-World/releases/download/{{version}}/spire.apworld"
 
 [versions]

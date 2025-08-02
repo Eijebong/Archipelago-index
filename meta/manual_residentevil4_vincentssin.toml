@@ -1,0 +1,87 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Matilda] (group_name='Matilda', game_name='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Infinite Launcher] (group_name='Infinite Launcher', game_name='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Chicago Typewriter] (group_name='Chicago Typewriter', game_name='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Handcannon] (group_name='Handcannon', game_name='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [P.R.L. 412] (group_name='P.R.L. 412', game_name='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Separate Ways] (group_name='Separate Ways', game_name='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_ResidentEvil4_VincentsSin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Herbs')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='TreasureLocations')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Crows')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MerchantWeapons')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MerchantUpgrades')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MerchantExclusives')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Matilda')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='InfiniteLauncher')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='ChicagoTypewriter')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Handcannon')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='PRL412')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='SeparateWays')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MercenariesMode')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='NewGamePlus')"]]
+__expected__ = "error"
+__version__ = ">=1.0.4"

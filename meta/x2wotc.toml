@@ -1,0 +1,59 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Progressive Rifle] (group_name='[Tech] Progressive Rifle', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Magnetic Weapons] (group_name='[Tech] Magnetic Weapons', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Plasma Rifle] (group_name='[Tech] Plasma Rifle', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Progressive Melee Weapon] (group_name='[Tech] Progressive Melee Weapon', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] ADVENT Stun Lancer Autopsy] (group_name='[Tech] ADVENT Stun Lancer Autopsy', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Archon Autopsy] (group_name='[Tech] Archon Autopsy', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Progressive Armor] (group_name='[Tech] Progressive Armor', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Plated Armor] (group_name='[Tech] Plated Armor', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Powered Armor] (group_name='[Tech] Powered Armor', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Progressive GREMLIN] (group_name='[Tech] Progressive GREMLIN', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] ADVENT MEC Breakdown] (group_name='[Tech] ADVENT MEC Breakdown', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Sectopod Breakdown] (group_name='[Tech] Sectopod Breakdown', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Progressive Psionics] (group_name='[Tech] Progressive Psionics', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Psionics] (group_name='[Tech] Psionics', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [[Tech] Gatekeeper Autopsy] (group_name='[Tech] Gatekeeper Autopsy', game_name='XCOM 2 War of the Chosen')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.1-beta"

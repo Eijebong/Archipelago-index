@@ -3,5 +3,4 @@ home = "https://github.com/Ishigh1/ITB-randomizer-for-AP"
 default_url = "https://github.com/Ishigh1/ITB-randomizer-for-AP/releases/download/v{{version}}/into_the_breach.apworld"
 
 [versions]
-"0.15.1" = { local = "../apworlds/into_the_breach-0.15.1.apworld" }
 "0.15.15" = {}

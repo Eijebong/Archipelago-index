@@ -1,0 +1,7 @@
+name = "Super Mario Sunshine Arcade 2"
+home = "https://discord.com/channels/731205301247803413/1399897298301096048"
+default_url = "https://github.com/Jorbori/SMSA2AP/releases/download/{{version}}/smsa2.apworld"
+
+[versions]
+
+"0.1.2" = {}

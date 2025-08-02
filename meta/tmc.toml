@@ -1,0 +1,7 @@
+[["test.general.test_implemented.TestImplemented.test_prefill_items [The Minish Cap]"]]
+__expected__ = "fail"
+__version__ = ">=0.0.10,<0.1.0-rc2"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='The Minish Cap')"]]
+__expected__ = "error"
+__version__ = ">=0.1.0-rc2"

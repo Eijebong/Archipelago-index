@@ -1,0 +1,11 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=0.0.0+20241119"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.0+20241119"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='start_with_deadpool')"]]
+__expected__ = "error"
+__version__ = ">=0.0.0+20241119"
