@@ -1,0 +1,5 @@
+name = "Vacation Simulator"
+home = "https://discord.com/channels/731205301247803413/1204935955580985414"
+
+[versions]
+"0.1.0" = { local = "../apworlds/vsim-0.1.0.apworld" }
