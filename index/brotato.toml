@@ -3,10 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1154944430097313803"
 default_url = "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases/download/v{{version}}/brotato.apworld"
 
 [versions]
-"0.5.0" = {}
-"0.6.0" = {}
-"0.7.1" = {}
-"0.7.2" = {}
 "0.8.0" = {}
 "0.8.1" = {}
 "0.8.2" = {}
+"0.10.0" = {}
