@@ -6,3 +6,4 @@ default_url = "https://github.com/ArsonAssassin/S3AP/releases/download/{{version
 "0.2.3" = {}
 "0.3.0" = {}
 "0.5.2" = {}
+"1.0.1" = {}
