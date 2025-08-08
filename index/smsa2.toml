@@ -5,3 +5,4 @@ default_url = "https://github.com/Jorbori/SMSA2AP/releases/download/{{version}}/
 [versions]
 
 "0.1.2" = {}
+"0.2.0" = {}
