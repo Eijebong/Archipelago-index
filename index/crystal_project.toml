@@ -1,0 +1,6 @@
+name = "Crystal Project"
+home = "https://discord.com/channels/731205301247803413/1193008693827076106"
+default_url = "https://github.com/Emerassi/CrystalProjectAPWorld/releases/download/CrystalProject-v{{version}}/crystal_project.apworld"
+
+[versions]
+"0.7.0" = {}

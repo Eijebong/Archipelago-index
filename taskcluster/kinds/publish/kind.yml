@@ -42,13 +42,14 @@ tasks:
         /usr/local/bin/merge.sh
         git fetch origin main
         git reset --hard origin/main
+
         if [[ -f /tmp/expectations.patch ]]; then
           patch -p1 < /tmp/expectations.patch
           git add meta
           git commit -am "Update expectations"
         fi
 
-        git cherry-pick "${UPDATE_COMMIT}"
+        (git cherry-pick "${UPDATE_COMMIT}" || exit 0)
         git push repo HEAD:main
     fetches:
       diff-index:

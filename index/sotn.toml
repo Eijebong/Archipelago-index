@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1108439196156317818"
 
 [versions]
 "0.75.3-beta" = { url = "https://github.com/fdelduque/Archipelago/releases/download/b0753/sotn.apworld" }
+"0.81.4-alpha2" = { url = "https://github.com/fdelduque/Archipelago/releases/download/a08142/sotn.apworld" }

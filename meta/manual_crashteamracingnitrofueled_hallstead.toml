@@ -1,0 +1,27 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Turbo Track] (group_name='Turbo Track', game_name='Manual_CrashTeamRacingNitroFueled_Hallstead')"]]
+__expected__ = "fail"
+__version__ = ">=5.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Balanced] (group_name='Balanced', game_name='Manual_CrashTeamRacingNitroFueled_Hallstead')"]]
+__expected__ = "fail"
+__version__ = ">=5.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Speed] (group_name='Speed', game_name='Manual_CrashTeamRacingNitroFueled_Hallstead')"]]
+__expected__ = "fail"
+__version__ = ">=5.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Acceleration] (group_name='Acceleration', game_name='Manual_CrashTeamRacingNitroFueled_Hallstead')"]]
+__expected__ = "fail"
+__version__ = ">=5.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Turn] (group_name='Turn', game_name='Manual_CrashTeamRacingNitroFueled_Hallstead')"]]
+__expected__ = "fail"
+__version__ = ">=5.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Drift] (group_name='Drift', game_name='Manual_CrashTeamRacingNitroFueled_Hallstead')"]]
+__expected__ = "fail"
+__version__ = ">=5.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_CrashTeamRacingNitroFueled_Hallstead', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=5.1.0"

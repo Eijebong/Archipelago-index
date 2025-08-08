@@ -192,15 +192,15 @@ __version__ = ">=1.3.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Rain World', option='debug_output')"]]
 __expected__ = "fail"
-__version__ = ">=1.3.1"
+__version__ = ">=1.3.1,<1.3.2"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Rain World', option='predetermined_dynamic_warp_network_minimum_necklace_length')"]]
 __expected__ = "fail"
-__version__ = ">=1.3.1"
+__version__ = ">=1.3.1,<1.3.2"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Rain World', option='so_peeping')"]]
 __expected__ = "fail"
-__version__ = ">=1.3.1"
+__version__ = ">=1.3.1,<1.3.2"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Silent Construct', game='Rain World')"]]
 __expected__ = "fail"

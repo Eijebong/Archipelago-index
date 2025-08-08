@@ -33,7 +33,10 @@ tasks:
         for f in meta/*.toml; do
           if [[ ! -s "$f" ]]; then
             rm $f
+          else
+            mv "$f" "${f//+/ }" || true
           fi
+
         done
 
         git add meta && git commit --allow-empty -am "Update expectations" && git format-patch --stdout @^ > /builds/worker/artifacts/expectations.patch

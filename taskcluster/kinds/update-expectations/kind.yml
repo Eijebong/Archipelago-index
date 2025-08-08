@@ -34,12 +34,12 @@ tasks:
         git config --global user.name "Nobody"
         git config --global user.email "nobody@localhost"
         (git remote add repo https://github.com/Eijebong/Archipelago-index.git || true)
-        git commit -am WIP
+        git commit -am WIP || true
         git pull -r repo main || exit 1
 
         apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
         if [[ "${PREVIOUS_TASK}" != "" ]]; then
-          curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${TEST_APWORLD_NAME}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
+          curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${TEST_APWORLD_NAME// /+}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
           if [[ ! -s "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml" ]]; then
             rm "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
           fi
@@ -50,7 +50,7 @@ tasks:
         cd /ap/archipelago && source .venv/bin/activate
         unshare -r -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results;
         export STATUS=$?;
-        touch "/builds/worker/test_results/${TEST_APWORLD_NAME}";
+        touch "/builds/worker/test_results/${TEST_APWORLD_NAME}.toml";
 
         # If status is 69; we had a fill error and we can't trust the results, exit with the proper code so it retries
         if [[ $STATUS -eq 69 ]]; then
