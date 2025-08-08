@@ -1,0 +1,6 @@
+name = "Mindustry"
+home = "https://discord.com/channels/731205301247803413/1160797230161211472"
+default_url = "https://github.com/JohnMahglass/Archipelago-Mindustry/releases/download/v{{version}}/mindustry.apworld"
+
+[versions]
+"0.4.0" = {}
