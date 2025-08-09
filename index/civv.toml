@@ -1,0 +1,6 @@
+name = "Civilization V"
+home = "https://discord.com/channels/731205301247803413/1342924294757552229"
+default_url = "https://github.com/1313e/Civ-V-AP-World/releases/download/v{{version}}/civv.apworld"
+
+[versions]
+"0.6.1" = {}
