@@ -1,7 +1,7 @@
 name = "Manual_ResidentEvil4_VincentsSin"
 home = "https://discord.com/channels/1097532591650910289/1297382888614006859"
 display_name = "Manual: Resident Evil 4"
-default_url = "https://github.com/VincentsSin/Archipelago-RE4-2005/releases/download/v{{version}}/manual_residentevil4_vincentssin.apworld"
+default_url = "https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/download/v{{version}}/manual_residentevil4_vincentssin.apworld"
 
 [versions]
-"1.0.4" = {}
+"1.2.0" = {}
