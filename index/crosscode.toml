@@ -1,6 +1,7 @@
 name = "CrossCode"
 home = "https://discord.com/channels/731205301247803413/1128180904926396437"
 default_url = "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/download/{{version}}/crosscode.apworld"
+disabled = true # 8% failure rate, update is the same
 
 [versions]
 "0.6.3" = {}

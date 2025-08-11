@@ -1,6 +1,7 @@
 name = "Risk of Rain"
 home = "https://discord.com/channels/731205301247803413/1193665646467231764"
 default_url = "https://github.com/studkid/RoR_Archipelago/releases/download/v{{version}}/ror1.apworld"
+disabled = true # 20% failure rate
 
 [versions]
 "0.6.0" = { url = "https://github.com/studkid/RoR_Archipelago/releases/download/v0.6/ror1.apworld" }

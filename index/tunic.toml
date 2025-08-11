@@ -4,7 +4,4 @@ supported = true
 default_url =  "https://github.com/silent-destroyer/tunic-randomizer/releases/download/{{version}}/tunic.apworld"
 
 [versions]
-"4.0.3" = {}
-"4.1.1" = {}
-"4.2.3" = {}
 "4.2.6" = {}
