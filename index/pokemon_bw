@@ -1,0 +1,6 @@
+name = "pokemon_bw"
+home = "https://discord.com/channels/731205301247803413/1135271985312702594"
+default_url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/{{version}}/pokemon_bw.apworld"
+
+[versions]
+ "0.1.2" = {}
