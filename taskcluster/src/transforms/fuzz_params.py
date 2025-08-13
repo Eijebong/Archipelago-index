@@ -1,5 +1,6 @@
 from taskgraph.transforms.base import TransformSequence
 import argparse
+import copy
 import shlex
 import os
 
@@ -8,7 +9,7 @@ transforms = TransformSequence()
 parser = argparse.ArgumentParser(exit_on_error=False)
 parser.add_argument("-r", "--runs", default=100, type=int)
 parser.add_argument("-n", "--yamls_per_run", default="1", type=str)
-parser.add_argument("--classifier", default=None)
+parser.add_argument("--hook", default=None)
 parser.add_argument("--skip-output", default=False, action='store_true')
 
 @transforms.add
@@ -25,14 +26,16 @@ def fuzz_params(config, tasks):
                 raw_params = line.removeprefix("fuzz").strip()
                 break
 
+    dupe_with_empty = False
     if raw_params is None:
-        raw_params = "-r 10000 -n 1"
+        raw_params = "-r 5000 -n 1"
+        dupe_with_empty = True
 
     args = parser.parse_args(shlex.split(raw_params))
 
     extra_args = ""
-    if args.classifier:
-        extra_args += " --classifier " + shlex.quote(args.classifier)
+    if args.hook:
+        extra_args += " --hook " + shlex.quote(args.hook)
     if args.skip_output:
         extra_args += " --skip-output"
 
@@ -41,5 +44,12 @@ def fuzz_params(config, tasks):
         env["FUZZ_RUNS"] = str(args.runs)
         env["FUZZ_YAMLS_PER_RUN"] = str(args.yamls_per_run)
         env["FUZZ_EXTRA_ARGS"] = extra_args
+
+        yield copy.deepcopy(task)
+
+        if dupe_with_empty:
+            task["label"] += "-no-restrictive-starts"
+
+        env["FUZZ_EXTRA_ARGS"] = extra_args + "--hook hooks.with_empty:Hook"
 
         yield task
