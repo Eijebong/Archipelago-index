@@ -1,0 +1,7 @@
+name = "Quake 1"
+home = "https://discord.com/channels/1085716850370957462/1390483937943621734"
+default_url = "https://github.com/randomcodegen/ironwail_ap/releases/download/{{version}}/quake.apworld"
+tags = ["ad"]
+
+[versions]
+"1.1.4" = {}
