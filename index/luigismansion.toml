@@ -5,3 +5,4 @@ default_url = "https://github.com/BootsinSoots/Archipelago/releases/download/V{{
 [versions]
 "0.4.9" = {}
 "0.4.10" = {}
+"0.5.1" = {}
