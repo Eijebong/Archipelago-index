@@ -1,0 +1,6 @@
+name = "Clique"
+home = "https://discord.com/channels/731205301247803413/1090815835825774683"
+default_url = "https://pharware.com/git/Phar/Clique/releases/download/{{version}}/clique.apworld"
+
+[versions]
+"1.5.4" = {}
