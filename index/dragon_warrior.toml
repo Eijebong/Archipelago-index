@@ -1,0 +1,6 @@
+name = "Dragon Warrior"
+home = "https://discord.com/channels/731205301247803413/1132150057852997733"
+default_url = "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/download/V{{version}}/dragon_warrior.apworld"
+
+[versions]
+"0.1.0" = {}
