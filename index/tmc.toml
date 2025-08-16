@@ -6,3 +6,4 @@ default_url = "https://github.com/eternalcode0/Archipelago/releases/download/v{{
 "0.0.10" = {}
 "0.1.0-rc2" = {}
 "0.1.0" = {}
+"0.2.0" = {}
