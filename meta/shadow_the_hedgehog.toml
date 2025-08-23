@@ -1,15 +1,15 @@
 [["test.general.test_items.TestBase.test_item_count_equal_locations [Game] (game='Shadow The Hedgehog')"]]
 __expected__ = "fail"
-__version__ = ">=0.0.9"
+__version__ = ">=0.0.9,<0.2.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='REGION_Weapon:Shadow Rifle', game='Shadow The Hedgehog')"]]
 __expected__ = "fail"
-__version__ = ">=0.0.9"
+__version__ = ">=0.0.9,<0.2.6"
 
 [["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Shadow The Hedgehog')"]]
 __expected__ = "error"
-__version__ = ">=0.0.8"
+__version__ = ">=0.0.8,<0.2.6"
 
 [["test.general.test_items.TestBase.test_item_links [Can generate without link replacement] (game='Shadow The Hedgehog')"]]
 __expected__ = "error"
-__version__ = ">=0.0.8"
+__version__ = ">=0.0.8,<0.2.6"
