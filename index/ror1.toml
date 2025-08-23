@@ -3,5 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1193665646467231764"
 default_url = "https://github.com/studkid/RoR_Archipelago/releases/download/v{{version}}/ror1.apworld"
 
 [versions]
-"0.4.6" = {}
-"0.5.1" = {}
+"0.6.0" = { url = "https://github.com/studkid/RoR_Archipelago/releases/download/v0.6/ror1.apworld" }
