@@ -5,3 +5,4 @@ default_url = "https://github.com/silasary/APxiv/releases/download/{{version}}/f
 
 [versions]
 "0.22.0" = {}
+"0.25.0" = {}
