@@ -1,0 +1,79 @@
+[["test.general.test_locations.TestBase.test_location_group [John Gutter] (group_name='John Gutter', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Pizzascape] (group_name='Pizzascape', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Ancient Cheese] (group_name='Ancient Cheese', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Bloodsauce Dungeon] (group_name='Bloodsauce Dungeon', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Oregano Desert] (group_name='Oregano Desert', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Wasteyard] (group_name='Wasteyard', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Fun Farm] (group_name='Fun Farm', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Fastfood Saloon] (group_name='Fastfood Saloon', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Crust Cove] (group_name='Crust Cove', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Gnome Forest] (group_name='Gnome Forest', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Deep-Dish 9] (group_name='Deep-Dish 9', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [GOLF] (group_name='GOLF', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [The Pig City] (group_name='The Pig City', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Peppibot Factory] (group_name='Peppibot Factory', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Oh Shit!] (group_name='Oh Shit!', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Freezerator] (group_name='Freezerator', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Pizzascare] (group_name='Pizzascare', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Don't Make A Sound] (group_name=\"Don't Make A Sound\", game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_locations.TestBase.test_location_group [WAR] (group_name='WAR', game_name='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Tricky Treat', game='Pizza Tower')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"

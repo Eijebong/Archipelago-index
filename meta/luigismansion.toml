@@ -1,0 +1,3 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Dust] (group_name='Dust', game_name=\"Luigi's Mansion\")"]]
+__expected__ = "fail"
+__version__ = ">=0.5.1"

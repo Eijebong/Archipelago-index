@@ -1,0 +1,7 @@
+name = "Noita-Killsanity"
+display_name = "Noita (Killsanity)"
+home = "https://discord.com/channels/731205301247803413/1109174779619057795"
+default_url = "https://github.com/madolinn/NoitaArchipelago/releases/download/v{{version}}/noita-killsanity.apworld"
+
+[versions]
+"0.9.3" = {}

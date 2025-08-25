@@ -8,3 +8,4 @@ home = "https://github.com/ManualForArchipelago/Manual"
 # To update, repack by renaming it from `manual_stable_{{version}}` to `manual_ultimatemarvelvscapcom3_manualteam.apworld`, don't forget to rename the folder inside to the same.
 # You also need to update `data/game.json`, set game to `UltimateMarvelVsCapcom3` and author to `ManualTeam`
 "0.0.0+20241119" = { local = "../apworlds/manual_ultimatemarvelvscapcom3_manualteam-20241119.apworld" }
+"0.0.0+20250714" = { local = "../apworlds/manual_ultimatemarvelvscapcom3_manualteam-20250714.apworld" }

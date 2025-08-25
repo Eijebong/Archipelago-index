@@ -1,6 +1,8 @@
-name = "Manual_NightmareKart_LOLZ"
+name = "Manual_NightmareKart_LOLZ1190"
 display_name = "Manual: Nightmare Kart"
 home = "https://discord.com/channels/1097532591650910289/1333827572462784572"
+tags = ["ad"]
 
 [versions]
-"0.0.1" = { local = "../apworlds/manual_nightmarekart_lolz-0.0.1.apworld" }
+# https://discord.com/channels/1097532591650910289/1333827572462784572/1386004939133947915
+"0.0.2" = { local = "../apworlds/manual_nightmarekart_lolz-0.0.2.apworld" }

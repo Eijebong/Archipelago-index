@@ -1,0 +1,6 @@
+name = "Vespadian"
+home = "https://github.com/Quinn-Patrick/Archipelago-Vespadian"
+default_url = "https://github.com/Quinn-Patrick/Archipelago-Vespadian/releases/download/V{{version}}/vespadian.apworld"
+
+[versions]
+"0.1.1" = {}

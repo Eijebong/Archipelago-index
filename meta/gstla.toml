@@ -1,0 +1,11 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Mimic] (group_name='Mimic', game_name='Golden Sun The Lost Age')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.1-alpha"
+
+[["test.general.test_patches.TestPatches.test_patch_name_matches_game (game='Golden Sun: The Lost Age')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.1-alpha"
+
+[["test.general.test_locations.TestBase.test_location_group [Gabomba Statue] (group_name='Gabomba Statue', game_name='Golden Sun The Lost Age')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.2-alpha"

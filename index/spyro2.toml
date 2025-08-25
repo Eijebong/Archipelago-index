@@ -1,0 +1,6 @@
+name = "Spyro 2"
+home = "https://discord.com/channels/731205301247803413/1281660590431015046"
+default_url = "https://github.com/Uroogla/S2AP/releases/download/{{version}}/spyro2.apworld"
+
+[versions]
+"0.1.2" = {}

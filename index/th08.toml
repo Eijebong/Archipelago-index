@@ -1,0 +1,7 @@
+name = "Touhou Eiyashou ~ Imperishable Night"
+home = "https://discord.com/channels/1085716850370957462/1397282580646203653"
+default_url = "https://github.com/Nepley/in-apworld/releases/download/v{{version}}/th08.apworld"
+tags = ["ad"]
+
+[versions]
+"0.1.3" = {}

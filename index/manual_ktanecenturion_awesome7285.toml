@@ -1,0 +1,5 @@
+name = "Manual_KTaNE Centurion_Awesome7285"
+display_name = "Manual: KTaNe Centurion"
+
+[versions]
+"0.1.2+repacked" = { local = "../apworlds/manual_ktanecenturion_awesome7285-0.1.2+repacked.apworld" }

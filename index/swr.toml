@@ -3,6 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1207274588120158269"
 default_url = "https://github.com/wcolding/SWR_AP_Client/releases/download/v{{version}}/swr.apworld"
 
 [versions]
-"0.6.2" = { url = "https://github.com/wcolding/SWR_apworld/releases/download/v0.6.2/swr.apworld" }
-"0.7.0-preview" = { url = "https://github.com/wcolding/SWR_apworld/releases/download/v0.7.0-preview/swr.apworld" }
 "0.7.0" = {}

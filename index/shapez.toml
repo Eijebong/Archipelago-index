@@ -1,9 +1,3 @@
 name = "shapez"
-home = "https://discord.com/channels/731205301247803413/1259157584783478814"
-default_url = "https://github.com/BlastSlimey/shapezipelago/releases/download/{{version}}/shapez.apworld"
-
-[versions]
-"0.5.3" = {}
-"0.5.13" = {}
-"0.6.2" = {}
-"0.6.3" = {}
+home = "https://archipelago.gg"
+supported = true

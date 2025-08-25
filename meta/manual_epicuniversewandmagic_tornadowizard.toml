@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Wand] (group_name='Wand', game_name='Manual_EpicUniverseWandMagic_tornadowizard')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Bar Moonshine] (group_name='Bar Moonshine', game_name='Manual_EpicUniverseWandMagic_tornadowizard')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.0"

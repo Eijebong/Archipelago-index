@@ -1,0 +1,6 @@
+name = "Manual_SSBMSlippi_Delta"
+display_name = "Manual: Super Smash Bros Melee"
+home = "https://discord.com/channels/1097532591650910289/1200060248577298485"
+
+[versions]
+"0.0.2" = { local = "../apworlds/manual_ssbmslippi_delta-0.0.2.apworld" }

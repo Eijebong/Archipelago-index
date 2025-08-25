@@ -16,7 +16,7 @@ if [[ ! -d "$INDEX_ROOT/index" ]] then
 fi
 
 git clone https://github.com/ArchipelagoMW/Archipelago.git /tmp/ap
-(cd /tmp/ap && git reset --hard 0.6.1)
+(cd /tmp/ap && git reset --hard 0.6.2)
 (cd /tmp/ap && find . -type f -exec dos2unix {} \;)
 
 for f in /tmp/ap/worlds/*; do
@@ -48,6 +48,16 @@ for f in /tmp/ap/worlds/*; do
     # same with saving princess
     if [[ "$(basename $f)" == "saving_princess" ]]; then
         GAME="Saving Princess"
+    fi
+
+    # And jakanddaxter
+    if [[ "$(basename $f)" == "jakanddaxter" ]]; then
+        GAME="Jak and Daxter: The Precursor Legacy"
+    fi
+
+    # And shapez
+    if [[ "$(basename $f)" == "shapez" ]]; then
+        GAME="shapez"
     fi
 
     if [[ "$GAME" == "" ]]; then

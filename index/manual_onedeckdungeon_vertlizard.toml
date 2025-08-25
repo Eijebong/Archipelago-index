@@ -1,0 +1,6 @@
+name = "Manual_onedeckdungeon_vertlizard"
+display_name = "Manual: One Deck Dungeon (vertlizard)"
+home = "https://github.com/vertlizard/OneDeckDungeon_APmanual"
+
+[versions]
+"0.0.1" = { url = "https://github.com/vertlizard/OneDeckDungeon_APmanual/releases/download/v0.0.1/manual_onedeckdungeon_vertlizard.apworld" }

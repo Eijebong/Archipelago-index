@@ -1,5 +1,6 @@
 name = "Balatro"
 home = "https://discord.com/channels/731205301247803413/1220179325739864168"
+disabled = true
 
 [versions]
 "0.1.9-b" = { url = "https://github.com/BurndiL/BalatroAP/releases/download/v0.1.9b/balatro.apworld" }

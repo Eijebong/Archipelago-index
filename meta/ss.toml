@@ -1,0 +1,3 @@
+[["test.general.test_locations.TestBase.test_locations_in_datapackage [Game] (game_name='Skyward Sword')"]]
+__expected__ = "fail"
+__version__ = ">=0.5.2"

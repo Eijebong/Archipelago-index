@@ -1,6 +1,0 @@
-name = "Manual_PeggleDeluxe_Freezinater"
-display_name = "Manual: Peggle Deluxe"
-home = "https://discord.com/channels/1097532591650910289/1230564834387558480"
-
-[versions]
-"0.0.8" = { local = "../apworlds/manual_peggledeluxe_freezinater-0.0.8.apworld" }

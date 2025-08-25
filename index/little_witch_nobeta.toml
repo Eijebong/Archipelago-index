@@ -4,3 +4,4 @@ default_url = "https://github.com/danielgruethling/RandomizedWitchNobeta/release
 
 [versions]
 "0.1.4" = {}
+"0.1.5-alpha" = {}

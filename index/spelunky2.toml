@@ -1,7 +1,6 @@
 name = "Spelunky 2"
 home = "https://discord.com/channels/731205301247803413/1142626744629735555"
-default_url = "https://github.com/Eszenn/Spelunky-2-Archipelago/releases/download/Spelunky2v{{version}}/spelunky2.apworld"
+default_url = "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases/download/{{version}}/spelunky2.apworld"
 
 [versions]
-"0.1.0" = {}
-"0.1.1" = {}
+"0.2.4" = {}
