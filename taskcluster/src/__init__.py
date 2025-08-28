@@ -9,6 +9,7 @@ import os
 extend_parameters_schema({
     Optional("pull_request_number"): int,
     Optional("taskcluster_comment"): str,
+    Optional("try_config"): str,
 })
 
 @register_morph
@@ -46,3 +47,7 @@ def get_decision_parameters(graph_config, parameters):
     tc_comment = os.environ.get("TASKCLUSTER_COMMENT")
     if tc_comment is not None:
         parameters['taskcluster_comment'] = tc_comment
+
+    try_config = os.environ.get("TRY_CONFIG")
+    if try_config is not None:
+        parameters['try_config'] = try_config
