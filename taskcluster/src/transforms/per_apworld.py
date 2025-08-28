@@ -24,6 +24,7 @@ def create_task_for_apworld(config, original_task, world_name, apworld_name, ver
     task["label"] = f"{config.kind}-{apworld_name}-{version}"
     task.setdefault("attributes", {})["latest"] = latest
     task.setdefault("attributes", {})["apworld_name"] = apworld_name
+    task.setdefault("attributes", {})["version"] = version
 
     dependencies = [f"{dep}-{apworld_name}-{version}" for dep in ap_dependencies]
     for dep in dependencies:

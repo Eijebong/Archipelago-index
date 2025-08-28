@@ -1,807 +1,807 @@
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Manual_FFXIV_Silasary', option='max_party_size')"]]
 __expected__ = "fail"
-__version__ = ">=0.19.2,<0.21.2"
+__version__ = ">=0.22.0,<0.21.2"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_FFXIV_Silasary', option='goal')"]]
 __expected__ = "error"
-__version__ = ">=0.19.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_FFXIV_Silasary', option='include_guildhests')"]]
 __expected__ = "error"
-__version__ = ">=0.19.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_FFXIV_Silasary', option='include_bozja')"]]
 __expected__ = "error"
-__version__ = ">=0.19.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Memory of a Distant World', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Limsa Lominsa and Middle La Noscea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Gridania and Central Shroud Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Ul'dah and Central Thanalan Access\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Lower La Noscea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Eastern La Noscea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Western La Noscea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Upper La Noscea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Outer La Noscea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Wolves' Den Pier Access\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='East Shroud Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='South Shroud Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='North Shroud Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Western Thanalan Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Eastern Thanalan Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Southern Thanalan Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Northern Thanalan Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Coerthas Central Highlands Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Mor Dhona Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Ishgard Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Coerthas Western Highlands Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Sea of Clouds Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Dravanian Forelands Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Churning Mists Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Dravanian Hinterlands and Idyllshire Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Azys Lla Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Rhalgr's Reach Access\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Fringes Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Peaks Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Lochs Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Kugane Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Ruby Sea Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Yanxia Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Azim Steppe Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Crystarium Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Lakeland Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Kholusia Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Eulmore Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Amh Araeng Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Il Mheg Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"The Rak'tika Greatwood Access\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='The Tempest Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Old Sharlayan Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Labyrinthos Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Ultima Thule Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Thavnair Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Radz-at-Han Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Garlemald Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Mare Lamentorum Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Gangos Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Elpis Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bahamut Key', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Alexander Key', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Omega Key', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Eden Key', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Pandaemonium Key', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Arcadion Key', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Tuliyollal Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Urqopacha Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Kozama'uka Access\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Yak T'el Access\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Shaaloani Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Heritage Found Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Living Memory Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Solution Nine Access', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Lugworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Pill Bug', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Floating Minnow', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Goby Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Rat Tail', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Steel Jig', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Moth Pupa', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Crayfish Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Sinking Minnow', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Northern Krill', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bloodworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Wildfowl Fly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Butterworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Midge Basket', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Chocobo Fly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Yumizuno', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Spoon Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Crow Fly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Spinnerbait', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Shrimp Cage Feeder', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Herring Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Syrphid Basket', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Glowworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Stonefly Nymph', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Heavy Steel Jig', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Honey Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Stem Borer', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Snurble Fly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Mythril Spoon Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Spinner', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Krill Cage Feeder', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Streamer', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bass Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Topwater Frog', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Caddisfly Larva', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Rainbow Spoon Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Silver Spoon Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Freshwater Boilie', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Rolling Stone', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Saltwater Boilie', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Sand Leech', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Sand Gecko', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Balloon Bug', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Hoverworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Metal Spinner', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Purse Web Spider', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Brute Leech', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Giant Crane Fly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Red Balloon', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Goblin Jig', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bladed Steel Jig', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Signature Skyball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Fiend Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Versatile Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Magma Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Nightcrawler', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Salmon Roe', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Midge Larva', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Stonefly Larva', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Suspending Minnow', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Silkworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Live Shrimp', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bream Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Blue Bobbit', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Marble Nymph', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Fruit Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Robber Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Baitbugs', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Moyebi Shrimp', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Squid Strip', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Short Bill Minnow', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Desert Dessert Frog', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Jerked Ovim', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Shrimp Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Mackerel Strip', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Gold Salmon Roe', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Leech', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Sky Spoon Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Mayfly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Grey Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Chimera Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Panic Jig', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Stardust', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Pot Of Stardust', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Select Bait Ball', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Plump Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Popper Lure', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Golden Stonefly Nymph', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Honeybee', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Crimson Lugworm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Shucked Clam', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Silkmoth Pupa', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='White Worm', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Cloud-Eye Carp', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Basket Of Red Maggots', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Yak T'El Crab\", game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Cactuar Jig', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Dragonfly', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Ghost Nipper', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 PLD Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 WAR Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 DRK Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 GNB Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 WHM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 SCH Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 AST Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 SGE Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 MNK Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 DRG Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 NIN Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 SAM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 RPR Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 VPR Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 BRD Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 MCH Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 DNC Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 BLM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 SMN Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 RDM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 PCT Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 BLU Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 CRP Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 BSM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 ARM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 GSM Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 LTW Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 WVR Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 ALC Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 CUL Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 MIN Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 BTN Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='5 FSH Levels', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='/pet', game_name='Manual_FFXIV_Silasary')"]]
 __expected__ = "fail"
-__version__ = ">=0.21.2"
+__version__ = ">=0.22.0"

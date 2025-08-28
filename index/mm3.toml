@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1250369456048177152"
 default_url = "https://github.com/Silvris/Archipelago/releases/download/mm3_{{version}}/mm3.apworld"
 
 [versions]
-"0.1.1" = {}
+"0.1.3" = {}
