@@ -4,3 +4,4 @@ disabled = true # 25% failure rate, 1.10.2 is the same rate
 
 [versions]
 "1.10.1" = { url = "https://github.com/wu4/Archipelago/releases/download/v0-beta.10.1/cavern_of_dreams.apworld" }
+"1.10.2" = { url = "https://github.com/wu4/Archipelago/releases/download/v0-beta.10.2/cavern_of_dreams.apworld" }
