@@ -37,8 +37,6 @@ tasks:
         /usr/local/bin/setup-ssh.sh
 
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true)
-        (git commit -am "Update lockfile" || exit 0)
-        export UPDATE_COMMIT="$(git log --pretty=format:'%H' -n 1)"
         /usr/local/bin/merge.sh
         git fetch origin main
         git reset --hard origin/main
@@ -49,13 +47,15 @@ tasks:
           (git commit -am "Update expectations" || exit 0)
         fi
 
-        (git cherry-pick "${UPDATE_COMMIT}" || exit 0)
+        if [[ -f /tmp/lock.diff ]] && [[ -s /tmp/lock.diff ]]; then
+          patch -p1 < /tmp/lock.diff && git add index.lock && (git commit -am "Update lockfile" || exit 0)
+        fi
         git push repo HEAD:main
     fetches:
       diff-index:
-        - artifact: index.lock
+        - artifact: lock.diff
           extract: false
-          dest: /builds/worker/checkouts/vcs
+          dest: /tmp
     attributes:
       soft-fetches:
         make-expectations-patch-make-patch:

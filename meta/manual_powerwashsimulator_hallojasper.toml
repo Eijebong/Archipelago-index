@@ -285,3 +285,35 @@ __version__ = ">=0.1.8"
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Lost_City_Palace')"]]
 __expected__ = "error"
 __version__ = ">=0.1.8"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Fire Station] (group_name='Fire Station', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Helter Skelter] (group_name='Helter Skelter', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Carousel] (group_name='Carousel', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Mars Rover] (group_name='Mars Rover', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Station')"]]
+__expected__ = "error"
+__version__ = ">=0.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Carousel')"]]
+__expected__ = "error"
+__version__ = ">=0.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Helter_Skelter')"]]
+__expected__ = "error"
+__version__ = ">=0.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mars_Rover')"]]
+__expected__ = "error"
+__version__ = ">=0.2.0"

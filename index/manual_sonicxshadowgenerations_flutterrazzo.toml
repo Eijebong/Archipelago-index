@@ -1,0 +1,7 @@
+name = "Manual_SonicXShadowGenerations_FlutterRazzo"
+display_name = "Manual: Sonic X - Shadow Generations"
+home = "https://discord.com/channels/1097532591650910289/1213231763103424622"
+
+[versions]
+# https://discord.com/channels/1097532591650910289/1213231763103424622/1405539392071929897
+"0.0.1" = { local = "../apworlds/manual_sonicxshadowgenerations_flutterrazzo-0.0.1.apworld" }

@@ -4,4 +4,4 @@ __version__ = ">=0.0.10,<0.1.0-rc2"
 
 [["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='The Minish Cap')"]]
 __expected__ = "error"
-__version__ = ">=0.1.0-rc2"
+__version__ = ">=0.1.0-rc2,<0.2.0"
