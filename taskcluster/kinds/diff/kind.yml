@@ -28,7 +28,8 @@ tasks:
         cd $VCS_PATH &&
         git config --global user.name "Nobody" &&
         git config --global user.email "nobody@localhost" &&
-        (git pull -r origin main || (git rebase --abort && exit 1)) &&
+        git fetch origin main &&
+        (git merge origin/main || (git merge --abort && exit 1)) &&
         mkdir -p /builds/worker/diffs &&
         apwm update -i ./ &&
         apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
