@@ -5,7 +5,7 @@ transforms = TransformSequence()
 
 @transforms.add
 def add_comment_scopes(config, tasks):
-    pr_number = str(os.environ.get("GITHUB_PULL_REQUEST_NUMBER", -1))
+    pr_number = config.params.get("pull_request_number", -1)
     project = config.params['project'].lower()
     for task in tasks:
         scopes = task.setdefault("scopes", [])

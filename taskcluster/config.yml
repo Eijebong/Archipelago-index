@@ -9,6 +9,7 @@ taskgraph:
       name: "Archipelago-index"
 
   register: src:register
+  decision-parameters: src:get_decision_parameters
 
 workers:
   aliases: {}

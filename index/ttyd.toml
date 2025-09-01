@@ -4,4 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1205136944259145728"
 default_url = "https://github.com/jamesbrq/ArchipelagoTTYD/releases/download/v{{version}}/ttyd.apworld"
 
 [versions]
-"0.4.0-HOTFIX" = {}
+"0.4.0+HOTFIX-fast-prefill" = { local = "../apworlds/ttyd-0.4.0+HOTFIX+fast-prefill.apworld" }
