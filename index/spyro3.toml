@@ -1,9 +1,10 @@
 name = "Spyro 3"
 home = "https://discord.com/channels/731205301247803413/1018847303722872843"
-default_url = "https://github.com/ArsonAssassin/S3AP/releases/download/{{version}}/spyro3.apworld"
+default_url = "https://github.com/Uroogla/S3AP/releases/download/{{version}}/spyro3.apworld"
 
 [versions]
-"0.2.3" = {}
-"0.3.0" = {}
-"0.5.2" = {}
-"1.0.1" = {}
+"0.2.3" = { url = "https://github.com/ArsonAssassin/S3AP/releases/download/0.2.3/spyro3.apworld" }
+"0.3.0" = { url = "https://github.com/ArsonAssassin/S3AP/releases/download/0.3.0/spyro3.apworld" }
+"0.5.2" = { url = "https://github.com/ArsonAssassin/S3AP/releases/download/0.5.2/spyro3.apworld" }
+"1.0.1" = { url = "https://github.com/ArsonAssassin/S3AP/releases/download/1.0.1/spyro3.apworld" }
+"1.1.0" = {}
