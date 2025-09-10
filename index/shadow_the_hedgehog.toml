@@ -1,9 +1,4 @@
 name = "Shadow The Hedgehog"
 home = "https://discord.com/channels/731205301247803413/1142558464242094200"
+disabled = true # 15% failure rate, updates are even worse
 
-# Downloaded from https://github.com/choatix/Archipelago/releases but they're
-# distributing the apworld in a zip file.
-
-[versions]
-"0.0.8" = { local = "../apworlds/shadow_the_hedgehog-0.0.8.apworld" }
-"0.0.9" = { local = "../apworlds/shadow_the_hedgehog-0.0.9.apworld" }

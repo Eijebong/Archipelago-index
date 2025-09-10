@@ -1,0 +1,6 @@
+name = "Manual_ClubhouseGames51_Buck"
+display_name = "Manual: Clubhouse Games - 51 Worldwide Classics"
+home = "https://discord.com/channels/1097532591650910289/1222398529486716929"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_clubhousegames51_buck-0.0.1.apworld" }

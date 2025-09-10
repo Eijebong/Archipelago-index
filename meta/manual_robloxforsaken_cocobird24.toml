@@ -1,6 +1,6 @@
 [["test.general.test_items.TestBase.test_item_name_group_conflict [Filler] (group_name='Filler', game_name='Manual_RobloxForsaken_Cocobird24')"]]
 __expected__ = "fail"
-__version__ = ">=0.0.1"
+__version__ = ">=0.0.2"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='Generator_Hell_2_Enabled')"]]
 __expected__ = "error"

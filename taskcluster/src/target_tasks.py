@@ -9,9 +9,9 @@ import shlex
 
 
 def _filter_for_pr(tasks, parameters, force=[]):
-    pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
+    pr_number = parameters.get("pull_request_number")
     if pr_number is None:
-        print("GITHUB_PULL_REQUEST_NUMBER missing, returning empty task set")
+        print("pull_request_number param missing, returning empty task set")
         return []
 
     project = parameters.get('project', 'unknown').lower()
@@ -88,8 +88,8 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
-    if "TRY_CONFIG" in os.environ:
-        return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"].split('\n')[0])
+    if parameters.get('try_config'):
+        return try_target_tasks(full_task_graph, parameters['try_config'].split('\n')[0])
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
 @register_target_task("rebuild-ap-worker")
