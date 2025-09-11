@@ -1,0 +1,6 @@
+name = "Manual_UmamusumePrettyDerby_Quindo"
+display_name = "Manual: Umamusume: Pretty Derby"
+home = "https://discord.com/channels/1097532591650910289/1404922064741077012"
+
+[versions]
+"0.0.1" = { url = "https://raw.githubusercontent.com/QuindoHL/ManualPrettyDerby/1ceb21d54020b810c22ecc23b0e34d72254add92/manual_umamusumeprettyderby_quindo.apworld" }
