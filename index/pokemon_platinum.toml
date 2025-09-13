@@ -1,0 +1,6 @@
+name = "Pokemon Platinum"
+home = "https://discord.com/channels/731205301247803413/1197311500528922655"
+default_url = "https://github.com/ljtpetersen/platinum_archipelago/releases/download/v{{version}}/pokemon_platinum.apworld"
+
+[versions]
+"0.1.4" = {}
