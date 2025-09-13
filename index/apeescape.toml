@@ -7,3 +7,4 @@ default_url = "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/d
 "0.8.7" = {}
 "0.8.8" = {}
 "0.8.9" = {}
+"0.9.0-a" = {url = "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/download/v0.9.0a/apeescape.apworld"}
