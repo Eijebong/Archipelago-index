@@ -2,4 +2,4 @@ name = "Metroid Fusion"
 home = "https://discord.com/channels/731205301247803413/1161319361345232946"
 
 [versions]
-"0.0.10" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/MF-v10/metroidfusion.apworld" }
+"0.0.14" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/MF-v14/metroidfusion.apworld" }
