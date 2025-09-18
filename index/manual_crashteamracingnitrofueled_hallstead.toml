@@ -1,6 +1,7 @@
 name = "Manual_CrashTeamRacingNitroFueled_Hallstead"
 home = "https://discord.com/channels/1097532591650910289/1200640681056682044"
 display_name = "Manual: Crash Team Racing: Nitro Fueled"
+disabled = true
 
 [versions]
-"5.1.0" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v5.1/manual_crashteamracingnitrofueled_hallstead.apworld" }
+"6.2.0" = { url = "https://github.com/Hallstead/manual_crashteamracingnitrofueled_hallstead/releases/download/v6.2/manual_crashteamracingnitrofueled_hallstead.apworld" }

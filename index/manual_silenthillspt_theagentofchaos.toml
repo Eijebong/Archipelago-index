@@ -1,0 +1,5 @@
+name = "Manual_SilentHillsPT_TheAgentOfChaos"
+display_name = "Manual: Silent Hills P.T."
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_silenthillspt_theagentofchaos-0.0.1.apworld" }

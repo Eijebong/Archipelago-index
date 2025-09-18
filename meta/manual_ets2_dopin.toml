@@ -1,0 +1,51 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Bosnia and Herzegovina', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Bulgaria', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Estonia', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Kosovo', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Lithuania', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Montenegro', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='North Macedonia', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Norway', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Portugal', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Romania', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Russia', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Serbia', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Türkiye', game='Manual_ETS2_dopin')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"

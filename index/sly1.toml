@@ -1,6 +1,8 @@
 name = "Sly Cooper and the Thievius Raccoonus"
 home = "https://discord.com/channels/731205301247803413/1170557242660093952"
 default_url = "https://github.com/hoppel16/ArchipelagoBranchSly1/releases/download/v{{version}}/sly1.apworld"
+# New versions fail the most basic of tests, old version require weird setup
+disabled = true
 
 [versions]
 "0.1.5-alpha" = {}
