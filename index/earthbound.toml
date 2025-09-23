@@ -5,3 +5,4 @@ default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/earth
 [versions]
 "4.2.1" = {}
 "4.2.5" = {}
+"4.2.6" = {}

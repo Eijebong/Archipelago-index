@@ -1,3 +1,7 @@
 [["test.general.test_implemented.TestImplemented.test_prefill_items [ULTRAKILL]"]]
 __expected__ = "flaky"
 __version__ = ">=3.2.4"
+
+[["test.general.test_locations.TestBase.test_location_group [7-S] (group_name='7-S', game_name='ULTRAKILL')"]]
+__expected__ = "fail"
+__version__ = ">=3.2.6"

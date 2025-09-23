@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='K-On! After School Live!!')"]]
+__expected__ = "error"
+__version__ = ">=1.1.1"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate without link replacement] (game='K-On! After School Live!!')"]]
+__expected__ = "error"
+__version__ = ">=1.1.1"
