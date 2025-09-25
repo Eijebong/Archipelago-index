@@ -2,4 +2,4 @@ name = "Lies Of P"
 home = "https://discord.com/channels/731205301247803413/1232017331232706680"
 
 [versions]
-"0.1.3" = {url = "https://github.com/Xtruh/LiesOfAP/releases" }
+"0.1.3" = { url = "https://github.com/Xtruh/LiesOfAP/releases" }
