@@ -1,0 +1,6 @@
+name = "Manual_HyruleWarriorsDefinitiveEdition_Elreaw"
+display_name = "Manual: Hyrule Warriors - Definitive Edition"
+home = "https://discord.com/channels/1097532591650910289/1223734731120578560"
+
+[versions]
+"0.0.1" = { url = "https://github.com/elreaw/Manual-Hyrule-Warriors-Definitiv-Edition/raw/refs/tags/Game/manual_hyrulewarriorsdefinitiveedition_elreaw.apworld" }
