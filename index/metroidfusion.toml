@@ -1,0 +1,5 @@
+name = "Metroid Fusion"
+home = "https://discord.com/channels/731205301247803413/1161319361345232946"
+
+[versions]
+"0.0.15" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/MF-v15/metroidfusion.apworld" }
