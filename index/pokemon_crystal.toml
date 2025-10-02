@@ -3,17 +3,6 @@ home = "https://discord.com/channels/731205301247803413/1365127145709502575"
 default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{version}}/pokemon_crystal.apworld"
 
 [versions]
-"4.0.0" = {}
-"4.0.1" = {}
-"4.0.2" = {}
-"4.0.3" = {}
-"4.0.5" = {}
-"4.0.6" = {}
-"4.0.7" = {}
-"4.0.8" = {}
-"4.0.9" = {}
-"4.0.10" = {}
-"4.0.11" = {}
 "4.0.12" = {}
 "5.0.0" = {}
 "5.0.1" = {}
@@ -25,3 +14,4 @@ default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{ve
 "5.1.3" = {}
 "5.1.4" = {}
 "5.1.5" = {}
+"5.1.6" = {}
