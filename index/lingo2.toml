@@ -1,0 +1,6 @@
+name = "Lingo 2"
+home = "https://discord.com/channels/731205301247803413/1351182605655080970"
+default_url = "https://files.fourisland.com/releases/lingo2-archipelago/apworld/v{{version}}/lingo2.apworld"
+
+[versions]
+"7.0.2" = {}
