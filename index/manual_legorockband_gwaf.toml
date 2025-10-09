@@ -1,0 +1,5 @@
+name = "Manual_LEGORockBand_GWAF"
+display_name = "Manual: LEGO Rock Band"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_legorockband_gwaf-0.0.1.apworld" }

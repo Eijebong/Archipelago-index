@@ -1,11 +1,6 @@
 name = "Kirby 64 - The Crystal Shards"
 home = "https://canary.discord.com/channels/731205301247803413/1175344681928904806"
 default_url = "https://github.com/Silvris/Archipelago/releases/download/k64_{{version}}/k64.apworld"
-# Breaks gen if there's is more than one k64 in the multiworld.
-# Reported here: https://discord.com/channels/731205301247803413/1175344681928904806/1362838498255704185
-disabled = true
 
 [versions]
-"0.1.3" = {}
-"0.1.4" = {}
-"0.2.1" = {}
+"0.2.2" = {}

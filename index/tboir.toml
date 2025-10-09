@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1044777889637339188"
 default_url =  "https://github.com/Cyb3RGER/TBoI-AP-Mod/releases/download/v{{version}}/tboir.apworld"
 
 [versions]
-"0.0.11" = {}
+"0.0.12" = {}

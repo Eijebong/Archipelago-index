@@ -1,0 +1,6 @@
+name = "Spinball"
+home = "https://discord.com/channels/731205301247803413/1325257989891952742"
+default_url = "https://github.com/spineraks-org/ArchipelagoSpinball/releases/download/v{{version}}/spinball.apworld"
+
+[versions]
+"0.0.1" = {}

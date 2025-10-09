@@ -1,0 +1,5 @@
+name = "Manual_Diablo2_Maragan"
+display_name = "Manual: Diablo 2"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_diablo2_maragan-0.0.1.apworld" }

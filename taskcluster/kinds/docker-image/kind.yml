@@ -3,9 +3,11 @@ loader: taskgraph.loader.transform:loader
 transforms:
     - taskgraph.transforms.docker_image:transforms
     - taskgraph.transforms.cached_tasks:transforms
+    - src.transforms.dont_cache_for_hooks
     - taskgraph.transforms.task:transforms
     - eije_taskgraph.transforms.build_image:transforms
     - eije_taskgraph.transforms.common:transforms
 
 tasks:
     publish: {}
+    ap-checker: {}

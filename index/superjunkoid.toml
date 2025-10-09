@@ -1,0 +1,6 @@
+name = "Super Junkoid"
+home = "https://discord.com/channels/731205301247803413/1196920710724071555"
+default_url = "https://github.com/Ninjakakes/Archipelago/releases/download/sj_v{{version}}/superjunkoid.apworld"
+
+[versions]
+"0.1.10" = {}

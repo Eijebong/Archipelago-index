@@ -1,0 +1,3 @@
+[["test.general.test_implemented.TestImplemented.test_completion_condition [Fire Emblem Sacred Stones]"]]
+__expected__ = "fail"
+__version__ = ">=0.3.2"

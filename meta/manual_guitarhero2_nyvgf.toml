@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_guitarhero2_nyvgf')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.2+zeenobae"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_guitarhero2_nyvgf')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.2+zeenobae"

@@ -1,0 +1,5 @@
+name = "WordSearch"
+home = "https://discord.com/channels/731205301247803413/1377289543467667638"
+
+[versions]
+"0.0.1" = { url = "https://github.com/ProfDeCube/Archipelago/releases/download/wordsearch/wordsearch.apworld" }

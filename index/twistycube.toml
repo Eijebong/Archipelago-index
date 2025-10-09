@@ -1,0 +1,6 @@
+name = "Twisty Cube"
+home = "https://discord.com/channels/731205301247803413/1420821472057757716"
+default_url = "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/download/v{{version}}/twistycube.apworld"
+
+[versions]
+"0.0.1" = {}

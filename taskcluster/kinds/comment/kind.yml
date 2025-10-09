@@ -1,0 +1,32 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+    - src.transforms.create_comment
+    - taskgraph.transforms.task
+
+kind-dependencies:
+  - diff
+
+tasks:
+  apdiff:
+    description: Create a comment on the PR with the diff link
+    worker-type: githubscript
+    run-on-tasks-for: ["github-pull-request", "github-pull-request-untrusted"]
+    dependencies:
+      diff-index: diff-index
+    if-dependencies:
+      - diff-index
+    worker:
+      implementation: githubscript-apdiff
+      diff-task: {task-reference: <diff-index>}
+  apdiff-from-lobby:
+    description: Create a comment on the PR with the diff link
+    worker-type: githubscript
+    run-on-tasks-for: []
+    dependencies:
+      diff-from-lobby-index: diff-from-lobby-index
+    if-dependencies:
+      - diff-from-lobby-index
+    worker:
+      implementation: githubscript-apdiff
+      diff-task: {task-reference: <diff-from-lobby-index>}

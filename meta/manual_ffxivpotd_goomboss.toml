@@ -1,0 +1,11 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Potion] (group_name='Potion', game_name='Manual_FFXIVPotD_Goomboss')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1-dopin"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_FFXIVPotD_Goomboss')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1-dopin"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_FFXIVPotD_Goomboss')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1-dopin"

@@ -1,0 +1,6 @@
+name = "Manual_EpicUniverseWandMagic_tornadowizard"
+display_name = "Manual: Epic Universe Wand Magic"
+home = "https://discord.com/channels/1097532591650910289/1381636766414671902"
+
+[versions]
+"1.0.0" = { url = "https://github.com/Tornadowizard/Wand-Magic-Epic-Universe/releases/download/1.0/manual_epicuniversewandmagic_tornadowizard.apworld" }

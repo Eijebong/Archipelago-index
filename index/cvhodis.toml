@@ -1,0 +1,6 @@
+name = "Castlevania - Harmony of Dissonance"
+home = "https://discord.com/channels/731205301247803413/1356897465046929498"
+default_url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvhodis_v{{version}}/cvhodis.apworld"
+
+[versions]
+"0.2.0-hf" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvhodis_v2.0hotfix/cvhodis.apworld" }

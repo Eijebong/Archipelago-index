@@ -1,0 +1,20 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+    - taskgraph.transforms.from_deps
+    - src.transforms.create_comment
+    - taskgraph.transforms.task
+
+kind-dependencies:
+  - ap-test
+
+tasks:
+  aptest:
+    from-deps: {}
+    description: Create a comment on the PR with the test results
+    worker-type: githubscript
+    run-on-tasks-for: []
+    requires: all-resolved
+    worker:
+      implementation: githubscript-aptest
+      test-task: {task-reference: <ap-test>}

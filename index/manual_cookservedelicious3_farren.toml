@@ -1,0 +1,6 @@
+name = "Manual_CookServeDelicious3_Farren"
+display_name = "Manual: Cook Serve Delicious 3"
+home = "https://github.com/Gearwcu/CookServeDelicious3-Manual"
+
+[versions]
+"1.0.1" = { url = "https://github.com/Gearwcu/CookServeDelicious3-Manual/releases/download/1.0.1/manual_cookservedelicious3_farren.apworld"}
