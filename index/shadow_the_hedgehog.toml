@@ -2,11 +2,5 @@ name = "Shadow The Hedgehog"
 home = "https://discord.com/channels/731205301247803413/1142558464242094200"
 default_url = "https://github.com/choatix/Archipelago/releases/download/shadow-{{version}}/shadow_the_hedgehog.apworld"
 
-# Downloaded from https://github.com/choatix/Archipelago/releases but they're
-# distributing the apworld in a zip file.
-
 [versions]
-"0.0.8" = { local = "../apworlds/shadow_the_hedgehog-0.0.8.apworld" }
-"0.0.9" = { local = "../apworlds/shadow_the_hedgehog-0.0.9.apworld" }
-"0.2.6" = { url = "https://github.com/choatix/Archipelago/releases/download/ShadowRelease0.2.6/shadow_the_hedgehog.apworld" }
 "0.2.7" = {}
