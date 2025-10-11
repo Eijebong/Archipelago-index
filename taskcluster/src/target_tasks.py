@@ -28,9 +28,11 @@ def _filter_for_pr(tasks, parameters, force=[]):
         if not artifact['name'].startswith('public/diffs/') or not artifact['name'].endswith('.apdiff'):
             continue
 
-        diff_response = get_artifact(diff_task, artifact['name'])
-        if diff_response.status != 200:
-            raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
+        try:
+            diff_response = get_artifact(diff_task, artifact['name'])
+        except Exception as exc:
+            raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
+
         diff = json.loads(diff_response.read())
 
         for version_range, diff_status in diff["diffs"].items():
