@@ -1,9 +1,7 @@
 name  = "Hatsune Miku Project Diva Mega Mix+"
 home = "https://discord.com/channels/731205301247803413/1241134454391443580"
-default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{version}}/megamix.apworld"
+default_url = "https://github.com/Cynichill/DivaAPworld/releases/download/{{version}}B/megamix.apworld"
 
 [versions]
-"1.2.0-beta-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250619-b5367f7/megamix.apworld" }
-"1.2.0-beta2-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250714-b060fe9/megamix.apworld" }
-"1.2.0-beta3-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250822-39b91aa/megamix.apworld" }
 "1.2.0-beta4-unofficial" = { url = "https://github.com/RePod/DivaAPworld-R/releases/download/1.2.0B-R_250914-de30205/megamix.apworld" }
+"1.3.1" = {}
