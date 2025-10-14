@@ -4,3 +4,5 @@ default_url = "https://github.com/Battlecats59/SS_APWorld/releases/download/v{{v
 
 [versions]
 "0.5.2" = {}
+"0.5.3" = {}
+

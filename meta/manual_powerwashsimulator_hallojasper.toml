@@ -317,3 +317,27 @@ __version__ = ">=0.2.0"
 [["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mars_Rover')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Mini Golf Course] (group_name='Mini Golf Course', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Gnome Fountain] (group_name='Gnome Fountain', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Steam Locomotive] (group_name='Steam Locomotive', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mini_Golf_Course')"]]
+__expected__ = "error"
+__version__ = ">=0.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Gnome_Fountain')"]]
+__expected__ = "error"
+__version__ = ">=0.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Steam_Locomotive')"]]
+__expected__ = "error"
+__version__ = ">=0.2.1"

@@ -1,0 +1,6 @@
+name = "Ratchet & Clank"
+home = "https://discord.com/channels/731205301247803413/1146024297324879872"
+default_url = "https://github.com/Panda291/Archipelago/releases/download/v{{version}}/rac1.apworld"
+
+[versions]
+"0.1.3" = {}

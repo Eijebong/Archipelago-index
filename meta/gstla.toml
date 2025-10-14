@@ -8,4 +8,4 @@ __version__ = ">=0.1.1-alpha"
 
 [["test.general.test_locations.TestBase.test_location_group [Gabomba Statue] (group_name='Gabomba Statue', game_name='Golden Sun The Lost Age')"]]
 __expected__ = "fail"
-__version__ = ">=0.1.2-alpha"
+__version__ = ">=0.1.2-alpha,<0.2.1-beta"

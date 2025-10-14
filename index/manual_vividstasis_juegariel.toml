@@ -1,0 +1,5 @@
+name = "Manual_vividstasis_JuegAriel"
+display_name = "Manual: Vivid/Statis"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_vividstasis_juegariel-0.0.1.apworld" }

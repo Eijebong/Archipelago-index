@@ -259,6 +259,7 @@ tasks:
                           command:
                               - run-task
                               - '--${normProject}-checkout=/builds/worker/checkouts/src'
+                              - '--${normProject}-shallow-clone'
                               - '--'
                               - bash
                               - -cx

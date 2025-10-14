@@ -1,0 +1,5 @@
+name = "Super Smash Bros. Melee"
+home = "https://discord.com/channels/731205301247803413/1179050965802942474"
+
+[versions]
+"1.1.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/meleeap1.1/melee.apworld" }

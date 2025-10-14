@@ -1,0 +1,99 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Assignment 6', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Assignment 7', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Assignment 8', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='DD2', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='DD3', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='DD4', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='DD5', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='DD6', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='EDD2', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='EDD3', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='EDD4', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='EDD5', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='EDD6', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WCH2', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WCH3', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WCH4', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WCH5', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WCH6', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WPA2', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WPA3', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WPA4', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WPA5', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='WPA6', game='Manual_DRG_Miro')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.2"

@@ -1,0 +1,6 @@
+name = "Manual_DRG_Miro"
+display_name = "Manual: Deep Rock Galactic"
+home = "https://discord.com/channels/1097532591650910289/1234221842357555221"
+
+[versions]
+"1.1.2" = { url = "https://github.com/Miro-n1/archipelago_manuals/releases/download/DRG_1.1.2/manual_drg_miro.apworld" }
