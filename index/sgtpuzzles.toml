@@ -5,3 +5,4 @@ default_url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v{
 [versions]
 "0.1.8-prealpha" = {}
 "0.1.10-prealpha" = {}
+"0.1.11-prealpha" = {}
