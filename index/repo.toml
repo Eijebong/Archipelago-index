@@ -1,0 +1,6 @@
+name = "R.E.P.O"
+home = "https://discord.com/channels/731205301247803413/1345146101094678639"
+default_url = "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases/download/{{version}}/repo.apworld"
+
+[versions]
+"0.2.4" = {}
