@@ -7,3 +7,4 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v{{v
 # At the moment of writing this I don't have a better way of dealing with this
 "2.0.0+patch1" = { url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v2.0.0/dkc2.apworld" }
 "2.2.0" = {}
+"3.0.2" = {}

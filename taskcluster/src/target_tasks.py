@@ -3,15 +3,14 @@ from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifac
 import taskgraph
 
 from collections import defaultdict
-import json
 import os
 import shlex
 
 
 def _filter_for_pr(tasks, parameters, force=[]):
-    pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
+    pr_number = parameters.get("pull_request_number")
     if pr_number is None:
-        print("GITHUB_PULL_REQUEST_NUMBER missing, returning empty task set")
+        print("pull_request_number param missing, returning empty task set")
         return []
 
     project = parameters.get('project', 'unknown').lower()
@@ -28,10 +27,10 @@ def _filter_for_pr(tasks, parameters, force=[]):
         if not artifact['name'].startswith('public/diffs/') or not artifact['name'].endswith('.apdiff'):
             continue
 
-        diff_response = get_artifact(diff_task, artifact['name'])
-        if diff_response.status != 200:
-            raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
-        diff = json.loads(diff_response.read())
+        try:
+            diff = get_artifact(diff_task, artifact['name'])
+        except Exception as exc:
+            raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]
@@ -88,8 +87,8 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
-    if "TRY_CONFIG" in os.environ:
-        return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"].split('\n')[0])
+    if parameters.get('try_config'):
+        return try_target_tasks(full_task_graph, parameters['try_config'].split('\n')[0])
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
 @register_target_task("rebuild-ap-worker")

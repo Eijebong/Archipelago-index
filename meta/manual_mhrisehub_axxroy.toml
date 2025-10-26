@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Victory] (group_name='Victory', game_name='Manual_MHRiseHub_Axxroy')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MHRiseHub_Axxroy', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=2.0.1"

@@ -1,0 +1,5 @@
+name = "Axiom Verge"
+home = "https://discord.com/channels/731205301247803413/1032831597583536208"
+
+[versions]
+"0.3.1" = {url = "https://github.com/mail-liam/Archipelago/releases/download/beta3/axiomverge.apworld"}

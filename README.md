@@ -45,3 +45,4 @@ This makes it easier to update and can be used to automatically fetch newer vers
 - The apworld must not contain big unknown executable binary blobs or depend on any.
 - The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, test failures that are deemed problematic...
 - The apworld must not make any use of a remote resource during generation.
+- The apworld must not require a ROM to generate. Apworlds already present in the index are exempt from this, but I will not accept any new one.

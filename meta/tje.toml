@@ -1,14 +1,14 @@
 [["test.general.test_entrances.TestBase.test_all_state_before_connect_entrances [Game] (game_name='ToeJam and Earl')"]]
 __expected__ = "error"
-__version__ = ">=0.1.4-a,<0.2.4-c"
+__version__ = ">=0.3.1,<0.2.4-c"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Promotion', game_name='ToeJam and Earl')"]]
 __expected__ = "fail"
-__version__ = ">=0.2.4-c"
+__version__ = ">=0.3.1"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Funkotron', game='ToeJam and Earl')"]]
 __expected__ = "fail"
-__version__ = ">=0.2.4-c"
+__version__ = ">=0.3.1"
 
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Icarus Wings', game_name='ToeJam and Earl')"]]
 __expected__ = "fail"

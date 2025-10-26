@@ -1,0 +1,5 @@
+name = "Rogue Legacy"
+home = "https://discord.com/channels/731205301247803413/929585237695029268"
+
+[versions]
+"1.1.0" = { local = "../apworlds/rogue_legacy.apworld" }

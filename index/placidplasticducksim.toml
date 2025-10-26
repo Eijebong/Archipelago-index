@@ -4,3 +4,4 @@ default_url = "https://github.com/SWCreeperKing/PPDSArchipelago/releases/downloa
 
 [versions]
 "0.1.1-hf1" = {}
+"0.1.1" = {}
