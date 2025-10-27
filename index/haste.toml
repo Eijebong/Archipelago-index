@@ -1,0 +1,6 @@
+name = "Haste"
+home = "https://discord.com/channels/731205301247803413/1356638437872111687"
+default_url = "https://github.com/WritingHusky/haste_apworld/releases/tag/v0.2.1"
+
+[versions]
+"0.2.1" = {}
