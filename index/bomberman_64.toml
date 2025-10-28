@@ -1,0 +1,6 @@
+name = "Bomberman 64"
+home = "https://discord.com/channels/731205301247803413/1326400868773400677"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bomb64_v{{version}}/bomberman_64.apworld"
+
+[versions]
+"0.1.3" = {}
