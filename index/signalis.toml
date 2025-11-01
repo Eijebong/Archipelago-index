@@ -1,4 +1,4 @@
-name = "SIGNALIS"
+name = "Signalis"
 home = "https://discord.com/channels/731205301247803413/1217788850034708480"
 default_url = "https://github.com/devoidlazarus/SIGNALISArchipelagoRandomizer/releases/download/v{{version}}/signalis.apworld"
 
