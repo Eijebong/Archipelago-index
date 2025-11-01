@@ -1,0 +1,7 @@
+name = "Rimworld"
+home = "https://discord.com/channels/1085716850370957462/1285353591615262833"
+tags = ["ad"]
+default_url = "https://github.com/PhantomOfAres/ArchipelagoRimworld/releases/download/v{{version}}/rimworld.apworld"
+
+[versions]
+"0.4.0-alpha" = {}
