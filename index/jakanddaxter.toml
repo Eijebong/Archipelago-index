@@ -1,7 +1,7 @@
 name = "Jak and Daxter: The Precursor Legacy"
 home = "https://discord.com/channels/731205301247803413/1394026388683755613"
 supported = true
-default_url =  "https://github.com/ArchipelaGOAL/Archipelago/releases/download/{{version}}/tunic.apworld"
+default_url =  "https://github.com/ArchipelaGOAL/Archipelago/releases/download/{{version}}/jakanddaxter.apworld"
 
 [versions]
 "v1.1.2" = {}
