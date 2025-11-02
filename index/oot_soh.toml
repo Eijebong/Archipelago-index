@@ -1,0 +1,6 @@
+name = "Ship of Harkinian"
+home = "https://discord.com/channels/731205301247803413/1434235335625281707"
+default_url = "https://github.com/HarbourMasters/Archipelago-SoH/releases/download/SoH_{{version}}/oot_soh.apworld"
+
+[versions]
+"1.0.0" = {}
