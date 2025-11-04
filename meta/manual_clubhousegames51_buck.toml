@@ -205,3 +205,15 @@ __version__ = ">=0.0.1"
 [["test.general.test_locations.TestBase.test_location_group [Victory] (group_name='Victory', game_name='Manual_ClubhouseGames51_Buck')"]]
 __expected__ = "fail"
 __version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ClubhouseGames51_Buck', option='games_required_for_victory')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ClubhouseGames51_Buck', option='amazing_cpus')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ClubhouseGames51_Buck', option='impossible_cpus')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"

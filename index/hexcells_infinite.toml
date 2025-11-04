@@ -1,0 +1,5 @@
+name = "Hexcells Infinite"
+home = "https://discord.com/channels/731205301247803413/1398578301081223260"
+
+[versions]
+"1.2.0" = { url = "https://github.com/Heaxeus/Archipelago/releases/download/v1.2/hexcells_infinite.apworld" }

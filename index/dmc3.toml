@@ -1,0 +1,5 @@
+name = "Devil May Cry 3"
+home = "https://discord.com/channels/731205301247803413/1255822049163612271"
+
+[versions]
+"0.3.0" = { local = "../apworlds/dmc3-0.3.0.apworld" }

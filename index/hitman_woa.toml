@@ -1,0 +1,7 @@
+name = "HITMAN World of Assasination"
+home = ""
+tags = ["ad"]
+default_url = "https://github.com/BenDipp/Archipelago/releases/download/{{version}}/hitman_woa.apworld"
+
+[versions]
+"0.5.1" = {}

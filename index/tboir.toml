@@ -1,6 +1,8 @@
 name = "The Binding of Isaac Repentance"
 home = "https://discord.com/channels/731205301247803413/1044777889637339188"
 default_url =  "https://github.com/Cyb3RGER/TBoI-AP-Mod/releases/download/v{{version}}/tboir.apworld"
+disabled = true
+# This version of the apworld has been supplanted by a newer one which has poor fuzzing results.
 
 [versions]
 "0.0.12" = {}

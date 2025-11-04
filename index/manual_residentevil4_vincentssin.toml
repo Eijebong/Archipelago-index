@@ -7,3 +7,4 @@ default_url = "https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases
 "1.2.0" = {}
 # 2.0.0 got its artifacts changed at least once after inclusion
 "2.0.0+hotfix1" = { url = "https://github.com/VincentsSin/Resident-Evil-4-Manual-AP/releases/download/v2.0.0/manual_residentevil4_vincentssin.apworld" }
+"2.0.4" = {}

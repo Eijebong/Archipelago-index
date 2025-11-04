@@ -3,7 +3,6 @@ from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifac
 import taskgraph
 
 from collections import defaultdict
-import json
 import os
 import shlex
 
@@ -29,11 +28,9 @@ def _filter_for_pr(tasks, parameters, force=[]):
             continue
 
         try:
-            diff_response = get_artifact(diff_task, artifact['name'])
+            diff = get_artifact(diff_task, artifact['name'])
         except Exception as exc:
             raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
-
-        diff = json.loads(diff_response.read())
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]

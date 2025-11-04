@@ -1,0 +1,6 @@
+name = "Lightning Returns: Final Fantasy XIII"
+home = "https://discord.com/channels/731205301247803413/1076899812022173736"
+default_url = "https://github.com/Bartz24/ArchipelagoLR/releases/download/{{version}}/lrff13.apworld"
+
+[versions]
+"0.3.0" = {}

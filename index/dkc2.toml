@@ -8,3 +8,4 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v{{v
 "2.0.0+patch1" = { url = "https://github.com/TheLX5/Archipelago/releases/download/dkc2-v2.0.0/dkc2.apworld" }
 "2.2.0" = {}
 "3.0.2" = {}
+"3.0.4" = {}
