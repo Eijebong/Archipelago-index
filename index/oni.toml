@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1209238808625946634"
 default_url = "https://github.com/ShadowKitty42/ONI-Archipelago/releases/download/v{{version}}/oni.apworld"
 
 [versions]
-"0.9.0" = { url = "https://github.com/ShadowKitty42/ONI-Archipelago/releases/download/v0.9/oni.apworld" }
+"0.98.0" = { url = "https://github.com/ShadowKitty42/ONI-Archipelago/releases/download/v0.98/oni.apworld" }
