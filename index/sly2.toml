@@ -1,0 +1,10 @@
+name = "Sly 2: Band of Thieves"
+home = "https://discord.com/channels/731205301247803413/1359447263981600788"
+default_url = "https://github.com/Awsomeman328/APSly2/releases/download/v0.1.3-chrism_event_only/sly2.apworld"
+# The above 'default_url' links to a specifc, special build of this APWorld made specifically to work in the ChrisM Big Community Event. (0% Fail rate)
+# The ACTUAL public release versions of this APWorld is located at this url: "https://github.com/NikolajDanger/APSly2/releases/download/v0.6.0/sly2.apworld"
+# However, the regular public release builds (currently) have a failure rate of about 80% with the fuzzer tool and shouldn't be used until fixed.
+
+[versions]
+"0.1.3-chrism_event_only" = {https://github.com/Awsomeman328/APSly2/releases/download/v0.1.3-chrism_event_only/sly2.apworld}
+
