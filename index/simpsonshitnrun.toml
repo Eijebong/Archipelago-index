@@ -1,6 +1,7 @@
 name = "The Simpsons Hit And Run"
 home = "https://discord.com/channels/731205301247803413/1158211913495359548"
-disabled = true # Old versions are gone, new versions don't pass fuzzing.
+default_url = "https://github.com/nmize1/Archipelago/releases/download/v{{version}}/simpsonshitnrun.apworld"
 
 [versions]
 "0.1.6-alpha" = { url = "https://github.com/nmize1/Archipelago/releases/download/v0.1.6a/simpsonshitnrun.apworld" }
+"0.3.6b" = {}
