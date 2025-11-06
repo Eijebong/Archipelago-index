@@ -1,0 +1,5 @@
+name = "Choo-Choo Charles"
+home = "https://discord.com/channels/731205301247803413/1267201603681779896"
+
+[versions]
+"0.0.3" = { local = "../apworlds/cccharles-0.0.3.apworld" }
