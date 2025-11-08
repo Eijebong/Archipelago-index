@@ -1,6 +1,7 @@
 name = "The Sims 4"
 home = "https://discord.com/channels/731205301247803413/1079002955262480424"
 default_url = "https://github.com/Simsipelago/Archipelago/releases/download/{{version}}/sims4.apworld"
+disabled = true
 
 [versions]
 
