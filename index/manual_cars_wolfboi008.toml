@@ -1,0 +1,7 @@
+name = "Manual_Cars_WolfBoi008"
+display_name = "Manual: Cars"
+home = "https://github.com/WolfBoi008/Cars/tree/main"
+default_url = "https://github.com/WolfBoi008/Cars/releases/download/{{version}}/manual_cars_wolfboi008.apworld"
+
+[versions]
+"1.2.1" = {}
