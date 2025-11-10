@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1158211913495359548"
 default_url = "https://github.com/nmize1/Archipelago/releases/download/v{{version}}/simpsonshitnrun.apworld"
 
 [versions]
-"0.3.7-b" = {}
+"0.3.10-b" = {}
