@@ -1,6 +1,6 @@
 FROM ghcr.io/eijebong/apwm:latest as apwm
 
-FROM ghcr.io/eijebong/archipelago-worker:latest
+FROM ghcr.io/eijebong/archipelago-worker:ci-768
 
 # %include-run-task
 # %include scripts/aplint_from_diff.py

@@ -1,43 +1,43 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='co_op')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='co_op')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='shopsanity_currency')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='shopsanity_currency')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='pure_soul')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='pure_soul')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='dark_soul')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='dark_soul')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='pre_prologue')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='pre_prologue')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='prologue')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='prologue')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='chapter1')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter1')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='chapter2')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter2')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='chapter3')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter3')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_BlockTales_WolfBoi008', option='chapter4')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter4')"]]
 __expected__ = "error"
 __version__ = ">=4.0.2"

@@ -1,35 +1,35 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='Example_Toggle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='Example_Toggle')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='Example_Choice')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='Example_Choice')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='Example_Range')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='Example_Range')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='DLC_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='DLC_enabled')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='enable_grand_prix')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='enable_grand_prix')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='enable_time__trials')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='enable_time__trials')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='enable_racing')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='enable_racing')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='enable_battle_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='enable_battle_mode')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MarioKart7_BigBradley', option='enable_customisables')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MarioKart7_BigBradley', option='enable_customisables')"]]
 __expected__ = "error"
 __version__ = ">=1.0.0"

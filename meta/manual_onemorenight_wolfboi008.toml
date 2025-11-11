@@ -1,15 +1,15 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_OneMoreNight_WolfBoi008', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_OneMoreNight_WolfBoi008', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=1.3.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_OneMoreNight_WolfBoi008', option='colored_fish')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_OneMoreNight_WolfBoi008', option='colored_fish')"]]
 __expected__ = "error"
 __version__ = ">=1.3.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_OneMoreNight_WolfBoi008', option='character_fish')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_OneMoreNight_WolfBoi008', option='character_fish')"]]
 __expected__ = "error"
 __version__ = ">=1.3.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_OneMoreNight_WolfBoi008', option='rare_fish')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_OneMoreNight_WolfBoi008', option='rare_fish')"]]
 __expected__ = "error"
 __version__ = ">=1.3.2"

@@ -1,6 +1,7 @@
 name = "Paper Mario"
 home = "https://discord.com/channels/731205301247803413/1369329691076329582"
 default_url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v{{version}}/papermario.apworld"
+disabled = true # AssertionError: 897 != 895 : Paper Mario modified locations count during generate_basic
 
 [versions]
 "0.6.3" = {}

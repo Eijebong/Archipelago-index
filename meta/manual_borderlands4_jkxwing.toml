@@ -1,16 +1,16 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_Borderlands4_jkxWinG', option='Example_Toggle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Borderlands4_jkxWinG', option='Example_Toggle')"]]
 __expected__ = "error"
 __version__ = ">=0.1.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_Borderlands4_jkxWinG', option='Example_Choice')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Borderlands4_jkxWinG', option='Example_Choice')"]]
 __expected__ = "error"
 __version__ = ">=0.1.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_Borderlands4_jkxWinG', option='Example_Range')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Borderlands4_jkxWinG', option='Example_Range')"]]
 __expected__ = "error"
 __version__ = ">=0.1.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_Borderlands4_jkxWinG', option='DLC_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Borderlands4_jkxWinG', option='DLC_enabled')"]]
 __expected__ = "error"
 __version__ = ">=0.1.2"
 
