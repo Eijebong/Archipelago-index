@@ -4,4 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1437572683934994553"
 default_url = "https://github.com/SaltySwords/Archipelago-BFME2-Manual/releases/download/v{{version}}/manual_thelordoftheringsthebattleformiddleearthii_saltyswords.apworld"
 
 [versions]
-"1.0.0" = {}
+"1.0.1" = {}
