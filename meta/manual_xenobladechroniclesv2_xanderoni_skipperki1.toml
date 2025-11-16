@@ -1,0 +1,95 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='filler_traps')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='locations')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='landmarks')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='StoryQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='MonsterQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='CollectionQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='SearchQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='ChallengeQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='AffinityQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='MaterialQuests')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='UniqueMonsters')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='SuperBosses')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='Collectopaedia')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='HeartToHearts')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='AffinityChart')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='Achievements')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='DevelopmentLevels')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='Artsanity')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_XenobladeChroniclesv2_Xanderoni_skipperki1', option='collectopaediasanity')"]]
+__expected__ = "error"
+__version__ = ">=2.0.3"
