@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1050929729844297789"
 
 [versions]
 "0.0.2-alpha+b" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha02b/cuphead.apworld" }
+"0.0.2-alpha+f" = { url = "https://github.com/JKLeckr/Archipelago-cuphead/releases/download/alpha02f/cuphead.apworld" }

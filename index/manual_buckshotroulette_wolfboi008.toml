@@ -1,0 +1,7 @@
+name = "Manual_BuckshotRoulette_WolfBoi008"
+display_name = "Manual: Buckshot Roulette"
+home = "https://github.com/WolfBoi008/Buckshot-Roulette"
+default_url = "https://github.com/WolfBoi008/Buckshot-Roulette/releases/download/{{version}}/manual_buckshotroulette_wolfboi008.apworld"
+
+[versions]
+"1.2.1" = {}
