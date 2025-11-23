@@ -1,0 +1,24 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+    - taskgraph.transforms.from_deps
+    - src.transforms.upload_fuzz_results
+    - taskgraph.transforms.task
+
+kind-dependencies:
+  - fuzz
+  - fuzz-report
+  - diff
+
+tasks:
+  apfuzz:
+    from-deps:
+      kinds:
+        - fuzz
+      unique-kinds: false
+    description: Upload fuzz results to apdiff API
+    worker-type: githubscript
+    run-on-tasks-for: []
+    requires: all-resolved
+    worker:
+      implementation: githubscript-upload-fuzz-results
