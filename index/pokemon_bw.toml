@@ -3,4 +3,5 @@ home = "https://discord.com/channels/731205301247803413/1414928022854696991"
 default_url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/{{version}}/pokemon_bw_without_maps.apworld"
 
 [versions]
+"0.3.14" = {}
 "0.3.13" = {}
