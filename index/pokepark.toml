@@ -1,0 +1,7 @@
+name = "PokePark"
+display_name = "PokePark Wii: Pikachu's Adventure"
+home = "https://discord.com/channels/731205301247803413/1365710916011819088"
+default_url = "https://github.com/Mekurushi/Archipelago_Pokepark/releases/download/{{version}}/pokepark.apworld"
+
+[versions]
+"1.0.1" =  {}
