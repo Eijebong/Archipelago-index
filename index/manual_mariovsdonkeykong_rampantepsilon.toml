@@ -2,4 +2,4 @@ name = "Manual_MariovsDonkeyKong_RampantEpsilon"
 display_name = "Manual: Mario VS Donkey Kong"
 
 [versions]
-"1.2.0" = { url = "https://github.com/rampantepsilon/Manual_MarioVSDonkeyKong_RampantEpsilon/releases/download/1.2.0/manual_mariovsdonkeykong_rampantepsilon.apworld" }
+"1.2.1" = { url = "https://github.com/rampantepsilon/Manual_MarioVSDonkeyKong_RampantEpsilon/releases/download/1.2.1/manual_mariovsdonkeykong_rampantepsilon.apworld" }
