@@ -6,3 +6,4 @@ default_url = "https://github.com/BenDipp/Archipelago/releases/download/{{versio
 [versions]
 "0.5.1" = {}
 "0.6.0" = {}
+"0.6.2" = {}
