@@ -1,7 +1,0 @@
-[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Metroid Prime', option='starting_beam')"]]
-__expected__ = "fail"
-__version__ = ">=0.5.0"
-
-[["test.general.test_implemented.TestImplemented.test_prefill_items [Metroid Prime]"]]
-__expected__ = "fail"
-__version__ = ">=0.5.0"

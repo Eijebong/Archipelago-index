@@ -6,14 +6,14 @@ __version__ = ">=0.1.1"
 __expected__ = "fail"
 __version__ = ">=0.1.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SlimeRancher_Axxroy', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SlimeRancher_Axxroy', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=0.1.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SlimeRancher_Axxroy', option='Notesanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SlimeRancher_Axxroy', option='Notesanity')"]]
 __expected__ = "error"
 __version__ = ">=0.1.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SlimeRancher_Axxroy', option='SevenZeeRewards')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SlimeRancher_Axxroy', option='SevenZeeRewards')"]]
 __expected__ = "error"
 __version__ = ">=0.1.1"

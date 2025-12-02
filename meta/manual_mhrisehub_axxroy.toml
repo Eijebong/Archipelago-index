@@ -2,6 +2,6 @@
 __expected__ = "fail"
 __version__ = ">=2.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_MHRiseHub_Axxroy', option='DLC_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MHRiseHub_Axxroy', option='DLC_enabled')"]]
 __expected__ = "error"
 __version__ = ">=2.0.1"

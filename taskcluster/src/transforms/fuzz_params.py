@@ -45,12 +45,18 @@ def fuzz_params(config, tasks):
         env["FUZZ_YAMLS_PER_RUN"] = str(args.yamls_per_run)
         env["FUZZ_EXTRA_ARGS"] = extra_args
 
+        apworld_name = task["attributes"]["apworld_name"]
+        version = task["attributes"]["version"]
+
+        task.setdefault("attributes", {})["extra_args_key"] = "default"
+        # Add combined attribute for grouping by apworld+version in fuzz-report
+        task["attributes"]["apworld_version"] = f"{apworld_name}-{version}"
+
         yield copy.deepcopy(task)
 
         if dupe_with_empty:
-            apworld_name = task["attributes"]["apworld_name"]
-            version = task["attributes"]["version"]
             task["label"] = f"fuzz-no-restrictive-starts-{apworld_name}-{version}"
+            task["attributes"]["extra_args_key"] = "no-restrictive-starts"
 
             env["FUZZ_EXTRA_ARGS"] = extra_args + "--hook hooks.with_empty:Hook"
 

@@ -1,15 +1,15 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_vividstasis_JuegAriel', option='Example_Toggle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_vividstasis_JuegAriel', option='Example_Toggle')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_vividstasis_JuegAriel', option='Example_Choice')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_vividstasis_JuegAriel', option='Example_Choice')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_vividstasis_JuegAriel', option='Example_Range')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_vividstasis_JuegAriel', option='Example_Range')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_vividstasis_JuegAriel', option='DLC_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_vividstasis_JuegAriel', option='DLC_enabled')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
