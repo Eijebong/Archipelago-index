@@ -4,4 +4,4 @@ home = "https://github.com/WolfBoi008/One-More-Night"
 default_url = "https://github.com/WolfBoi008/One-More-Night/releases/download/{{version}}/manual_onemorenight_wolfboi008.apworld"
 
 [versions]
-"1.4.0" = {}
+"2.0.1" = {}
