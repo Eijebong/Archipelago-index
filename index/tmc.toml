@@ -1,5 +1,5 @@
 name = "The Minish Cap"
-home = "https://discord.com/channels/731205301247803413/1091489558325112873"
+home = "https://discord.com/channels/731205301247803413/1419820477404418140"
 default_url = "https://github.com/eternalcode0/Archipelago/releases/download/v{{version}}/tmc.apworld"
 
 [versions]
