@@ -1,0 +1,6 @@
+name = "Spyro the Dragon"
+home = "https://discord.com/channels/731205301247803413/1281652479779536958"
+default_url = "https://github.com/gamefreq0/Archipelago/releases/download/spyro-v{{version}}/spyro.apworld"
+
+[versions]
+"0.4.1" = {}
