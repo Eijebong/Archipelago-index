@@ -1,0 +1,6 @@
+name = "Refunct"
+home = "https://discord.com/channels/731205301247803413/1273001824919617577"
+default_url = "https://github.com/spinerak/refunct-tas-archipelago/releases/download/v{{version}}/refunct.apworld"
+
+[versions]
+"0.3.1" = {}
