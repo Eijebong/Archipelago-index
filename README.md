@@ -46,3 +46,6 @@ This makes it easier to update and can be used to automatically fetch newer vers
 - The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, test failures that are deemed problematic...
 - The apworld must not make any use of a remote resource during generation.
 - The apworld must not require a ROM to generate. Apworlds already present in the index are exempt from this, but I will not accept any new one.
+- The generation failure rate calculated using my [fuzzer](https://github.com/Eijebong/Archipelago-fuzzer) must be below 1%.
+  - To help removing failures that would be considered restrictive starts, those rates will be calculated with a second [world](https://github.com/Eijebong/empty-apworld) present that has 100 free locations
+  - I will make exceptions for failures happening early during generation (before `generate_basic`) as those would most likely be detectd by YAML validation and won't result in a big time loss during generation

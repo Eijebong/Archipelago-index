@@ -1,0 +1,6 @@
+name = "Manual_OneMoreNight_WolfBoi008"
+display_name = "Manual: One More Night"
+default_url = "https://github.com/WolfBoi008/One-More-Night/releases/download/{{version}}/manual_onemorenight_wolfboi008.apworld"
+
+[versions]
+"1.3.2" = {}

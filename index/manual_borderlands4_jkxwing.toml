@@ -5,3 +5,4 @@ tags = ["ad"]
 [versions]
 "0.1.2" = { url = "https://github.com/jkxWinG/Borderlands-4-Manual-AP/releases/download/Version0.1.2/manual_borderlands4_jkxwing.apworld" }
 "0.1.3" = { url = "https://github.com/jkxWinG/Borderlands-4-Manual-AP/releases/download/Version0.1.3/manual_borderlands4_jkxwing.apworld" }
+"0.1.4" = { url = "https://github.com/jkxWinG/Borderlands-4-Manual-AP/releases/download/Version0.1.4/manual_borderlands4_jkxwing.apworld" }

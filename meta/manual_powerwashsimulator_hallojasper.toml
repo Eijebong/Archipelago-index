@@ -126,139 +126,139 @@ __version__ = ">=0.1.7"
 __expected__ = "fail"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Parts_Mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Parts_Mode')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Hard_Parkour')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Hard_Parkour')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Van')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Van')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Back_Garden')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Back_Garden')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Bungalow')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Bungalow')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Playground')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Playground')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Detached_House')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Detached_House')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Shoe_House')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Shoe_House')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Vintage_Car')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Vintage_Car')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Grandpa_Millers_Car')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Grandpa_Millers_Car')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Skatepark')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Skatepark')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Truck')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Truck')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Forest_Cottage')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Forest_Cottage')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Dirt_Bike')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Dirt_Bike')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Golf_Cart')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Golf_Cart')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Motorbike_and_Sidecar')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Motorbike_and_Sidecar')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_SUV')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_SUV')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Penny_Farthing')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Penny_Farthing')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Recreation_Vehicle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Recreation_Vehicle')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Helicopter')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Helicopter')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mayors_Mansion')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mayors_Mansion')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Tree_House')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Tree_House')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Drill')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Drill')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Washroom')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Washroom')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Frolic_Boat')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Frolic_Boat')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Monster_Truck')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Monster_Truck')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Ferris_Wheel')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Ferris_Wheel')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Subway_Platform')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Subway_Platform')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fortune_Tellers_Wagon')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fortune_Tellers_Wagon')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Ancient_Statue')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Ancient_Statue')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Stunt_Plane')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Stunt_Plane')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Ancient_Monument')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Ancient_Monument')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fishing_Boat')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fishing_Boat')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Recreational_Vehicle_Again')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Recreational_Vehicle_Again')"]]
 __expected__ = "error"
 __version__ = ">=0.1.7"
 
@@ -274,15 +274,15 @@ __version__ = ">=0.1.8"
 __expected__ = "fail"
 __version__ = ">=0.1.8"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Temple')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Temple')"]]
 __expected__ = "error"
 __version__ = ">=0.1.8"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Private_Jet')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Private_Jet')"]]
 __expected__ = "error"
 __version__ = ">=0.1.8"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Lost_City_Palace')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Lost_City_Palace')"]]
 __expected__ = "error"
 __version__ = ">=0.1.8"
 
@@ -302,19 +302,19 @@ __version__ = ">=0.2.0"
 __expected__ = "fail"
 __version__ = ">=0.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Station')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Fire_Station')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Carousel')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Carousel')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Helter_Skelter')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Helter_Skelter')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mars_Rover')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mars_Rover')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0"
 
@@ -330,14 +330,14 @@ __version__ = ">=0.2.1"
 __expected__ = "fail"
 __version__ = ">=0.2.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mini_Golf_Course')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Mini_Golf_Course')"]]
 __expected__ = "error"
 __version__ = ">=0.2.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Gnome_Fountain')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Gnome_Fountain')"]]
 __expected__ = "error"
 __version__ = ">=0.2.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PowerwashSimulator_hallojasper', option='Include_Steam_Locomotive')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Steam_Locomotive')"]]
 __expected__ = "error"
 __version__ = ">=0.2.1"

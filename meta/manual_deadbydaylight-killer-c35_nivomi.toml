@@ -6,6 +6,6 @@ __version__ = ">=0.0.6"
 __expected__ = "fail"
 __version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_DeadByDaylight-Killer-C35_nivomi', option='the_ghoul')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_DeadByDaylight-Killer-C35_nivomi', option='the_ghoul')"]]
 __expected__ = "error"
 __version__ = ">=0.0.6"

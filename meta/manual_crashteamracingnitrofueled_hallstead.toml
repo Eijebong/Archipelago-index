@@ -22,6 +22,6 @@ __version__ = ">=6.2.0"
 __expected__ = "fail"
 __version__ = ">=6.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_CrashTeamRacingNitroFueled_Hallstead', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CrashTeamRacingNitroFueled_Hallstead', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=6.2.0"

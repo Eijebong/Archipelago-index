@@ -1,0 +1,7 @@
+name = "Manual_BlockTales_WolfBoi008"
+display_name = "Manual: Block Tales"
+home = "https://discord.com/channels/1097532591650910289/1377245145493274644"
+default_url = "https://github.com/WolfBoi008/Block-Tales/releases/download/{{version}}/manual_blocktales_wolfboi008.apworld"
+
+[versions]
+"4.0.2" = {}

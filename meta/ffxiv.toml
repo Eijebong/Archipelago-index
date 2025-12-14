@@ -2,15 +2,15 @@
 __expected__ = "fail"
 __version__ = ">=0.22.0,<0.21.2"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_FFXIV_Silasary', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_FFXIV_Silasary', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=0.22.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_FFXIV_Silasary', option='include_guildhests')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_FFXIV_Silasary', option='include_guildhests')"]]
 __expected__ = "error"
 __version__ = ">=0.22.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_FFXIV_Silasary', option='include_bozja')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_FFXIV_Silasary', option='include_bozja')"]]
 __expected__ = "error"
 __version__ = ">=0.22.0"
 

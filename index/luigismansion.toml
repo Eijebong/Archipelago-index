@@ -12,3 +12,4 @@ default_url = "https://github.com/BootsinSoots/Archipelago/releases/download/V{{
 # This got changed after it got updated in the index
 "0.5.7+hotfix" = { url = "https://github.com/BootsinSoots/Archipelago/releases/download/V0.5.7/luigismansion.apworld" }
 "0.5.10" = {}
+"0.5.16" = {}

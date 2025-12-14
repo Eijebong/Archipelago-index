@@ -10,6 +10,6 @@ __version__ = ">=1.0.3"
 __expected__ = "fail"
 __version__ = ">=1.0.3"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PlatinumBattleZone_Linneus', option='require_dowsing_machine')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlatinumBattleZone_Linneus', option='require_dowsing_machine')"]]
 __expected__ = "error"
 __version__ = ">=1.0.3"

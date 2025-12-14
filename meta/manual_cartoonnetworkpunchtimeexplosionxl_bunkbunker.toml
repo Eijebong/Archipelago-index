@@ -1,0 +1,79 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Ben 10] (group_name='Ben 10', game_name='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Flapjack] (group_name='Flapjack', game_name='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Dexter's Lab] (group_name=\"Dexter's Lab\", game_name='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Samurai Jack] (group_name='Samurai Jack', game_name='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Character_Shop_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Stage_Shop_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Skin_Shop_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Clip_Shop_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Simple_Arcade_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Full_Arcade_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Minigame_Checks_Score_Over_70')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Silly_Extra_Checks')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='filler_traps')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"

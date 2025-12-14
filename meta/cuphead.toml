@@ -1,191 +1,191 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='version')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='version')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='use_dlc')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='use_dlc')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='mode')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='expert_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='expert_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='start_weapon')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='start_weapon')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='weapon_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='weapon_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='start_maxhealth')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='start_maxhealth')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='start_maxhealth_p2')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='start_maxhealth_p2')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='contract_requirements')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='contract_requirements')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_ingredient_requirements')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_ingredient_requirements')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='contract_goal_requirements')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='contract_goal_requirements')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_ingredient_goal_requirements')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_ingredient_goal_requirements')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='level_shuffle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='level_shuffle')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='level_shuffle_seed')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='level_shuffle_seed')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='level_placements')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='level_placements')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='freemove_isles')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='freemove_isles')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='deathlink')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='deathlink')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='deathlink_grace_count')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='deathlink_grace_count')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='randomize_abilities')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='randomize_abilities')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='boss_secret_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='boss_secret_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='boss_grade_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='boss_grade_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='rungun_grade_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='rungun_grade_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='kingdice_bosssanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='kingdice_bosssanity')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_boss_chalice_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_boss_chalice_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_rungun_chalice_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_rungun_chalice_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_kingdice_chalice_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_kingdice_chalice_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_chess_chalice_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_chess_chalice_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='silverworth_quest')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='silverworth_quest')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='pacifist_quest')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='pacifist_quest')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_chalice')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_chalice')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_chalice_items_separate')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_chalice_items_separate')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_kingsleap')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_kingsleap')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_cactusgirl_quest')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_cactusgirl_quest')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='dlc_curse_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='dlc_curse_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='extra_coins')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='extra_coins')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='maxhealth_upgrades')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='maxhealth_upgrades')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='minimum_filler')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='minimum_filler')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='traps')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='traps')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='filler_weight_extrahealth')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='filler_weight_extrahealth')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='filler_weight_supercharge')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='filler_weight_supercharge')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='filler_weight_fastfire')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='filler_weight_fastfire')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='trap_loadout_anyweapon')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='trap_loadout_anyweapon')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='trap_weight_fingerjam')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='trap_weight_fingerjam')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='trap_weight_slowfire')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='trap_weight_slowfire')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='trap_weight_superdrain')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='trap_weight_superdrain')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='trap_weight_loadout')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='trap_weight_loadout')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='music_shuffle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='music_shuffle')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Cuphead', option='ducklock_platdrop')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='ducklock_platdrop')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"

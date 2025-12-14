@@ -1,3 +1,4 @@
 name = "Overcooked! 2"
 home = "https://archipelago.gg"
 supported = true
+disabled = true # Very very high failure rate

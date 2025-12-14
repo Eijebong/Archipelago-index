@@ -4,6 +4,7 @@ transforms:
   - src.transforms.key_per_tasks_for:transforms
   - src.transforms.per_apworld:transforms
   - src.transforms.fuzz_params:transforms
+  - src.transforms.fuzz_index:transforms
   - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
