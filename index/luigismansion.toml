@@ -13,3 +13,4 @@ default_url = "https://github.com/BootsinSoots/Archipelago/releases/download/V{{
 "0.5.7+hotfix" = { url = "https://github.com/BootsinSoots/Archipelago/releases/download/V0.5.7/luigismansion.apworld" }
 "0.5.10" = {}
 "0.5.16" = {}
+"0.5.17" = {}
