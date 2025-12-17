@@ -1,8 +1,7 @@
 name = "Manual_SlimeRancher_Axxroy"
 display_name = "Manual: Slime Rancher"
 default_url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/slimerancher_{{version}}/manual_slimerancher_axxroy.apworld"
+disabled = true # Triggers some assertion, needs a manual update
 
 [versions]
-# This is a repack of the released one with https://github.com/ManualForArchipelago/Manual/pull/124 applied
-"0.1.1" = { local = "../apworlds/manual_slimerancher_axxroy-0.1.1.apworld" }
 "0.1.2-a" = { local = "../apworlds/manual_slimerancher_axxroy-0.1.2-a.apworld" }

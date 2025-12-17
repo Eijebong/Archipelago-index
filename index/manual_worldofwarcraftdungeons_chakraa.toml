@@ -1,6 +1,7 @@
 name = "Manual_WorldofWarcraftDungeons_Chakraa"
 display_name = "Manual: World of Warcraft dungeons"
 home = "https://discord.com/channels/1097532591650910289/1199421257322594345"
+disabled  = true # Triggers some assertion
 
 [versions]
 "2025.2.13" = { url = "https://github.com/ChakraaThePanda/Archipelago-Manual-WorldofWarcraft-Dungeons/releases/download/2025.02.13/manual_worldofwarcraftdungeons_chakraa.apworld" }
