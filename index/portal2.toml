@@ -1,0 +1,8 @@
+name = "Portal 2"
+home = "https://discord.com/channels/731205301247803413/1172548724921208852"
+tags = [""]
+default_url = "https://github.com/GlassToadstool/Archipelago/releases/download/{{version}}/portal2.apworld"
+
+[versions]
+"0.2" = {}
+
