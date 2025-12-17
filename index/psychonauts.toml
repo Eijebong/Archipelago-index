@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1191273397976584212"
 default_url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v{{version}}/psychonauts.apworld"
 
 [versions]
-"0.8.0" = {}
+"0.8.0+hotfix1" = { url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v0.8.0/psychonauts.apworld" }
