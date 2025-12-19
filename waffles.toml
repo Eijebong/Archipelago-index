@@ -1,0 +1,6 @@
+name = "SMW: Spicy Mycena Waffles"
+home = "https://discord.com/channels/731205301247803413/1435322478024200202"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/waffles-v{{version}}/waffles.apworld"
+
+[versions]
+"1.1.2" = {}
