@@ -1,0 +1,7 @@
+name = "Manual_WeLoveKatamariReroll_sapphisylph"
+display_name = "Manual: We Love Katamari Reroll"
+home = "https://discord.com/channels/1097532591650910289/1348016489181085776"
+default_url = "https://github.com/sapphisylph/We-Love-Katamari-Manual-APWorld/releases/download/v{{version}}/manual_welovekatamarireroll_sapphisylph.apworld"
+
+[versions]
+"0.3.3" {}
