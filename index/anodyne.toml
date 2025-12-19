@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1121290232688545792"
 default_url = "https://github.com/PixieCatSupreme/ArchipelagoAno/releases/download/v{{version}}/anodyne.apworld"
 
 [versions]
-"0.4.1" = {}
+"0.5.0" = {}
