@@ -17,7 +17,8 @@ def fuzz_index(config, tasks):
         index_path = f"ap.{project}.fuzz.pr.{pr_number}.{apworld_name}.{version}.{extra_args_key}.latest"
         task["attributes"].setdefault("eager-index-routes", []).append(index_path)
 
-        if task_for == "github-issue-comment":
+        target_tasks_method = config.params.get("target_tasks_method")
+        if task_for == "github-issue-comment" and target_tasks_method in ("r+", "r++"):
             opt = task.setdefault("optimization", {})
             skip_unless_changed = opt.pop("skip-unless-changed", [])
             task["optimization"] = {
