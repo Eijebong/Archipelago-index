@@ -15,8 +15,7 @@ def fuzz_index(config, tasks):
         extra_args_key = task["attributes"].get("extra_args_key", "default")
 
         index_path = f"ap.{project}.fuzz.pr.{pr_number}.{apworld_name}.{version}.{extra_args_key}.latest"
-
-        task.setdefault("routes", []).append(f"index.{index_path}")
+        task["attributes"].setdefault("eager-index-routes", []).append(index_path)
 
         if task_for == "github-issue-comment":
             opt = task.setdefault("optimization", {})
