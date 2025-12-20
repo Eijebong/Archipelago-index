@@ -21,7 +21,7 @@ def fuzz_index(config, tasks):
             opt = task.setdefault("optimization", {})
             skip_unless_changed = opt.pop("skip-unless-changed", [])
             task["optimization"] = {
-                "skip-unless-changed-or-cached": {
+                "skip-unless-changed-or-attempted": {
                     "index-path": [index_path],
                     "skip-unless-changed": skip_unless_changed
                 }

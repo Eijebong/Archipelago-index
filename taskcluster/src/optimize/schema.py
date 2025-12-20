@@ -12,6 +12,7 @@ taskgraph.util.schema.OptimizationSchema = voluptuous.Any(
     {"skip-unless-changed": [str]},
 
     {"skip-unless-changed-or-cached": {"skip-unless-changed": [str], "index-path": [str]}},
+    {"skip-unless-changed-or-attempted": {"skip-unless-changed": [str], "index-path": [str]}},
 )
 # XXX: Ugly hack because the task schema gets compiled before we get a chance to override the OptimizationSchema
 # As far as I know there's no other way to change the optimization schema at the moment. And since taskgraph will get rid
