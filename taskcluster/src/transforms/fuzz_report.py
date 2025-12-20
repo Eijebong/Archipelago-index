@@ -9,11 +9,13 @@ def build_fuzz_report_payload(config, tasks):
         fuzz_tasks = []
         for dep_label in task["dependencies"].values():
             dep_task = config.kind_dependencies_tasks[dep_label]
-            extra_args_key = dep_task.attributes.get("extra_args_key", "")
-            fuzz_tasks.append({
+            extra_args_key = dep_task.attributes.get("extra_args_key")
+            fuzz_task = {
                 "task-id": {"task-reference": f"<{dep_label}>"},
-                "extra-args": extra_args_key,
-            })
+            }
+            if extra_args_key:
+                fuzz_task["extra-args"] = extra_args_key
+            fuzz_tasks.append(fuzz_task)
 
         primary_dep = config.kind_dependencies_tasks[task["attributes"]["primary-dependency-label"]]
         apworld_name = primary_dep.attributes["apworld_name"]
