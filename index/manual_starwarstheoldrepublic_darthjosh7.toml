@@ -1,0 +1,5 @@
+name = "Manual_StarWarsTheOldRepublic_DarthJosh7"
+display_name = "Manual: Star Wars - The Old Republic"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_starwarstheoldrepublic_darthjosh7-0.0.1.apworld" }
