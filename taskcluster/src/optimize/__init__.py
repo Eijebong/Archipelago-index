@@ -5,8 +5,7 @@ from taskcluster.exceptions import TaskclusterRestFailure
 from taskgraph.optimize.base import Any, OptimizationStrategy, register_strategy
 from taskgraph.optimize.strategies import SkipUnlessChanged, IndexSearch
 from taskgraph.util.taskcluster import find_task_id, status_task
-
-from . import schema
+from voluptuous import Schema
 
 logger = logging.getLogger("optimization")
 
@@ -40,7 +39,7 @@ def split_args(*args, **kwargs):
     return [args[0]['index-path'], args[0]['skip-unless-changed']]
 
 
-@register_strategy("skip-unless-changed-or-cached", ())
+@register_strategy("skip-unless-changed-or-cached", (), schema=Schema({"skip-unless-changed": [str], "index-path": [str]}))
 class SkipOrCache(Any):
     def __init__(self, **kwargs):
         super().__init__(IndexSearch(), SkipUnlessChanged(), split_args=split_args, **kwargs)
@@ -48,7 +47,7 @@ class SkipOrCache(Any):
     description = "Skip unless changed or use cached PR task if possible"
 
 
-@register_strategy("skip-unless-changed-or-attempted", ())
+@register_strategy("skip-unless-changed-or-attempted", (), schema=Schema({"skip-unless-changed": [str], "index-path": [str]}))
 class SkipOrAttempted(Any):
     def __init__(self, **kwargs):
         super().__init__(IndexSearchIncludeFailed(), SkipUnlessChanged(), split_args=split_args, **kwargs)
