@@ -113,7 +113,7 @@ def try_target_tasks(full_task_graph, parameters):
     try_config = parameters['try_config'].split('\n')[0]
     targets = parse_try_config(try_config)
     specific = _is_specific_fuzz(parameters)
-    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch"}]
+    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch", "verify-index"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():
