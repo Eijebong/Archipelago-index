@@ -3,5 +3,6 @@ home = "https://discord.com/channels/731205301247803413/1142626744629735555"
 default_url = "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases/download/{{version}}/spelunky2.apworld"
 
 [versions]
-"0.3.6" = {}
 "0.2.4" = {}
+"0.3.6" = {}
+"0.3.8" = {}
