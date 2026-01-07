@@ -1,4 +1,4 @@
-default_url = "https://github.com/BuffYoda21/ap-glyphs/releases/download/{{version}}/glyphs.apworld"
+default_url = "https://github.com/BuffYoda21/ap-glyphs/releases/download/v{{version}}/glyphs.apworld"
 home = "https://discord.com/channels/731205301247803413/1401434680808575017"
 name = "GLYPHS"
 
