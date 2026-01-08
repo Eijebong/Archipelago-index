@@ -1,0 +1,7 @@
+name = "Manual_HaloMCC_HarryUjin"
+display_name = "Manual: Halo MCC"
+home = "https://discord.com/channels/1097532591650910289/1350260042414297243"
+
+[versions]
+# https://discord.com/channels/1097532591650910289/1350260042414297243/1410891709096923170
+"0.0.8" = { local = "../apworlds/manual_halomccDup_harryujin-0.0.8.apworld" }
