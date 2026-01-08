@@ -439,9 +439,6 @@
 [manual_mariokartds_xanderoni]
 "0.0.2" = "473940c6b72d6946779772650f69c4879e70aefe834649c97a113c1e7d3ecdbc"
 
-[manual_mhrisehub_axxroy]
-"2.0.1" = "2af415378106d57df2810740fc65953e1c15db4fc420fd3ee0b7e34f4fe6f246"
-
 [manual_mkwii_magnetico]
 "0.0.1+magnetico" = "731b011dd0c6efbcb01851fd8d4653c1a06dd7ae5828aa596e4bb7ac927e80f6"
 
@@ -727,6 +724,7 @@
 [pokepark]
 "1.0.1" = "ec2c80389e01f4e63bf96e26d08abed6126ca0c0c6f25672a82eb21fc16693e6"
 "1.0.3" = "8f39d07ac4842029b9b800cd707eabb53c0854d29ff671bca0a49b7035e7da95"
+"1.1.1" = "4fec838ac035fc9d04fe3ce3526e4c2658d4f93ff03c35ffdac865498f4caa4f"
 
 [powerwashsimulator]
 "0.1.0+hf3" = "4b70b32548c362b036a9f0eeb706c7e2d61666a72afd012b33552358dc4b207c"
