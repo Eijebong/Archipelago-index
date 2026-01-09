@@ -6,3 +6,4 @@ default_url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/{{ve
 "0.3.17" = {}
 "0.3.14" = {}
 "0.3.13" = {}
+"0.3.999" = {url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/0.3.999/pokemon_bw.apworld"}
