@@ -1,0 +1,6 @@
+name = "Sly 2: Band of Thieves"
+home = "https://discord.com/channels/731205301247803413/1359447263981600788"
+default_url = "https://github.com/NikolajDanger/APSly2/releases/download/v{{version}}/sly2.apworld"
+
+[versions]
+"0.8.2" = {}
