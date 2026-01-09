@@ -5,3 +5,4 @@ default_url = "https://github.com/Uroogla/S2AP/releases/download/{{version}}/spy
 [versions]
 "0.1.2" = {}
 "0.3.2" = {}
+"1.0.0" = {}
