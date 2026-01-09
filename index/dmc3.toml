@@ -1,7 +1,7 @@
 name = "Devil May Cry 3"
 home = "https://discord.com/channels/731205301247803413/1255822049163612271"
-https://github.com/AshIndigo/Archipelago/releases/download/v{{version}}/dmc3.apworld
+default_url = "https://github.com/AshIndigo/Archipelago/releases/download/v{{version}}/dmc3.apworld"
 
 [versions]
 "0.3.0" = { local = "../apworlds/dmc3-0.3.0.apworld" }
-"0.3.0" = {}
+"0.4.0" = {}
