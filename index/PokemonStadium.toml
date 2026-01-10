@@ -1,0 +1,6 @@
+name = "Pokemon Stadium"
+home = "https://discord.com/channels/731205301247803413/1378008091450146816"
+default_url = "https://github.com/jciii91/Pokemon-Stadium-AP-World/releases/download/v{{version}}/PokemonStadium.apworld"
+
+[versions]
+"0.3.0" = {}
