@@ -9,3 +9,4 @@ default_url = "https://github.com/Uroogla/S3AP/releases/download/{{version}}/spy
 "1.0.1" = { url = "https://github.com/ArsonAssassin/S3AP/releases/download/1.0.1/spyro3.apworld" }
 "1.1.0" = {}
 "1.2.1" = {}
+"1.2.2" = {}

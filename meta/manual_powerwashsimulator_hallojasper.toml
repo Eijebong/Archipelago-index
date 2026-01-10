@@ -341,3 +341,19 @@ __version__ = ">=0.2.1"
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Steam_Locomotive')"]]
 __expected__ = "error"
 __version__ = ">=0.2.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Food Truck] (group_name='Food Truck', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.2"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Satellite Dish] (group_name='Satellite Dish', game_name='Manual_PowerwashSimulator_hallojasper')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Food_Truck')"]]
+__expected__ = "error"
+__version__ = ">=0.2.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PowerwashSimulator_hallojasper', option='Include_Satellite_Dish')"]]
+__expected__ = "error"
+__version__ = ">=0.2.2"
