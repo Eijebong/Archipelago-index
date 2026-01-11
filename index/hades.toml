@@ -4,3 +4,4 @@ default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{versi
 
 [versions]
 "0.13.2" = {}
+"0.15.0" = {}
