@@ -1,0 +1,6 @@
+name = "UNBEATABLE Arcade"
+home = "https://discord.com/channels/731205301247803413/1454317500329099317"
+default_url = "https://github.com/AllPoland/unbeatAP/releases/tag/v0.1.0-alpha"
+
+[versions]
+"0.1.0" = {}
