@@ -3,6 +3,7 @@ home = "https://github.com/Typ0Codes/shipped-in-space-archipeligo-support/tree/m
 default_url = "https://github.com/Typ0Codes/shipped-in-space-archipeligo-support/releases/download/{{version}}/shippedinspace.apworld" 
 
 [versions]
-"2.0.0" = {} #Updated with actual logic. good for longer APs or as a side game
+"2.1.0" = {} #Updated with actual logic. good for longer APs or as a side game
+
 
 
