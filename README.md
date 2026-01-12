@@ -32,7 +32,7 @@ Examples:
 ### Special case for `url` releases
 
 When the author uses tags that are semver compatible, it's possible to add a `default_url` field instead in the global scope of the toml like this:
-`default_url = "https://github.com/foo/bar/releases/{{version}}/download/foo.apworld` and to specify versions like this: `"0.1.0" = {}`.
+`default_url = "https://github.com/foo/bar/releases/download/{{version}}/foo.apworld` and to specify versions like this: `"0.1.0" = {}`.
 This makes it easier to update and can be used to automatically fetch newer versions so it's the prefered way of doing things.
 
 
