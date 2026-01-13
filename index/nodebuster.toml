@@ -1,0 +1,6 @@
+name = "Nodebuster"
+home = "https://discord.com/channels/731205301247803413/1354141892434067476"
+default_url = "https://github.com/josephwhite/Emerlads-Nodebuster_AP_Mod/releases/download/v{{version}}/nodebuster.apworld"
+
+[versions]
+"0.1.2" = {}
