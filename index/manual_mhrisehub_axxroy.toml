@@ -1,8 +1,10 @@
 display_name = "Manual: Monster Hunter Rise (Hub Quests)"
 name = "Manual_MHRiseHub_Axxroy"
 home = "https://discord.com/channels/1097532591650910289/1172769920610738246"
-default_url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Rise_{{version}}/manual_mhrisehub_axxroy.apworld"
-disabled = true # 2.0.1 doesn't seem to load on windows, probably because of the __MACOSX garbage in the apworld
+# Commenting default_url because of the __MACOSX filler that comes with the apworld in the repo
+# default_url = "https://github.com/axxroytovu/archipelago_manuals/releases/download/Rise_{{version}}/manual_mhrisehub_axxroy.apworld"
+
 
 [versions]
-"2.0.1" = { }
+"2.0.1" = {  }
+"2.0.1+builder" = { local = "../apworlds/manual_mhrisehub_axxroy-2.0.1.apworld" }
