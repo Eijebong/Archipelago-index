@@ -1,0 +1,6 @@
+name = "Manual_MarioParty9_SmashEBrada"
+display_name = "Manual: Mario Party 9"
+home = "https://discord.com/channels/1097532591650910289/1439733841018491022"
+
+[versions]
+"1.0.1" = { local = "../apworlds/manual_marioparty9_smashebrada-1.0.1.apworld" }
