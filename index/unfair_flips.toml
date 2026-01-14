@@ -1,0 +1,6 @@
+name = "Unfair Flips"
+home = "https://discord.com/channels/731205301247803413/1460737685151940819"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-UnfairFlips/releases/download/{{version}}/unfair_flips.apworld"
+
+[versions]
+"1.0.4" = {}

@@ -1,0 +1,6 @@
+name = "Kingdom Hearts Dream Drop Distance"
+home = "https://discord.com/channels/731205301247803413/1196504617941475379"
+default_url = "https://github.com/LuxMake/Archipelago-KHDDD/releases/download/{{version}}/khddd.apworld"
+
+[versions]
+"0.0.4" = {}

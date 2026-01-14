@@ -1,0 +1,6 @@
+name = "Bits & Bops"
+home = "https://discord.com/channels/731205301247803413/1457256322624917524"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-Bits-and-Bops/releases/download/{{version}}/bits_and_bops.apworld"
+
+[versions]
+"1.0.2" = {}

@@ -36,7 +36,7 @@ tasks:
           ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
           true
         ) &&
-        cd /ap/archipelago && source .venv/bin/activate && unshare -r -n python3 fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8 ${FUZZ_EXTRA_ARGS};
+        cd /ap/archipelago && source .venv/bin/activate && unshare -r -n python3 fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8 ${FUZZ_META_FILE:+-m "$VCS_PATH/$FUZZ_META_FILE"} ${FUZZ_EXTRA_ARGS};
         export STATUS=$?;
         mv /ap/archipelago/fuzz_output /ap/archipelago/fuzz_output_n${FUZZ_YAMLS_PER_RUN};
         (cd /ap/archipelago && mv fuzz_output_n${FUZZ_YAMLS_PER_RUN}/report.json artifacts/report.json) || exit 1;
