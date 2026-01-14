@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1311946326040383589"
 default_url = "https://github.com/silasary/Archipelago/releases/download/factorio_saws-{{version}}/factorio_saws.apworld"
 
 [versions]
-"0.8.2" = {}
+"0.8.5" = {}
