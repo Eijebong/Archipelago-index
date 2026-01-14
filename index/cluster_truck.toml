@@ -1,0 +1,5 @@
+name = "ClusterTruck"
+default_url = "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases/download/{{version}}/cluster_truck.apworld"
+
+[versions]
+"1.3.1" = {}
