@@ -1,7 +1,8 @@
 name = "Buckshot Roulette"
-home = "https://github.com/asdfwyay/APBuckshot"
+home = "https://discord.com/channels/731205301247803413/1234399148665737237"
 default_url = "https://github.com/asdfwyay/APBuckshot/releases/download/v{{version}}/buckshot.apworld"
 
 [versions]
 
 "0.0.3" = {}
+
