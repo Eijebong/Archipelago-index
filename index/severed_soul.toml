@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1400131509569978478"
 
 [versions]
 "2.6.0" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.6/severed_soul.apworld" }
+"2.7.0" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.7/severed_soul.apworld" }
