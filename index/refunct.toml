@@ -5,3 +5,4 @@ default_url = "https://github.com/spinerak/refunct-tas-archipelago/releases/down
 [versions]
 "0.3.2" = {}
 "0.4.2" = {}
+"0.5.3" = {}
