@@ -1,0 +1,6 @@
+name = "Manual_KirbyandtheForgottenLand_Noodlelizer"
+display_name = "Manual: Kirby and the Forgotten Land"
+home = "https://discord.com/channels/1097532591650910289/1461491018380869693"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_kirbyandtheforgottenland_noodlelizer.apworld" }
