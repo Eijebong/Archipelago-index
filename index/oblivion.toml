@@ -1,6 +1,6 @@
 name = "Oblivion Remastered"
 home = "https://discord.com/channels/1085716850370957462/1379282061071749221"
-tags = [ad]
+tags = ["ad"]
 
 [versions]
 "0.4.6" = { url = "https://github.com/POD-io/Oblivion-ArchipelagoWorld/releases/tag/v0.4.6" }
