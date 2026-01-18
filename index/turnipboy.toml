@@ -1,0 +1,6 @@
+name = "TurnipBoy"
+home = "https://discord.com/channels/731205301247803413/1297617351977734214"
+default_url = "https://github.com/pointfivetee/TurnipBoyRandomizer/releases/download/v{{version}}/turnipboy.apworld"
+
+[versions]
+"0.1.3" = {}
