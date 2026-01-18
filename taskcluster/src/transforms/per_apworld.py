@@ -1,11 +1,37 @@
 import copy
+import glob
 import os
 import toml
 from pathlib import Path
 
+from semver import Version
 from taskgraph.transforms.base import TransformSequence
 
 transforms = TransformSequence()
+
+
+def find_fuzz_meta_file(apworld_name, target_version):
+    pattern = f"fuzz-meta/{apworld_name}@*.yaml"
+    meta_files = glob.glob(pattern)
+    base_file = f"fuzz-meta/{apworld_name}.yaml"
+    target_ver = Version.parse(target_version)
+
+    versioned_files = []
+    for path in meta_files:
+        filename = Path(path).stem
+        _, version_str = filename.rsplit("@", 1)
+        ver = Version.parse(version_str)
+        if ver >= target_ver:
+            versioned_files.append((ver, path))
+
+    if versioned_files:
+        versioned_files.sort(key=lambda x: x[0])
+        return versioned_files[0][1]
+
+    if os.path.exists(base_file):
+        return base_file
+
+    return None
 
 
 @transforms.add
@@ -21,6 +47,11 @@ def create_task_for_apworld(config, original_task, world_name, apworld_name, ver
     env["TEST_WORLD_NAME"] = world_name
     env["TEST_APWORLD_NAME"] = apworld_name
     env["TEST_APWORLD_VERSION"] = version
+
+    fuzz_meta = find_fuzz_meta_file(apworld_name, version)
+    if fuzz_meta:
+        env["FUZZ_META_FILE"] = fuzz_meta
+
     task["label"] = f"{config.kind}-{apworld_name}-{version}"
     task.setdefault("attributes", {})["latest"] = latest
     task.setdefault("attributes", {})["apworld_name"] = apworld_name

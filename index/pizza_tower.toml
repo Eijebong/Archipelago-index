@@ -1,7 +1,7 @@
 name = "Pizza Tower"
 home = "https://discord.com/channels/731205301247803413/1079671816257277972"
 default_url = "https://github.com/unsafetyskizzers/Archipelago/releases/download/{{version}}/pizza_tower.apworld"
+disabled = true # https://discord.com/channels/731205301247803413/1079671816257277972/1459310925843664996 and followups
+# Do not ask me to re-enable this, this is a definitive removal.
 
 [versions]
-"1.0.1" = {}
-"1.1.0" = {}

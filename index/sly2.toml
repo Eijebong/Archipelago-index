@@ -4,3 +4,4 @@ default_url = "https://github.com/NikolajDanger/APSly2/releases/download/v{{vers
 
 [versions]
 "0.8.2" = {}
+"0.8.4" = {}

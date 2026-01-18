@@ -1,0 +1,23 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Waddle Dee] (group_name='Waddle Dee', game_name='Manual_KirbyandtheForgottenLand_Noodlelizer')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Filler] (group_name='Filler', game_name='Manual_KirbyandtheForgottenLand_Noodlelizer')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_KirbyandtheForgottenLand_Noodlelizer', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_KirbyandtheForgottenLand_Noodlelizer', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_KirbyandtheForgottenLand_Noodlelizer', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_KirbyandtheForgottenLand_Noodlelizer', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.1"
