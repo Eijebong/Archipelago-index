@@ -4,7 +4,7 @@ __version__ = ">=2.0.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MHRiseHub_Axxroy', option='DLC_enabled')"]]
 __expected__ = "error"
-__version__ = ">=2.0.1"
+__version__ = ">=2.0.1,<2.0.1+repacked2"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_MHRiseHub_Axxroy', option='Example_Toggle')"]]
 __expected__ = "error"
