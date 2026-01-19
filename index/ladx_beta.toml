@@ -2,4 +2,4 @@ name = "Links Awakening DX Beta"
 home = "https://canary.discord.com/channels/731205301247803413/1316960757526695997"
 
 [versions]
-"13.3.0" = {url = "https://github.com/threeandthreee/Archipelago/releases/download/13.3/ladx_beta.apworld"}
+"13.3.0" = {url = "https://github.com/threeandthreee/Archipelago/releases/download/13.3.0/ladx_beta.apworld"}
