@@ -1,10 +1,3 @@
 name = "EarthBound"
-home = "https://discord.com/channels/731205301247803413/1077266688657068032"
-default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/earthboundap{{version}}/earthbound.apworld"
-
-[versions]
-"4.2.1" = {}
-"4.2.5" = {}
-"4.2.6" = {}
-"4.2.7" = {}
-"4.3.1" = {}
+home = "https://archipelago.gg"
+supported = true
