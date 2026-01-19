@@ -1,5 +1,7 @@
 name = "UNBEATABLE Arcade"
 home = "https://discord.com/channels/731205301247803413/1454317500329099317"
+default_url = "https://github.com/AllPoland/unbeatAP/releases/download/v{{version}}-alpha/unbeatable_arcade.apworld"
 
 [versions]
-"0.1.0" = { url = "https://github.com/AllPoland/unbeatAP/releases/download/v0.1.0-alpha/unbeatable_arcade.apworld" }
+"0.1.0" = {}
+"0.1.1" = {}
