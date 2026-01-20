@@ -1,0 +1,6 @@
+name = "Manual_SWBF2_DayKat&Lazy"
+display_name = "Manual: Star Wars Battlefront 2 (2005)"
+home = "https://discord.com/channels/1097532591650910289/1314046999884075069"
+
+[versions]
+"1.1.0" = { local = "../apworlds/manual_swbf2_daykat&lazy.apworld" }
