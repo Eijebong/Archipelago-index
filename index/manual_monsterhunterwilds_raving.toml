@@ -1,0 +1,6 @@
+name = "Manual_MonsterHunterWilds_Raving"
+display_name: = "Manual: Monster Hunter Wilds"
+home = "https://discord.com/channels/1097532591650910289/1458177887189471232"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_monsterhunterwilds_raving.apworld" }
