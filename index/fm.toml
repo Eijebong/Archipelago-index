@@ -5,3 +5,4 @@ default_url = "https://github.com/sg4e/Archipelago/releases/download/v{{version}
 [versions]
 "2.1.1" = {}
 "2.1.2" = {}
+"2.1.3" = {}
