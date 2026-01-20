@@ -3,15 +3,8 @@ home = "https://discord.com/channels/731205301247803413/1234592520403423352"
 default_url = "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases/download/{{version}}/sonic_heroes.apworld"
 
 [versions]
-"1.0.2" = {}
-"1.1.0" = {}
-"1.1.3" = {}
-"1.1.5" = {}
-"1.1.7" = {}
-"1.1.8" = {}
-"1.1.9" = {}
-"1.3.0" = {}
 "1.4.0" = {}
 "1.5.0" = {}
 "2.0.0" = {}
-"2.0.1" = {}
+# Apworld was removed by mistake and reuploaded with a different checksum
+"2.0.1+hotfix1" = { url = "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases/download/2.0.1/sonic_heroes.apworld" }

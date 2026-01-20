@@ -6,3 +6,4 @@ home = "https://discord.com/channels/731205301247803413/1320015979736203304"
 # This got changed after it got added into the index
 "0.6.2+hotfix" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/V1.4/tevi.apworld" }
 "0.6.3" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/V1.4.1/tevi.apworld" }
+"0.6.6" = { url = "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases/download/v1.4.6/tevi.apworld" }

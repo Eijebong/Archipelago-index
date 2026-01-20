@@ -1,0 +1,3 @@
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Garfield Kart - Furious Racing', option='trap_percentage')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.4-beta"
