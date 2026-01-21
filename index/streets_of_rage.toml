@@ -2,4 +2,4 @@ name = "Streets of Rage"
 home = "https://discord.com/channels/731205301247803413/1421815799504437409"
 
 [versions]
-"0.1.15" = { local = "../apworlds/streets_of_rage.apworld" }
+"0.1.15" = { local = "../apworlds/streets_of_rage-0.1.15.apworld" }
