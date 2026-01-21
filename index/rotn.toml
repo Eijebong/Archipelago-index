@@ -5,3 +5,4 @@ default_url = "https://github.com/studkid/RiftArchipelago/releases/download/v{{v
 [versions]
 "0.2.0" = { url = "https://github.com/studkid/RiftArchipelago/releases/download/v0.2/rotn.apworld" }
 "0.3.2" = {}
+"0.6.1" = {}
