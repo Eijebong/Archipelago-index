@@ -1,0 +1,6 @@
+name = "Death's Door"
+home = "https://discord.com/channels/731205301247803413/1126418897827020800"
+default_url = "https://github.com/roseasromeo/DeathsDoorAPWorld/releases/download/v{{version}}/deaths_door.apworld"
+
+[versions]
+"0.2.1" = {}
