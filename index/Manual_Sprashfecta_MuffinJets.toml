@@ -1,0 +1,8 @@
+name = "Manual_Sprashfecta_MuffinJets"
+display_name = "Manual: Sprashfecta"
+home = "https://discord.com/channels/1097532591650910289/1301716173578309723"
+default_url = "https://github.com/muffinjets/Manual_Sprashfecta_MuffinJets/releases/download/v{{version}}/Manual_Sprashfecta_MuffinJets.apworld"
+
+[versions]
+"0.4.0" = {}
+
