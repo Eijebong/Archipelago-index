@@ -16,7 +16,7 @@ if [[ ! -d "$INDEX_ROOT/index" ]] then
 fi
 
 git clone https://github.com/ArchipelagoMW/Archipelago.git /tmp/ap
-(cd /tmp/ap && git reset --hard 0.6.5)
+(cd /tmp/ap && git reset --hard 0.6.6)
 (cd /tmp/ap && find . -type f -exec dos2unix {} \;)
 
 for f in /tmp/ap/worlds/*; do

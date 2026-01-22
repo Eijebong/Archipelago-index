@@ -3,3 +3,4 @@ display_name = "Manual: Roblox Tower Defense Simulator"
 
 [versions]
 "1.0.0" = { local = "../apworlds/manual_robloxtowerdefensesimulator_jujubeanyt-1.0.0.apworld" }
+"1.0.1" = { local = "../apworlds/manual_robloxtowerdefensesimulator_jujubeanyt-1.0.1.apworld" }

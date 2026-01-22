@@ -1,5 +1,3 @@
 name = "Castlevania: Dawn of Sorrow"
-home = "https://discord.com/channels/731205301247803413/1441671319690412052"
-
-[versions]
-"1.3.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/cvdos1.3/cv_dos.apworld" }
+# The author has publicly expressed their hatred for this project and adjacent ones, going as far as expressing their will to find a way to get excluded from it. Respect their wish
+disabled = true
