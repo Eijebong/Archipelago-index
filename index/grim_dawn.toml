@@ -6,4 +6,5 @@ default_url = "https://github.com/routhken/Archipelago/releases/download/v{{vers
 "0.1.5" = { url = "https://github.com/routhken/Archipelago/releases/download/grimdawn-v0.1.5/grim_dawn.apworld" }
 "0.2.0" = {}
 "0.3.0" = {}
+"0.3.1" = {}
 
