@@ -4,4 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1299564055597416449"
 default_url = "https://github.com/mwoiii/webfishing-ap/releases/download/v{{version}}/webfishing.apworld"
 
 [versions]
-"1.2.0-alpha" = {}
+"1.2.2-alpha" = {}
