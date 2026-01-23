@@ -1,0 +1,6 @@
+name = "Wargroove 2"
+home = "https://discord.com/channels/731205301247803413/1159482310652076082"
+default_url = "https://github.com/FlySniper/Archipelago/releases/download/wargroove2-{{version}}/wargroove2.apworld"
+
+[versions]
+"1.1.1" = {}
