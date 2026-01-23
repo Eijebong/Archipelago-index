@@ -1,0 +1,6 @@
+name = "West of Loathing"
+home = "https://discord.com/channels/731205301247803413/1273856413327822950"
+default_url = "https://github.com/Lucasvdm/WOLAP/releases/download/v{{version}}/westofloathing.apworld"
+
+[versions]
+"0.2.3-alpha" = {}
