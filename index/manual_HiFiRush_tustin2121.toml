@@ -1,8 +1,8 @@
-name = "manual_HiFiRush_tustin2121"
+name = "Manual_HiFiRush_Tustin2121"
 display_name = "Manual: Hi-Fi Rush"
 home = "https://github.com/tustin2121/manual_HiFiRush_tustin2121"
 default_url = "https://github.com/tustin2121/manual_HiFiRush_tustin2121/releases/download/{{version}}/manual_hifirush_tustin2121.apworld"
 
 [versions]
 "0.9.0" = {}
-"0.3.0" = {}
+
