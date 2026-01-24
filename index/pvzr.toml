@@ -1,0 +1,6 @@
+name = "Plants vs. Zombies: Replanted"
+home = "https://discord.com/channels/731205301247803413/1437352496455483413"
+default_url = "https://github.com/dannybonz/replanted_archipelago/releases/download/v{{version}}/pvzr.apworld"
+
+[versions]
+"1.2.0" = {}

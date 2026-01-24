@@ -1,7 +1,5 @@
 name = "Candy Box 2"
 home = "https://discord.com/channels/731205301247803413/1351112920398037015/"
-# this version of candy box 2 is really outdated and causes issues for a lot of people, so disabling it is the best course of action
-disabled = true
 
 [versions]
-"0.1.0+20250409-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20250409-1/candybox2.apworld" }
+"0.1.0+20251208-1" = { url = "https://github.com/vicr123/Archipelago/releases/download/20251208-1/candybox2.apworld" }

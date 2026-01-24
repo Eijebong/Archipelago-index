@@ -1,0 +1,6 @@
+name = "Totally Accurate Battle Simulator"
+home = "https://discord.com/channels/731205301247803413/1348142956682547230"
+default_url = "https://github.com/duckboycool/TABS-Archipelago/releases/download/v{{version}}/tabs.apworld"
+
+[versions]
+"0.1.0" = {}
