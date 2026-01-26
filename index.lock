@@ -285,6 +285,7 @@
 [k64]
 "0.2.2" = "06b98573104870ebe174c08f2765fb06b28fb0d38eb628490ec37eca66dde05a"
 "0.3.0" = "24cee09293de1faff7edac66814d7f0d6e9bcafd0276b58d172af43668f2ce76"
+"0.3.1" = "da7ab4d6bddea5256f50768a866a0667f8b3c917efbf50d5b9b8a8ddf50f9edd"
 
 [keymasters_keep]
 "0.2.0+silasarybundle" = "c3e5bd82786efdc789011695bc82c7aa1a72db19b982abedf949073dea36c39d"
