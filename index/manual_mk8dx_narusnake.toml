@@ -1,0 +1,7 @@
+name = "Manual_MK8DX_NaruSnake"
+display_name = "Manual: Mario Kart 8 Deluxe"
+home = "https://discord.com/channels/1097532591650910289/1163991862026190869/1278708439463362631"
+default_url = "https://github.com/ChristopheBonnefoi/Manual_Archipelago_Mario_Kart_8/releases/download/v.{{version}}/manual_mk8dx_narusnake.apworld"
+
+[versions]
+"0.7.0" = {}
