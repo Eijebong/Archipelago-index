@@ -1,11 +1,11 @@
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Cave Story', option='starting_location')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.1"
+__version__ = ">=0.6.5"
 
 [["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Cave Story')"]]
 __expected__ = "error"
-__version__ = ">=0.4.1"
+__version__ = ">=0.6.5"
 
 [["test.general.test_items.TestBase.test_item_links [Can generate without link replacement] (game='Cave Story')"]]
 __expected__ = "error"
-__version__ = ">=0.4.1"
+__version__ = ">=0.6.5"

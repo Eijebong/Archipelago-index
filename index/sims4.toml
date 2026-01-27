@@ -5,3 +5,4 @@ default_url = "https://github.com/Simsipelago/Archipelago/releases/download/{{ve
 [versions]
 
 "1.6.1" = {}
+"1.7.5" = {}

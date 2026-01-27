@@ -3,7 +3,6 @@ from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifac
 import taskgraph
 
 from collections import defaultdict
-import json
 import os
 import shlex
 
@@ -29,11 +28,9 @@ def _filter_for_pr(tasks, parameters, force=[]):
             continue
 
         try:
-            diff_response = get_artifact(diff_task, artifact['name'])
+            diff = get_artifact(diff_task, artifact['name'])
         except Exception as exc:
             raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
-
-        diff = json.loads(diff_response.read())
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]
@@ -69,20 +66,20 @@ def test_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("test-fuzz")
 def test_fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz"}], parameters)
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz", "upload-fuzz-results", "fuzz-report"}], parameters)
 
 
 @register_target_task("r+")
 def rplus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], parameters, force=["publish"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish", "upload-fuzz-results"}], parameters, force=["publish"])
 
 @register_target_task("r++")
 def rplus_plus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "update-expectations", "make-expectations-patch", "ap-test", "test-report", "publish"}], parameters, force=["publish", "make-expectations-patch"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "update-expectations", "make-expectations-patch", "ap-test", "test-report", "publish", "upload-fuzz-results"}], parameters, force=["publish", "make-expectations-patch"])
 
 @register_target_task("fuzz")
 def fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}], parameters)
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz", "fuzz-report"}], parameters)
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):

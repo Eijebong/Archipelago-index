@@ -5,3 +5,4 @@ default_url = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/v
 [versions]
 "1.7.1" = {}
 "1.7.2" = {}
+"2.1.0" = {}

@@ -1,0 +1,6 @@
+name = "Mega Man"
+home = "https://discord.com/channels/731205301247803413/1363566809726451815"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/mm1_{{version}}/mm1.apworld"
+
+[versions]
+"0.1.1" = {}

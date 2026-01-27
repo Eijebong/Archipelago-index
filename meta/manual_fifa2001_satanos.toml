@@ -1,0 +1,15 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Fifa2001_Satanos', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Fifa2001_Satanos', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Fifa2001_Satanos', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Fifa2001_Satanos', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"

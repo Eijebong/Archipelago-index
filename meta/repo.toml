@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Event] (group_name='Event', game_name='R.E.P.O')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.4"
+
+[["test.general.test_locations.TestBase.test_location_group [Event] (group_name='Event', game_name='R.E.P.O')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.4"

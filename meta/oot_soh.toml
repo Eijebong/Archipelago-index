@@ -1,0 +1,3 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Bombchu Bag] (group_name='Bombchu Bag', game_name='Ship of Harkinian')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"

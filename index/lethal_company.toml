@@ -7,3 +7,4 @@ default_url = "https://github.com/T0r1nn/APLC/releases/download/{{version}}/leth
 "0.6.13-beta" = {}
 "0.7.1-beta" = { url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.1-beta/lethal_company.apworld" }
 "0.7.5-beta" = {url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.5-beta/lethal_company.apworld"}
+"0.7.7-beta" = {url = "https://github.com/T0r1nn/APLC/releases/download/v0.7.7-beta/lethal_company.apworld"}

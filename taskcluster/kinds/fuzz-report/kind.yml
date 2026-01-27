@@ -1,0 +1,23 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+    - taskgraph.transforms.from_deps
+    - src.transforms.fuzz_report
+    - taskgraph.transforms.task
+
+kind-dependencies:
+  - fuzz
+  - diff
+
+tasks:
+  apfuzz:
+    from-deps:
+      group-by:
+        attribute: apworld_version
+      unique-kinds: false
+    description: Create a comment on the PR with the fuzz results
+    worker-type: githubscript
+    run-on-tasks-for: []
+    requires: all-resolved
+    worker:
+      implementation: githubscript-apfuzz

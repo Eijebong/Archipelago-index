@@ -1,0 +1,5 @@
+name = "Manual_MarioKart7_BigBradley"
+display_name = "Manual: Mario Kart 7"
+home = "https://discord.com/channels/1097532591650910289/1435713778611257475/1435713778611257475"
+[versions]
+"1.0.0" = { url = "https://github.com/BigBradley/Mario-Kart-7-Manual-APworld/releases/download/V1.0/manual_mariokart7_bigbradley.apworld" }

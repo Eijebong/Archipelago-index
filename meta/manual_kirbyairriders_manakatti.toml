@@ -1,0 +1,39 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Air Glider] (group_name='Air Glider', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [High Jump] (group_name='High Jump', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Gourmet Race] (group_name='Gourmet Race', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Rail Panic] (group_name='Rail Panic', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Oval Circuit] (group_name='Oval Circuit', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Gigantes] (group_name='Gigantes', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Vs. Gigantes] (group_name='Vs. Gigantes', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [City Trial] (group_name='City Trial', game_name='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_KirbyAirRiders_ManaKatti')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"

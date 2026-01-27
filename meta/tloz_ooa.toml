@@ -2,10 +2,6 @@
 __expected__ = "fail"
 __version__ = ">=0.4.3+hotfix-0.6.2"
 
-[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Master Keys] (group_name='Master Keys', game_name='The Legend of Zelda - Oracle of Ages')"]]
-__expected__ = "fail"
-__version__ = ">=0.4.3+hotfix-0.6.2,<0.4.2"
-
 [["test.general.test_locations.TestBase.test_location_group [D3] (group_name='D3', game_name='The Legend of Zelda - Oracle of Ages')"]]
 __expected__ = "fail"
 __version__ = ">=0.4.3+hotfix-0.6.2"
