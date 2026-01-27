@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1142558464242094200"
 default_url = "https://github.com/choatix/Archipelago/releases/download/shadow-{{version}}/shadow_the_hedgehog.apworld"
 
 [versions]
-"0.2.7" = {}
+"0.4.1" = {}
