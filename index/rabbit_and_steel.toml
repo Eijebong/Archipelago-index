@@ -1,0 +1,6 @@
+name = "Rabbit and Steel"
+home = "https://discord.com/channels/731205301247803413/1241105661425877194"
+default_url = "https://github.com/tjwombo/RNSArchipelago/releases/download/v{{version}}/rabbit_and_steel.apworld"
+
+[versions]
+"0.2.6" = {}
