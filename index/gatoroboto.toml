@@ -1,0 +1,6 @@
+name = "Gato Roboto"
+home = "https://discord.com/channels/731205301247803413/1205195046689841217"
+default_url = "https://github.com/Ravenmist-Games/Gato-Roboto-APWorld/releases/download/v{{version}}/gatoroboto.apworld"
+
+[versions]
+"0.2.1" = {}
