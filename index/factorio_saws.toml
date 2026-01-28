@@ -1,7 +1,6 @@
 name = "Factorio - Space Age Without Space"
 home = "https://discord.com/channels/731205301247803413/1311946326040383589"
-disabled = true # https://discord.com/channels/731205301247803413/1311946326040383589/1359608891943551156
+default_url = "https://github.com/silasary/Archipelago/releases/download/factorio_saws-{{version}}/factorio_saws.apworld"
 
 [versions]
-# https://discord.com/channels/731205301247803413/1311946326040383589/1329822970096521399
-"0.0.6" = { local = "../apworlds/factorio_saws-0.0.6.apworld" }
+"0.8.5" = {}
