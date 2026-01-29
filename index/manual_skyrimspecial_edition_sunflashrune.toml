@@ -1,0 +1,6 @@
+name = "Manual_SkyrimSpecialEdition_SunflashRune"
+display_name = "Manual: Skyrim Special Edition"
+home = "https://discord.com/channels/1097532591650910289/1165363034278084609"
+
+[versions]
+"0.7.2" = { url = "https://github.com/SunflashRune/Skyrim-Special-Edition-Randomizer-for-Manual-Archipelago/releases/download/0.7.2/manual_skyrimspecialedition_sunflashrune.apworld" }
