@@ -1,0 +1,6 @@
+name = "Lobotomy Corporation"
+home = "https://discord.com/channels/1085716850370957462/1349105013783400529"
+tags = ["ad"]
+
+[versions]
+"1.3.0" = { url = "https://github.com/Kli333/LobCorp-AP/releases/download/v.1.3.0.0/lobotomycorporation.apworld" }
