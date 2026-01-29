@@ -6,3 +6,4 @@ disabled = true # 0.3.2 is ancient, more recent versions have been failing (and 
 [versions]
 "0.2.0" = { url = "https://github.com/studkid/RiftArchipelago/releases/download/v0.2/rotn.apworld" }
 "0.3.2" = {}
+"0.8.2" = { url = "https://github.com/studkid/RiftArchipelago/releases/download/v0.8.2/rotn.apworld" }
