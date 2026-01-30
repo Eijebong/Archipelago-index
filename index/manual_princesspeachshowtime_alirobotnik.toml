@@ -4,3 +4,4 @@ home = "https://github.com/AliRobotnik/Princess-Peach-Showtime-Archipelago-Manua
 
 [versions]
 "1.2.0" = { url = "https://github.com/AliRobotnik/Princess-Peach-Showtime-Archipelago-Manual/releases/download/V1.2/manual_PrincessPeachShowtime_alirobotnik.apworld" }
+"1.2.3" = { url = "https://github.com/AliRobotnik/Princess-Peach-Showtime-Archipelago-Manual/releases/download/V1.2.3/manual_princesspeachshowtime_alirobotnik.apworld" }
