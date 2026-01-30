@@ -3,4 +3,4 @@ display_name = "Manual: Overwatch 2"
 home = "https://github.com/Fafale/manual_overwatch2_fafale/releases/latest"
 
 [versions]
-"v1.1.1" = {local = "../apworlds/manual_overwatch2_fafale.apworld" }
+"1.1.1" = {local = "../apworlds/manual_overwatch2_fafale.apworld" }
