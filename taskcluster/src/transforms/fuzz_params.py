@@ -27,10 +27,10 @@ def fuzz_params(config, tasks):
                 raw_params = line.removeprefix("fuzz").strip()
                 break
 
-    dupe_with_empty = False
+    specific_fuzz = True
     if not raw_params:
         raw_params = "-r 5000 -n 1"
-        dupe_with_empty = True
+        specific_fuzz = False
 
     args = parser.parse_args(shlex.split(raw_params))
 
@@ -57,10 +57,14 @@ def fuzz_params(config, tasks):
 
         yield copy.deepcopy(task)
 
-        if dupe_with_empty:
-            task["label"] = f"fuzz-no-restrictive-starts-{apworld_name}-{version}"
-            attributes["extra_args_key"] = "no-restrictive-starts"
+        # If we're not specifically fuzzing for something we want to run the full suite
+        if not specific_fuzz:
+            for (hook_name, hook) in (
+                ("no-restrictive-starts", "hooks.with_empty:Hook"),
+            ):
+                new_task = copy.deepcopy(task)
+                new_task["label"] = f"fuzz-{hook_name}-{apworld_name}-{version}"
+                new_task["attributes"]["extra_args_key"] = hook_name
+                new_task["worker"]["env"]["FUZZ_EXTRA_ARGS"] = extra_args + "--hook " + hook
 
-            env["FUZZ_EXTRA_ARGS"] = extra_args + "--hook hooks.with_empty:Hook"
-
-            yield task
+                yield new_task
