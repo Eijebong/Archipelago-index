@@ -61,10 +61,13 @@ def fuzz_params(config, tasks):
         if not specific_fuzz:
             for (hook_name, hook) in (
                 ("no-restrictive-starts", "hooks.with_empty:Hook"),
+                ("check-ut", "worlds.tracker.fuzzer_hook:Hook"),
             ):
                 new_task = copy.deepcopy(task)
                 new_task["label"] = f"fuzz-{hook_name}-{apworld_name}-{version}"
                 new_task["attributes"]["extra_args_key"] = hook_name
                 new_task["worker"]["env"]["FUZZ_EXTRA_ARGS"] = extra_args + "--hook " + hook
+                if hook_name.startswith("check-"):
+                    env["FUZZ_RUNS"] = "500"
 
                 yield new_task
