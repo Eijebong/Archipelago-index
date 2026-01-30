@@ -62,12 +62,22 @@ def fuzz_params(config, tasks):
             for (hook_name, hook) in (
                 ("no-restrictive-starts", "hooks.with_empty:Hook"),
                 ("check-ut", "worlds.tracker.fuzzer_hook:Hook"),
+                ("check-gerpocalypse", "hooks.gerpocalypse:Hook"),
+                ("check-item-location-count", "hooks.item_location_count:Hook"),
+                ("check-lambda-capture", "hooks.detect_rule_variable_capture_issues:Hook"),
+                ("check-placement-item-location-refs", "hooks.check_placement_item_location_references:Hook"),
+                ("check-determinism", "hooks.determinism:Hook"),
             ):
                 new_task = copy.deepcopy(task)
                 new_task["label"] = f"fuzz-{hook_name}-{apworld_name}-{version}"
                 new_task["attributes"]["extra_args_key"] = hook_name
                 new_task["worker"]["env"]["FUZZ_EXTRA_ARGS"] = extra_args + "--hook " + hook
+
+                # check-determinism is extra demanding, so tweak values a bit
+                if hook_name == "check-determinism":
+                    new_task["worker"]["env"]["FUZZ_EXTRA_ARGS"] += " -t 30 -j 4"
                 if hook_name.startswith("check-"):
-                    env["FUZZ_RUNS"] = "500"
+                    new_task["worker"]["env"]["FUZZ_RUNS"] = "500"
+
 
                 yield new_task
