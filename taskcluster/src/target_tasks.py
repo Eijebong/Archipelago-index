@@ -6,6 +6,12 @@ from collections import defaultdict
 import os
 import shlex
 
+from src.transforms.fuzz_params import extract_raw_fuzz_params
+
+
+def _is_specific_fuzz(parameters):
+    return extract_raw_fuzz_params(parameters) is not None
+
 
 def _filter_for_pr(tasks, parameters, force=[]):
     pr_number = parameters.get("pull_request_number")
@@ -79,7 +85,13 @@ def rplus_plus_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("fuzz")
 def fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz", "fuzz-report"}], parameters)
+    specific = _is_specific_fuzz(parameters)
+    tasks = [
+        (label, task) for label, task in full_task_graph.tasks.items()
+        if task.kind in {"fuzz", "fuzz-report"}
+        and not (specific and task.attributes.get("fuzz-variant"))
+    ]
+    return _filter_for_pr(tasks, parameters)
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):
@@ -88,7 +100,7 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
     if parameters.get('try_config'):
-        return try_target_tasks(full_task_graph, parameters['try_config'].split('\n')[0])
+        return try_target_tasks(full_task_graph, parameters)
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
 @register_target_task("rebuild-ap-worker")
@@ -96,21 +108,29 @@ def rebuild_ap_worker_target_task(full_task_graph, parameters, graph_config):
     return [label for label, task in full_task_graph.tasks.items() if task.label == "docker-image-ap-checker"]
 
 
-def try_target_tasks(full_task_graph, try_config):
+def try_target_tasks(full_task_graph, parameters):
+    try_config = parameters['try_config'].split('\n')[0]
     targets = parse_try_config(try_config)
+    specific = _is_specific_fuzz(parameters)
     try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():
         if target is None:
             if kind == "fuzz":
-                filtered_tasks.extend(label for label, task in _only_latest(try_tasks) if task.kind == kind)
+                filtered_tasks.extend(
+                    label for label, task in _only_latest(try_tasks)
+                    if task.kind == kind and not (specific and task.attributes.get("fuzz-variant"))
+                )
             else:
                 filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind)
         else:
             for apworld in target:
                 if kind == "fuzz":
-                    filtered_tasks.extend(label for label, task in _only_latest(try_tasks) if task.kind == kind and apworld in label)
+                    filtered_tasks.extend(
+                        label for label, task in _only_latest(try_tasks)
+                        if task.kind == kind and apworld in label and not (specific and task.attributes.get("fuzz-variant"))
+                    )
                 else:
                     filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind and apworld in label)
 
