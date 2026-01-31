@@ -1,0 +1,7 @@
+name = "Manual_Ghostrunner_Evoker"
+display_name = "Manual: Ghostrunner"
+home = "https://discord.com/channels/1097532591650910289/1458061225194946675"
+tags = ["ad"]
+
+[versions]
+"0.0.5" = { local = "../apworlds/manual_ghostrunner_evoker-0.0.5.apworld" }

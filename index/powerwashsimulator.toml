@@ -10,3 +10,4 @@ default_url = "https://github.com/SWCreeperKing/PowerwashSimAP/releases/download
 "0.5.3" = {}
 "0.5.5" = {}
 "0.5.12" = {url = "https://github.com/SWCreeperKing/PowerwashSimAP/releases/download/v0.5.12/powerwashsimulator.apworld"}
+"0.5.13" = {url = "https://github.com/SWCreeperKing/PowerwashSimAP/releases/download/v0.5.13/powerwashsimulator.apworld"}

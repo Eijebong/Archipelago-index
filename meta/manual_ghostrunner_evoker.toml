@@ -1,0 +1,27 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_Ghostrunner_Evoker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.5"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_Ghostrunner_Evoker')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.5"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='filler_traps')"]]
+__expected__ = "error"
+__version__ = ">=0.0.5"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=0.0.5"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=0.0.5"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=0.0.5"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.5"

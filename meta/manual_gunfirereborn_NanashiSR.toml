@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_GunfireReborn_NanashiSR')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_GunfireReborn_NanashiSR')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.0"

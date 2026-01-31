@@ -1,9 +1,4 @@
 name = "EarthBound"
-home = "https://discord.com/channels/731205301247803413/1077266688657068032"
-default_url = "https://github.com/PinkSwitch/Archipelago/releases/download/earthboundap{{version}}/earthbound.apworld"
+# The author has publicly expressed their hatred for this project and adjacent ones, going as far as expressing their will to find a way to get excluded from it. Respect their wish
+disabled = true
 
-[versions]
-"4.2.1" = {}
-"4.2.5" = {}
-"4.2.6" = {}
-"4.2.7" = {}

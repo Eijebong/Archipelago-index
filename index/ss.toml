@@ -1,7 +1,6 @@
 name = "Skyward Sword"
 home = "https://discord.com/channels/731205301247803413/1150290645475401832"
 default_url = "https://github.com/Battlecats59/SS_APWorld/releases/download/v{{version}}/ss.apworld"
-disabled = true # Doesn't work with 0.6.5
 
 [versions]
-"0.5.3" = {}
+"0.5.4" = {}
