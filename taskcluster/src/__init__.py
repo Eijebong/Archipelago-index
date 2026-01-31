@@ -36,6 +36,29 @@ def handle_soft_fetches(taskgraph, label_to_taskid, parameters, graph_config):
 
     return taskgraph, label_to_taskid
 
+@register_morph
+def resolve_soft_payload(taskgraph, label_to_taskid, parameters, graph_config):
+    """Resolve soft dependencies into payload fields.
+
+    Tasks with a `soft-payload` attribute mapping {dep_label: payload_key} will
+    have the payload key set to the dep's task ID if the dep is in the graph,
+    or null otherwise.
+    """
+    for task in taskgraph:
+        soft_payload = task.attributes.get("soft-payload")
+        if soft_payload is None:
+            continue
+
+        del task.attributes["soft-payload"]
+
+        for dep_label, payload_key in soft_payload.items():
+            if dep_label in label_to_taskid:
+                task_id = label_to_taskid[dep_label]
+                task.task["payload"][payload_key] = task_id
+                task.task.setdefault("dependencies", []).append(task_id)
+
+    return taskgraph, label_to_taskid
+
 def register(graph_config):
     eije_taskgraph_register(graph_config)
 
