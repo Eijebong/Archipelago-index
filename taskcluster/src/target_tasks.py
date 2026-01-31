@@ -24,8 +24,8 @@ def _filter_for_pr(tasks, parameters, force=[]):
     try:
         diff_task = find_task_id(f"ap.{project}.index.pr.{pr_number}.latest")
     except (KeyError, taskcluster.exceptions.TaskclusterRestFailure):
-        print(f"No diff yet for PR {pr_number}, returning empty task set")
-        return []
+        print(f"No diff yet for PR {pr_number}, returning only forced tasks")
+        return [label for label, task in tasks if task.kind in force]
 
     filtered_tasks = [label for label, task in tasks if task.kind in force]
 
