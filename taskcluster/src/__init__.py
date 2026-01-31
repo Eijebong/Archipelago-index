@@ -55,7 +55,9 @@ def resolve_soft_payload(taskgraph, label_to_taskid, parameters, graph_config):
             if dep_label in label_to_taskid:
                 task_id = label_to_taskid[dep_label]
                 task.task["payload"][payload_key] = task_id
-                task.task.setdefault("dependencies", []).append(task_id)
+                deps = task.task.setdefault("dependencies", [])
+                if task_id not in deps:
+                    deps.append(task_id)
 
     return taskgraph, label_to_taskid
 
