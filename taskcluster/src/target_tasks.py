@@ -1,5 +1,6 @@
 from taskgraph.target_tasks import register_target_task
 from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifact
+import taskcluster.exceptions
 import taskgraph
 
 from collections import defaultdict
@@ -22,7 +23,7 @@ def _filter_for_pr(tasks, parameters, force=[]):
     project = parameters.get('project', 'unknown').lower()
     try:
         diff_task = find_task_id(f"ap.{project}.index.pr.{pr_number}.latest")
-    except KeyError:
+    except (KeyError, taskcluster.exceptions.TaskclusterRestFailure):
         print(f"No diff yet for PR {pr_number}, returning empty task set")
         return []
 
