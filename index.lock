@@ -611,6 +611,7 @@
 [manual_robloxtowerdefensesimulator_jujubeanyt]
 "1.0.0" = "90a98ef0385098ddcd6d6c7e96bccd1979443c58e0e1b26fd3f195c91db9da6f"
 "1.0.1" = "79ba097fc8100c81f43450de0c4634277950805d9bcf5d46bdfe96ad687e97f5"
+"1.1.0" = "72a500bc772d40cffb4edddc6659a90afcac3a51d570cce00a9d3dd30ae59120"
 
 [manual_roguecraft_connorminer]
 "0.0.5" = "8857d84edbaa49d3469f807bff37394343e9846d843dab7a06d4f64fdf8f8154"
