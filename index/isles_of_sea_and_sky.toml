@@ -1,0 +1,5 @@
+name = "Isles Of Sea And Sky"
+home = "https://discord.com/channels/731205301247803413/1253182614441951282"
+
+[versions]
+"0.0.14" = { url = "https://github.com/Kim-Delicious/Archipelago_IslesOfSeaAndSky/releases/download/v0_0_14/isles_of_sea_and_sky.apworld" }
