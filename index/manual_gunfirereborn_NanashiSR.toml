@@ -1,0 +1,6 @@
+name = "Manual_GunfireReborn_NanashiSR"
+display_name = "Manual: Gunfire Reborn"
+home = "https://gitlab.com/nanashi-archipelago/manual-gunfire-reborn"
+
+[versions]
+"0.2.0" = { url = "https://gitlab.com/nanashi-archipelago/manual-gunfire-reborn/-/raw/fcb944252f79c590fc286f143b2025dd863a1365/assets/manual_gunfirereborn_NanashiSR.apworld" }

@@ -496,72 +496,72 @@ __version__ = ">=0.5.5,<0.6.2"
 
 [["test.general.test_implemented.TestImplemented.test_prefill_items [Tevi]"]]
 __expected__ = "fail"
-__version__ = ">=0.5.5"
+__version__ = ">=0.5.5,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Cloister Main - C. Rank Frenzy: Focus MAX', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Ulvosa', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Heaven Valley East', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Valhalla City', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Heaven Valley West', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Valhalla Breath West', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Ruins', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=\"Teleporter Sinner's Oath\", game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Relicts', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Catacombs', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Lab', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Cloister', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Gallery East', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Frank Boss', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter BlushWood', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Teleporter Evernight Garden', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"
 
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='TeleportHub', game='Tevi')"]]
 __expected__ = "fail"
-__version__ = ">=0.6.2"
+__version__ = ">=0.6.2,<0.6.6"

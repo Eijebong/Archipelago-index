@@ -4,4 +4,4 @@ default_url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/relea
 
 [versions]
 "0.8.0+hotfix1" = { url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v0.8.0/psychonauts.apworld" }
-"0.9.3-BETA" = {}
+"0.9.3-BETA+hotfix1" = { url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v0.9.3-BETA/psychonauts.apworld" }
