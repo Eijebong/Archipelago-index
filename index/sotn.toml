@@ -3,4 +3,5 @@ display_name = "Castlevania: Symphony Of The Night"
 home = "https://discord.com/channels/731205301247803413/1462294492752380167"
 
 [versions]
-"0.8.16-Unofficial" = { url = "https://github.com/Darvitz/Archipelago-Crystal/releases/tag/Unofficial_0.8.16" }
+
+"0.8.16+unofficial" = { url = "https://github.com/Darvitz/Archipelago-Crystal/releases/download/Unofficial_0.8.16/sotn.apworld" }
