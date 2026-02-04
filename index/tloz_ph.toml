@@ -1,0 +1,6 @@
+name = "The Legend of Zelda - Phantom Hourglass"
+home = "https://discord.com/channels/731205301247803413/1256012365049233438"
+default_url = "https://github.com/carrotinator/Archipelago/releases/download/v{{version}}/tloz_ph.apworld"
+
+[versions]
+"0.7.1-alpha" = {}
