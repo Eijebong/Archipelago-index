@@ -1,4 +1,5 @@
 name = "Ratchet and Clank 3"
+display_name = "Ratchet & Clank 3"
 home = "https://discord.com/channels/731205301247803413/1357102103054651622"
 default_url = "https://github.com/Taoshix/Archipelago-RaC3/releases/download/v{{version}}/rac3.apworld"
 
