@@ -1,0 +1,23 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Sparkle Gem] (group_name='Sparkle Gem', game_name='Manual_PrincessPeachShowtime_AliRobotnik')"]]
+__expected__ = "fail"
+__version__ = ">=1.2.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Hide and Seek Theet] (group_name='Hide and Seek Theet', game_name='Manual_PrincessPeachShowtime_AliRobotnik')"]]
+__expected__ = "fail"
+__version__ = ">=1.2.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_PrincessPeachShowtime_AliRobotnik')"]]
+__expected__ = "fail"
+__version__ = ">=1.2.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_PrincessPeachShowtime_AliRobotnik')"]]
+__expected__ = "fail"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PrincessPeachShowtime_AliRobotnik', option='Boss_Sparkle_Gems_Enabled')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PrincessPeachShowtime_AliRobotnik', option='Rehearsal_Trophies_Enabled')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"

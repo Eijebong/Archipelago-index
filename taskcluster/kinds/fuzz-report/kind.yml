@@ -16,7 +16,7 @@ tasks:
         attribute: apworld_version
       unique-kinds: false
     description: Create a comment on the PR with the fuzz results
-    worker-type: githubscript
+    worker-type: githubscript-1
     run-on-tasks-for: []
     requires: all-resolved
     worker:
