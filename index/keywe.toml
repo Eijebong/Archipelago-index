@@ -1,0 +1,6 @@
+name = "KeyWe"
+home = "https://discord.com/channels/731205301247803413/1437107675128266912"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-KeyWe/releases/download/{{version}}/keywe.apworld"
+
+[versions]
+"1.0.3" = {}

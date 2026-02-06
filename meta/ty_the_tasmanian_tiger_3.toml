@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Ty the Tasmanian Tiger 3')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate without link replacement] (game='Ty the Tasmanian Tiger 3')"]]
+__expected__ = "error"
+__version__ = ">=1.2.0"

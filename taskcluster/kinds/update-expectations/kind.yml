@@ -35,7 +35,7 @@ tasks:
         git config --global user.email "nobody@localhost"
         (git remote add repo https://github.com/Eijebong/Archipelago-index.git || true)
         git commit -am WIP || true
-        git pull -r repo main || exit 1
+        git pull --rebase=merges repo main || exit 1
 
         apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
         if [[ "${PREVIOUS_TASK}" != "" ]]; then

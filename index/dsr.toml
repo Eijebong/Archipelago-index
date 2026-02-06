@@ -1,11 +1,6 @@
 name = "Dark Souls Remastered"
 home = "https://discord.com/channels/731205301247803413/1367143578576621670"
 default_url = "https://github.com/ArsonAssassin/DSAP/releases/download/{{version}}/dsr.apworld"
-disabled = true
 
 [versions]
-"0.0.9" = {}
-"0.0.10" = {}
-"0.0.11" = {}
-"0.0.17" = {}
-"0.0.18" = {}
+"0.0.21" = { url = "https://github.com/ArsonAssassin/DSAP/releases/download/0.0.21.0/dsr.apworld" }
