@@ -1,0 +1,6 @@
+name = "Manual_PewDiePieLegendoftheBroFist_WolfBoi008"
+display_name = "Manual: PewDiePie: Legend of the BroFist"
+home = "https://github.com/WolfBoi008/PewDiePie-Legend-of-the-BroFist/tree/main"
+
+[versions]
+"1.1.1+a" = { url = "https://github.com/WolfBoi008/PewDiePie-Legend-of-the-BroFist/releases/download/1.1.1a/manual_pewdiepielegendofthebrofist_wolfboi008.apworld" }
