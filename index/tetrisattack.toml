@@ -1,0 +1,6 @@
+name = "Tetris Attack"
+home = "https://discord.com/channels/731205301247803413/1207963109990596669"
+default_url = "https://github.com/AgStarRay/TetrisAttackAP/releases/download/{{version}}/tetrisattack.apworld"
+
+[versions]
+"0.4.2+hotfix1" = { url = "https://github.com/AgStarRay/TetrisAttackAP/releases/download/0.4.2_01/tetrisattack.apworld" }
