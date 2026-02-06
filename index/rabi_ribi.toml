@@ -1,0 +1,6 @@
+name = "Rabi-Ribi"
+home = "https://discord.com/channels/731205301247803413/1183337635805138994"
+default_url = "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases/download/{{version}}/rabi_ribi.apworld"
+
+[versions]
+"1.4.2" = {}
