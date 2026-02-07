@@ -1,0 +1,27 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='filler_traps')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='start_with_new_file')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='level_unlock_mode')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='cousinsanity')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='presentsanity')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='enable_long_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='enable_difficult_checks')"]]
+__expected__ = "error"
+__version__ = ">=0.3.3"

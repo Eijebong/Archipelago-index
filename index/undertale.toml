@@ -3,7 +3,5 @@ home = "https://archipelago.gg"
 supported = true
 
 [versions]
-# https://discord.com/channels/731205301247803413/1148330675452264499/1196534846365896825
-"2.0.0+beta" = { local = "../apworlds/undertale-2.0.0+beta.apworld" }
 # This is from the same message as 2.0.0+beta but they changed the apworld without telling
 "2.0.0+beta2" = { local = "../apworlds/undertale-2.0.0+beta2.apworld" }

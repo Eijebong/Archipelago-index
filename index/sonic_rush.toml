@@ -1,6 +1,7 @@
 name = "Sonic Rush"
 home = "https://discord.com/channels/731205301247803413/1280648306124394567"
 default_url = "https://github.com/BlastSlimey/SonicRushAP/releases/download/{{version}}/sonic_rush.apworld"
+disabled = true # 2% failure rate
 
 [versions]
 "0.2.3" = {}

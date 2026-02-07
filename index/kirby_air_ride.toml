@@ -1,0 +1,6 @@
+name = "Kirby Air Ride"
+home = "https://discord.com/channels/731205301247803413/1291501105389502554"
+default_url = "https://github.com/DeDeDeK/KARchipelago/releases/download/v{{version}}/kirby_air_ride.apworld"
+
+[versions]
+"0.6.0" = {}

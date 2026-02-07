@@ -1,0 +1,9 @@
+name = "Ship of Harkinian"
+home = "https://discord.com/channels/731205301247803413/1434235335625281707"
+default_url = "https://github.com/HarbourMasters/Archipelago-SoH/releases/download/SoH_{{version}}/oot_soh.apworld"
+display_name = "Ocarina of Time: Ship of Harkinian"
+
+[versions]
+"1.0.0" = {}
+"1.1.0+hotfix" = { url = "https://github.com/HarbourMasters/Archipelago-SoH/releases/download/SoH_1.1.0-Hotfix/oot_soh.apworld" }
+"1.2.0" = {}

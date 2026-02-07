@@ -1,9 +1,6 @@
 name = "Links Awakening DX Beta"
 home = "https://canary.discord.com/channels/731205301247803413/1316960757526695997"
+disabled = true # Triggers some assertions, new version doesn't fuzz well
 
 [versions]
-"0.5.1+beta-10.2" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v10.2/ladx_beta.apworld" }
-"0.5.1+beta-11.0" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v11.0/ladx_beta.apworld" }
-"0.5.1+beta-11.6" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v11.6/ladx_beta.apworld" }
-"0.6.1+12.0-alpha1" = { url = "https://github.com/threeandthreee/Archipelago/releases/download/v12.0-alpha1/ladx_beta.apworld" }
 "12.5.0" = {url = "https://github.com/threeandthreee/Archipelago/releases/download/v12.5/ladx_beta.apworld"}

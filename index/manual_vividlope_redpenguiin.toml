@@ -1,0 +1,5 @@
+name = "Manual_VIVIDLOPE_redpenguiin"
+display_name = "Manual: Vividlope"
+
+[versions]
+"1.0.0" = { url = "https://github.com/Red-P-enguin/VIVIDLOPE-Manual-for-Archipelago/releases/download/1.0/manual_vividlope_redpenguiin.apworld" }

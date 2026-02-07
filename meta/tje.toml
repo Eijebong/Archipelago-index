@@ -1,7 +1,3 @@
-[["test.general.test_entrances.TestBase.test_all_state_before_connect_entrances [Game] (game_name='ToeJam and Earl')"]]
-__expected__ = "error"
-__version__ = ">=0.3.1,<0.2.4-c"
-
 [["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Promotion', game_name='ToeJam and Earl')"]]
 __expected__ = "fail"
 __version__ = ">=0.3.1"

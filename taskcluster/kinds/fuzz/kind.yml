@@ -4,6 +4,7 @@ transforms:
   - src.transforms.key_per_tasks_for:transforms
   - src.transforms.per_apworld:transforms
   - src.transforms.fuzz_params:transforms
+  - src.transforms.fuzz_index:transforms
   - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -16,7 +17,43 @@ task-defaults:
     docker-image: {in-tree: ap-checker}
     volumes:
       - /builds/worker/checkouts
+    artifacts:
+      - type: directory
+        path: /ap/archipelago/artifacts
+        name: public/
   run-on-tasks-for: []
+  run:
+    using: run-task
+    command: >-
+      cd $VCS_PATH &&
+      mkdir -p /ap/archipelago/fuzz_output/ /ap/archipelago/artifacts &&
+      apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
+      (
+        ([[ -f "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
+        ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
+        true
+      ) &&
+      cd /ap/archipelago && source .venv/bin/activate && unshare -r -n python3 fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8 ${FUZZ_META_FILE:+-m "$VCS_PATH/$FUZZ_META_FILE"} ${FUZZ_EXTRA_ARGS};
+      export STATUS=$?;
+      mv /ap/archipelago/fuzz_output /ap/archipelago/fuzz_output_n${FUZZ_YAMLS_PER_RUN};
+      (cd /ap/archipelago && mv fuzz_output_n${FUZZ_YAMLS_PER_RUN}/report.json artifacts/report.json) || exit 1;
+      (cd /ap/archipelago && zip -r "artifacts/fuzz_output_${TEST_APWORLD_NAME}_n${FUZZ_YAMLS_PER_RUN}.zip" fuzz_output_n${FUZZ_YAMLS_PER_RUN}) || exit 1;
+      exit $STATUS
+  ap-deps:
+    - check
+  dependencies:
+    by-tasks-for:
+      github-push: {}
+      default:
+        diff: diff-index
+  fetches:
+    by-tasks-for:
+      github-push: {}
+      default:
+        diff:
+          - artifact: index.lock
+            extract: false
+            dest: /builds/worker/checkouts/vcs
 
 kind-dependencies:
   - diff
@@ -24,41 +61,46 @@ kind-dependencies:
 tasks:
   apworld:
     description: Fuzz an apworld
-    run:
-      using: run-task
-      command: >-
-        cd $VCS_PATH &&
-        mkdir -p /ap/archipelago/fuzz_output/ /ap/archipelago/artifacts &&
-        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
-        (
-          ([[ -f "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
-          ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
-          true
-        ) &&
-        cd /ap/archipelago && source .venv/bin/activate && unshare -r -n python3 -O fuzz.py -g "${TEST_APWORLD_NAME}" -r ${FUZZ_RUNS} -n ${FUZZ_YAMLS_PER_RUN} -t10 -j8 ${FUZZ_EXTRA_ARGS};
-        export STATUS=$?;
-        mv /ap/archipelago/fuzz_output /ap/archipelago/fuzz_output_n${FUZZ_YAMLS_PER_RUN};
-        (cd /ap/archipelago && mv fuzz_output_n${FUZZ_YAMLS_PER_RUN}/report.json artifacts/report.json) || exit 1;
-        (cd /ap/archipelago && zip -r "artifacts/fuzz_output_${TEST_APWORLD_NAME}_n${FUZZ_YAMLS_PER_RUN}.zip" fuzz_output_n${FUZZ_YAMLS_PER_RUN}) || exit 1;
-        exit $STATUS
-    worker:
-      artifacts:
-        - type: directory
-          path: /ap/archipelago/artifacts
-          name: public/
-    ap-deps:
-      - check
-    dependencies:
-      by-tasks-for:
-        github-push: {}
-        default:
-          diff: diff-index
-    fetches:
-      by-tasks-for:
-        github-push: {}
-        default:
-          diff:
-            - artifact: index.lock
-              extract: false
-              dest: /builds/worker/checkouts/vcs
+
+  no-restrictive-starts:
+    description: Fuzz with empty starts hook to help remove restrictive starts
+    fuzz-hook: "hooks.with_empty:Hook"
+    fuzz-variant: true
+
+  check-ut:
+    description: Fuzz to check for universal tracker support
+    fuzz-hook: "worlds.tracker.fuzzer_hook:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-gerpocalypse:
+    description: Fuzz to check for issues with GER
+    fuzz-hook: "hooks.gerpocalypse:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-item-location-count:
+    description: Fuzz to check that the item count matches the location count
+    fuzz-hook: "hooks.item_location_count:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-lambda-capture:
+    description: Fuzz to find out if there's some lambda variable capture issues
+    fuzz-hook: "hooks.detect_rule_variable_capture_issues:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-placement-item-location-refs:
+    description: Fuzz to check if items/locations agree on their placements
+    fuzz-hook: "hooks.check_placement_item_location_references:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-determinism:
+    description: Fuzz to check for determinism
+    fuzz-hook: "hooks.determinism:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+    fuzz-extra-args: "-t 30 -j 4"
 

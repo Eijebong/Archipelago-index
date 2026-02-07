@@ -1,3 +1,0 @@
-[["test.general.test_items.TestBase.test_item_name_group_conflict [Max] (group_name='Max', game_name='Manual_TheGrinchPS1_MarioSpore')"]]
-__expected__ = "fail"
-__version__ = ">=1.1.0"
