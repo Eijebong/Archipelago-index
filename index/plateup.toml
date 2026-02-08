@@ -1,0 +1,6 @@
+name = "plateup"
+display_name = "PlateUp!"
+home = "https://discord.com/channels/731205301247803413/1159168584505901106"
+
+[versions]
+"0.2.4-beta.1" = { url = "https://github.com/CazIsABoi/Archipelago/releases/download/0.2.4.1/plateup.apworld" }
