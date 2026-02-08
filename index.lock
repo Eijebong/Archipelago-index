@@ -1141,6 +1141,9 @@
 "1.3.3" = "b23f27ba60cfee0f0598aee07655ada7fe0a88fa6b2ea639df39542398ef577f"
 "1.3.6" = "275ed2ae58bbb3b03304a7267a125699ecc45c3ce47f2ba6bbb2549c8b074e64"
 
+[ty_the_tasmanian_tiger_2]
+"0.2.1" = "fed7cb69485ce1630067606ee26525ffdf3a3cb3f4cb73ae6dbb98f99708dc65"
+
 [ty_the_tasmanian_tiger_3]
 "1.2.0" = "6f46abe37dddb6b4237cf795ec963dc4ba212e20b80c97dcd1083d35df7897b7"
 
