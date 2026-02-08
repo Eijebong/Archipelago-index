@@ -1,0 +1,6 @@
+name = "Stacklands"
+home = "https://discord.com/channels/731205301247803413/1151149079238299719"
+default_url = "https://github.com/JammyGeeza/Stacklands-Randomizer/releases/download/v{{version}}/stacklands.apworld"
+
+[versions]
+"0.2.3-alpha" = {}
