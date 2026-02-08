@@ -1,0 +1,6 @@
+name = "DREDGE"
+home = "https://discord.com/channels/731205301247803413/1323663496566542336"
+default_url = "https://github.com/alextric234/ArchipelagoDredge/releases/download/dredge_{{version}}/dredge.apworld"
+
+[versions]
+"0.5.0" = {}
