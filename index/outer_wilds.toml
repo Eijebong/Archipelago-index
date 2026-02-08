@@ -1,5 +1,5 @@
 name = "Outer Wilds"
-home = "https://discord.com/channels/731205301247803413/1178700404637311086"
+home = "https://discord.com/channels/731205301247803413/1462820272012005489"
 default_url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v{{version}}/outer_wilds.apworld"
 
 [versions]
