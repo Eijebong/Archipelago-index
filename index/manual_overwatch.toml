@@ -1,0 +1,6 @@
+name = "Manual_Overwatch2_Fafale"
+display_name = "Manual: Overwatch 2"
+home = "https://github.com/Fafale/manual_overwatch2_fafale/releases/latest"
+
+[versions]
+"1.1.1" = {local = "../apworlds/manual_overwatch2_fafale.apworld" }
