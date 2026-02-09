@@ -1,5 +1,7 @@
 name = "Symphony of the Night"
-home = "https://discord.com/channels/731205301247803413/1108439196156317818"
+display_name = "Castlevania: Symphony Of The Night"
+home = "https://discord.com/channels/731205301247803413/1462294492752380167"
 
 [versions]
-"0.81.4-alpha2" = { url = "https://github.com/fdelduque/Archipelago/releases/download/a08142/sotn.apworld" }
+
+"0.8.16+unofficial" = { url = "https://github.com/Darvitz/Archipelago-Crystal/releases/download/Unofficial_0.8.16/sotn.apworld" }

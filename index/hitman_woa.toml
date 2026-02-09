@@ -1,5 +1,5 @@
 name = "HITMAN World of Assassination"
-home = ""
+home = "https://discord.com/channels/1085716850370957462/1183989489782235168"
 tags = ["ad"]
 default_url = "https://github.com/BenDipp/Archipelago/releases/download/{{version}}/hitman_woa.apworld"
 

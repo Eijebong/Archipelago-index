@@ -25,3 +25,15 @@ __version__ = ">=0.0.5"
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='DLC_enabled')"]]
 __expected__ = "error"
 __version__ = ">=0.0.5"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='project_hel_toggle')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='sensory_boost_from_start')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Ghostrunner_Evoker', option='all_cybervoid_access')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
