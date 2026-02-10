@@ -1,5 +1,5 @@
 name = "Kirby Super Star"
-home = "https://discord.com/channels/731205301247803413/1170152771043999764"
+home = "https://discord.com/channels/731205301247803413/1455078199611490384"
 default_url = "https://github.com/Silvris/Archipelago/releases/download/kss_{{version}}/kss.apworld"
 
 [versions]

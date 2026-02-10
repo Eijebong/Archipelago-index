@@ -1,0 +1,3 @@
+[["test.general.test_groups.TestNameGroups.test_item_name_groups_not_empty (game='Rift of the Necrodancer')"]]
+__expected__ = "fail"
+__version__ = ">=0.9.0"
