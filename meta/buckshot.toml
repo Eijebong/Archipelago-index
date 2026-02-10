@@ -1,0 +1,3 @@
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Buckshot Roulette', option='trap_fill_percentage')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.0"
