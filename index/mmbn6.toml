@@ -1,0 +1,6 @@
+name = "MegaMan Battle Network 6"
+home = "https://discord.com/channels/731205301247803413/1242860924092682481"
+default_url = "https://github.com/RischDev/Archipelago/releases/download/v{{version}}/mmbn6.apworld"
+
+[versions]
+"0.0.2" = {}
