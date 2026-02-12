@@ -1,0 +1,6 @@
+name = "Enter The Gungeon"
+home = "https://discord.com/channels/731205301247803413/1191767250257055785"
+default_url = "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases/download/v{{version}}/enter_the_gungeon.apworld"
+
+[versions]
+"0.1.1" = {}
