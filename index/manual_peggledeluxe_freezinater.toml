@@ -1,0 +1,5 @@
+name = "Manual_PeggleDeluxe_Freezinater"
+display_name = "Manual: Peggle Deluxe"
+
+[versions]
+"0.8.0+c" = { local = "../apworlds/manual_peggledeluxe_freezinater-0.8.0+c.apworld" }
