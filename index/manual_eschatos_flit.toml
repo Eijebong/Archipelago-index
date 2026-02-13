@@ -1,0 +1,7 @@
+name = "Manual_ESCHATOS_Flit"
+display_name = "Manual: ESCHATOS"
+home = "https://github.com/FlitPix/archipelago-manuals/tree/main/ESCHATOS"
+default_url = "https://github.com/FlitPix/archipelago-manuals/releases/download/eschatos_v{{version}}/manual_eschatos_flit.apworld"
+
+[versions]
+"1.0.1" = {}
