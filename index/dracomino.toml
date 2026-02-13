@@ -1,0 +1,6 @@
+name = "Dracomino"
+home = "https://discord.com/channels/731205301247803413/1458225573552848908"
+default_url = "https://github.com/DragonWolfLeo/DracominoAPWorld/releases/download/v{{version}}/dracomino.apworld"
+
+[versions]
+"0.2.1" = {}
