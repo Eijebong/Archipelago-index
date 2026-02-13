@@ -1,0 +1,3 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BaldisBasicsClassicRemastered_WolfBoi008', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1+b"

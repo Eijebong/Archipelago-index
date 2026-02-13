@@ -1,0 +1,6 @@
+name = "Manual_GuitarHeroSmashHits_Smalls"
+display_name = "Manual: Guitar Hero: Smash/Greatest Hits"
+home = "https://discord.com/channels/1097532591650910289/1431526653359816724"
+
+[versions]
+"1.0.1" = { local = "../apworlds/manual_guitarherosmashhits_smalls-1.0.1.apworld" }

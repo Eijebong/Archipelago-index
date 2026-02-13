@@ -3,7 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1036405779726610452"
 default_url = "https://github.com/c-ostic/Archipelago/releases/download/v{{version}}/oribf.apworld"
 
 [versions]
-"0.2.0-alpha" = {}
-"0.3.0-alpha" = {}
-"0.3.2-alpha" = {}
 "0.3.3-alpha" = {}

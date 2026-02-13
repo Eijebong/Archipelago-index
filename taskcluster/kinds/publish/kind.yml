@@ -2,16 +2,11 @@ loader: taskgraph.loader.transform:loader
 
 transforms:
   - src.transforms.publish:transforms
-  - src.transforms.github:transforms
-  - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
   - eije_taskgraph.transforms.common:transforms
 
 task-defaults:
-  worker:
-    docker-image: {in-tree: publish}
-    max-run-time: 1800
-  worker-type: "linux-small"
+  worker-type: "publishscript-3"
   run-on-tasks-for: []
 
 kind-dependencies:
@@ -27,39 +22,7 @@ tasks:
       - make-expectations-patch-make-patch
     description: Push changed index.lock
     scopes:
-      - secrets:get:Archipelago-index
-    run:
-      using: run-task
-      command: |
-        set -e
-
-        cd $VCS_PATH
-        /usr/local/bin/setup-ssh.sh
-
-        (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true)
-        (git commit -am "Update lockfile" || exit 0)
-        export UPDATE_COMMIT="$(git log --pretty=format:'%H' -n 1)"
-        /usr/local/bin/merge.sh
-        git fetch origin main
-        git reset --hard origin/main
-        if [[ -f /tmp/expectations.patch ]]; then
-          patch -p1 < /tmp/expectations.patch
-          git add meta
-          git commit -am "Update expectations"
-        fi
-
-        git cherry-pick "${UPDATE_COMMIT}"
-        git push repo HEAD:main
-    fetches:
-      diff-index:
-        - artifact: index.lock
-          extract: false
-          dest: /builds/worker/checkouts/vcs
-    attributes:
-      soft-fetches:
-        make-expectations-patch-make-patch:
-          artifact: public/expectations.patch
-          extract: false
-          dest: /tmp
-    scopes:
-      - secrets:get:Archipelago-index
+      - ap:publish:repo:archipelago-index
+    worker:
+      implementation: publishscript
+      diff-task: {task-reference: <diff-index>}

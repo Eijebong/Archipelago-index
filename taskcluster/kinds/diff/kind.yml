@@ -9,7 +9,7 @@ transforms:
 
 task-defaults:
   worker:
-    docker-image: ghcr.io/eijebong/apwm:latest
+    docker-image: {in-tree: ap-checker}
     max-run-time: 1800
     volumes:
       - /builds/worker/checkouts
@@ -28,11 +28,15 @@ tasks:
         cd $VCS_PATH &&
         git config --global user.name "Nobody" &&
         git config --global user.email "nobody@localhost" &&
-        (git pull -r origin main || (git rebase --abort && exit 1)) &&
+        git fetch origin main &&
+        (git merge origin/main || (git merge --abort && exit 1)) &&
         mkdir -p /builds/worker/diffs &&
         apwm update -i ./ &&
         apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
-        git diff index.lock &> lock.diff
+        git diff index.lock &> lock.diff &&
+        cd /ap/archipelago &&
+        source .venv/bin/activate &&
+        python3 aplint_from_diff.py /builds/worker/diffs $VCS_PATH /builds/worker/diffs
     worker:
       artifacts:
         - type: directory

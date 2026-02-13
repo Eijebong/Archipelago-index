@@ -1,0 +1,6 @@
+name = "Manual_TeamFortress2_GP"
+display_name = "Manual: Team Fortress 2"
+home = "https://discord.com/channels/1097532591650910289/1365434728978845787"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_teamfortress2_gp-0.0.1.apworld" }

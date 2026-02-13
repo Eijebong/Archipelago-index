@@ -1,7 +1,16 @@
 from . import optimize, target_tasks
 from eije_taskgraph import register as eije_taskgraph_register
 from taskgraph.morph import register_morph
+from taskgraph.parameters import extend_parameters_schema
+from voluptuous import Optional
 import json
+import os
+
+extend_parameters_schema({
+    Optional("pull_request_number"): int,
+    Optional("taskcluster_comment"): str,
+    Optional("try_config"): str,
+})
 
 @register_morph
 def handle_soft_fetches(taskgraph, label_to_taskid, parameters, graph_config):
@@ -27,5 +36,43 @@ def handle_soft_fetches(taskgraph, label_to_taskid, parameters, graph_config):
 
     return taskgraph, label_to_taskid
 
+@register_morph
+def resolve_soft_payload(taskgraph, label_to_taskid, parameters, graph_config):
+    """Resolve soft dependencies into payload fields.
+
+    Tasks with a `soft-payload` attribute mapping {dep_label: payload_key} will
+    have the payload key set to the dep's task ID if the dep is in the graph,
+    or null otherwise.
+    """
+    for task in taskgraph:
+        soft_payload = task.attributes.get("soft-payload")
+        if soft_payload is None:
+            continue
+
+        del task.attributes["soft-payload"]
+
+        for dep_label, payload_key in soft_payload.items():
+            if dep_label in label_to_taskid:
+                task_id = label_to_taskid[dep_label]
+                task.task["payload"][payload_key] = task_id
+                deps = task.task.setdefault("dependencies", [])
+                if task_id not in deps:
+                    deps.append(task_id)
+
+    return taskgraph, label_to_taskid
+
 def register(graph_config):
     eije_taskgraph_register(graph_config)
+
+def get_decision_parameters(graph_config, parameters):
+    pr_number = os.environ.get('GITHUB_PULL_REQUEST_NUMBER')
+    if pr_number is not None:
+        parameters['pull_request_number'] = int(pr_number)
+
+    tc_comment = os.environ.get("TASKCLUSTER_COMMENT")
+    if tc_comment is not None:
+        parameters['taskcluster_comment'] = tc_comment
+
+    try_config = os.environ.get("TRY_CONFIG")
+    if try_config is not None:
+        parameters['try_config'] = try_config

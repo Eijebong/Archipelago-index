@@ -1,5 +1,6 @@
 name = "Manual_MonsterHunterWorld_PaNIC"
 display_name = "Manual: Monster Hunter World"
+disabled = true # Triggers some assertion, needs a manual update
 
 [versions]
 "0.0.2" = { local = "../apworlds/manual_monsterhunterworld_panic-0.0.2.apworld" }

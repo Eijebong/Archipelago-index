@@ -35,7 +35,7 @@ tasks:
         git config --global user.email "nobody@localhost"
         (git remote add repo https://github.com/Eijebong/Archipelago-index.git || true)
         git commit -am WIP || true
-        git pull -r repo main || exit 1
+        git pull --rebase=merges repo main || exit 1
 
         apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
         if [[ "${PREVIOUS_TASK}" != "" ]]; then
@@ -48,7 +48,7 @@ tasks:
         set +e
 
         cd /ap/archipelago && source .venv/bin/activate
-        unshare -r -n python3 -W ignore -O /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results;
+        unshare -r -n python3 -W ignore /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results;
         export STATUS=$?;
         touch "/builds/worker/test_results/${TEST_APWORLD_NAME}.toml";
 

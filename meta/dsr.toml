@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Dark Souls Remastered')"]]
+__expected__ = "error"
+__version__ = ">=0.0.21"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate without link replacement] (game='Dark Souls Remastered')"]]
+__expected__ = "error"
+__version__ = ">=0.0.21"

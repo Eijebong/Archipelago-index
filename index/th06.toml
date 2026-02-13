@@ -4,6 +4,5 @@ default_url = "https://github.com/Nepley/eosd-apworld/releases/download/v{{versi
 tags = ["ad"]
 
 [versions]
-"1.1.2" = {}
-"1.2.0" = {}
 "1.3.2" = {}
+"1.3.3" = {}

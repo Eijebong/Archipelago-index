@@ -1,0 +1,39 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Warrior of Light] (group_name='Warrior of Light', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Firion] (group_name='Firion', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Onion Knight] (group_name='Onion Knight', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Cecil] (group_name='Cecil', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Bartz] (group_name='Bartz', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Terra] (group_name='Terra', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Cloud] (group_name='Cloud', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Squall] (group_name='Squall', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Zidane] (group_name='Zidane', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Tidus] (group_name='Tidus', game_name='Manual_ffdissidia_silasary')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"

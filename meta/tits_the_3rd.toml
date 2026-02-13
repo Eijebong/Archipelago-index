@@ -1,0 +1,23 @@
+[["test.general.test_groups.TestNameGroups.test_location_name_groups_not_empty (game='Trails in the Sky the 3rd')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.6"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Level 111', game='Trails in the Sky the 3rd')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.6"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Level 116', game='Trails in the Sky the 3rd')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.6"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Level 124', game='Trails in the Sky the 3rd')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.6"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Level 133', game='Trails in the Sky the 3rd')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.6"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Level 136', game='Trails in the Sky the 3rd')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.6"

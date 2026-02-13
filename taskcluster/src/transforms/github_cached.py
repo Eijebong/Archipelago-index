@@ -8,7 +8,7 @@ def github_task(config, tasks):
     project = config.params.get('project', 'unknown').lower()
 
     for task in tasks:
-        pr_number = str(os.environ.get("GITHUB_PULL_REQUEST_NUMBER", -1))
+        pr_number = config.params.get("pull_request_number", -1)
 
         task_for = config.params["tasks_for"]
         task_label = task['name']

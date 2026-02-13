@@ -1,6 +1,7 @@
 name = "Wordipelago"
 home = "https://discord.com/channels/731205301247803413/1336387000928047186"
 default_url = "https://github.com/ProfDeCube/Archipelago/releases/download/{{version}}/wordipelago.apworld"
+disabled = true # 1.6% failure rate
 
 [versions]
 "0.8.4" = {}

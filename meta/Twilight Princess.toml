@@ -1,0 +1,39 @@
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Ordon Shield', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Hylian Shield', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Magic Armor', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Progressive Wallet', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Hawkeye', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Slingshot', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Empty Bottle (Fishing Hole)', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Milk (half) (Sera Bottle)', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Lantern Oil (Coro Bottle)', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Collect No Change] (item_name='Great Fairy Tears (Jovani)', game_name='Twilight Princess')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"

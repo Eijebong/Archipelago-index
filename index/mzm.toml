@@ -1,4 +1,5 @@
 name = "Metroid Zero Mission"
+display_name = "Metroid: Zero Mission"
 home = "https://discord.com/channels/731205301247803413/1106280250528235620"
 default_url = "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/releases/download/{{version}}/mzm.apworld"
 
@@ -8,3 +9,6 @@ default_url = "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/rele
 "0.2.3" = {}
 "0.3.0" = {}
 "0.3.1" = {}
+"0.4.0-pre2" = {}
+"0.4.0" = {}
+"0.4.2" = {}

@@ -4,5 +4,6 @@ default_url = "https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/download/{
 tags = ["ad"]
 
 [versions]
-"0.2.5" = {}
-"0.2.6" = {}
+"0.2.7" = {}
+"0.3.0" = {}
+"0.3.3" = {}

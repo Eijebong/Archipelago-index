@@ -1,0 +1,31 @@
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Apple', game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Jester Boots', game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Bubble Conch', game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Mr. Kerrington's Wings\", game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Shelnert's Fish\", game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Sage's Gloves\", game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name=\"Lady Opal's Head\", game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"
+
+[["test.general.test_items.TestBase.test_create_item [Item State Remove] (item_name='Medicine', game_name='Cavern of Dreams')"]]
+__expected__ = "error"
+__version__ = ">=1.10.1"

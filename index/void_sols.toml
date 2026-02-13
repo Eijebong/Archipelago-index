@@ -1,0 +1,7 @@
+name = "Void Sols"
+home = "https://discord.com/channels/731205301247803413/1448045030777421844"
+default_url = "https://github.com/cookie966507/Archipelago/releases/download/{{version}}-Void-Sols/void_sols.apworld"
+
+[versions]
+"1.0.1" = {}
+"1.0.2" = {}

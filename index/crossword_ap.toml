@@ -1,0 +1,6 @@
+name = "CrosswordAP"
+home = "https://discord.com/channels/731205301247803413/1433538371031924798"
+default_url = "https://github.com/densebamboo/CrosswordAP/releases/download/v{{version}}-release/crossword_ap.apworld"
+
+[versions]
+"1.0.0" = {}

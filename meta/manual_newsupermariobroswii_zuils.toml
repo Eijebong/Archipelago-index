@@ -1,0 +1,3 @@
+[["test.general.test_locations.TestBase.test_location_group [Victory] (group_name='Victory', game_name='Manual_NewSuperMarioBrosWii_zuils')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"

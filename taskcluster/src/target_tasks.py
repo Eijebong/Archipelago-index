@@ -1,37 +1,43 @@
 from taskgraph.target_tasks import register_target_task
 from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifact
+import taskcluster.exceptions
 import taskgraph
 
 from collections import defaultdict
-import json
 import os
 import shlex
 
+from src.transforms.fuzz_params import extract_raw_fuzz_params
+
+
+def _is_specific_fuzz(parameters):
+    return extract_raw_fuzz_params(parameters) is not None
+
 
 def _filter_for_pr(tasks, parameters, force=[]):
-    pr_number = os.environ.get("GITHUB_PULL_REQUEST_NUMBER")
+    pr_number = parameters.get("pull_request_number")
     if pr_number is None:
-        print("GITHUB_PULL_REQUEST_NUMBER missing, returning empty task set")
+        print("pull_request_number param missing, returning empty task set")
         return []
 
     project = parameters.get('project', 'unknown').lower()
     try:
         diff_task = find_task_id(f"ap.{project}.index.pr.{pr_number}.latest")
-    except KeyError:
-        print(f"No diff yet for PR {pr_number}, returning empty task set")
-        return []
+    except (KeyError, taskcluster.exceptions.TaskclusterRestFailure):
+        print(f"No diff yet for PR {pr_number}, returning only forced tasks")
+        return [label for label, task in tasks if task.kind in force]
 
     filtered_tasks = [label for label, task in tasks if task.kind in force]
 
 
     for artifact in list_artifacts(diff_task):
-        if not artifact['name'].startswith('public/diffs/'):
+        if not artifact['name'].startswith('public/diffs/') or not artifact['name'].endswith('.apdiff'):
             continue
 
-        diff_response = get_artifact(diff_task, artifact['name'])
-        if diff_response.status != 200:
-            raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
-        diff = json.loads(diff_response.read())
+        try:
+            diff = get_artifact(diff_task, artifact['name'])
+        except Exception as exc:
+            raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]
@@ -67,20 +73,26 @@ def test_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("test-fuzz")
 def test_fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz"}], parameters)
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "fuzz", "upload-fuzz-results", "fuzz-report"}], parameters)
 
 
 @register_target_task("r+")
 def rplus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish"}], parameters, force=["publish"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "test-report", "publish", "upload-fuzz-results"}], parameters, force=["publish"])
 
 @register_target_task("r++")
 def rplus_plus_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "update-expectations", "make-expectations-patch", "ap-test", "test-report", "publish"}], parameters, force=["publish", "make-expectations-patch"])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "update-expectations", "make-expectations-patch", "ap-test", "test-report", "publish", "upload-fuzz-results"}], parameters, force=["publish", "make-expectations-patch"])
 
 @register_target_task("fuzz")
 def fuzz_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}], parameters)
+    specific = _is_specific_fuzz(parameters)
+    tasks = [
+        (label, task) for label, task in full_task_graph.tasks.items()
+        if task.kind in {"fuzz", "fuzz-report"}
+        and not (specific and task.attributes.get("fuzz-variant"))
+    ]
+    return _filter_for_pr(tasks, parameters)
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):
@@ -88,30 +100,42 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("default")
 def default_target_task(full_task_graph, parameters, graph_config):
-    if "TRY_CONFIG" in os.environ:
-        return try_target_tasks(full_task_graph, os.environ["TRY_CONFIG"].split('\n')[0])
+    if parameters.get('try_config'):
+        return try_target_tasks(full_task_graph, parameters)
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
 @register_target_task("rebuild-ap-worker")
 def rebuild_ap_worker_target_task(full_task_graph, parameters, graph_config):
     return [label for label, task in full_task_graph.tasks.items() if task.label == "docker-image-ap-checker"]
 
+@register_target_task("verify-index")
+def verify_index_target_task(full_task_graph, parameters, graph_config):
+    return [label for label, task in full_task_graph.tasks.items() if task.label == "verify-index"]
 
-def try_target_tasks(full_task_graph, try_config):
+
+def try_target_tasks(full_task_graph, parameters):
+    try_config = parameters['try_config'].split('\n')[0]
     targets = parse_try_config(try_config)
-    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch"}]
+    specific = _is_specific_fuzz(parameters)
+    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch", "verify-index"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():
         if target is None:
             if kind == "fuzz":
-                filtered_tasks.extend(label for label, task in _only_latest(try_tasks) if task.kind == kind)
+                filtered_tasks.extend(
+                    label for label, task in _only_latest(try_tasks)
+                    if task.kind == kind and not (specific and task.attributes.get("fuzz-variant"))
+                )
             else:
                 filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind)
         else:
             for apworld in target:
                 if kind == "fuzz":
-                    filtered_tasks.extend(label for label, task in _only_latest(try_tasks) if task.kind == kind and apworld in label)
+                    filtered_tasks.extend(
+                        label for label, task in _only_latest(try_tasks)
+                        if task.kind == kind and apworld in label and not (specific and task.attributes.get("fuzz-variant"))
+                    )
                 else:
                     filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind and apworld in label)
 

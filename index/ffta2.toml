@@ -1,6 +1,7 @@
 name = "Final Fantasy Tactics A2"
 home = "https://discord.com/channels/731205301247803413/1296095764518277143"
 default_url = "https://github.com/Rurusachi/Archipelago/releases/download/FFTA2_{{version}}/ffta2.apworld"
+disabled = true # 90% fuzzing failure rate, most of it in generate_output
 
 [versions]
 "0.0.8" = { url = "https://github.com/Rurusachi/Archipelago/releases/download/0.0.8/ffta2.apworld" }

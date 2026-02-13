@@ -1,0 +1,7 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_SpyroTheDragon_MuffinJets')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_SpyroTheDragon_MuffinJets')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.3"
