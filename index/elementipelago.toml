@@ -1,0 +1,6 @@
+name = "Elementipelago"
+home = "https://discord.com/channels/731205301247803413/1397584087493115934"
+default_url = "https://github.com/peppidesu/elementipelago/releases/download/v{{version}}/elementipelago.apworld"
+
+[versions]
+"1.1.0" = {}
