@@ -1,0 +1,6 @@
+name = "Manual_POPGOESArcade_WolfBoi008"
+display_name = "Manual: POPGOES Arcade"
+home = "https://github.com/WolfBoi008/POPGOES-Arcade/tree/main"
+
+[versions]
+"1.1.2+b" = { url = "https://github.com/WolfBoi008/POPGOES-Arcade/releases/download/1.1.2b/manual_popgoesarcade_wolfboi008.apworld" }
