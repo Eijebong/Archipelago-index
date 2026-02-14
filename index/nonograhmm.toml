@@ -4,3 +4,4 @@ default_url = "https://github.com/spineraks-org/ArchipelagoNonogram/releases/dow
 
 [versions]
 "0.2.3" = {}
+"0.3.0" = {}
