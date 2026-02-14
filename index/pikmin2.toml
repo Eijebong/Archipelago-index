@@ -1,0 +1,6 @@
+name = "Pikmin 2"
+home = "https://discord.com/channels/731205301247803413/1062964930174779452"
+default_url = "https://github.com/chpas0/Pikmin2Archipelago/releases/download/v{{version}}/pikmin2.apworld"
+
+[versions]
+"0.7.1" = {}
