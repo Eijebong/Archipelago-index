@@ -5,4 +5,4 @@ default_url = "https://github.com/CriminalPancake/void-stranger-ap/raw/refs/tags
 [versions]
 "0.8.0" = {}
 "0.8.4-hotfix1" = { url = "https://github.com/CriminalPancake/void-stranger-ap/raw/refs/tags/v0.8.4.1/voidstranger.apworld" }
-
+"0.9.1" = { url = "https://github.com/CriminalPancake/void-stranger-ap/releases/download/v0.9.1.0/voidstranger.apworld" }
