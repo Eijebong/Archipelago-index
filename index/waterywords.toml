@@ -1,0 +1,6 @@
+name = "Watery Words"
+home = "https://discord.com/channels/731205301247803413/1292965246847418388"
+default_url = "https://github.com/spineraks-org/ArchipelagoWateryWords/releases/download/v{{version}}/waterywords.apworld"
+
+[versions]
+"0.1.0" = {}
