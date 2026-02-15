@@ -1,0 +1,5 @@
+display_name = "Manual: Super Mario Odyssey Main Ending"
+name = "Manual_smo_main_ending_melen"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_smo_main_ending_melen_0.0.1.apworld" }
