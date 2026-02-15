@@ -1,9 +1,6 @@
 name = "Peaks of Yore"
 home = "https://discord.com/channels/731205301247803413/1332506808182378677"
-# 1.6.0 has some known game breaking client bug, 1.7.0 leaks state
-# See https://discord.com/channels/731205301247803413/1332506808182378677/1470075746184855573
-disabled = true
 
 [versions]
-# https://discord.com/channels/731205301247803413/1332506808182378677/1368886577325015113
-"1.6.0" = { local = "../apworlds/peaks_of_yore-1.6.0.apworld" }
+# https://discord.com/channels/731205301247803413/1332506808182378677/1471890569818275901
+"1.7.1" = { local = "../apworlds/peaks_of_yore-1.7.1.apworld" }
