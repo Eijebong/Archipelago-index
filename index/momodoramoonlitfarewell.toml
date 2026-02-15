@@ -1,0 +1,6 @@
+name = "Momodora Moonlit Farewell"
+home = "https://discord.com/channels/731205301247803413/1351406749315240007"
+default_url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases/download/AP-v.{{version}}/momodoramoonlitfarewell.apworld"
+
+[versions]
+"1.7.5.1" = {}
