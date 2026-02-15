@@ -2,7 +2,7 @@ name = "CrosswordAP"
 home = "https://discord.com/channels/731205301247803413/1433538371031924798"
 default_url = "https://github.com/densebamboo/CrosswordAP/releases/download/v{{version}}-release/crossword_ap.apworld"
 disabled = true
-# Does not have any logic, dev unresponsive
+# Client is broken, dev unresponsive
 
 [versions]
 "1.0.0" = {}
