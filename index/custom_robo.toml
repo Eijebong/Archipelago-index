@@ -1,6 +1,5 @@
 name = "Custom Robo"
 home = "https://discord.com/channels/731205301247803413/1413746302113546250"
-default_url = "https://github.com/Metaruler/ArchipelagoCR/releases/download/V{{version}}/custom_robo.apworld"
 
 [versions]
-"0.2" = {}
+"0.2.0" = {url = "https://github.com/Metaruler/ArchipelagoCR/releases/download/V0.2/custom_robo.apworld"}
