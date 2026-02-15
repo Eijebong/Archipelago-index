@@ -1,0 +1,7 @@
+name = "Manual_WinxClubGBA_shadowspussy"
+display_name = "Manual: Winx Club (GBA)"
+home = "https://discord.com/channels/1097532591650910289/1469490143629934755"
+
+[versions]
+# https://discord.com/channels/1097532591650910289/1469490143629934755/1469604756589645990
+"0.0.1" = { local = "../apworlds/manual_winxclubgba_shadowspussy_0.0.1.apworld" }
