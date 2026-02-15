@@ -4,4 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1314368372225474632"
 
 [versions]
 # https://discord.com/channels/1097532591650910289/1314368372225474632/1472722159821394112
-"0.0.1" = { local = "../apworlds/manual_marvelrivals_snolidice-0.0.1.apworld" }
+"0.0.1" = { local = "../apworlds/manual_marvelrivals_snolidice_0.0.1.apworld" }
