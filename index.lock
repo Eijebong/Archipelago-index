@@ -135,9 +135,6 @@
 [crosscode]
 "0.7.7" = "2a832a32c5cade0e490e6d5fb9641b7ba012fe175d642b0518f6e2fe99c6e47f"
 
-[crossword_ap]
-"1.0.0" = "aa76a3c3e9f505d06bd2d7cd4d76bd1e540a67f2fccd9d6cffc6cf7d80951812"
-
 [crystal_project]
 "0.7.0" = "0eefbbcd79b57dd03fcec98f733a82e0a39e6f037b086f3838b52e95982ccbf1"
 "0.9.0" = "5214c9e8c72e47fd65ba9d22357427b09042401cef98845fda2bf03fd3c5b905"
