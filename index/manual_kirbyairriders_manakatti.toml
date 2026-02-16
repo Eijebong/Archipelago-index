@@ -3,4 +3,5 @@ display_name = "Manual: Kirby Air Riders"
 home = "https://discord.com/channels/1097532591650910289/1460804578055291124"
 
 [versions]
+"0.0.4" = {url = "https://github.com/ManaKatti/Kirby-Air-Riders-ManualAP/releases/download/0.0.4/manual_kirbyairriders_manakatti.apworld" }
 "0.0.1" = {url = "https://github.com/ManaKatti/Kirby-Air-Riders-ManualAP/releases/download/0.0.1/manual_kirbyairriders_manakatti.apworld" }

@@ -1,6 +1,3 @@
 name = "Terraria"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-"1.4.4-rc1+calamity" = { local = "../apworlds/terraria-1.4.4-rc1+calamity.apworld" }

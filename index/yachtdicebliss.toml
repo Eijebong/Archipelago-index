@@ -1,0 +1,5 @@
+name = "Yacht Dice Bliss"
+default_url = "https://github.com/spinerak/ArchipelagoYachtDice/releases/download/v{{version}}/yachtdicebliss.apworld"
+
+[versions]
+"2.3.4" = {}

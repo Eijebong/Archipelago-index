@@ -1,8 +1,6 @@
 name = "Rift of the Necrodancer"
 home = "https://discord.com/channels/731205301247803413/1337112354130759757"
 default_url = "https://github.com/studkid/RiftArchipelago/releases/download/v{{version}}/rotn.apworld"
-disabled = true # 0.3.2 is ancient, more recent versions have been failing (and failures were reported) for 7+ months at the point I'm writing this...
 
 [versions]
-"0.2.0" = { url = "https://github.com/studkid/RiftArchipelago/releases/download/v0.2/rotn.apworld" }
-"0.3.2" = {}
+"0.9.0" = {}

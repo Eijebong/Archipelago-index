@@ -5,4 +5,5 @@ default_url = "https://github.com/asdfwyay/APBuckshot/releases/download/v{{versi
 [versions]
 
 "0.0.3" = {}
+"0.1.0" = {}
 

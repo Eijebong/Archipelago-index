@@ -1,0 +1,7 @@
+name = "Nonograhmm"
+home = "https://discord.com/channels/731205301247803413/1454544116711952384"
+default_url = "https://github.com/spineraks-org/ArchipelagoNonogram/releases/download/v{{version}}/nonograhmm.apworld"
+
+[versions]
+"0.2.3" = {}
+"0.3.0" = {}

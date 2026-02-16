@@ -1,6 +1,3 @@
 name = "Yu-Gi-Oh! 2006"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-"2.4.0-beta" = { url = "https://github.com/Rensen3/ArchipelagoYGO06/releases/download/YuGiOh2006v2.4/yugioh06.apworld" }

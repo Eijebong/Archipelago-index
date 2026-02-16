@@ -1,0 +1,6 @@
+name = "Ty the Tasmanian Tiger 2"
+home = "https://discord.com/channels/731205301247803413/1370284619655544852"
+default_url = "https://github.com/FyreDay/Archipelago-TyTheTasmanianTiger2/releases/download/v{{version}}/ty_the_tasmanian_tiger_2.apworld"
+
+[versions]
+"0.2.1" = {}

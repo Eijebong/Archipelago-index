@@ -49,3 +49,4 @@ This makes it easier to update and can be used to automatically fetch newer vers
 - The generation failure rate calculated using my [fuzzer](https://github.com/Eijebong/Archipelago-fuzzer) must be below 1% (not counting `OptionError`s).
   - To help removing failures that would be considered restrictive starts, those rates will be calculated with a second [world](https://github.com/Eijebong/empty-apworld) present that has 100 free locations
   - I will make exceptions for failures happening early during generation (before `generate_basic`) as those would most likely be detectd by YAML validation and won't result in a big time loss during generation
+- If the apworld is a beta for core verified game then it must have a different game name (`LADX` -> `LADX beta`)
