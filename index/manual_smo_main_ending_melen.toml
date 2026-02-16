@@ -1,5 +1,7 @@
 display_name = "Manual: Super Mario Odyssey Main Ending"
 name = "Manual_smo_main_ending_melen"
+home = "https://discord.com/channels/1097532591650910289/1146498720792334336"
 
 [versions]
+# https://discord.com/channels/1097532591650910289/1146498720792334336/1448457558191767582
 "0.0.1" = { local = "../apworlds/manual_smo_main_ending_melen_0.0.1.apworld" }
