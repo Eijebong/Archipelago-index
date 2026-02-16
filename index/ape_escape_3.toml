@@ -7,3 +7,4 @@ default_url = "https://github.com/aidanii24/ae3-archipelago/releases/download/v{
 "1.0.70" = {}
 "1.0.71" = {}
 "1.0.80-exp+hotfix1" = { url = "https://github.com/aidanii24/ae3-archipelago/releases/download/v1.0.80exp/ape_escape_3.apworld" }
+"2.0.1" = {}
