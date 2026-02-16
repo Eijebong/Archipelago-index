@@ -1,0 +1,6 @@
+name = "A Dance of Fire and Ice"
+home = "https://discord.com/channels/731205301247803413/1194141971644682412"
+default_url = "https://github.com/ClaudeChibout/Archipelago-ADOFAI/releases/download/v{{version}}/adofai.apworld"
+
+[versions]
+"1.1.0" = {}
