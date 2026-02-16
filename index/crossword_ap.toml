@@ -1,8 +1,8 @@
 name = "CrosswordAP"
 home = "https://discord.com/channels/731205301247803413/1433538371031924798"
 default_url = "https://github.com/densebamboo/CrosswordAP/releases/download/v{{version}}-release/crossword_ap.apworld"
+# The client seems to randomly not send/receive items nor goal. Reported a while back but nothing's changed
 disabled = true
-# Client is broken, dev unresponsive
 
 [versions]
 "1.0.0" = {}
