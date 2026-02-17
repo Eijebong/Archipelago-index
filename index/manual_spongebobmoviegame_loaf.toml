@@ -1,2 +1,5 @@
 name = "Manual_Spongebobmoviegame_Loaf"
 display_name = "Manual: the Spongebob Movie Game"
+
+[versions]
+"1.3.1" = {}
