@@ -1,5 +1,6 @@
 name = "Deltarune"
 home = "https://discord.com/channels/731205301247803413/1169376681937612920"
+default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/download/v{{version}}/deltarune.apworld"
 
 [versions]
-"0.0.5-preview+hotfix2" = { url = "https://github.com/jonloveslegos/Archipelago/releases/download/deltarune-0.0.5.2/deltarune.apworld" }
+"0.2.7" = {}
