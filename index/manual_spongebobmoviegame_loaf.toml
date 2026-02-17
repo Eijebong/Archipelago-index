@@ -2,5 +2,6 @@ name = "Manual_Spongebobmoviegame_Loaf"
 display_name = "Manual: the Spongebob Movie Game"
 
 [versions]
-"0.0.1" = {}
+"0.0.1" = { local = "../apworlds/manual_spongebobmoviegame_loaf-0.0.1.apworld" }
+
 
