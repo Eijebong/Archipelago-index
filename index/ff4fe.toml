@@ -1,6 +1,5 @@
 name = "Final Fantasy IV Free Enterprise"
 home = "https://discord.com/channels/731205301247803413/1170144930610557008"
-disabled = true # 25% failure rate on 0.6.0
 
 [versions]
-"0.6.0" = {}
+"0.7.0" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFIV-AP-v7/ff4fe.apworld" }
