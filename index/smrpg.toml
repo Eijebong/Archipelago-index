@@ -1,0 +1,6 @@
+name = "Super Mario RPG Legend of the Seven Stars"
+home = "https://discord.com/channels/731205301247803413/1091478379963883651"
+default_url = "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases/download/{{version}}/smrpg.apworld"
+
+[versions]
+"0.0.6" = {}
