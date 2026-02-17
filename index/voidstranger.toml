@@ -1,6 +1,9 @@
 name = "Void Stranger"
 home = "https://discord.com/channels/731205301247803413/1231073014439743528"
 default_url = "https://github.com/CriminalPancake/void-stranger-ap/raw/refs/tags/v{{version}}/voidstranger.apworld"
+# This version is quite old, and the newer version has clear signs of self locking items which get hidden by the empty apworld
+disabled = true
+
 
 [versions]
 "0.8.0" = {}
