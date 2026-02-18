@@ -4,4 +4,4 @@ default_url = "https://github.com/MacH8s/Narcopelago/releases/download/v{{versio
 tags = ["ad"]
 
 [versions]
-"0.3.4" = {}
+"3.4.0" = {}
