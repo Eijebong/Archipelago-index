@@ -1,0 +1,6 @@
+name = "Prodigal"
+home = "https://discord.com/channels/731205301247803413/1140678965422465115"
+
+
+[versions]
+"0.2.2" = { local = "../apworlds/prodigal-0.2.2.apworld" }
