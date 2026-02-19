@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1083474864150695956"
 default_url = "https://github.com/kl3cks7r/CaveStoryArchipelago/releases/download/{{version}}/cave_story.apworld"
 
 [versions]
-"0.6.6" = {}
+"0.6.7" = {}
