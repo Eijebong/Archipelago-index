@@ -3,4 +3,5 @@ home = "https://discord.com/channels/731205301247803413/1372263205132304456"
 default_url = "https://github.com/Metasura/Burnout3Archipelago/releases/{{version}}/burnout3.apworld"
 
 [versions]
-"0.0.4" = { url = "https://github.com/Metasura/Burnout3Archipelago/releases/download/0.0.4/burnout3.apworld" }
+"0.0.4" = { }
+"0.0.5" = { }
