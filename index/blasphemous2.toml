@@ -1,0 +1,6 @@
+name = "Blasphemous 2"
+home = "https://discord.com/channels/731205301247803413/1399145913649467524"
+default_url = "https://github.com/TRPG0/Archipelago/releases/download/blas2-{{version}}/blasphemous2.apworld"
+
+[versions]
+"1.2.0" = {}

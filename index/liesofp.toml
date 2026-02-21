@@ -5,3 +5,4 @@ default_url = "https://github.com/Xtruh/LiesOfAP/releases/download/{{version}}/l
 [versions]
 "0.1.3" = {}
 "0.1.4" = {}
+"0.1.5" = {}

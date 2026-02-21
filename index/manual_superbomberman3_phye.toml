@@ -1,0 +1,6 @@
+name = "Manual_SuperBomberman3_Phye"
+display_name = "Manual: Super Bomberman 3"
+home = "https://discord.com/channels/1097532591650910289/1471185390168834178"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_superbomberman3_phye.apworld" } # https://discord.com/channels/1097532591650910289/1471185390168834178/1471846899492458557

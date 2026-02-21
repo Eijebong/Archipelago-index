@@ -1,0 +1,83 @@
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Costumes] (group_name='Costumes', game_name='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Boss Ergo] (group_name='Boss Ergo', game_name='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Cryptic Vessels] (group_name='Cryptic Vessels', game_name='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_items.TestBase.test_item_name_group_has_valid_item [Recollections] (group_name='Recollections', game_name='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Strange Forest', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Krat Zoo', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Savanna Experience Center', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Greenhouse Interior', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Carnival Garden', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Zoo Tram Station', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Eventide Hotel Krat', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Zelator Underground Facility', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Zelator Underground Facility Unfrozen', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Elixir Research Zone', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Ancient Ruins Excavation Site', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Secret Ruins', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Abandoned Excavation Campsite', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Sea Cliffs', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Pleroma Forest Cave', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Rose Estate', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Rose Garden', game='Lies Of P')"]]
+__expected__ = "fail"
+__version__ = ">=0.1.5"
