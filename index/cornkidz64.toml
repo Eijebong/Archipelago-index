@@ -1,0 +1,6 @@
+name = "Corn Kidz 64"
+home = "https://discord.com/channels/731205301247803413/1282470024560508990"
+default_url = "https://github.com/Cyb3RGER/cornkidz64_apworld/releases/download/v{{version}}/cornkidz64.apworld"
+
+[versions]
+"0.0.4" = {}
