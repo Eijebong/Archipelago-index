@@ -1,0 +1,6 @@
+name = "Gato Roboto B-Side"
+home = "https://discord.com/channels/731205301247803413/1466872819433607248"
+default_url = "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago/releases/download/{{version}}/gatoroboto_b_side.apworld"
+
+[versions]
+"0.3.0" = {}
