@@ -1,0 +1,6 @@
+name = "Ori and the Will of the Wisps"
+home = "https://discord.com/channels/731205301247803413/1272952565843103765"
+default_url = "https://github.com/Satisha10/APwotw_release/releases/download/v{{version}}/ori_wotw.apworld"
+
+[versions]
+"0.4.1" = {}
