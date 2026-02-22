@@ -1,7 +1,6 @@
 name = "Final Fantasy 12 Open World"
 home = "https://discord.com/channels/731205301247803413/1229091295465570456"
 default_url = "https://github.com/Bartz24/Archipelago/releases/download/{{version}}/ff12_open_world.apworld"
-disabled = true # Sometimes ends up with `AssertionError: 197 != 194 : Final Fantasy 12 Open World Item count MUST match the number of locations` in tests
 
 [versions]
-"0.5.3+1" = { url = "https://github.com/Bartz24/Archipelago/releases/download/0.5.3.1/ff12_open_world.apworld" }
+"0.6.1" = {}
