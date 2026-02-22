@@ -1,0 +1,6 @@
+name = "Peggle Deluxe"
+home = "https://discord.com/channels/731205301247803413/1470246861557334016"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle-deluxe-v{{version}}/peggle_deluxe.apworld"
+
+[versions]
+"1.0.1" = {}
