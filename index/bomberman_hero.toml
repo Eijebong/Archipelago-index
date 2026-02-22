@@ -1,0 +1,6 @@
+name = "Bomberman Hero"
+home = "https://discord.com/channels/731205301247803413/1330612852867858505"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bombhero_v{{version}}/bomberman_hero.apworld"
+
+[versions]
+"0.2.1" = {}
