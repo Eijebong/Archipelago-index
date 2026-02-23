@@ -4,3 +4,4 @@ default_url = "https://github.com/TRPG0/HbkArchipelago/releases/download/{{versi
 
 [versions]
 "0.2.0" = {}
+"0.2.1" = {}
