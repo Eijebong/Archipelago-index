@@ -1,4 +1,6 @@
 name = "Shadow The Hedgehog"
 home = "https://discord.com/channels/731205301247803413/1142558464242094200"
-disabled = true # 15% failure rate, updates are even worse
+default_url = "https://github.com/choatix/Archipelago/releases/download/shadow-{{version}}/shadow_the_hedgehog.apworld"
 
+[versions]
+"0.4.1" = {}

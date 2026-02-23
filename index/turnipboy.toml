@@ -2,6 +2,8 @@ name = "TurnipBoy"
 display_name = "Turnip Boy Commits Tax Evasion"
 home = "https://discord.com/channels/731205301247803413/1297617351977734214"
 default_url = "https://github.com/pointfivetee/TurnipBoyRandomizer/releases/download/v{{version}}/turnipboy.apworld"
+# Has outstanding client bug that prevented playing when receiving items in a certain order
+disabled = true
 
 [versions]
 "0.1.3" = {}

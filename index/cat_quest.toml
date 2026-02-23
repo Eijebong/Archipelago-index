@@ -4,3 +4,4 @@ default_url = "https://github.com/Nikkilites/Archipelago-CatQuest/releases/downl
 
 [versions]
 "0.2.3-alpha" = {}
+"0.3.0-alpha" = {}

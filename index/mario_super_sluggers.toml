@@ -1,0 +1,6 @@
+name = "Mario Super Sluggers"
+home = "https://discord.com/channels/731205301247803413/1238777175033909318"
+default_url = "https://github.com/MarioManTAW/Archipelago/releases/download/sluggers-v{{version}}/mario_super_sluggers.apworld"
+
+[versions]
+"0.2.1" = {}

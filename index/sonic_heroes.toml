@@ -8,3 +8,4 @@ default_url = "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelag
 "2.0.0" = {}
 # Apworld was removed by mistake and reuploaded with a different checksum
 "2.0.1+hotfix1" = { url = "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases/download/2.0.1/sonic_heroes.apworld" }
+"2.1.0" = {}

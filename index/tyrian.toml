@@ -5,3 +5,4 @@ default_url = "https://github.com/KScl/TyrianArchipelago/releases/download/v{{ve
 [versions]
 "0.80.2" = {}
 "1.0.1" = {}
+"1.0.4" = {}

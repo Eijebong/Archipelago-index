@@ -12,7 +12,7 @@ tasks:
   aptest:
     from-deps: {}
     description: Create a comment on the PR with the test results
-    worker-type: githubscript
+    worker-type: githubscript-1
     run-on-tasks-for: []
     requires: all-resolved
     worker:

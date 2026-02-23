@@ -10,7 +10,7 @@ kind-dependencies:
 tasks:
   apdiff:
     description: Create a comment on the PR with the diff link
-    worker-type: githubscript
+    worker-type: githubscript-1
     run-on-tasks-for: ["github-pull-request", "github-pull-request-untrusted"]
     dependencies:
       diff-index: diff-index
@@ -21,7 +21,7 @@ tasks:
       diff-task: {task-reference: <diff-index>}
   apdiff-from-lobby:
     description: Create a comment on the PR with the diff link
-    worker-type: githubscript
+    worker-type: githubscript-1
     run-on-tasks-for: []
     dependencies:
       diff-from-lobby-index: diff-from-lobby-index
