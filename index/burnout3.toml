@@ -1,4 +1,4 @@
-name = "Burnout 3: Takedown"
+name = "Burnout 3"
 home = "https://discord.com/channels/731205301247803413/1372263205132304456"
 default_url = "https://github.com/Metasura/Burnout3Archipelago/releases/download/{{version}}/burnout3.apworld"
 
