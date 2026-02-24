@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1454317500329099317"
 
 [versions]
 "0.1.0" = { url = "https://github.com/AllPoland/unbeatAP/releases/download/v0.1.0-alpha/unbeatable_arcade.apworld" }
+"0.2.0-alpha" = {url = "https://github.com/AllPoland/unbeatAP/releases/download/v0.2.0-alpha/unbeatable_arcade.apworld"}
