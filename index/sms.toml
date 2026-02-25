@@ -1,0 +1,6 @@
+name = "Super Mario Sunshine"
+home = "https://discord.com/channels/731205301247803413/1383204057514250300"
+default_url = "https://github.com/Joshark/archipelago-sms/releases/download/{{version}}/sms.apworld"
+
+[versions]
+"0.5.2" = {}

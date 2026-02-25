@@ -1,7 +1,6 @@
 name = "Brave Fencer Musashi"
 home = "https://discord.com/channels/731205301247803413/1291453297370337351"
 default_url = "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/download/v{{version}}/bfm.apworld"
-disabled = true # Triggers some assertion
 
 [versions]
-"0.2.4" = {}
+"0.4.2" = {}

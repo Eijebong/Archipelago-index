@@ -108,12 +108,16 @@ def default_target_task(full_task_graph, parameters, graph_config):
 def rebuild_ap_worker_target_task(full_task_graph, parameters, graph_config):
     return [label for label, task in full_task_graph.tasks.items() if task.label == "docker-image-ap-checker"]
 
+@register_target_task("verify-index")
+def verify_index_target_task(full_task_graph, parameters, graph_config):
+    return [label for label, task in full_task_graph.tasks.items() if task.label == "verify-index"]
+
 
 def try_target_tasks(full_task_graph, parameters):
     try_config = parameters['try_config'].split('\n')[0]
     targets = parse_try_config(try_config)
     specific = _is_specific_fuzz(parameters)
-    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch"}]
+    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz", "update-expectations", "make-expectations-patch", "verify-index"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():

@@ -5,3 +5,4 @@ default_url = "https://github.com/WolfBoi008/Block-Tales/releases/download/{{ver
 
 [versions]
 "4.1.2" = {}
+"4.2.0" = {}

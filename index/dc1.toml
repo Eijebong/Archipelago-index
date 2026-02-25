@@ -4,3 +4,4 @@ default_url = "https://github.com/Lizardman175/DC1AP/releases/download/v{{versio
 
 [versions]
 "0.4.1" = {}
+"0.4.2" = {}

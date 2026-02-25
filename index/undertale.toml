@@ -1,7 +1,3 @@
 name = "Undertale"
 home = "https://archipelago.gg"
 supported = true
-
-[versions]
-# This is from the same message as 2.0.0+beta but they changed the apworld without telling
-"2.0.0+beta2" = { local = "../apworlds/undertale-2.0.0+beta2.apworld" }

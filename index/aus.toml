@@ -5,3 +5,4 @@ home = "https://discord.com/channels/731205301247803413/1194062970230165554"
 "1.0.0-beta" = { local = "../apworlds/aus-1.0.0-beta.apworld" }
 "1.1.0-beta" = { url = "https://github.com/ThatOneGuy27/Archipelago-aus/releases/download/v1.1-beta/aus.apworld" }
 "1.1.0" = {url = "https://github.com/ThatOneGuy27/Archipelago-aus/releases/download/v1.1-beta/aus.apworld"}
+"1.5.0-beta" = { url = "https://github.com/ThatOneGuy27/Archipelago-aus/releases/download/v1.5-beta/aus.apworld" }

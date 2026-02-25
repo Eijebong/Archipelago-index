@@ -5,3 +5,4 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx-v{{ve
 [versions]
 "1.4.0" = {}
 "1.5.0" = {}
+"1.6.0-beta" = {}

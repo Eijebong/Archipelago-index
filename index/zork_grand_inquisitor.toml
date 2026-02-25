@@ -4,3 +4,4 @@ default_url = "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v{
 
 [versions]
 "2.0.6+hotfix1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/zgi-v2.0.6/zork_grand_inquisitor.apworld" }
+"2.0.7" = {}

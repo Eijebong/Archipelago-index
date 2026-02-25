@@ -4,3 +4,4 @@ default_url = "https://github.com/ArsonAssassin/DSAP/releases/download/{{version
 
 [versions]
 "0.0.21" = { url = "https://github.com/ArsonAssassin/DSAP/releases/download/0.0.21.0/dsr.apworld" }
+"0.0.22-0" = {url = "https://github.com/ArsonAssassin/DSAP/releases/download/0.0.22.0/dsr.apworld"}

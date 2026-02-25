@@ -4,4 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1458061225194946675"
 tags = ["ad"]
 
 [versions]
-"0.0.5" = { local = "../apworlds/manual_ghostrunner_evoker-0.0.5.apworld" }
+"1.0.0" = { local = "../apworlds/manual_ghostrunner_evoker-1.0.0.apworld" }
