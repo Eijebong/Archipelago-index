@@ -1,0 +1,5 @@
+name = "Manual_IsaacFourSouls_Fabby29"
+display_name = "Manual: The Binding of Isaac: Four Souls"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_isaacfoursouls_fabby29.apworld" }
