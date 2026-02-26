@@ -1,0 +1,5 @@
+name = "manual_arknightsendfield_jyllpo"
+display_name = "Manual: Arknights Endfield"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_arknightsendfield_jyllpo-0.0.1.apworld" }
