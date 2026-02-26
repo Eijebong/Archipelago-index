@@ -2,4 +2,5 @@ name = "Manual_IsaacFourSouls_Fabby29"
 display_name = "Manual: The Binding of Isaac: Four Souls"
 
 [versions]
+# https://discord.com/channels/105852066324365312/214865144218517504/1476584517555851284
 "0.0.1" = { local = "../apworlds/manual_isaacfoursouls_fabby29.apworld" }
