@@ -1,0 +1,6 @@
+name = "Manual_ArknightsEndfield_Jyllpo"
+display_name = "Manual: Arknights Endfield"
+
+[versions]
+# https://discord.com/channels/105852066324365312/214865144218517504/1476505972301103148
+"0.0.1" = { local = "../apworlds/manual_arknightsendfield_jyllpo.apworld" }
