@@ -1,0 +1,6 @@
+name = "Manual_Kasane_Teto"
+display_name = "Manual: MateEngine"
+
+[versions]
+# https://discord.com/channels/105852066324365312/214865144218517504/1476385109182775560
+"0.0.1" = { local = "../apworlds/manual_kasane_teto.apworld" }
