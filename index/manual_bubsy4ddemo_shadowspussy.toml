@@ -1,0 +1,6 @@
+name = "Manual_Bubsy4DDemo_shadowspussy"
+home = "https://discord.com/channels/1097532591650910289/1429575793356574740"
+display_name = "Manual: Bubsy 4D"
+
+[versions]
+"0.0.3" = { local = "../apworlds/manual_bubsy4ddemo_shadowspussy-0.0.3.apworld" }
