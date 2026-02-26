@@ -3,4 +3,4 @@ display_name = "Rock Band 3"
 # default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGRockBand3.apworld"
 
 [versions]
-"26.2.21" = { "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.02.21/YARGRockBand3.apworld" }
+"26.2.21" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.02.21/YARGRockBand3.apworld" }
