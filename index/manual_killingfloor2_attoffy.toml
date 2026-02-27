@@ -3,4 +3,4 @@ display_name = "Manual: Killing Floor 2"
 home = "https://discord.com/channels/1097532591650910289/1250872557566038067"
 
 [versions]
-"0.0.1" = { url = "../apworlds/manual_killingfloor2_attoffy-0.0.1.apworld" }
+"0.0.1" = { local = "../apworlds/manual_killingfloor2_attoffy-0.0.1.apworld" }
