@@ -1,0 +1,6 @@
+name = "Hammerwatch"
+home = "https://discord.com/channels/731205301247803413/1072687192360624218"
+default_url = "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases/download/v{{version}}/hammerwatch.apworld"
+
+[versions]
+"1.2.3" = {}
