@@ -6,14 +6,14 @@ __version__ = ">=0.0.4"
 __expected__ = "fail"
 __version__ = ">=0.0.4"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PizzaTower_Steph', option='true_end')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PizzaTower_Steph', option='true_end')"]]
 __expected__ = "error"
 __version__ = ">=0.0.4"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PizzaTower_Steph', option='hundred_percent')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PizzaTower_Steph', option='hundred_percent')"]]
 __expected__ = "error"
 __version__ = ">=0.0.4"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PizzaTower_Steph', option='hundred_one_percent')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PizzaTower_Steph', option='hundred_one_percent')"]]
 __expected__ = "error"
 __version__ = ">=0.0.4"

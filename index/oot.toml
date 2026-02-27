@@ -1,3 +1,4 @@
 name = "Ocarina of Time"
 home = "https://archipelago.gg"
 supported = true
+disabled = true # Don't think this needs an explanation

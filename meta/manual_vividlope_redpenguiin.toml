@@ -1,0 +1,23 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Stage Clear] (group_name='Stage Clear', game_name='Manual_VIVIDLOPE_redpenguiin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.0"
+
+[["test.general.test_locations.TestBase.test_location_group [Finale Clear] (group_name='Finale Clear', game_name='Manual_VIVIDLOPE_redpenguiin')"]]
+__expected__ = "fail"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_VIVIDLOPE_redpenguiin', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_VIVIDLOPE_redpenguiin', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_VIVIDLOPE_redpenguiin', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_VIVIDLOPE_redpenguiin', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"

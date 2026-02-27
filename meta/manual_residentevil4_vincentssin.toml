@@ -30,142 +30,142 @@ __version__ = ">=1.2.0"
 __expected__ = "fail"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Herbs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Herbs')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='TreasureLocations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='TreasureLocations')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Crows')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Crows')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MerchantWeapons')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='MerchantWeapons')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MerchantUpgrades')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='MerchantUpgrades')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MerchantExclusives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='MerchantExclusives')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Matilda')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Matilda')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='InfiniteLauncher')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='InfiniteLauncher')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='ChicagoTypewriter')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='ChicagoTypewriter')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Handcannon')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Handcannon')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='PRL412')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='PRL412')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='SeparateWays')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='SeparateWays')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='MercenariesMode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='MercenariesMode')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='NewGamePlus')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='NewGamePlus')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Treasure_Locations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Treasure_Locations')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Cratesanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Cratesanity')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Animalsanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Animalsanity')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Memosanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Memosanity')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Weapons')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Weapons')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Sidequests')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Sidequests')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Upgrades')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Upgrades')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Exclusives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Merchant_Exclusives')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Infinite_Launcher')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Infinite_Launcher')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Chicago_Typewriter')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Chicago_Typewriter')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='PRL_412')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='PRL_412')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Separate_Ways')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Separate_Ways')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Mercenaries_Mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Mercenaries_Mode')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='New_Game_Plus')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='New_Game_Plus')"]]
 __expected__ = "error"
 __version__ = ">=1.2.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Herb_Locations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Herb_Locations')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Herb_Locations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Herb_Locations')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Treasure_Locations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Treasure_Locations')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Cratesanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Cratesanity')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Animalsanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Animalsanity')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Ammosanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Ammosanity')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Ammosanity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_ResidentEvil4_VincentsSin', option='Add_SW_Ammosanity')"]]
 __expected__ = "error"
 __version__ = ">=2.0.0"

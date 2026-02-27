@@ -6,66 +6,66 @@ __version__ = ">=0.0.1"
 __expected__ = "fail"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_s_ranks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_s_ranks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_challenge_s_ranks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_challenge_s_ranks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_s_ranks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_s_ranks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_challenge_s_ranks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_challenge_s_ranks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_red_star_ring_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_red_star_ring_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_collection_key_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_collection_key_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_boss_s_ranks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_boss_s_ranks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_boss_s_ranks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_boss_s_ranks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_chao_hunt_checks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_chao_hunt_checks')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_generations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_generations')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_generations')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_generations')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_movie_update_dlc')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_movie_update_dlc')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_rocket_parts')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_rocket_parts')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_hard_bosses')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_hard_bosses')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_hard_bosses')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_sonic_hard_bosses')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_hard_missions')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_SonicXShadowGenerations_FlutterRazzo', option='enable_shadow_hard_missions')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"

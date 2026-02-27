@@ -10,7 +10,7 @@ __version__ = ">=2.1.0"
 __expected__ = "fail"
 __version__ = ">=2.1.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=2.1.0"
 
@@ -22,62 +22,62 @@ __version__ = ">=2.2.1"
 __expected__ = "fail"
 __version__ = ">=2.3.0"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='randomize_hidden_items')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='randomize_hidden_items')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='require_dowsing_machine')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='require_dowsing_machine')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='require_dowsing_machine_on_route_217')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='require_dowsing_machine_on_route_217')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='defog_traversal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='defog_traversal')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='defog_pickup')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='defog_pickup')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='early_fly')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='early_fly')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='northern_sinnoh_fly')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='northern_sinnoh_fly')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='storage_key')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='storage_key')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='veilstone_flash')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='veilstone_flash')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='battle_zone')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='battle_zone')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='open_sunyshore')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='open_sunyshore')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='extra_roadblocks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='extra_roadblocks')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='marsh_pass')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='marsh_pass')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='berry_tree_shuffle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='berry_tree_shuffle')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_PokemonPlatinum_Linneus', option='pick_a_peck_accessories')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonPlatinum_Linneus', option='pick_a_peck_accessories')"]]
 __expected__ = "error"
 __version__ = ">=2.4.1"

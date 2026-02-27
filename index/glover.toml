@@ -1,0 +1,6 @@
+name = "Glover"
+home = "https://discord.com/channels/731205301247803413/1203432460847677461"
+default_url = "https://github.com/Smg065/GloverArchipelago/releases/download/v{{version}}/glover.apworld"
+
+[versions]
+"1.0.0" = {}

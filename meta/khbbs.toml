@@ -1,7 +1,4 @@
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Mirage Arena', game='Kingdom Hearts Birth by Sleep')"]]
 __expected__ = "fail"
-__version__ = ">=0.1.3"
+__version__ = ">=0.1.7"
 
-[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Realm of Darkness', game='Kingdom Hearts Birth by Sleep')"]]
-__expected__ = "fail"
-__version__ = ">=0.1.3,<0.1.6"

@@ -1,0 +1,6 @@
+name = "Manual_GrappleDog_ProfDeCube"
+display_name = "Manual: Grapple Dog"
+home = "https://discord.com/channels/731205301247803413/1418006654204641441"
+
+[versions]
+"1.0.0" = { url = "https://github.com/ProfDeCube/GrappleDog-Archipelago-Manual/releases/download/1.0.0/manual_grappledog_profdecube.apworld" }

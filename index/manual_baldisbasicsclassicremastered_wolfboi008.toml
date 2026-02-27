@@ -1,0 +1,6 @@
+name = "Manual_BaldisBasicsClassicRemastered_WolfBoi008"
+display_name = "Manual: Baldi's Basics Classic Remastered"
+home = "https://github.com/WolfBoi008/Baldi-s-Basics-Classic-Remastered/tree/main"
+
+[versions]
+"1.2.1+b" = { url = "https://github.com/WolfBoi008/Baldi-s-Basics-Classic-Remastered/releases/download/1.2.1b/manual_baldisbasicsclassicremastered_wolfboi008.apworld" }

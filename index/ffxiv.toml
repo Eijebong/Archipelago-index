@@ -2,6 +2,7 @@ name = "Manual_FFXIV_Silasary"
 display_name = "Manual: Final Fantasy XIV"
 home = "https://discord.com/channels/1097532591650910289/1187584337877684294"
 default_url = "https://github.com/silasary/APxiv/releases/download/{{version}}/ffxiv.apworld"
+disabled = true # 4% failure rate, horribly slow
 
 [versions]
 "0.22.0" = {}

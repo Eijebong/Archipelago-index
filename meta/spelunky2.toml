@@ -1,3 +1,7 @@
 [["test.general.test_options.TestOptions.test_options_are_not_set_by_world (game='Spelunky 2')"]]
 __expected__ = "fail"
 __version__ = ">=0.2.4"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Spelunky 2')"]]
+__expected__ = "error"
+__version__ = ">=0.3.6"

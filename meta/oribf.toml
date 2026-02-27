@@ -70,6 +70,3 @@ __version__ = ">=0.3.3-alpha"
 __expected__ = "fail"
 __version__ = ">=0.3.3-alpha"
 
-[["test.general.test_items.TestBase.test_item_count_equal_locations [Game] (game='Ori and the Blind Forest')"]]
-__expected__ = "fail"
-__version__ = ">=0.3.3-alpha,<0.3.2-alpha"

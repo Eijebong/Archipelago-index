@@ -1,23 +1,23 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=0.0.0+20241119"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='DLC_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='DLC_enabled')"]]
 __expected__ = "error"
 __version__ = ">=0.0.0+20241119"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='start_with_deadpool')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='start_with_deadpool')"]]
 __expected__ = "error"
 __version__ = ">=0.0.0+20241119"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='Example_Toggle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='Example_Toggle')"]]
 __expected__ = "error"
 __version__ = ">=0.0.0+20250714"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='Example_Choice')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='Example_Choice')"]]
 __expected__ = "error"
 __version__ = ">=0.0.0+20250714"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='Example_Range')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_UltimateMarvelVsCapcom3_ManualTeam', option='Example_Range')"]]
 __expected__ = "error"
 __version__ = ">=0.0.0+20250714"

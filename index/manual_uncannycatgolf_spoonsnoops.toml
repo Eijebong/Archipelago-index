@@ -1,0 +1,5 @@
+name = "Manual_UncannyCatGolf_spoonsnoops"
+display_name = "Manual: Uncanny Cat Golf"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_uncannycatgolf_spoonsnoops-0.0.1.apworld" }

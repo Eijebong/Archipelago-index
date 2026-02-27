@@ -1,891 +1,891 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='fourteen_minesweeper_variants_include_combos_and_bonus_variants')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='fourteen_minesweeper_variants_include_combos_and_bonus_variants')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='fourteen_minesweeper_variants_2_include_combos_and_bonus_variants')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='fourteen_minesweeper_variants_2_include_combos_and_bonus_variants')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='a_dance_of_fire_and_ice_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='a_dance_of_fire_and_ice_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='a_dance_of_fire_and_ice_custom_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='a_dance_of_fire_and_ice_custom_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='aeons_end_expansions_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='aeons_end_expansions_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='arcaea_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='arcaea_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='archipelago_multiworld_randomizer_game_selection')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='archipelago_multiworld_randomizer_game_selection')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='archipelago_multiworld_randomizer_objective_types')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='archipelago_multiworld_randomizer_objective_types')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='archipelago_multiworld_randomizer_bingo_release_always_off')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='archipelago_multiworld_randomizer_bingo_release_always_off')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='artwork_actions')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='artwork_actions')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='artwork_subjects')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='artwork_subjects')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='artwork_themes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='artwork_themes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='artwork_art_styles')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='artwork_art_styles')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='artwork_artists')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='artwork_artists')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='artwork_include_random_prompts')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='artwork_include_random_prompts')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='balatro_include_difficult_stakes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='balatro_include_difficult_stakes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='bizhawk_shuffler_games')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='bizhawk_shuffler_games')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='blueprince_include_lategame_rooms')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='blueprince_include_lategame_rooms')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='bomberman_64_allow_rainbow_palace')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='bomberman_64_allow_rainbow_palace')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='celeste_include_farewell')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='celeste_include_farewell')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='celeste_include_bsides')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='celeste_include_bsides')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='celeste_include_csides')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='celeste_include_csides')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_ai_difficulty')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_ai_difficulty')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_max_skirmish_map_size')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_max_skirmish_map_size')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_include_campaign')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_include_campaign')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_include_challenge')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_include_challenge')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_limit_structures')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_limit_structures')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_limit_structures_amount')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_limit_structures_amount')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_limit_units')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_limit_units')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='generals_zh_limit_units_amount')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='generals_zh_limit_units_amount')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='cook_serve_delicious_2_max_yum_level')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='cook_serve_delicious_2_max_yum_level')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='cook_serve_delicious_2_display_yum_level_requirements')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='cook_serve_delicious_2_display_yum_level_requirements')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='cook_serve_delicious_2_include_locked_foods')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='cook_serve_delicious_2_include_locked_foods')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='crush_crush_additional_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='crush_crush_additional_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='crush_crush_include_hobby_related_objectives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='crush_crush_include_hobby_related_objectives')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='crush_crush_include_job_related_objectives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='crush_crush_include_job_related_objectives')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='cuphead_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='cuphead_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='custom_objective_list')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='custom_objective_list')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='cytus_ii_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='cytus_ii_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='cytus_ii_difficulties')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='cytus_ii_difficulties')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='djmax_respect_v_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='djmax_respect_v_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='dead_by_daylight_killers')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='dead_by_daylight_killers')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='dead_by_daylight_survivors')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='dead_by_daylight_survivors')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='deemo_reborn_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='deemo_reborn_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='deemo_reborn_platform_exclusive_content')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='deemo_reborn_platform_exclusive_content')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='deemo_reborn_include_stone_monument_songs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='deemo_reborn_include_stone_monument_songs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='demoncrawl_masteries_unlocked')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='demoncrawl_masteries_unlocked')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='destiny_2_subclasses')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='destiny_2_subclasses')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='domekeeper_include_challenging_assignments')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='domekeeper_include_challenging_assignments')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='dungeon_defenders_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='dungeon_defenders_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='elden_ring_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='elden_ring_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='ensemble_stars_music_include_jp_content')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='ensemble_stars_music_include_jp_content')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='ftl_multiverse_addons')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='ftl_multiverse_addons')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='final_fantasy_xiv_content_types_allowed')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='final_fantasy_xiv_content_types_allowed')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='final_fantasy_xiv_expansions_accessible')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='final_fantasy_xiv_expansions_accessible')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='final_fantasy_xiv_playable_jobs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='final_fantasy_xiv_playable_jobs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='final_fantasy_xvi_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='final_fantasy_xvi_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='fire_emblem_three_houses_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='fire_emblem_three_houses_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='fortune_street_include_unlockable_content')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='fortune_street_include_unlockable_content')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='forza_horizon_4_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='forza_horizon_4_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='forza_horizon_5_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='forza_horizon_5_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='freedom_planet_2_custom_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='freedom_planet_2_custom_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='freedom_planet_2_custom_stages')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='freedom_planet_2_custom_stages')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guilty_gear_strive_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guilty_gear_strive_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='game_backlog_game_selection')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='game_backlog_game_selection')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='game_backlog_actions')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='game_backlog_actions')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='god_eater_resurrection_included_missions')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='god_eater_resurrection_included_missions')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_include_arcade_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_include_arcade_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_include_career_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_include_career_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_career_sections')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_career_sections')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_2_include_arcade_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_2_include_arcade_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_2_include_career_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_2_include_career_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_2_career_sections')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_2_career_sections')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_3_include_arcade_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_3_include_arcade_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_3_include_career_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_3_include_career_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_3_career_sections')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_3_career_sections')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_4_include_arcade_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_4_include_arcade_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_4_include_career_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_4_include_career_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_4_arcade_track_types')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_4_arcade_track_types')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_4_career_sections')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_4_career_sections')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='gran_turismo_4_driving_mission_types')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='gran_turismo_4_driving_mission_types')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guild_wars_2_storylines_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guild_wars_2_storylines_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guild_wars_2_game_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guild_wars_2_game_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guitar_hero_bonus_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guitar_hero_bonus_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guitar_hero_ii_bonus_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guitar_hero_ii_bonus_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guitar_hero_ii_x360_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guitar_hero_ii_x360_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='guitar_hero_iii_legends_of_rock_bonus_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='guitar_hero_iii_legends_of_rock_bonus_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='harry_potter_quidditch_world_cup_bulgaria_unlocked')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='harry_potter_quidditch_world_cup_bulgaria_unlocked')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='hyrule_warriors_definitive_edition_unlocked_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='hyrule_warriors_definitive_edition_unlocked_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='exocolonist_include_helios_friends')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='exocolonist_include_helios_friends')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='exocolonist_include_helios_dates')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='exocolonist_include_helios_dates')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='exocolonist_include_difficult_dating')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='exocolonist_include_difficult_dating')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='jackbox_party_packs_games_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='jackbox_party_packs_games_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='kingdom_hearts_iii_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='kingdom_hearts_iii_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='kingdom_hearts_melody_of_memory_include_world_tour')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='kingdom_hearts_melody_of_memory_include_world_tour')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='kirbys_return_to_dream_land_include_deluxe_content')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='kirbys_return_to_dream_land_include_deluxe_content')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='league_of_legends_champions_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='league_of_legends_champions_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='legendary_a_marvel_deck_building_game_sets_expansions_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='legendary_a_marvel_deck_building_game_sets_expansions_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='lego_rock_band_nds_only')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='lego_rock_band_nds_only')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='little_inferno_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='little_inferno_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_rise_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_rise_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_rise_include_rank_dependent_monsters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_rise_include_rank_dependent_monsters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mario_kart_8_is_deluxe')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mario_kart_8_is_deluxe')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mario_kart_8_wii_u_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mario_kart_8_wii_u_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mario_kart_8_deluxe_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mario_kart_8_deluxe_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mario_kart_8_include_battle_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mario_kart_8_include_battle_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mega_man_2_wily_stages')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mega_man_2_wily_stages')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mega_man_3_latest_stages')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mega_man_3_latest_stages')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='mega_man_4_latest_stages')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='mega_man_4_latest_stages')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='minecraft_mcparks_server_has_early_access')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='minecraft_mcparks_server_has_early_access')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='minecraft_mcparks_server_include_big_firework_shows')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='minecraft_mcparks_server_include_big_firework_shows')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_3_ultimate_aged_text_monsters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_3_ultimate_aged_text_monsters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_3_ultimate_include_dlcs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_3_ultimate_include_dlcs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_4_ultimate_aged_text_monsters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_4_ultimate_aged_text_monsters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_4_ultimate_include_apex')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_4_ultimate_include_apex')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_4_ultimate_include_dlcs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_4_ultimate_include_dlcs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_generations_ultimate_include_rank_dependent_monsters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_generations_ultimate_include_rank_dependent_monsters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_generations_ultimate_include_dlc')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_generations_ultimate_include_dlc')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_world_iceborne')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_world_iceborne')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_world_include_rank')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_world_include_rank')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_hunter_world_include_events')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_hunter_world_include_events')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_rancher_2_dx_unlocked_main_breeds')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_rancher_2_dx_unlocked_main_breeds')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='monster_rancher_2_dx_unlocked_sub_breeds')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='monster_rancher_2_dx_unlocked_sub_breeds')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='muse_dash_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='muse_dash_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='nights_into_dreams_enable_christmas')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='nights_into_dreams_enable_christmas')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='ninesols_objectives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='ninesols_objectives')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='nubby_include_rare_items')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='nubby_include_rare_items')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='one_deck_dungeon_expansions_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='one_deck_dungeon_expansions_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='openrct2_include_rct1_content')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='openrct2_include_rct1_content')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='openrct2_custom_scenarios')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='openrct2_custom_scenarios')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='paperball_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='paperball_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='paperball_included_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='paperball_included_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='paperball_included_medal_mode_worlds')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='paperball_included_medal_mode_worlds')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='paperball_included_courses')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='paperball_included_courses')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='peggle_deluxe_include_challenges')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='peggle_deluxe_include_challenges')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='peggle_deluxe_include_insane_challenges')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='peggle_deluxe_include_insane_challenges')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pinball_fx3_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pinball_fx3_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='placid_plastic_duck_simulator_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='placid_plastic_duck_simulator_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='plants_vs_zombies_include_adventure_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='plants_vs_zombies_include_adventure_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='plants_vs_zombies_heroes_non_starter_heroes_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='plants_vs_zombies_heroes_non_starter_heroes_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='platinumquest_level_packs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='platinumquest_level_packs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='platinumquest_difficulties')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='platinumquest_difficulties')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_dppt_owned_games')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_dppt_owned_games')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_dppt_objectives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_dppt_objectives')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_dppt_daily_encounters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_dppt_daily_encounters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_rse_owned_games')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_rse_owned_games')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_rse_objectives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_rse_objectives')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_rse_allow_one_offs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_rse_allow_one_offs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='pokemon_rse_allow_event_items')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='pokemon_rse_allow_event_items')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='powerwash_simulator_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='powerwash_simulator_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='project_sekai_colorful_stage_additional_songs')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='project_sekai_colorful_stage_additional_songs')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='project_sekai_colorful_stage_minimum_difficulty')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='project_sekai_colorful_stage_minimum_difficulty')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='project_sekai_colorful_stage_maximum_difficulty')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='project_sekai_colorful_stage_maximum_difficulty')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='rabbit_and_steel_unlocked_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='rabbit_and_steel_unlocked_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='rabbit_and_steel_allow_lunar')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='rabbit_and_steel_allow_lunar')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='re_volt_custom_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='re_volt_custom_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='re_volt_custom_cars')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='re_volt_custom_cars')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='retroachievements_games')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='retroachievements_games')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='rhythm_doctor_custom_levels')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='rhythm_doctor_custom_levels')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='rhythm_heaven_fever_perfects_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='rhythm_heaven_fever_perfects_enabled')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='riskofrain2_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='riskofrain2_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='rock_band_3_nds_only')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='rock_band_3_nds_only')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='s06_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='s06_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='shadow_the_hedgehog_include_expert_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='shadow_the_hedgehog_include_expert_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='shiny_pokemon_hunt_owned_games')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='shiny_pokemon_hunt_owned_games')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_downfall_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_downfall_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_custom_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_custom_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_custom_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_custom_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_custom_modifiers')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_custom_modifiers')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_ascension_levels')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_ascension_levels')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='slay_the_spire_include_act_4')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='slay_the_spire_include_act_4')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='sonic_mania_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='sonic_mania_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='sonic_origins_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='sonic_origins_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='sonic_origins_include_mission_mode')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='sonic_origins_include_mission_mode')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='sonic_riders_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='sonic_riders_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='sonic_riders_zero_gravity_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='sonic_riders_zero_gravity_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spore_include_galactic_adventures')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spore_include_galactic_adventures')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spore_stages')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spore_stages')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spore_space_exclusive_missions')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spore_space_exclusive_missions')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spore_sporecast_exclusive_missions')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spore_sporecast_exclusive_missions')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spore_custom_galactic_adventures')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spore_custom_galactic_adventures')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spyro_reignited_trilogy_games')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spyro_reignited_trilogy_games')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='spyro_reignited_trilogy_include_speedrun_challenges')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='spyro_reignited_trilogy_include_speedrun_challenges')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_ground_gcw')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_ground_gcw')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_ground_cw')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_ground_cw')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_space_gcw')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_space_gcw')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_space_cw')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_space_cw')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_hero_assault')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_hero_assault')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_hunt')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='star_wars_battlefront_ii_classic_custom_maps_hunt')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='stellaris_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='stellaris_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='street_fighter_6_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='street_fighter_6_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='super_mario_galaxy_2_game_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='super_mario_galaxy_2_game_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='super_smash_bros_melee_include_multi_man_melee')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='super_smash_bros_melee_include_multi_man_melee')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='super_smash_bros_melee_include_playable_master_hand')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='super_smash_bros_melee_include_playable_master_hand')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='super_smash_bros_ultimate_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='super_smash_bros_ultimate_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='super_smash_bros_ultimate_include_spirit_battles')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='super_smash_bros_ultimate_include_spirit_battles')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='super_smash_bros_ultimate_include_boss_battles')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='super_smash_bros_ultimate_include_boss_battles')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='terraria_include_calamity')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='terraria_include_calamity')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='terraria_include_hidden_bosses')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='terraria_include_hidden_bosses')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='the_binding_of_isaac_rebirth_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='the_binding_of_isaac_rebirth_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='the_binding_of_isaac_rebirth_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='the_binding_of_isaac_rebirth_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='the_elder_scrolls_v_skyrim_special_edition_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='the_elder_scrolls_v_skyrim_special_edition_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='finals_include_world_tour')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='finals_include_world_tour')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='finals_include_specific_equipment')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='finals_include_specific_equipment')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='theatrhythm_final_bar_line_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='theatrhythm_final_bar_line_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='theatrhythm_final_bar_line_max_difficulty')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='theatrhythm_final_bar_line_max_difficulty')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='tony_hawks_pro_skater_1_plus_2_include_secret_skaters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='tony_hawks_pro_skater_1_plus_2_include_secret_skaters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='tony_hawks_pro_skater_1_plus_2_include_create_a_skater')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='tony_hawks_pro_skater_1_plus_2_include_create_a_skater')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='tower_unite_multiplayer_content')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='tower_unite_multiplayer_content')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='tower_unite_plaza_activities')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='tower_unite_plaza_activities')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='tower_unite_game_worlds')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='tower_unite_game_worlds')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='trackmania_united_forever_modes')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='trackmania_united_forever_modes')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='trackmania_2_environments_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='trackmania_2_environments_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='trackmania_campaigns_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='trackmania_campaigns_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='trombone_champ_custom_tracks')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='trombone_champ_custom_tracks')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='ufo_hard_objectives')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='ufo_hard_objectives')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='vampire_survivors_dlc_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='vampire_survivors_dlc_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='vampire_survivors_allow_secret_characters')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='vampire_survivors_allow_secret_characters')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='warframe_warframes_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='warframe_warframes_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='warframe_weapon_types_owned')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='warframe_weapon_types_owned')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game=\"Keymaster's Keep\", option='ys_viii_lacrimosa_of_dana_has_boss_rush_unlocked')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game=\"Keymaster's Keep\", option='ys_viii_lacrimosa_of_dana_has_boss_rush_unlocked')"]]
 __expected__ = "error"
 __version__ = ">=0.2.0+silasarybundle"

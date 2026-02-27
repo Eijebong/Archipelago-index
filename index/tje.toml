@@ -1,6 +1,7 @@
 name = "ToeJam and Earl"
 home = "https://discord.com/channels/731205301247803413/1204326236415856671"
 default_url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v{{version}}/tje.apworld"
+disabled = true # 2% failure rate
 
 [versions]
 "0.3.1" = { url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v0.3.1/tje.apworld" }

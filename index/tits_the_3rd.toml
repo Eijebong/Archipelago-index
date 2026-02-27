@@ -1,0 +1,6 @@
+name = "Trails in the Sky the 3rd"
+home = "https://discord.com/channels/731205301247803413/1217595862872490065"
+default_url = "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/releases/download/{{version}}/tits_the_3rd.apworld"
+
+[versions]
+"0.1.6" = {}

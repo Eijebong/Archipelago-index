@@ -1,0 +1,6 @@
+name = "Manual_Fifa2001_Satanos"
+display_name = "Manual: FIFA 2001"
+home = "https://discord.com/channels/1097532591650910289/1440768079155040337"
+
+[versions]
+"1.1.0" = { url = "https://github.com/satanosskm/Fifa2001_manualAP/releases/download/1.1/manual_fifa2001_satanos.apworld" }

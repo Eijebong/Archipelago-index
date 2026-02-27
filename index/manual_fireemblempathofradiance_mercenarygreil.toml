@@ -1,0 +1,7 @@
+name = "Manual_FireEmblemPathofRadiance_MercenaryGreil"
+display_name = "Manual: Fire Emblem - Path of Radiance"
+home = "https://discord.com/channels/1097532591650910289/1407405321621602334"
+default_url = "https://github.com/MercenaryGreil/Archipelago-FireEmblem-PathofRadiance/releases/download/v{{version}}/manual_fireemblempathofradiance_mercenarygreil.apworld"
+
+[versions]
+"1.1.0" = {}

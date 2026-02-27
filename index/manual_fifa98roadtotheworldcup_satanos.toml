@@ -1,0 +1,6 @@
+name = "Manual_Fifa98RoadtotheWorldCup_Satanos"
+display_name = "Manual: FIFA: Road to World Cup 98"
+home = "https://discord.com/channels/1097532591650910289/1435031138719629523"
+
+[versions]
+"1.3.0" = { url = "https://github.com/satanosskm/Fifa98RTWC/releases/download/1.3/manual_fifa98roadtotheworldcup_satanos.apworld" }

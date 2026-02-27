@@ -1,3 +1,3 @@
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='The Simpsons Hit And Run', option='goal')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='The Simpsons Hit And Run', option='goal')"]]
 __expected__ = "error"
 __version__ = ">=0.1.6-alpha"

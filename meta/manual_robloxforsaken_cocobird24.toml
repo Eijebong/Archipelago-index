@@ -1,27 +1,27 @@
 [["test.general.test_items.TestBase.test_item_name_group_conflict [Filler] (group_name='Filler', game_name='Manual_RobloxForsaken_Cocobird24')"]]
 __expected__ = "fail"
-__version__ = ">=0.0.2"
+__version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='Generator_Hell_2_Enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxForsaken_Cocobird24', option='Generator_Hell_2_Enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.2"
+__version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='filler_traps')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxForsaken_Cocobird24', option='filler_traps')"]]
 __expected__ = "error"
-__version__ = ">=0.0.4"
+__version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='Example_Toggle')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxForsaken_Cocobird24', option='Example_Toggle')"]]
 __expected__ = "error"
-__version__ = ">=0.0.4"
+__version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='Example_Choice')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxForsaken_Cocobird24', option='Example_Choice')"]]
 __expected__ = "error"
-__version__ = ">=0.0.4"
+__version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='Example_Range')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxForsaken_Cocobird24', option='Example_Range')"]]
 __expected__ = "error"
-__version__ = ">=0.0.4"
+__version__ = ">=0.0.6"
 
-[["test.general.test_options.TestOptions.test_pickle_dumps (game='Manual_RobloxForsaken_Cocobird24', option='DLC_enabled')"]]
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxForsaken_Cocobird24', option='DLC_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.4"
+__version__ = ">=0.0.6"

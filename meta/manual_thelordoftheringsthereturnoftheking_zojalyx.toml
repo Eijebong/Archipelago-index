@@ -1,0 +1,23 @@
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='generate_basic', game='Manual_TheLordoftheRingsTheReturnoftheKing_Zojalyx')"]]
+__expected__ = "fail"
+__version__ = ">=1.6.0"
+
+[["test.general.test_items.TestBase.test_itempool_not_modified [step] (step='pre_fill', game='Manual_TheLordoftheRingsTheReturnoftheKing_Zojalyx')"]]
+__expected__ = "fail"
+__version__ = ">=1.6.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_TheLordoftheRingsTheReturnoftheKing_Zojalyx', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=1.6.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_TheLordoftheRingsTheReturnoftheKing_Zojalyx', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=1.6.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_TheLordoftheRingsTheReturnoftheKing_Zojalyx', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=1.6.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_TheLordoftheRingsTheReturnoftheKing_Zojalyx', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=1.6.0"

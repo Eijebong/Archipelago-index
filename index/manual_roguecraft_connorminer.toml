@@ -4,3 +4,4 @@ display_name = "Manual: Roguecraft"
 [versions]
 "0.0.5" = { local = "../apworlds/manual_roguecraft_connorminer-0.0.5.apworld" }
 "0.0.6" = { local = "../apworlds/manual_roguecraft_connorminer-0.0.6.apworld" }
+"0.0.7" = { local = "../apworlds/manual_roguecraft_connorminer-0.0.7.apworld" }

@@ -1,0 +1,51 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='jumpscaresanity')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='rank_checks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='custom_hour_challenges')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='f_ranks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='d_ranks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='c_ranks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='b_ranks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='a_ranks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='s_ranks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='normal_mode_characters')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='pal_mode_characters')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PlaytimewithPercy_WolfBoi008', option='custom_hour_checks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"

@@ -1,3 +1,0 @@
-[["test.general.test_items.TestBase.test_item_count_equal_locations [Game] (game='Final Fantasy 12 Open World')"]]
-__expected__ = "fail"
-__version__ = ">=0.5.3,<0.5.3+1"

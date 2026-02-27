@@ -1,0 +1,6 @@
+name = "Voltorb Flip"
+home = "https://discord.com/channels/731205301247803413/1419104603126890506"
+default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/voltorb_flip_{{version}}/voltorb_flip.apworld"
+
+[versions]
+"1.1.0" = {}
