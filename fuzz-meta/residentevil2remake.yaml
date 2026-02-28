@@ -1,0 +1,38 @@
+Resident Evil 2 Remake:
+  fuzz_constraints:
+    - option: oops_all_rockets
+      if_value: "true"
+      then:
+        oops_all_miniguns: "false"
+        oops_all_grenades: "false"
+        oops_all_knives: "false"
+        cross_scenario_weapons: "none"
+        starting_weapon: "default"
+        double_weapons: "false"
+    - option: oops_all_miniguns
+      if_value: "true"
+      then:
+        oops_all_rockets: "false"
+        oops_all_grenades: "false"
+        oops_all_knives: "false"
+        cross_scenario_weapons: "none"
+        starting_weapon: "default"
+        double_weapons: "false"
+    - option: oops_all_grenades
+      if_value: "true"
+      then:
+        oops_all_rockets: "false"
+        oops_all_miniguns: "false"
+        oops_all_knives: "false"
+        cross_scenario_weapons: "none"
+        starting_weapon: "default"
+        double_weapons: "false"
+    - option: oops_all_knives
+      if_value: "true"
+      then:
+        oops_all_rockets: "false"
+        oops_all_miniguns: "false"
+        oops_all_grenades: "false"
+        cross_scenario_weapons: "none"
+        starting_weapon: "default"
+        double_weapons: "false"

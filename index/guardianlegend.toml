@@ -1,0 +1,7 @@
+name = "The Guardian Legend"
+home = "https://discord.com/channels/1085716850370957462/1218013523943231579"
+tags = ["ad"]
+default_url = "https://github.com/CoreZer0/TheGuardianLegend-AP/releases/download/v{{version}}/guardianlegend.apworld"
+
+[versions]
+"0.7.0" = {}
