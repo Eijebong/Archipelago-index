@@ -1,0 +1,6 @@
+name = "Crypt of the NecroDancer"
+home = "https://discord.com/channels/731205301247803413/1192775219740422176"
+default_url = "https://github.com/lastingParadox/Archipelago-CotND/releases/download/v{{version}}/cotnd.apworld"
+
+[versions]
+"0.4.2" = {}
