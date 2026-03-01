@@ -4,3 +4,4 @@ default_url = "https://github.com/wcolding/SWR_AP_Client/releases/download/v{{ve
 
 [versions]
 "0.7.0" = {}
+"0.8.0" = {}
