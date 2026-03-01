@@ -1,0 +1,5 @@
+name = "Untitled Goose Game"
+home = "https://github.com/PixelShake92/Untitled-Goose-Game-Archipelago/releases"
+
+[versions]
+"2.1.0" = "https://github.com/PixelShake92/Untitled-Goose-Game-Archipelago/releases/download/Alpha_2.1/untitled_goose_game.apworld"
