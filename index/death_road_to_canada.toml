@@ -1,0 +1,5 @@
+name = "Death Road to Canada"
+home = "https://discord.com/channels/731205301247803413/1426343694658834452"
+
+[versions]
+"0.0.1" = { url = "https://github.com/PixelShake92/DR2C-AP/releases/download/Alpha_0.1/death_road_to_canada.apworld" }
