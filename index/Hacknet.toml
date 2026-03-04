@@ -1,0 +1,6 @@
+name = "Hacknet"
+home = "https://discord.com/channels/731205301247803413/1130229745452331120"
+default_url = "https://github.com/AutumnRivers/Archipelago-Hacknet/releases/download/hacknet-{{version}}/hacknet.apworld"
+
+[versions]
+"0.0.4" = {}
