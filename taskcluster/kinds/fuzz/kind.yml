@@ -104,3 +104,14 @@ tasks:
     fuzz-runs: 500
     fuzz-extra-args: "-t 30 -j 4"
 
+  check-indirect-conditions:
+    description: Fuzz to check for missing indirect conditions
+    fuzz-hook: "hooks.indirect_conditions:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-collect-accessibility:
+    description: Fuzz to check that collecting items into a state doesn't reduce accessibility
+    fuzz-hook: "hooks.collect_accessibility_test:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
