@@ -1,0 +1,6 @@
+name = "Library of Ruina"
+home = "https://discord.com/channels/1085716850370957462/1137643745051955200"
+tags = ["ad"]
+
+[versions]
+"0.3.1-c" = { url = "https://github.com/Az-LastPenguin/LORAP/releases/download/v0.3.1/lor.apworld" }
