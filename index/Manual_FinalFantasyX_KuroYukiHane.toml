@@ -1,0 +1,5 @@
+name = "Manual_FinalFantasyX_KuroYukiHane"
+display_name = "Manual: Final Fantasy X"
+
+[versions]
+"0.0.3" = { local = "../apworlds/manual_FinalFantasyX_KuroYukiHane-0.0.3.apworld" }
