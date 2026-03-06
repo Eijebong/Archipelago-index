@@ -1,0 +1,6 @@
+name = "Sonic the Hedgehog 1"
+home = "https://discord.com/channels/731205301247803413/1212629606608408576"
+default_url = "https://github.com/kaithar/Archipelago/releases/download/sonic_1-v{{version}}/sonic1.apworld"
+
+[versions]
+"0.1.1" = {}
