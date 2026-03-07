@@ -1,0 +1,7 @@
+name = "Manual_Paradise Killer_Caffeinated Moth"
+display_name = "Manual: Paradise Killer"
+home = "https://discord.com/channels/1097532591650910289/1468220410586992662"
+default_url = "https://github.com/Chloe-Bt/Paradise-Killer-manual-APworld/releases/download/v{{version}}/manualParadiseKiller.apworld"
+
+[versions]
+"0.0.6" = {}
