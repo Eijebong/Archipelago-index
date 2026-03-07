@@ -1,0 +1,5 @@
+name = "Baba Is You"
+home = "https://discord.com/channels/731205301247803413/1192341208505262080"
+
+[versions]
+"1.2.0-beta" = { url = "https://github.com/EmilyEmmi/Babapelago/releases/download/b1.2/baba_is_you.apworld" }
