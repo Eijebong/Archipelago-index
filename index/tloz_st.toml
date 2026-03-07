@@ -1,0 +1,6 @@
+name = "The Legend of Zelda - Spirit Tracks"
+home = "https://discord.com/channels/731205301247803413/1358582876085682417"
+default_url = "https://github.com/DayKat/spirit-tracks/releases/download/st-v{{version}}/tloz_st.apworld"
+
+[versions]
+"0.6.0" = {}
