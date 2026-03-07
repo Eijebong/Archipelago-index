@@ -4,3 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1238914721227345990"
 
 [versions]
 "0.0.1" = { local = "../apworlds/manual_phasmophobia_tinmines-0.0.1.apworld" }
+"1.0.0" = { url = "https://github.com/TinMines/Phasmophobia-Manual-APWorld-Nell-s-Diner-Update/releases/download/ND_v1.0/manual_phasmophobia_tinmines.apworld" }
