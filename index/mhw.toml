@@ -1,0 +1,6 @@
+name = "Monster Hunter World"
+home = "https://discord.com/channels/731205301247803413/1060858247961129000/1422680806983340044"
+default_url = "https://github.com/QPL22/MHW_Archipelago/releases/download/v{{version}}/mhw.apworld"
+
+[versions]
+"0.1.2-alpha" = {}
