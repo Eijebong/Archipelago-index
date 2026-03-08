@@ -1,0 +1,5 @@
+name = "Manual_3DPrinter_JessTheBear"
+display_name = "Manual: 3D Printer"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_3dprinter_jessthebear-0.0.1.apworld" }
