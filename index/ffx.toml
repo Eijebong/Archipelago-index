@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1304953414148554824"
 default_url = "https://github.com/FFX-AP/Archipelago/releases/download/v{{version}}/ffx.apworld"
 
 [versions]
-"0.3.0" = {}
+"0.6.0" = {}
