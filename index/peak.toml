@@ -1,0 +1,5 @@
+name = "PEAK"
+default_url = "https://github.com/Mickemoose/peak-archipelago/releases/download/{{version}}/peak.apworld"
+
+[versions]
+"0.5.7" = {}
