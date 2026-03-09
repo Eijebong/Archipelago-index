@@ -1,0 +1,5 @@
+name = "Peggle Deluxe"
+home = "https://discord.com/channels/731205301247803413/1470246861557334016"
+
+[versions]
+"1.1.0" = { local = "../apworlds/peggle_deluxe-1.1.0.apworld" }
