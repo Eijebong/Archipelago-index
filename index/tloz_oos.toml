@@ -5,3 +5,4 @@ home = "https://discord.com/channels/731205301247803413/1130706151303041054"
 "10.2.0" = { url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-10.2/tloz_oos.apworld" }
 "12.2.0" = {url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/12.2/tloz_oos.apworld"}
 "12.4.0" = {url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-12.4/tloz_oos.apworld"}
+"17.0.5" = {url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-17.0.5/tloz_oos.apworld"}
