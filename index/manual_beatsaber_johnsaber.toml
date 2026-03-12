@@ -1,0 +1,5 @@
+name = "Manual_BeatSaber_JohnSaber"
+display_name = "Manual: Beat Saber (JohnSaber)"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_beatsaber_johnsaber.apworld" }
