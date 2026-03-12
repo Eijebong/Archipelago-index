@@ -1,0 +1,8 @@
+name = "Guild Wars 2"
+home = "https://discord.com/channels/731205301247803413/1247738360160587787"
+
+# Downloaded from https://github.com/Feldar99/Archipelago/releases but they're
+# distributing the apworld in a zip file.
+
+[versions]
+"0.3.4-alpha" = { local = "../apworlds/gw2-0.4.3-alpha.apworld" }
