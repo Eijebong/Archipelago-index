@@ -115,3 +115,9 @@ tasks:
     fuzz-hook: "hooks.collect_accessibility_test:Hook"
     fuzz-variant: true
     fuzz-runs: 500
+
+  check-static-output-placement:
+    description: Fuzz to check that the world doesn't modify placements in output
+    fuzz-hook: "hooks.detect_output_placement_changes:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
