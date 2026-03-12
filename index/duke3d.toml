@@ -1,10 +1,6 @@
 name = "Duke Nukem 3D"
 home = "https://discord.com/channels/731205301247803413/1223230842130796544"
 default_url = "https://github.com/LLCoolDave/Duke3DAP/releases/download/{{version}}/duke3d.apworld"
-# Broken:
-# - No reachable locations in sphere 1
-# - Cannot logically reach its goal even with all items collected ([Completion Condition] (game='Duke Nukem 3D') SUBFAIL test/general/test_reachability.py::TestBase::test_default_all_state_can_reach_everything - AssertionError: False is not true)
-disabled = true
 
 [versions]
-"0.0.5" = {}
+"0.0.8" = {}
