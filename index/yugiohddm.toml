@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1298768685510561842"
 default_url = "https://github.com/JustinMarshall98/Archipelago---YuGiOh-Dungeon-Dice-Monsters-GBA-/releases/download/v{{version}}/yugiohddm.apworld"
 
 [versions]
-"0.3.2" = {}
+"0.3.3" = {}
