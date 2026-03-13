@@ -1,0 +1,6 @@
+name = "Manual_beatsaberpoodles_vunix"
+display_name = "Manual: Beat Saber (Poodles)"
+
+[versions]
+# https://discord.com/channels/105852066324365312/214865144218517504/1476585102355206206
+"0.0.1" = { local = "../apworlds/manual_beatsaberpoodles_vunix.apworld" }
