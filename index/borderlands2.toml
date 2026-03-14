@@ -1,0 +1,6 @@
+name = "Borderlands 2"
+home = "https://discord.com/channels/1085716850370957462/1164256699608219698"
+tags = ["ad"]
+
+[versions]
+"0.5.0" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v0.5/borderlands2.apworld" }
