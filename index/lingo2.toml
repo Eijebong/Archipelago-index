@@ -1,0 +1,5 @@
+name = "Lingo 2"
+home = "https://discord.com/channels/731205301247803413/1351182605655080970"
+
+[versions]
+"9.2.2" = { local = "../apworlds/lingo2-9.2.2.apworld" }
