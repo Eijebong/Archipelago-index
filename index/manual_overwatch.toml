@@ -1,0 +1,6 @@
+name = "Manual_Overwatch2_Fafale"
+display_name = "Manual: Overwatch 2"
+home = "https://github.com/Fafale/manual_overwatch2_fafale/releases/latest"
+
+[versions]
+"1.0.0" = {url = "https://github.com/LexHDev/overwatch-ap/releases/download/1.0.0/manual_overwatch_lexicaldevil.apworld" }
