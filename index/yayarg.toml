@@ -1,0 +1,6 @@
+name = "YAYARG"
+home = "https://discord.com/channels/731205301247803413/1009608126321922180/threads/1469731900544258323"
+default_url = "https://github.com/Thedrummonger/YargArchipelagoPluginV2/releases/download/V{{version}}/yayarg.apworld"
+
+[versions]
+"2.4.0" = {}
