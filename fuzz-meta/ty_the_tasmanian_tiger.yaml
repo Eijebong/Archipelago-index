@@ -1,0 +1,10 @@
+Ty the Tasmanian Tiger:
+  fuzz_constraints:
+    - sum_cap:
+        - extra_cogs
+        - cog_gating
+      max_capacity: 15
+    - sum_cap:
+        - extra_theggs
+        - thegg_gating
+      max_capacity: 24

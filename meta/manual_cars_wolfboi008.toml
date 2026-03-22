@@ -1,0 +1,15 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Cars_WolfBoi008', option='minigamesanity')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Cars_WolfBoi008', option='extended_checks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Cars_WolfBoi008', option='extended_race_checks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_Cars_WolfBoi008', option='extended_character_checks')"]]
+__expected__ = "error"
+__version__ = ">=1.2.1"
