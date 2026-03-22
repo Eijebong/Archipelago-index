@@ -4,6 +4,7 @@ import taskcluster.exceptions
 import taskgraph
 
 from collections import defaultdict
+import json
 import os
 import shlex
 
@@ -35,7 +36,7 @@ def _filter_for_pr(tasks, parameters, force=[]):
             continue
 
         try:
-            diff = get_artifact(diff_task, artifact['name'])
+            diff = json.load(get_artifact(diff_task, artifact['name']))
         except Exception as exc:
             raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
 

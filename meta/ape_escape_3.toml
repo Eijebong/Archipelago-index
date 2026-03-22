@@ -1,0 +1,79 @@
+[["test.general.test_locations.TestBase.test_location_group [Seaside Resort] (group_name='Seaside Resort', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Hide-n-Seek Forest] (group_name='Hide-n-Seek Forest', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Saru-mon's Castle] (group_name=\"Saru-mon's Castle\", game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [The Big City] (group_name='The Big City', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Specter TV Studio] (group_name='Specter TV Studio', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Bootown] (group_name='Bootown', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Wild West Town] (group_name='Wild West Town', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [The Hot Springs] (group_name='The Hot Springs', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Winterville] (group_name='Winterville', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [The Emperor's Castle] (group_name=\"The Emperor's Castle\", game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Mount Amazing] (group_name='Mount Amazing', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Toytown] (group_name='Toytown', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Arctic Wonderland] (group_name='Arctic Wonderland', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Mirage Town] (group_name='Mirage Town', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Eversummer Island] (group_name='Eversummer Island', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Airplane Squadron] (group_name='Airplane Squadron', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Kung-Fu Alley] (group_name='Kung-Fu Alley', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Midnight Bay] (group_name='Midnight Bay', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Tomoki City] (group_name='Tomoki City', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
+
+[["test.general.test_locations.TestBase.test_location_group [Space-TV Fortress] (group_name='Space-TV Fortress', game_name='Ape Escape 3')"]]
+__expected__ = "fail"
+__version__ = ">=2.0.2"
