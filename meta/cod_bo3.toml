@@ -1,0 +1,31 @@
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='camo_randomized')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='camo_mixed')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='camo_pap_randomized')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='camo_pap_mixed')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='camo_joined')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='reticle_randomized')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='reticle_pap_randomized')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
+
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Black Ops 3 - Zombies', option='reticle_joined')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"
