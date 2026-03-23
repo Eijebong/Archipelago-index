@@ -4,4 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1368653154241089546"
 default_url = "https://github.com/RecompRando/MMRecompRando/releases/download/v{{version}}/mm_recomp.apworld"
 
 [versions]
-"0.9.5a" = {}
+"0.9.5-alpha" = { url = "https://github.com/RecompRando/MMRecompRando/releases/download/v0.9.5a/mm_recomp.apworld" }
