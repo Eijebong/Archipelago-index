@@ -20,6 +20,7 @@ task-defaults:
 
 kind-dependencies:
   - diff
+  - fetch
 
 tasks:
   apworld:
@@ -37,7 +38,6 @@ tasks:
         git commit -am WIP || true
         git pull --rebase=merges repo main || exit 1
 
-        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
         if [[ "${PREVIOUS_TASK}" != "" ]]; then
           curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${TEST_APWORLD_NAME// /+}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
           if [[ ! -s "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml" ]]; then
@@ -77,12 +77,3 @@ tasks:
         github-push: {}
         default:
           diff: diff-index
-    fetches:
-      by-tasks-for:
-        github-push: {}
-        default:
-          diff:
-            - artifact: index.lock
-              extract: false
-              dest: /builds/worker/checkouts/vcs
-

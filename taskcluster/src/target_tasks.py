@@ -1,5 +1,5 @@
 from taskgraph.target_tasks import register_target_task
-from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifact
+from taskgraph.util.taskcluster import find_task_id, get_artifact
 import taskcluster.exceptions
 import taskgraph
 
@@ -30,29 +30,16 @@ def _filter_for_pr(tasks, parameters, force=[]):
 
     filtered_tasks = [label for label, task in tasks if task.kind in force]
 
+    try:
+        changes = get_artifact(diff_task, "public/output/changes.json")
+    except Exception as exc:
+        raise Exception("Failed to fetch changes.json from diff task") from exc
 
-    for artifact in list_artifacts(diff_task):
-        if not artifact['name'].startswith('public/diffs/') or not artifact['name'].endswith('.apdiff'):
-            continue
-
-        try:
-            diff = json.load(get_artifact(diff_task, artifact['name']))
-        except Exception as exc:
-            raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
-
-        for version_range, diff_status in diff["diffs"].items():
-            apworld_name = diff["apworld_name"]
-
-            new_version = None
-            if "VersionAdded" in diff_status:
-                _, new_version = version_range.split('...', 1)
+    for apworld_name, world_changes in changes["worlds"].items():
+        for new_version in world_changes["added_versions"]:
             full_suffix = f"-{apworld_name}-{new_version}"
 
-            if new_version is None:
-                continue
-
             for label, task in tasks:
-                # If we're scheduling update-expectations, schedule them all
                 if label.startswith(f"update-expectations-{apworld_name}"):
                     filtered_tasks.append(label)
 
@@ -64,7 +51,7 @@ def _filter_for_pr(tasks, parameters, force=[]):
 
 @register_target_task("diff")
 def diff_target_task(full_task_graph, parameters, graph_config):
-    return [label for label, task in full_task_graph.tasks.items() if task.kind in ("diff-from-lobby", "comment")]
+    return [label for label, task in full_task_graph.tasks.items() if task.kind == "comment"]
 
 
 @register_target_task("test")
@@ -103,6 +90,7 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 def default_target_task(full_task_graph, parameters, graph_config):
     if parameters.get('try_config'):
         return try_target_tasks(full_task_graph, parameters)
+
     return taskgraph.target_tasks.target_tasks_default(full_task_graph, parameters, graph_config)
 
 @register_target_task("rebuild-ap-worker")

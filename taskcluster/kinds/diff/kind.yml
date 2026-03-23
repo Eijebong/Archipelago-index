@@ -21,7 +21,9 @@ task-defaults:
 tasks:
   index:
     worker-type: linux-small
-    description: Run apwm diff
+    description: Compute index changes
+    attributes:
+      artifact_prefix: public/output
     run:
       using: run-task
       command: >-
@@ -30,21 +32,13 @@ tasks:
         git config --global user.email "nobody@localhost" &&
         git fetch origin main &&
         (git merge origin/main || (git merge --abort && exit 1)) &&
-        mkdir -p /builds/worker/diffs &&
-        apwm update -i ./ &&
-        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
-        git diff index.lock &> lock.diff &&
+        mkdir -p /builds/worker/output &&
+        apwm changes -i ./ -f "${ARCHIPELAGO_INDEX_BASE_REPOSITORY}" -o /builds/worker/output &&
         cd /ap/archipelago &&
         source .venv/bin/activate &&
-        python3 aplint_from_diff.py /builds/worker/diffs $VCS_PATH /builds/worker/diffs
+        python3 aplint_from_diff.py /builds/worker/output $VCS_PATH /builds/worker/output
     worker:
       artifacts:
         - type: directory
-          path: /builds/worker/diffs
-          name: public/diffs
-        - type: file
-          path: /builds/worker/checkouts/vcs/index.lock
-          name: public/build/index.lock
-        - type: file
-          path: /builds/worker/checkouts/vcs/lock.diff
-          name: public/build/lock.diff
+          path: /builds/worker/output
+          name: public/output

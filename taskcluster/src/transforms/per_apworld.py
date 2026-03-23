@@ -90,7 +90,33 @@ def create_task_for_apworld(config, original_task, label_infix, world_name, apwo
         task.setdefault("soft-dependencies", []).append(dep)
         env["PREVIOUS_TASK"] = {"task-reference": f"<{dep}>"}
 
+    fetch_apworld = task.setdefault("attributes", {}).pop("fetch-apworld", True)
+    if fetch_apworld:
+        _inject_apworld_fetch(config, task, apworld_name, version)
+
     return task
+
+
+def _inject_apworld_fetch(config, task, apworld_name, version):
+    task_for = config.params["tasks_for"]
+    dependencies = task.setdefault("dependencies", {})
+    fetches = task.setdefault("fetches", {})
+    artifact_name = f"{apworld_name}-{version}.apworld"
+
+    if "diff" in dependencies:
+        fetches.setdefault("diff", []).append({
+            "artifact": f"apworlds/{artifact_name}",
+            "extract": False,
+            "dest": "/tmp/download",
+        })
+    else:
+        fetch_label = f"fetch-{apworld_name}-{version}"
+        dependencies[fetch_label] = fetch_label
+        fetches.setdefault(fetch_label, []).append({
+            "artifact": f"{artifact_name}",
+            "extract": False,
+            "dest": "/tmp/download",
+        })
 
 
 def create_tasks_for_all(config, task, worlds):
@@ -103,4 +129,3 @@ def create_tasks_for_all(config, task, worlds):
             latest = i == (len(versions) - 1)
             yield create_task_for_apworld(config, task, label_infix, world_name, apworld_name, version, ap_deps, latest, previous_version, chained)
             previous_version = version
-
