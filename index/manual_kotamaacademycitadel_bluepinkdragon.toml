@@ -1,0 +1,8 @@
+name = "Manual_KotamaAcademyCitadel_bluepinkdragon"
+display_name = "Manual: Kotama and Academy Citadel"
+home = "https://github.com/Bluepinkdragon/manualKotama"
+default_url = "https://github.com/Bluepinkdragon/manualKotama/releases/download/{{version}}/manual_kotamaacademycitadel_bluepinkdragon.apworld"
+tags = ["ad"]
+
+[versions]
+"0.0.1" = {}

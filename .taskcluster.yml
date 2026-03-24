@@ -257,7 +257,7 @@ tasks:
                           features:
                               taskclusterProxy: true
 
-                          image: ghcr.io/eijebong/taskcluster-images/decision-task:main
+                          image: ghcr.io/eijebong/taskcluster-images/decision-task:20.0.0
                           maxRunTime: 1800
 
                           command:
