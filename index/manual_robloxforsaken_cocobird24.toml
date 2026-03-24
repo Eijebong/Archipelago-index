@@ -2,7 +2,4 @@ name = "Manual_RobloxForsaken_Cocobird24"
 display_name = "Manual: Roblox Forsaken"
 
 [versions]
-"0.0.2" = { local = "../apworlds/manual_robloxforsaken_cocobird24-0.0.2.apworld" }
-"0.0.3" = { local = "../apworlds/manual_robloxforsaken_cocobird24-0.0.3.apworld" }
-"0.0.4" = { local = "../apworlds/manual_robloxforsaken_cocobird24-0.0.4.apworld" }
-"0.0.5" = { local = "../apworlds/manual_robloxforsaken_cocobird24-0.0.5.apworld" }
+"0.0.6" = { local = "../apworlds/manual_robloxforsaken_cocobird24-0.0.6.apworld" }

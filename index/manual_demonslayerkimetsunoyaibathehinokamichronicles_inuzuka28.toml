@@ -1,0 +1,6 @@
+name = "Manual_DemonSlayerKimetsunoYaibaTheHinokamiChronicles_Inuzuka28"
+display_name = "Manual: Demon Slayer Kimetsu no Yaiba Hinokami Chronicles 2"
+home = "https://discord.com/channels/1097532591650910289/1434591072188633149"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_demonslayerkimetsunoyaibathehinokamichronicles_inuzuka28-0.0.1.apworld" }

@@ -1,0 +1,6 @@
+name = "Manual_GrensEpicCartRideRobloxCreateACart_Grenhunterr"
+display_name = "Manual: Gren's Epic Cart Ride - Roblox"
+home = "https://discord.com/channels/105852066324365312/1329887489787166801/1460771831685583026"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_grensepiccartriderobloxcreateacart_grenhunterr.apworld" }

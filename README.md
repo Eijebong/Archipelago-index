@@ -24,7 +24,7 @@ When possible, one should prefer `url` to avoid bloating the repo with apworlds.
 Examples:
 
 - The apworld is released on github and has a direct download link to the apworld in the release:
-  `"0.1.0" = { url = "https://github.com/foo/bar/releases/0.1.0/download/foo.apworld" }`
+  `"0.1.0" = { url = "https://github.com/foo/bar/releases/download/0.1.0/foo.apworld" }`
 
 - The apworld is only distributed on some discord channel or the release on github doesn't distribute the apworld. You would need to copy the apworld to the `apworlds` folder of the repository as `{apworld}-{version}.apworld`
   `"0.1.0" = { local = "../apworlds/foo-0.1.0.apworld" }`
@@ -32,7 +32,7 @@ Examples:
 ### Special case for `url` releases
 
 When the author uses tags that are semver compatible, it's possible to add a `default_url` field instead in the global scope of the toml like this:
-`default_url = "https://github.com/foo/bar/releases/{{version}}/download/foo.apworld` and to specify versions like this: `"0.1.0" = {}`.
+`default_url = "https://github.com/foo/bar/releases/download/{{version}}/foo.apworld` and to specify versions like this: `"0.1.0" = {}`.
 This makes it easier to update and can be used to automatically fetch newer versions so it's the prefered way of doing things.
 
 
@@ -49,3 +49,4 @@ This makes it easier to update and can be used to automatically fetch newer vers
 - The generation failure rate calculated using my [fuzzer](https://github.com/Eijebong/Archipelago-fuzzer) must be below 1% (not counting `OptionError`s).
   - To help removing failures that would be considered restrictive starts, those rates will be calculated with a second [world](https://github.com/Eijebong/empty-apworld) present that has 100 free locations
   - I will make exceptions for failures happening early during generation (before `generate_basic`) as those would most likely be detectd by YAML validation and won't result in a big time loss during generation
+- If the apworld is a beta for core verified game then it must have a different game name (`LADX` -> `LADX beta`)

@@ -1,0 +1,6 @@
+name = "Smushi Come Home"
+home = "https://discord.com/channels/731205301247803413/1443621717552402535"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHome/releases/download/{{version}}/smushi_come_home.apworld"
+
+[versions]
+"1.0.9" = {}

@@ -1,0 +1,7 @@
+name = "Manual_Splatoon 3_MageKitLemonfoot"
+display_name = "Manual: Splatoon 3"
+home = "https://github.com/KitLemonfoot/LemonfootAPManuals"
+default_url = "https://github.com/KitLemonfoot/LemonfootAPManuals/releases/download/splatoon3-v{{version}}/manual_splatoon3_magekitlemonfoot.apworld"
+
+[versions]
+"0.1.0" = {}

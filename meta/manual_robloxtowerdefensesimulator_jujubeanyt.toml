@@ -1,0 +1,55 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='filler_traps')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0,<1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Example_Toggle')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=1.0.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Skill Tree] (group_name='Skill Tree', game_name='Manual_RobloxTowerDefenseSimulator_JuJubeanYT')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Timescale Tickets] (group_name='Timescale Tickets', game_name='Manual_RobloxTowerDefenseSimulator_JuJubeanYT')"]]
+__expected__ = "fail"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='goal')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Hardcore_Towers')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Golden_Perks')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Exclusive_Towers')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Consumables')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Skill_Tree')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_RobloxTowerDefenseSimulator_JuJubeanYT', option='Timescale_Tickets')"]]
+__expected__ = "error"
+__version__ = ">=1.1.0"

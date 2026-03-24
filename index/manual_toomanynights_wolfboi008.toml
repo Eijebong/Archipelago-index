@@ -1,0 +1,6 @@
+name = "Manual_TooManyNights_WolfBoi008"
+display_name = "Manual: TOO MANY NIGHTS"
+home = "https://github.com/WolfBoi008/Too-Many-Nights/tree/main"
+
+[versions]
+"2.1.0+a" = { url = "https://github.com/WolfBoi008/Too-Many-Nights/releases/download/2.1.0a/manual_toomanynights_wolfboi008.apworld" }
