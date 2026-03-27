@@ -4,3 +4,4 @@ default_url = "https://github.com/gerbiljames/Archipelago/releases/download/{{ve
 
 [versions]
 "5.3.0" = {}
+"5.3.1" = {}
