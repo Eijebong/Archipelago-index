@@ -1,0 +1,8 @@
+name = "Manual_AlanWake2_Ninjabox"
+display_name = "Manual: Alan Wake 2"
+home = "https://discord.com/channels/1097532591650910289/1483275880737406996"
+[versions]
+"0.0.1" = { url = "https://github.com/Ninjabox1399/AlanWake2_Archipelago/releases/download/v0.0.1/manual_alanwake2_ninjabox.apworld" }
+"0.0.2" = { url = "https://github.com/Ninjabox1399/AlanWake2_Archipelago/releases/download/v0.0.2/manual_alanwake2_ninjabox.apworld" }
+"0.0.3" = { url = "https://github.com/Ninjabox1399/AlanWake2_Archipelago/releases/download/v0.0.3/manual_alanwake2_ninjabox.apworld" }
+"0.0.4" = { url = "https://github.com/Ninjabox1399/AlanWake2_Archipelago/releases/download/v0.0.4/manual_alanwake2_ninjabox.apworld" }
