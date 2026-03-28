@@ -1,0 +1,6 @@
+name = "Pokepelago"
+home = "https://discord.com/channels/731205301247803413/1474030797811093514"
+default_url = "https://github.com/dowlle/PokepelagoClient/releases/download/v{{version}}/pokepelago.apworld"
+
+[versions]
+"0.4.4" = {}
