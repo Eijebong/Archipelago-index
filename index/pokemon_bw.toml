@@ -4,6 +4,3 @@ default_url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/{{ve
 
 [versions]
 "0.3.27" = {}
-"0.3.17" = {}
-"0.3.14" = {}
-"0.3.13" = {}
