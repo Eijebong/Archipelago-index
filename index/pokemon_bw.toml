@@ -1,6 +1,9 @@
 name = "Pokemon Black and White"
 home = "https://discord.com/channels/731205301247803413/1414928022854696991"
 default_url = "https://github.com/BlastSlimey/PokemonBWAP/releases/download/{{version}}/pokemon_bw_without_maps.apworld"
+# Has code that steals items with "badge", "tm" or "hm" and
+# places them with no logic in its own world
+disabled = true
 
 [versions]
 "0.3.17" = {}

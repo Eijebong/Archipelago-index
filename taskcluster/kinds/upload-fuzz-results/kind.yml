@@ -18,7 +18,7 @@ tasks:
         - fuzz
       unique-kinds: false
     description: Upload fuzz results to apdiff API
-    worker-type: githubscript
+    worker-type: githubscript-3
     run-on-tasks-for: []
     requires: all-resolved
     worker:

@@ -1,0 +1,6 @@
+name = "Final Fantasy Tactics Ivalice Island"
+home = "https://discord.com/channels/731205301247803413/1451730887136903240"
+default_url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFT-v{{version}}/fftii.apworld"
+
+[versions]
+"0.2.2" = {}

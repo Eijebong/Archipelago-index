@@ -1,0 +1,6 @@
+name = "Garfield Kart - Furious Racing"
+home = "https://discord.com/channels/731205301247803413/1315673680155639848"
+default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{version}}/garfkart.apworld"
+
+[versions]
+"0.4.4-beta" = {}

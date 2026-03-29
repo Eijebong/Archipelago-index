@@ -6,8 +6,6 @@ from taskgraph.optimize.base import Any, OptimizationStrategy, register_strategy
 from taskgraph.optimize.strategies import SkipUnlessChanged, IndexSearch
 from taskgraph.util.taskcluster import find_task_id, status_task
 
-from . import schema
-
 logger = logging.getLogger("optimization")
 
 
