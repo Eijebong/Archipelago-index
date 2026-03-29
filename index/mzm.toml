@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1106280250528235620"
 default_url = "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/releases/download/{{version}}/mzm.apworld"
 
 [versions]
-"0.5.1" = {}
+"0.5.2" = {}
