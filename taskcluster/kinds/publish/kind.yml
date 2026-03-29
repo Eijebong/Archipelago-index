@@ -13,11 +13,13 @@ kind-dependencies:
   - diff
   - check
   - ap-test
+  - verify-apworlds
 
 tasks:
   index:
     dependencies:
       diff-index: diff-index
+      verify-apworlds-index: verify-apworlds-index
     soft-dependencies:
       - make-expectations-patch-make-patch
     description: Push changed index.lock

@@ -1,0 +1,36 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 300
+    docker-image: {in-tree: ap-checker}
+    volumes:
+      - /builds/worker/checkouts
+  run-on-tasks-for: []
+
+kind-dependencies:
+  - diff
+
+tasks:
+  index:
+    description: Verify upstream apworld checksums before publish
+    dependencies:
+      diff: diff-index
+    fetches:
+      diff:
+        - artifact: output/changes.json
+          extract: false
+          dest: /builds/worker
+    attributes:
+      artifact_prefix: public/output
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH &&
+        apwm download -i ./ -d /tmp/verify --from-changes /builds/worker/fetches/changes.json
