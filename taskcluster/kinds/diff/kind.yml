@@ -1,6 +1,7 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
+  - src.transforms.dont_cache_for_hooks:transforms
   - src.transforms.github:transforms
   - src.transforms.github_cached:transforms
   - taskgraph.transforms.run:transforms
@@ -14,7 +15,7 @@ task-defaults:
     volumes:
       - /builds/worker/checkouts
     taskcluster-proxy: true
-  run-on-tasks-for: ["github-pull-request", "github-pull-request-untrusted"]
+  run-on-tasks-for: ["github-pull-request", "github-pull-request-untrusted", "github-issue-comment"]
   optimization:
     skip-unless-changed: ["index.toml", "index/**"]
 

@@ -51,7 +51,7 @@ def _filter_for_pr(tasks, parameters, force=[]):
 
 @register_target_task("diff")
 def diff_target_task(full_task_graph, parameters, graph_config):
-    return [label for label, task in full_task_graph.tasks.items() if task.kind == "comment"]
+    return [label for label, task in full_task_graph.tasks.items() if task.kind in ("diff", "comment")]
 
 
 @register_target_task("test")
