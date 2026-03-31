@@ -26,6 +26,8 @@ tasks:
   apworld:
     description: Get new test expectations for an apworld
     chained: true
+    attributes:
+      only-fetch-latest-from-diff: true
     run:
       using: run-task
       command: |-
