@@ -1,0 +1,6 @@
+name = "Star Fox Adventures"
+home = "https://discord.com/channels/731205301247803413/1093685470459863110"
+default_url = "https://github.com/MichelFenouil/SFA-Archipelago/releases/download/sfa-{{version}}/sfa.apworld"
+
+[versions]
+"0.1.2" = {}
