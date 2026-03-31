@@ -107,8 +107,8 @@ tasks:
                       $default: '${head_ref}'
               level:
                   $switch:
-                      'tasks_for in ["action", "pr-action", "cron", "github-issue-comment"] && project == "Archipelago-index"': "3"
-                      'tasks_for == "github-push" && head_ref == "refs/heads/main" && project == "Archipelago-index"': "3"
+                      'tasks_for in ["action", "pr-action", "cron", "github-issue-comment"] && project == "archipelago-index"': "3"
+                      'tasks_for == "github-push" && head_ref == "refs/heads/main" && project == "archipelago-index"': "3"
                       $default: "1"
           in:
               $if: >
