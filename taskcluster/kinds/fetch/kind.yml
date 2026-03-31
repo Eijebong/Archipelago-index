@@ -1,0 +1,34 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.per_apworld:transforms
+  - src.transforms.fetch_index:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 300
+    docker-image: {in-tree: ap-checker}
+    volumes:
+      - /builds/worker/checkouts
+    artifacts:
+      - type: directory
+        path: /builds/worker/apworlds
+        name: public/
+  run-on-tasks-for: ["github-push"]
+  run-on-git-branches: ["main"]
+  attributes:
+    fetch-apworld: false
+    artifact_prefix: public
+
+tasks:
+  apworld:
+    description: Fetch and index an apworld version
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH &&
+        apwm download -i ./ -d /builds/worker/apworlds -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}"

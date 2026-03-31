@@ -14,8 +14,8 @@ def github_task(config, tasks):
         task_label = task['name']
         index_path = f"ap.{project}.pr.{task_label}.{pr_number}.latest"
 
-        # Re-use indexed PR tasks with comments
-        if task_for == "github-issue-comment":
+        # Re-use indexed PR tasks with comments, unless the task opts out
+        if task_for == "github-issue-comment" and not task.get("attributes", {}).get("always-rerun", False):
             opt = task.setdefault("optimization", {})
             skip_unless_changed = opt.pop("skip-unless-changed", [])
             task["optimization"] = {"skip-unless-changed-or-cached": {"index-path": [index_path], "skip-unless-changed": skip_unless_changed}}
