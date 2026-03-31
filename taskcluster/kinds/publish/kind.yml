@@ -22,7 +22,11 @@ tasks:
       - make-expectations-patch-make-patch
     description: Push changed index.lock
     scopes:
-      - ap:publish:repo:archipelago-index
+      by-project:
+        Archipelago-index:
+          - ap:publish:repo:archipelago-index
+        staging-archipelago-index:
+          - ap:publish:repo:staging-archipelago-index
     worker:
       implementation: publishscript
       diff-task: {task-reference: <diff-index>}

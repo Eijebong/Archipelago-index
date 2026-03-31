@@ -1,5 +1,6 @@
 import copy
 from taskgraph.transforms.base import TransformSequence
+from taskgraph.util.schema import resolve_keyed_by
 
 transforms = TransformSequence()
 
@@ -20,6 +21,7 @@ def generate_tasks(config, tasks):
 
         new_task["worker"]["pr-number"] = int(pr_number)
         new_task["worker"]["head-rev"] = head_rev
+        resolve_keyed_by(new_task, "scopes", task['name'], **{"project": config.params['project']})
 
         attrs = new_task.setdefault("attributes", {})
         attrs["soft-payload"] = {
