@@ -1,0 +1,5 @@
+name = "Mario Party 3"
+default_url = "https://github.com/xoric713/MP3_AP/releases/download/v{{version}}/MarioParty3.apworld"
+
+[versions]
+"0.0.2" = {}
