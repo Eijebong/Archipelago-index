@@ -23,7 +23,7 @@ tasks:
     description: Push changed index.lock
     scopes:
       by-project:
-        Archipelago-index:
+        archipelago-index:
           - ap:publish:repo:archipelago-index
         staging-archipelago-index:
           - ap:publish:repo:staging-archipelago-index

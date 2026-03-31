@@ -35,9 +35,9 @@ tasks:
                   $default: '${event.repository.html_url}'
           project:
               $switch:
-                  'tasks_for in ["github-push", "github-release"]': '${event.repository.name}'
-                  'tasks_for[:19] == "github-pull-request"': '${event.pull_request.base.repo.name}'
-                  'tasks_for == "github-issue-comment"': '${event.pull_request.base.repo.name}'
+                  'tasks_for in ["github-push", "github-release"]': {$eval: 'lowercase(event.repository.name)'}
+                  'tasks_for[:19] == "github-pull-request"': {$eval: 'lowercase(event.pull_request.base.repo.name)'}
+                  'tasks_for == "github-issue-comment"': {$eval: 'lowercase(event.pull_request.base.repo.name)'}
                   'tasks_for in ["cron", "action", "pr-action"]': '${repository.project}'
           head_branch:
               $switch:
@@ -178,15 +178,15 @@ tasks:
                           - checks
                           - $switch:
                                 'tasks_for == "github-push"':
-                                    - "index.${trustDomain}.v2.${project}.latest.taskgraph.decision"
-                                    - "index.${trustDomain}.v2.${project}.revision.${head_sha}.taskgraph.decision"
+                                    - "index.${trustDomain}.${project}.latest.taskgraph.decision"
+                                    - "index.${trustDomain}.${project}.revision.${head_sha}.taskgraph.decision"
                                 'tasks_for == "action"':
-                                    - "index.${trustDomain}.v2.${project}.revision.${head_sha}.taskgraph.actions.${ownTaskId}"
+                                    - "index.${trustDomain}.${project}.revision.${head_sha}.taskgraph.actions.${ownTaskId}"
                                 'tasks_for == "cron"':
-                                    - "index.${trustDomain}.v2.${project}.latest.taskgraph.decision-${cron.job_name}"
-                                    - "index.${trustDomain}.v2.${project}.revision.${head_sha}.taskgraph.decision-${cron.job_name}"
+                                    - "index.${trustDomain}.${project}.latest.taskgraph.decision-${cron.job_name}"
+                                    - "index.${trustDomain}.${project}.revision.${head_sha}.taskgraph.decision-${cron.job_name}"
                                     # list each cron task on this revision, so actions can find them
-                                    - 'index.${trustDomain}.v2.${project}.revision.${head_sha}.cron.${ownTaskId}'
+                                    - 'index.${trustDomain}.${project}.revision.${head_sha}.cron.${ownTaskId}'
                                 $default: []
 
                   scopes:

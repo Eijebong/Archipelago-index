@@ -12,7 +12,7 @@ task-defaults:
   worker-type: "linux-small"
   run-on-tasks-for: ["github-push"]
   run-on-git-branches: ["main"]
-  run-on-projects: ["Archipelago-index"]
+  run-on-projects: ["archipelago-index"]
   optimization:
     skip-unless-changed: ["index.lock"]
 
