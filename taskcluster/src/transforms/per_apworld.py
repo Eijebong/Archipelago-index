@@ -91,18 +91,20 @@ def create_task_for_apworld(config, original_task, label_infix, world_name, apwo
         env["PREVIOUS_TASK"] = {"task-reference": f"<{dep}>"}
 
     fetch_apworld = task.setdefault("attributes", {}).pop("fetch-apworld", True)
+    only_fetch_latest_from_diff = task.setdefault("attributes", {}).pop("only-fetch-latest-from-diff", False)
     if fetch_apworld:
-        _inject_apworld_fetch(config, task, apworld_name, version)
+        fetch_from_diff = not only_fetch_latest_from_diff or latest
+        _inject_apworld_fetch(config, task, apworld_name, version, fetch_from_diff)
 
     return task
 
 
-def _inject_apworld_fetch(config, task, apworld_name, version):
+def _inject_apworld_fetch(config, task, apworld_name, version, fetch_from_diff=True):
     dependencies = task.setdefault("dependencies", {})
     fetches = task.setdefault("fetches", {})
     artifact_name = f"{apworld_name}-{version}.apworld"
 
-    if "diff" in dependencies:
+    if "diff" in dependencies and fetch_from_diff:
         fetches.setdefault("diff", []).append({
             "artifact": f"apworlds/{artifact_name}",
             "extract": False,
