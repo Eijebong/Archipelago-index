@@ -46,11 +46,12 @@ def _load_worlds():
             continue
 
         apworld_name = Path(world_path).stem
+        supported = world.get("supported", False)
         versions = list(world.get("versions", {}).keys())
-        if world.get("supported", False):
+        if supported:
             versions.append(index["archipelago_version"])
 
-        worlds.append((world["name"], apworld_name, versions))
+        worlds.append((world["name"], apworld_name, versions, supported))
     return worlds
 
 
@@ -62,7 +63,7 @@ def generate_tasks(config, tasks):
         yield from create_tasks_for_all(config, task, worlds)
 
 
-def create_task_for_apworld(config, original_task, label_infix, world_name, apworld_name, version, ap_dependencies, latest, previous_version, chained):
+def create_task_for_apworld(config, original_task, label_infix, world_name, apworld_name, version, ap_dependencies, latest, previous_version, chained, supported=False):
     task = copy.deepcopy(original_task)
     env = task["worker"].setdefault("env", {})
     env["TEST_WORLD_NAME"] = world_name
@@ -92,7 +93,7 @@ def create_task_for_apworld(config, original_task, label_infix, world_name, apwo
 
     fetch_apworld = task.setdefault("attributes", {}).pop("fetch-apworld", True)
     only_fetch_latest_from_diff = task.setdefault("attributes", {}).pop("only-fetch-latest-from-diff", False)
-    if fetch_apworld:
+    if fetch_apworld and not supported:
         fetch_from_diff = not only_fetch_latest_from_diff or latest
         _inject_apworld_fetch(config, task, apworld_name, version, fetch_from_diff)
 
@@ -124,9 +125,9 @@ def create_tasks_for_all(config, task, worlds):
     ap_deps = task.pop('ap-deps', [])
     chained = task.pop('chained', False)
     label_infix = task["name"] if task.get('fuzz-variant') else None
-    for world_name, apworld_name, versions in worlds:
+    for world_name, apworld_name, versions, supported in worlds:
         previous_version = None
         for i, version in enumerate(versions):
             latest = i == (len(versions) - 1)
-            yield create_task_for_apworld(config, task, label_infix, world_name, apworld_name, version, ap_deps, latest, previous_version, chained)
+            yield create_task_for_apworld(config, task, label_infix, world_name, apworld_name, version, ap_deps, latest, previous_version, chained, supported)
             previous_version = version
