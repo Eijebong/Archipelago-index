@@ -6,11 +6,18 @@ from voluptuous import Optional
 import json
 import os
 
+def _get_defaults(repo_root=None):
+    from taskgraph.parameters import _get_defaults as _upstream_defaults
+    defaults = _upstream_defaults(repo_root)
+    if "project" in defaults:
+        defaults["project"] = defaults["project"].lower()
+    return defaults
+
 extend_parameters_schema({
     Optional("pull_request_number"): int,
     Optional("taskcluster_comment"): str,
     Optional("try_config"): str,
-})
+}, defaults_fn=_get_defaults)
 
 @register_morph
 def handle_soft_fetches(taskgraph, label_to_taskid, parameters, graph_config):
