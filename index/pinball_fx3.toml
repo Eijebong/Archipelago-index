@@ -4,4 +4,4 @@ default_url = "https://github.com/SerpentAI/Archipelago/releases/download/pinbal
 
 [versions]
 "1.2.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/pinballfx3-v1.2.0/pinball_fx3.apworld" }
-"1.3.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/pinballfx3-v1.3.0/pinball_fx3.apworld" }
+"1.3.0" = {}
