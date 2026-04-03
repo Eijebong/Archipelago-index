@@ -1,0 +1,7 @@
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Sell 1 Box of Basic Card Pack', game='TCG Card Shop Simulator')"]]
+__expected__ = "fail"
+__version__ = ">=0.5.13"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Location should be reached] (location='Sell 2 Boxes of Basic Card Pack', game='TCG Card Shop Simulator')"]]
+__expected__ = "fail"
+__version__ = ">=0.5.13"

@@ -37,6 +37,7 @@
 "1.0.71" = "73dd872742962d98d8fe170599c01012bfad1d7a1e6f7e698da0ccd1e1f34bd1"
 "1.0.80-exp+hotfix1" = "48c561a06fb47e0115bf30a182d900d3cc1d8a0773455935a9bf733c4920dac6"
 "2.0.2" = "7d66efc0c466027d34c21eca6ff29dfe8f4ba626c961036b71c879e20abbb91d"
+"2.0.4" = "43a31738f4a1016d08647aecad4443ca7c1a436008569b52d97491e3691369c7"
 
 [apeescape]
 "0.9.2" = "f869125aad2f767d22007ad293ccd40f1571198b59b97a5a60eef5f4a3a6708d"
@@ -237,7 +238,6 @@
 "0.0.22-0" = "3c57fdf0fa2f2e5c0a6ba2c72d3ee170d2874334ff5d49d920bda2fa80735ffa"
 
 [enderlilies]
-"0.8.0" = "58271963b8ef318a934a27bec3f11cb34217614e2414a1596dd3a116027b6480"
 
 [fe8]
 "0.3.2" = "e1c9b35c2949267367870c64a8cb1a33f614d8f78311028b91944c4a0ba4f2e9"
@@ -269,6 +269,7 @@
 "0.2.1" = "dc57b6e4b38a1c5533f43fec7a5e492e30065f1495e2baa43a9ef04111c2fac9"
 "0.2.2" = "5043181bb42aa6794cff7868af2503edd35a85e7277722ee83e1893d9c0ddb79"
 "0.2.4" = "5a95764ce8ff8c7f4e93a825591eada901673c1fa38927b7a6f53363c8e3bdcd"
+"0.2.5" = "9fce6b13e43cdeda0246aef394f26d9299b9c86a3df1c8694357813c7b8a90c2"
 
 [garfkart]
 "0.4.4-beta" = "4cf312d6e4f3e5478c75ea76a8d0a13801ec39e0f7c0053d43ec64af6cafe5f3"
@@ -446,11 +447,6 @@
 "0.1.5+hotfix2" = "2b4bc4b229654601285d4c721298acb5032e3edefdb2e6233149e149d444e247"
 
 [lil_gator_game]
-"1.0.1" = "6e1250a5915ac1f8a0530e0adcd5d44e8c8dd7fef307ef4db06dd25e3426fb3b"
-"1.0.2" = "57d0554571646cffdddd8e1dc991550e0b7bf7a5ed8205a227f691e856f84884"
-"1.0.6" = "0fea9448fc3b50f71bccb3190b1e7b21429e6c627a60413b2c0fb77e7f7614de"
-"1.1.1" = "70c6009132d54962a810ba9aaeefb9c7cc5584ac38005202f45d15fa7845aba9"
-"1.2.1" = "a028a8bb7e5a909a9e04607ce988fac26adbb9111a7df6df2347e60489053fda"
 
 [little_witch_nobeta]
 "0.2.1" = "703bd7fb1d22ba3982d92ca812684e4eb12fe587e9eef829c68386b6876d4f13"
@@ -784,9 +780,9 @@
 "4.0.1" = "5426396c415a460de430ba17ba99f852f060751fc25df96904b5c9bd102ee819"
 
 [manual_ultimatemarvelvscapcom3_manualteam]
-"0.0.0+20241119" = "97f54af5e3a1ba9a1f89d3ee1b4de85f91e8a9d8ab942fbf10a29d2e4a9f3b3d"
-"0.0.0+20250714" = "f2c40951b66351d2df6fa33a6ba363a4071c0b634b7c50742df1c8f67a9d47d4"
-"0.0.0+20260319" = "6dd3a1e25fc068fe67e3eb744e44652d2bee304395a33f87dbd689f190af9bcb"
+"0.0.0-20241119" = "97f54af5e3a1ba9a1f89d3ee1b4de85f91e8a9d8ab942fbf10a29d2e4a9f3b3d"
+"0.0.0-20250714" = "f2c40951b66351d2df6fa33a6ba363a4071c0b634b7c50742df1c8f67a9d47d4"
+"0.0.0-20260319" = "6dd3a1e25fc068fe67e3eb744e44652d2bee304395a33f87dbd689f190af9bcb"
 
 [manual_umamusumeprettyderby_quindo]
 "0.0.2" = "a1856f9c960cf2c88fe3f3c8483ed886290650b9e05c4b0ece00a5056bcd685b"
@@ -820,9 +816,8 @@
 "0.2.2" = "7da95b04fd697e4374aeaacc7729498d0d2d292d7b8b6e092237629d07a8d0c9"
 
 [megamix]
-"1.4.0" = "c687fe95bb5459b84f4de32a8aa06976cd7aa5bba7a7982e8c724e9ee45c2945"
-"1.4.1-unofficial" = "3a6a7be13e6c01be743cec5cf48c49ce619afc881fb102346e6d1c4a74f4006c"
 "1.4.3" = "574faf813d5050531b5793254c760412bfcff3b8aeaae3b9b78ae0ae956297bf"
+"1.4.4-unofficial" = "a034a96cbc9dbd798f38feaaaf306d2b80e68393db76354bf1f00b4724476cc8"
 
 [melatonin]
 "1.0.1" = "32241925cd1f915476420aff131086cd536fcb4865f66334725d4438be2a59e5"
@@ -855,8 +850,7 @@
 "0.1.1" = "e2f48109530fadbfd3ef6fe3463df7d63f215f83358bf9a63788e27c31f2dcdf"
 
 [mm3]
-"0.1.6" = "a088b8bd9c151735e98974fb846dd7c8ac1ce774c28bda261c3bda5bde993bc9"
-"0.1.7" = "defde51df44c98b016bb808d39502dec71f08cac56b6f2c50e1c01b0e7b64094"
+"0.6.7" = "supported"
 
 [mmx]
 "1.4.0" = "c431b44732d38c9f713a0aa7f6e5bed9369ea5e1ac16e58e70b277e0b9d5f986"
@@ -887,14 +881,7 @@
 "1.3.7" = "0e3534655f8aae6adf30feca3b727c7ed12787ad0869a07600449d950fc2d767"
 
 [mzm]
-"0.1.2" = "9bd2e017ecab52d373196161033be8287c58af9ffef9520c9c7ffabb22d703cb"
-"0.2.0" = "8c8a494d17b569f76100f5f4e95a200fed71eb5bc787493b669742aa2da5c71d"
-"0.2.3" = "7afdddb1c8880ea7a0a5656da7be64aa233c2e0d0426cbf76fd82c5052e7b74b"
-"0.3.0" = "2dd9546d0053e54f14eb2f4b3cb5b43a25bd42953f6563a7aa7e7011eb489c59"
-"0.3.1" = "b7b05ab1cca07515f84549bad5de5585286d89bca03d011a59ec391c965c37b9"
-"0.4.0-pre2" = "ffb27a6e4af5e83a44d2d3ae49e9b18330e069364729b76b90e8417ddc35812f"
-"0.4.0" = "56ec634fff9a8150bb71741792d3793a977c66d15aafd09d6492e48c865454b6"
-"0.4.2" = "227085539da6d839bf5ea3cf660f88466d79cbf07eeee6336677804b523ed825"
+"0.5.2" = "83f3bf6b35da7ec091fc9113d1d8aabcb623f7f70f36b38ac9adb93fb1e85f5f"
 
 [nine_sols]
 "0.1.1" = "b67b6b20303ef36ed3d9dbe607a003b3ca6f4c37aca9dfbdd67c370b406377df"
@@ -941,6 +928,7 @@
 
 [ouakatamari]
 "0.1.0" = "b1f17b22002f6eeceb8e233ea626f66e558d2d06b3ae08c4a33010e6331852d6"
+"0.2.0" = "5c297e39964dfb2a54a847beb3155ba1a3687b0365dec6cb0742a85ac0323054"
 
 [outer_wilds]
 "0.3.6" = "fe4ddd06e41620ea22c478986f4b3e3b79d105543f89f0bde8267b7afae7a161"
@@ -1126,8 +1114,7 @@
 "1.1.3" = "7bcd996aa55e31878d95dd88b1aa87733ddfabe6bda583102b294f16bb236c0e"
 
 [satisfactory]
-"2.2.0" = "4dab0e5035386aa69755cae7c8683fd19fbb86e09dd415246dc84d67b854448f"
-"2.3.1" = "d93660c58c7b58a4e81b5ff5378dc0881af542ceaceb0492dc25af4edcc477b6"
+"0.6.7" = "supported"
 
 [severed_soul]
 "2.6.0" = "94b898fcabf0fba5cc3294d37946c4b71be765dbcbe5585f2540b0ddd0bc059d"
@@ -1223,6 +1210,7 @@
 "1.2.1" = "8ed646beacf1e53646bd617e6fdb3185b461764e3d7f25ad219b08c954feac59"
 "1.2.2" = "8af056b76e8cd3287d159f1f33e86e24de28e920729e31dc0d1982e5b06718e2"
 "1.3.0" = "6541052d94e66c83d5206513a7bc0c9200e36a3f9978c58f146e01b11fd7bfa3"
+"1.3.4" = "54135e720900e7077ef4a62fa049bd6238a36a34ff2c576315f5d73e91571078"
 
 [ss]
 "0.5.4" = "94b828e79e3ae90ae5802c05008938ac7d3a59cbeeb970507f67c6531b00e389"
@@ -1380,6 +1368,7 @@
 "3.3.0" = "ebf0d1ac96557c6e20fc932f8d88052c5a3d8ce4214a1b9ceca354b70c0d2a16"
 "3.3.1" = "a150b5abef454d51cd35033be3d8dec24ec8788d1e1b1976149f587720418994"
 "3.3.2" = "835298b33e4a8714d7569f1b34fdd2a4e050c33e7c13dbfcc9ed9d4202c3eca8"
+"3.3.3" = "853c8fe6d7ce641599262f739fdf80dde9af784edeecc6105fa76c219e645bca"
 
 [wordipelago]
 "1.0.2" = "0c80732d272a2cdded1b76ed5d2ee68d145881d6f452db163ddd51bbd70e6da0"
@@ -1409,3 +1398,244 @@
 [zork_grand_inquisitor]
 "2.0.6+hotfix1" = "ba564178ce0ebceb153745f3c2ff05c65642276aff8a9d4aea9a70964a57741f"
 "2.0.7+hotfix1" = "582be6c33d15a712d568cebc765ab9a8cd2ba90f983c53634c0e168ae86dd0fb"
+"2.1.1" = "8d085fb3e9adc7a047cd7f44966855ae6456eda884d64bef971c79d5f755e517"
+
+[adventure]
+"0.6.7" = "supported"
+
+[ahit]
+"0.6.7" = "supported"
+
+[alttp]
+"0.6.7" = "supported"
+
+[apquest]
+"0.6.7" = "supported"
+
+[aquaria]
+"0.6.7" = "supported"
+
+[blasphemous]
+"0.6.7" = "supported"
+
+[bomb_rush_cyberfunk]
+"0.6.7" = "supported"
+
+[bumpstik]
+"0.6.7" = "supported"
+
+[cccharles]
+"0.6.7" = "supported"
+
+[celeste64]
+"0.6.7" = "supported"
+
+[celeste_open_world]
+"0.6.7" = "supported"
+
+[checksfinder]
+"0.6.7" = "supported"
+
+[civ_6]
+"0.6.7" = "supported"
+
+[cv64]
+"0.6.7" = "supported"
+
+[cvcotm]
+"0.6.7" = "supported"
+
+[dkc3]
+"0.6.7" = "supported"
+
+[dlcquest]
+"0.6.7" = "supported"
+
+[doom_1993]
+"0.6.7" = "supported"
+
+[doom_ii]
+"0.6.7" = "supported"
+
+[factorio]
+"0.6.7" = "supported"
+
+[faxanadu]
+"0.6.7" = "supported"
+
+[ff1]
+"0.6.7" = "supported"
+
+[ffmq]
+"0.6.7" = "supported"
+
+[generic]
+"0.6.7" = "supported"
+
+[heretic]
+"0.6.7" = "supported"
+
+[hk]
+"0.6.7" = "supported"
+
+[hylics2]
+"0.6.7" = "supported"
+
+[inscryption]
+"0.6.7" = "supported"
+
+[jakanddaxter]
+"0.6.7" = "supported"
+
+[kdl3]
+"0.6.7" = "supported"
+
+[kh1]
+"0.6.7" = "supported"
+
+[kh2]
+"0.6.7" = "supported"
+
+[ladx]
+"0.6.7" = "supported"
+
+[landstalker]
+"0.6.7" = "supported"
+
+[lingo]
+"0.6.7" = "supported"
+
+[lufia2ac]
+"0.6.7" = "supported"
+
+[marioland2]
+"0.6.7" = "supported"
+
+[meritous]
+"0.6.7" = "supported"
+
+[messenger]
+"0.6.7" = "supported"
+
+[mlss]
+"0.6.7" = "supported"
+
+[mm2]
+"0.6.7" = "supported"
+
+[mmbn3]
+"0.6.7" = "supported"
+
+[musedash]
+"0.6.7" = "supported"
+
+[noita]
+"0.6.7" = "supported"
+
+[osrs]
+"0.6.7" = "supported"
+
+[paint]
+"0.6.7" = "supported"
+
+[pokemon_emerald]
+"0.6.7" = "supported"
+
+[pokemon_rb]
+"0.6.7" = "supported"
+
+[raft]
+"0.6.7" = "supported"
+
+[ror2]
+"0.6.7" = "supported"
+
+[sa2b]
+"0.6.7" = "supported"
+
+[saving_princess]
+"0.6.7" = "supported"
+
+[shapez]
+"0.6.7" = "supported"
+
+[shivers]
+"0.6.7" = "supported"
+
+[shorthike]
+"0.6.7" = "supported"
+
+[sm]
+"0.6.7" = "supported"
+
+[sm64ex]
+"0.6.7" = "supported"
+
+[smw]
+"0.6.7" = "supported"
+
+[smz3]
+"0.6.7" = "supported"
+
+[soe]
+"0.6.7" = "supported"
+
+[stardew_valley]
+"0.6.7" = "supported"
+
+[subnautica]
+"0.6.7" = "supported"
+
+[terraria]
+"0.6.7" = "supported"
+
+[timespinner]
+"0.6.7" = "supported"
+
+[tloz]
+"0.6.7" = "supported"
+
+[tunic]
+"0.6.7" = "supported"
+
+[tww]
+"0.6.7" = "supported"
+
+[undertale]
+"0.6.7" = "supported"
+
+[v6]
+"0.6.7" = "supported"
+
+[wargroove]
+"0.6.7" = "supported"
+
+[witness]
+"0.6.7" = "supported"
+
+[yachtdice]
+"0.6.7" = "supported"
+
+[yugioh06]
+"0.6.7" = "supported"
+
+[zillion]
+"0.6.7" = "supported"
+
+[mgs]
+"0.7.0" = "1c2dc4e79fe170f1e32343098c38957650cbcef12d866c936c81412f2bfd7718"
+
+[th185]
+"0.3.5" = "fae26661eb98523157592458651d926cf65a2fc1822b9270db71f7aa1dfbfb5c"
+
+[peggle_deluxe]
+"1.2.0" = "e48fbd62fd05c08855cd8dee90fe70b043a7a252470228bf70b351c131580672"
+
+[peggle_nights]
+"1.1.0" = "e2f22cb5b8dd687870285109e3f60f4f6ed66f5a619e8cad7bf6bbbb4ddf37e4"
+
+[tony_hawks_pro_skater_1_2]
+"1.1.0" = "f4cc5aa3d5f85efd0a1421d8db42d57e6bdf60c39f05c2a135c83bdce513ac5d"
+
+[pinball_fx3]
+"1.3.0" = "b2fc2b8fd53516766a14a172daf257cf24756b9426431d574da43368fa8f78c6"
