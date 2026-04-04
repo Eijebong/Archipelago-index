@@ -237,8 +237,6 @@
 "0.0.21" = "99b13a6e74bad0e6dc2330aecfc6107a9f9f12f99e7a9cbb7d03b5f252638ea4"
 "0.0.22-0" = "3c57fdf0fa2f2e5c0a6ba2c72d3ee170d2874334ff5d49d920bda2fa80735ffa"
 
-[enderlilies]
-
 [fe8]
 "0.3.2" = "e1c9b35c2949267367870c64a8cb1a33f614d8f78311028b91944c4a0ba4f2e9"
 "0.3.3-rc1" = "e1c9b35c2949267367870c64a8cb1a33f614d8f78311028b91944c4a0ba4f2e9"
@@ -445,8 +443,6 @@
 "0.1.3" = "c8dd3586fdf4e247a998457df35d7f0f8672b8c40c66a42e3180fe1efd5af810"
 "0.1.4" = "bf66784164de9e85f32fa26cc5bb7175b4dc8a52dacbbb16ab322558364ed891"
 "0.1.5+hotfix2" = "2b4bc4b229654601285d4c721298acb5032e3edefdb2e6233149e149d444e247"
-
-[lil_gator_game]
 
 [little_witch_nobeta]
 "0.2.1" = "703bd7fb1d22ba3982d92ca812684e4eb12fe587e9eef829c68386b6876d4f13"
@@ -828,6 +824,9 @@
 [metroidfusion]
 "0.0.17" = "eb63965ff09d1f6441dfbda5d7566316b7b03b1d63a7f7ac4a7c3a495088c553"
 
+[mgs]
+"0.7.0" = "1c2dc4e79fe170f1e32343098c38957650cbcef12d866c936c81412f2bfd7718"
+
 [minecraft_dig]
 "0.0.10" = "3c96d2b417e9996f301b73ab4f5a88f311e31ea84847c4616cca05e569852d06"
 
@@ -848,9 +847,6 @@
 
 [mm1]
 "0.1.1" = "e2f48109530fadbfd3ef6fe3463df7d63f215f83358bf9a63788e27c31f2dcdf"
-
-[mm3]
-"0.6.7" = "supported"
 
 [mmx]
 "1.4.0" = "c431b44732d38c9f713a0aa7f6e5bed9369ea5e1ac16e58e70b277e0b9d5f986"
@@ -948,6 +944,15 @@
 
 [peaks_of_yore]
 "2.0.0" = "f63873531d69fc9965c96cda422043da63ae26f11b2d4e84af2f9bbc989681f3"
+
+[peggle_deluxe]
+"1.2.0" = "e48fbd62fd05c08855cd8dee90fe70b043a7a252470228bf70b351c131580672"
+
+[peggle_nights]
+"1.1.0" = "e2f22cb5b8dd687870285109e3f60f4f6ed66f5a619e8cad7bf6bbbb4ddf37e4"
+
+[pinball_fx3]
+"1.3.0" = "b2fc2b8fd53516766a14a172daf257cf24756b9426431d574da43368fa8f78c6"
 
 [placidplasticducksim]
 "0.1.1-hf1" = "73c4afd36df48003f04b0ce20e6e61e31ccd2cd9aac2f0bfb64259eebe9558f7"
@@ -1113,9 +1118,6 @@
 "1.1.2" = "ad2bdfa62f512957b4499514ec51d3172cf2379247e77dc5235aa4352f3ef42e"
 "1.1.3" = "7bcd996aa55e31878d95dd88b1aa87733ddfabe6bda583102b294f16bb236c0e"
 
-[satisfactory]
-"0.6.7" = "supported"
-
 [severed_soul]
 "2.6.0" = "94b898fcabf0fba5cc3294d37946c4b71be765dbcbe5585f2540b0ddd0bc059d"
 "2.7.0" = "4e18193d0ef30f2e600045298d6d90096ff148305623fcaf970639a545786fa7"
@@ -1252,6 +1254,9 @@
 "1.0.1" = "73c8d4e1a5f0de6821ae642c935f632397810c7f09b6cdac5f9ee4624a45bace"
 "1.1.2" = "f4e75f37bebb2e9d206fd22b4a9eb2907724f59ce2a1029b6b608705ff2e257b"
 
+[th185]
+"0.3.5" = "fae26661eb98523157592458651d926cf65a2fc1822b9270db71f7aa1dfbfb5c"
+
 [tits_the_3rd]
 "0.1.6" = "6ee0ae65a5ffd4dfb2ff7012032b9bc07f01a3d935c5b37037547a67edc774b9"
 
@@ -1275,6 +1280,9 @@
 "1.1.1" = "9da6fae9a7ca37b21f82f17e73f1902a108cafd162c6563a92690be3e401d363"
 "1.9.0" = "dfd93e64156b462e36552ac9ae101b749dd6a393ac406ab3f0725cf1e4b48c0f"
 "2.0.1" = "d9fbb8ef3771f0330d636d6b004046cb78f0befaac8580468638301ffb278e75"
+
+[tony_hawks_pro_skater_1_2]
+"1.1.0" = "f4cc5aa3d5f85efd0a1421d8db42d57e6bdf60c39f05c2a135c83bdce513ac5d"
 
 [trackmania]
 "1.2.0" = "031e8ea967c84284f62822834899f12678cf0b26e1eff43e851590de664ade76"
@@ -1399,243 +1407,3 @@
 "2.0.6+hotfix1" = "ba564178ce0ebceb153745f3c2ff05c65642276aff8a9d4aea9a70964a57741f"
 "2.0.7+hotfix1" = "582be6c33d15a712d568cebc765ab9a8cd2ba90f983c53634c0e168ae86dd0fb"
 "2.1.1" = "8d085fb3e9adc7a047cd7f44966855ae6456eda884d64bef971c79d5f755e517"
-
-[adventure]
-"0.6.7" = "supported"
-
-[ahit]
-"0.6.7" = "supported"
-
-[alttp]
-"0.6.7" = "supported"
-
-[apquest]
-"0.6.7" = "supported"
-
-[aquaria]
-"0.6.7" = "supported"
-
-[blasphemous]
-"0.6.7" = "supported"
-
-[bomb_rush_cyberfunk]
-"0.6.7" = "supported"
-
-[bumpstik]
-"0.6.7" = "supported"
-
-[cccharles]
-"0.6.7" = "supported"
-
-[celeste64]
-"0.6.7" = "supported"
-
-[celeste_open_world]
-"0.6.7" = "supported"
-
-[checksfinder]
-"0.6.7" = "supported"
-
-[civ_6]
-"0.6.7" = "supported"
-
-[cv64]
-"0.6.7" = "supported"
-
-[cvcotm]
-"0.6.7" = "supported"
-
-[dkc3]
-"0.6.7" = "supported"
-
-[dlcquest]
-"0.6.7" = "supported"
-
-[doom_1993]
-"0.6.7" = "supported"
-
-[doom_ii]
-"0.6.7" = "supported"
-
-[factorio]
-"0.6.7" = "supported"
-
-[faxanadu]
-"0.6.7" = "supported"
-
-[ff1]
-"0.6.7" = "supported"
-
-[ffmq]
-"0.6.7" = "supported"
-
-[generic]
-"0.6.7" = "supported"
-
-[heretic]
-"0.6.7" = "supported"
-
-[hk]
-"0.6.7" = "supported"
-
-[hylics2]
-"0.6.7" = "supported"
-
-[inscryption]
-"0.6.7" = "supported"
-
-[jakanddaxter]
-"0.6.7" = "supported"
-
-[kdl3]
-"0.6.7" = "supported"
-
-[kh1]
-"0.6.7" = "supported"
-
-[kh2]
-"0.6.7" = "supported"
-
-[ladx]
-"0.6.7" = "supported"
-
-[landstalker]
-"0.6.7" = "supported"
-
-[lingo]
-"0.6.7" = "supported"
-
-[lufia2ac]
-"0.6.7" = "supported"
-
-[marioland2]
-"0.6.7" = "supported"
-
-[meritous]
-"0.6.7" = "supported"
-
-[messenger]
-"0.6.7" = "supported"
-
-[mlss]
-"0.6.7" = "supported"
-
-[mm2]
-"0.6.7" = "supported"
-
-[mmbn3]
-"0.6.7" = "supported"
-
-[musedash]
-"0.6.7" = "supported"
-
-[noita]
-"0.6.7" = "supported"
-
-[osrs]
-"0.6.7" = "supported"
-
-[paint]
-"0.6.7" = "supported"
-
-[pokemon_emerald]
-"0.6.7" = "supported"
-
-[pokemon_rb]
-"0.6.7" = "supported"
-
-[raft]
-"0.6.7" = "supported"
-
-[ror2]
-"0.6.7" = "supported"
-
-[sa2b]
-"0.6.7" = "supported"
-
-[saving_princess]
-"0.6.7" = "supported"
-
-[shapez]
-"0.6.7" = "supported"
-
-[shivers]
-"0.6.7" = "supported"
-
-[shorthike]
-"0.6.7" = "supported"
-
-[sm]
-"0.6.7" = "supported"
-
-[sm64ex]
-"0.6.7" = "supported"
-
-[smw]
-"0.6.7" = "supported"
-
-[smz3]
-"0.6.7" = "supported"
-
-[soe]
-"0.6.7" = "supported"
-
-[stardew_valley]
-"0.6.7" = "supported"
-
-[subnautica]
-"0.6.7" = "supported"
-
-[terraria]
-"0.6.7" = "supported"
-
-[timespinner]
-"0.6.7" = "supported"
-
-[tloz]
-"0.6.7" = "supported"
-
-[tunic]
-"0.6.7" = "supported"
-
-[tww]
-"0.6.7" = "supported"
-
-[undertale]
-"0.6.7" = "supported"
-
-[v6]
-"0.6.7" = "supported"
-
-[wargroove]
-"0.6.7" = "supported"
-
-[witness]
-"0.6.7" = "supported"
-
-[yachtdice]
-"0.6.7" = "supported"
-
-[yugioh06]
-"0.6.7" = "supported"
-
-[zillion]
-"0.6.7" = "supported"
-
-[mgs]
-"0.7.0" = "1c2dc4e79fe170f1e32343098c38957650cbcef12d866c936c81412f2bfd7718"
-
-[th185]
-"0.3.5" = "fae26661eb98523157592458651d926cf65a2fc1822b9270db71f7aa1dfbfb5c"
-
-[peggle_deluxe]
-"1.2.0" = "e48fbd62fd05c08855cd8dee90fe70b043a7a252470228bf70b351c131580672"
-
-[peggle_nights]
-"1.1.0" = "e2f22cb5b8dd687870285109e3f60f4f6ed66f5a619e8cad7bf6bbbb4ddf37e4"
-
-[tony_hawks_pro_skater_1_2]
-"1.1.0" = "f4cc5aa3d5f85efd0a1421d8db42d57e6bdf60c39f05c2a135c83bdce513ac5d"
-
-[pinball_fx3]
-"1.3.0" = "b2fc2b8fd53516766a14a172daf257cf24756b9426431d574da43368fa8f78c6"
