@@ -1,6 +1,7 @@
 name = "Mega Man X3"
 home = "https://discord.com/channels/731205301247803413/1134349743984742520"
 default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx3-v{{version}}/mmx3.apworld"
+disabled = true
 
 [versions]
 "1.2.1" = {}
