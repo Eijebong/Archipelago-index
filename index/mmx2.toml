@@ -1,7 +1,8 @@
 name = "Mega Man X2"
 home = "https://discord.com/channels/731205301247803413/1232388647127613490"
 default_url = "https://github.com/TheLX5/Archipelago/releases/download/mmx2-v{{version}}/mmx2.apworld"
+disabled = true # Missing explicit indirect conditions
 
 [versions]
 "1.1.1" = {}
-"1.2.0+hotfix1" = { url = "https://github.com/TheLX5/Archipelago/releases/download/mmx2-v1.2.0/mmx2.apworld" }
+"1.2.0" = {}
