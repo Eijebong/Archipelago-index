@@ -1,0 +1,6 @@
+name = "Melatonin"
+home = "https://discord.com/channels/731205301247803413/1365778928102277151"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-Melatonin/releases/download/{{version}}/melatonin.apworld"
+
+[versions]
+"1.0.1" = {}

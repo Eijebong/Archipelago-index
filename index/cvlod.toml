@@ -1,0 +1,5 @@
+name = "Castlevania: Legacy of Darkness"
+home = "https://discord.com/channels/731205301247803413/1178601625078738985"
+
+[versions]
+"1.1.0" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvlod_v1.1/cvlod.apworld" }

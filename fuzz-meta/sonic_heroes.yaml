@@ -1,0 +1,138 @@
+Sonic Heroes:
+  fuzz_constraints:
+    - option: included_levels_and_sanities
+      if_selected: "Dark ObjSanity"
+      must_include: "Dark Act B"
+    - option: included_levels_and_sanities
+      if_selected: "Rose ObjSanity"
+      must_include: "Rose Act B"
+    - option: included_levels_and_sanities
+      if_any_selected:
+        - "Sonic KeySanity 1 Set"
+        - "Sonic KeySanity Both Acts"
+        - "Sonic CheckpointSanity 1 Set"
+        - "Sonic CheckpointSanity Both Acts"
+      requires_any:
+        - "Sonic Act A"
+        - "Sonic Act B"
+    - option: included_levels_and_sanities
+      if_any_selected:
+        - "Dark ObjSanity"
+        - "Dark KeySanity 1 Set"
+        - "Dark KeySanity Both Acts"
+        - "Dark CheckpointSanity 1 Set"
+        - "Dark CheckpointSanity Both Acts"
+      requires_any:
+        - "Dark Act A"
+        - "Dark Act B"
+    - option: included_levels_and_sanities
+      if_any_selected:
+        - "Rose ObjSanity"
+        - "Rose KeySanity 1 Set"
+        - "Rose KeySanity Both Acts"
+        - "Rose CheckpointSanity 1 Set"
+        - "Rose CheckpointSanity Both Acts"
+      requires_any:
+        - "Rose Act A"
+        - "Rose Act B"
+    - option: included_levels_and_sanities
+      if_any_selected:
+        - "Chaotix ObjSanity"
+        - "Chaotix KeySanity 1 Set"
+        - "Chaotix KeySanity Both Acts"
+        - "Chaotix CheckpointSanity 1 Set"
+        - "Chaotix CheckpointSanity Both Acts"
+      requires_any:
+        - "Chaotix Act A"
+        - "Chaotix Act B"
+    - option: included_levels_and_sanities
+      if_any_selected:
+        - "Super Hard CheckpointSanity"
+      requires_any:
+        - "Super Hard Mode"
+    - option: included_levels_and_sanities
+      if_selected: "Sonic KeySanity Both Acts"
+      must_include: ["Sonic Act A", "Sonic Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Sonic CheckpointSanity Both Acts"
+      must_include: ["Sonic Act A", "Sonic Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Dark KeySanity Both Acts"
+      must_include: ["Dark Act A", "Dark Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Dark CheckpointSanity Both Acts"
+      must_include: ["Dark Act A", "Dark Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Rose KeySanity Both Acts"
+      must_include: ["Rose Act A", "Rose Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Rose CheckpointSanity Both Acts"
+      must_include: ["Rose Act A", "Rose Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Chaotix KeySanity Both Acts"
+      must_include: ["Chaotix Act A", "Chaotix Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Chaotix CheckpointSanity Both Acts"
+      must_include: ["Chaotix Act A", "Chaotix Act B"]
+    - option: unlock_type
+      if_value: ability_character_unlocks
+      then:
+        accessibility: full
+        ability_unlocks: entire_story
+      then_exclude:
+        goal_unlock_conditions: "Emblems"
+        included_levels_and_sanities:
+          - "Dark Act A"
+          - "Dark Act B"
+          - "Dark ObjSanity"
+          - "Dark KeySanity 1 Set"
+          - "Dark KeySanity Both Acts"
+          - "Dark CheckpointSanity 1 Set"
+          - "Dark CheckpointSanity Both Acts"
+          - "Rose Act A"
+          - "Rose Act B"
+          - "Rose ObjSanity"
+          - "Rose KeySanity 1 Set"
+          - "Rose KeySanity Both Acts"
+          - "Rose CheckpointSanity 1 Set"
+          - "Rose CheckpointSanity Both Acts"
+          - "Chaotix Act A"
+          - "Chaotix Act B"
+          - "Chaotix ObjSanity"
+          - "Chaotix KeySanity 1 Set"
+          - "Chaotix KeySanity Both Acts"
+          - "Chaotix CheckpointSanity 1 Set"
+          - "Chaotix CheckpointSanity Both Acts"
+          - "Super Hard Mode"
+          - "Super Hard CheckpointSanity"
+      then_include:
+        included_levels_and_sanities:
+          - "Sonic Act A"
+          - "Sonic KeySanity 1 Set"
+          - "Sonic CheckpointSanity 1 Set"
+    - option: legacy_number_of_level_gates
+      max_count_of: legacy_level_gates_allowed_bosses
+    - option: included_levels_and_sanities
+      ensure_any:
+        - "Sonic Act A"
+        - "Sonic Act B"
+        - "Dark Act A"
+        - "Dark Act B"
+        - "Rose Act A"
+        - "Rose Act B"
+        - "Chaotix Act A"
+        - "Chaotix Act B"
+        - "Super Hard Mode"
+    - option: included_levels_and_sanities
+      mutually_exclusive: ["Super Hard Mode", "Sonic Act B"]
+    - option: included_levels_and_sanities
+      if_selected: "Super Hard Mode"
+      must_include: "Super Hard CheckpointSanity"
+      must_exclude:
+        - "Sonic KeySanity Both Acts"
+        - "Sonic CheckpointSanity Both Acts"
+    - option: included_levels_and_sanities
+      if_selected: "Sonic Act B"
+      must_exclude: "Super Hard CheckpointSanity"
+    - option: goal_unlock_conditions
+      mutually_exclusive: ["Sonic CheckpointSanity 1 Set", "Sonic CheckpointSanity Both Acts"]

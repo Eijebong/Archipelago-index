@@ -1,0 +1,7 @@
+name = "Schedule I"
+home = "https://discord.com/channels/1085716850370957462/1424079825697509427"
+default_url = "https://github.com/MacH8s/Narcopelago/releases/download/v{{version}}/Schedule_I.apworld"
+tags = ["ad"]
+
+[versions]
+"3.4.0" = {}

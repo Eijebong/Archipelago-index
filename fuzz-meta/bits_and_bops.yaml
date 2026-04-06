@@ -1,0 +1,12 @@
+Bits & Bops:
+  accessibility: full
+  fuzz_constraints:
+    - option: required_16_rpm_completions
+      max_remaining_from: excluded_16_rpm_levels
+      max_capacity: 20
+    - option: required_45_rpm_completions
+      max_remaining_from: excluded_45_rpm_levels
+      max_capacity: 20
+    - option: required_78_rpm_completions
+      max_remaining_from: excluded_78_rpm_levels
+      max_capacity: 20

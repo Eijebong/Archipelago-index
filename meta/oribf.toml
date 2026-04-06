@@ -69,4 +69,3 @@ __version__ = ">=0.3.3-alpha"
 [["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='ChargeJumpDoorOpenLeft', game='Ori and the Blind Forest')"]]
 __expected__ = "fail"
 __version__ = ">=0.3.3-alpha"
-

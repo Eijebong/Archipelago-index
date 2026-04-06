@@ -1,3 +1,7 @@
 [["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Slay the Spire')"]]
 __expected__ = "error"
 __version__ = ">=2.0.2,<2.2.0"
+
+[["test.general.test_options.TestOptions.test_option_defaults (game='Slay the Spire', option='unlocked_character')"]]
+__expected__ = "fail"
+__version__ = ">=2.2.0"

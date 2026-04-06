@@ -1,0 +1,6 @@
+name = "Heretic (Beta)"
+home = "https://discord.com/channels/731205301247803413/1444322671545548881"
+default_url = "https://github.com/ArchipelagoDoom/APDoom/releases/download/v{{version}}/heretic_beta.apworld"
+
+[versions]
+"2.0.0-beta2" = {}

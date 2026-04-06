@@ -1,0 +1,3 @@
+[["test.general.test_options.TestOptions.test_options_have_doc_string (game='Kingdom Hearts Dream Drop Distance', option='lord_kyroo')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.5"
