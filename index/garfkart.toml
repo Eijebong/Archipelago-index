@@ -4,4 +4,4 @@ default_url = "https://github.com/FeluciaPS/Archipelago/releases/download/{{vers
 
 [versions]
 "0.4.4-beta" = {}
-"0.5.1-beta" = {}
+"0.5.2-beta" = {}
