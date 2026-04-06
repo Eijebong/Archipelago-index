@@ -2,6 +2,7 @@ import copy
 import glob
 import os
 import toml
+from functools import lru_cache
 from pathlib import Path
 
 from semver import Version
@@ -10,6 +11,7 @@ from taskgraph.transforms.base import TransformSequence
 transforms = TransformSequence()
 
 
+@lru_cache(maxsize=None)
 def find_fuzz_meta_file(apworld_name, target_version):
     pattern = f"fuzz-meta/{apworld_name}@*.yaml"
     meta_files = glob.glob(pattern)
@@ -34,14 +36,34 @@ def find_fuzz_meta_file(apworld_name, target_version):
     return None
 
 
+@lru_cache
+def _load_worlds():
+    index = toml.load("index.toml")
+    worlds = []
+    for world_path in os.listdir("index/"):
+        world = toml.load(os.path.join("index", world_path))
+        if world.get("disabled"):
+            continue
+
+        apworld_name = Path(world_path).stem
+        supported = world.get("supported", False)
+        versions = list(world.get("versions", {}).keys())
+        if supported:
+            versions.append(index["archipelago_version"])
+
+        worlds.append((world["name"], apworld_name, versions, supported))
+    return worlds
+
+
 @transforms.add
 def generate_tasks(config, tasks):
+    worlds = _load_worlds()
     for task in tasks:
         env = task["worker"].setdefault("env", {})
-        yield from create_tasks_for_all(config, task)
+        yield from create_tasks_for_all(config, task, worlds)
 
 
-def create_task_for_apworld(config, original_task, world_name, apworld_name, version, ap_dependencies, latest, previous_version, chained):
+def create_task_for_apworld(config, original_task, label_infix, world_name, apworld_name, version, ap_dependencies, latest, previous_version, chained, supported=False):
     task = copy.deepcopy(original_task)
     env = task["worker"].setdefault("env", {})
     env["TEST_WORLD_NAME"] = world_name
@@ -52,7 +74,10 @@ def create_task_for_apworld(config, original_task, world_name, apworld_name, ver
     if fuzz_meta:
         env["FUZZ_META_FILE"] = fuzz_meta
 
-    task["label"] = f"{config.kind}-{apworld_name}-{version}"
+    if label_infix:
+        task["label"] = f"{config.kind}-{label_infix}-{apworld_name}-{version}"
+    else:
+        task["label"] = f"{config.kind}-{apworld_name}-{version}"
     task.setdefault("attributes", {})["latest"] = latest
     task.setdefault("attributes", {})["apworld_name"] = apworld_name
     task.setdefault("attributes", {})["version"] = version
@@ -66,28 +91,43 @@ def create_task_for_apworld(config, original_task, world_name, apworld_name, ver
         task.setdefault("soft-dependencies", []).append(dep)
         env["PREVIOUS_TASK"] = {"task-reference": f"<{dep}>"}
 
+    fetch_apworld = task.setdefault("attributes", {}).pop("fetch-apworld", True)
+    only_fetch_latest_from_diff = task.setdefault("attributes", {}).pop("only-fetch-latest-from-diff", False)
+    if fetch_apworld and not supported:
+        fetch_from_diff = not only_fetch_latest_from_diff or latest
+        _inject_apworld_fetch(config, task, apworld_name, version, fetch_from_diff)
+
     return task
 
 
-def create_tasks_for_all(config, task):
-    index = toml.load("index.toml")
+def _inject_apworld_fetch(config, task, apworld_name, version, fetch_from_diff=True):
+    dependencies = task.setdefault("dependencies", {})
+    fetches = task.setdefault("fetches", {})
+    artifact_name = f"{apworld_name}-{version}.apworld"
+
+    if "diff" in dependencies and fetch_from_diff:
+        fetches.setdefault("diff", []).append({
+            "artifact": f"apworlds/{artifact_name}",
+            "extract": False,
+            "dest": "/tmp/download",
+        })
+    else:
+        fetch_label = f"fetch-{apworld_name}-{version}"
+        dependencies[fetch_label] = fetch_label
+        fetches.setdefault(fetch_label, []).append({
+            "artifact": f"{artifact_name}",
+            "extract": False,
+            "dest": "/tmp/download",
+        })
+
+
+def create_tasks_for_all(config, task, worlds):
     ap_deps = task.pop('ap-deps', [])
     chained = task.pop('chained', False)
-    for world_path in os.listdir("index/"):
-        world = toml.load(os.path.join("index", world_path))
-        if world.get("disabled"):
-            continue
-
-        world_name = world["name"]
-
-        apworld_name = Path(world_path).stem
-        versions = list(world.get("versions", {}).keys()) # TODO: Sort those probably
-        if world.get("supported", False):
-            versions.append(index["archipelago_version"])
-
+    label_infix = task["name"] if task.get('fuzz-variant') else None
+    for world_name, apworld_name, versions, supported in worlds:
         previous_version = None
         for i, version in enumerate(versions):
             latest = i == (len(versions) - 1)
-            yield create_task_for_apworld(config, task, world_name, apworld_name, version, ap_deps, latest, previous_version, chained)
+            yield create_task_for_apworld(config, task, label_infix, world_name, apworld_name, version, ap_deps, latest, previous_version, chained, supported)
             previous_version = version
-

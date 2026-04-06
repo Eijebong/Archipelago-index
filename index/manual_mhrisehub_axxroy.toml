@@ -3,4 +3,4 @@ name = "Manual_MHRiseHub_Axxroy"
 home = "https://discord.com/channels/1097532591650910289/1172769920610738246"
 
 [versions]
-"2.0.1+repacked" = { local = "../apworlds/manual_mhrisehub_axxroy-2.0.1+repacked.apworld" }
+"2.0.1+repacked2" = { local = "../apworlds/manual_mhrisehub_axxroy-2.0.1+repacked2.apworld" }

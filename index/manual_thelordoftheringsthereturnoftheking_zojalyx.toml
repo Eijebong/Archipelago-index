@@ -4,3 +4,4 @@ home = "https://discord.com/channels/1097532591650910289/1312537028608659497"
 
 [versions]
 "1.6.0" = {url = "https://github.com/Zojalyx/Return-of-the-King-AP-Manual/releases/download/Game/manual_thelordoftheringsthereturnoftheking_zojalyx.apworld"}
+"1.7.0" = {url = "https://github.com/Zojalyx/Return-of-the-King-AP-Manual/releases/download/V1.7/manual_thelordoftheringsthereturnoftheking_zojalyx.apworld"}

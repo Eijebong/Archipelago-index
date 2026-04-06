@@ -20,11 +20,14 @@ task-defaults:
 
 kind-dependencies:
   - diff
+  - fetch
 
 tasks:
   apworld:
     description: Get new test expectations for an apworld
     chained: true
+    attributes:
+      only-fetch-latest-from-diff: true
     run:
       using: run-task
       command: |-
@@ -35,11 +38,11 @@ tasks:
         git config --global user.email "nobody@localhost"
         (git remote add repo https://github.com/Eijebong/Archipelago-index.git || true)
         git commit -am WIP || true
-        git pull -r repo main || exit 1
+        git pull --rebase=merges repo main || exit 1
 
-        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}";
         if [[ "${PREVIOUS_TASK}" != "" ]]; then
-          curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${TEST_APWORLD_NAME// /+}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
+          ENCODED_NAME=$(printf '%s' "${TEST_APWORLD_NAME}" | jq -sRr @uri);
+          curl -SsL --compressed -v $(curl -SsL "${TASKCLUSTER_PROXY_URL}/queue/v1/task/${PREVIOUS_TASK}/artifact-content/public/test_results/${ENCODED_NAME}.toml" | jq -r .url) -o "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
           if [[ ! -s "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml" ]]; then
             rm "/builds/worker/checkouts/vcs/meta/${TEST_APWORLD_NAME}.toml"
           fi
@@ -77,12 +80,3 @@ tasks:
         github-push: {}
         default:
           diff: diff-index
-    fetches:
-      by-tasks-for:
-        github-push: {}
-        default:
-          diff:
-            - artifact: index.lock
-              extract: false
-              dest: /builds/worker/checkouts/vcs
-

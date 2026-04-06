@@ -9,3 +9,7 @@ __version__ = ">=0.2.0"
 [["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Metroid Zero Mission')"]]
 __expected__ = "error"
 __version__ = ">=0.1.2"
+
+[["test.general.test_items.TestBase.test_item_links [Can generate with link replacement] (game='Metroid: Zero Mission')"]]
+__expected__ = "error"
+__version__ = ">=0.5.2"

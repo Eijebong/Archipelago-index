@@ -1,0 +1,37 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.github:transforms
+  - src.transforms.verify_index:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  worker:
+    max-run-time: 1800
+    docker-image: {in-tree: ap-checker}
+    volumes:
+      - /builds/worker/checkouts
+  run-on-tasks-for: []
+
+tasks:
+  index:
+    label: verify-index
+    description: Verify that apworlds in the index don't have outdated checksums
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH && rm index.lock && apwm update -i ./ && git diff --exit-code &> /builds/worker/index.lock.diff
+    worker:
+      artifacts:
+        - type: file
+          path: /builds/worker/index.lock.diff
+          name: public/index.lock.diff
+    extra:
+      notify:
+        slackText: >-
+          {"task": "${task.metadata.name}", "status": "${status.state}", "root_url":
+          "${rootUrl}", "task_id": "${taskId}", "task_group_id":
+          "${task.taskGroupId}", "run": "${len(status.runs) - 1}"}
