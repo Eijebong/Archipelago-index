@@ -27,7 +27,6 @@ task-defaults:
     command: >-
       cd $VCS_PATH &&
       mkdir -p /ap/archipelago/fuzz_output/ /ap/archipelago/artifacts &&
-      apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
       (
         ([[ -f "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
         ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
@@ -46,17 +45,10 @@ task-defaults:
       github-push: {}
       default:
         diff: diff-index
-  fetches:
-    by-tasks-for:
-      github-push: {}
-      default:
-        diff:
-          - artifact: index.lock
-            extract: false
-            dest: /builds/worker/checkouts/vcs
 
 kind-dependencies:
   - diff
+  - fetch
 
 tasks:
   apworld:
@@ -104,3 +96,20 @@ tasks:
     fuzz-runs: 500
     fuzz-extra-args: "-t 30 -j 4"
 
+  check-indirect-conditions:
+    description: Fuzz to check for missing indirect conditions
+    fuzz-hook: "hooks.indirect_conditions:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-collect-accessibility:
+    description: Fuzz to check that collecting items into a state doesn't reduce accessibility
+    fuzz-hook: "hooks.collect_accessibility_test:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
+
+  check-static-output-placement:
+    description: Fuzz to check that the world doesn't modify placements in output
+    fuzz-hook: "hooks.detect_output_placement_changes:Hook"
+    fuzz-variant: true
+    fuzz-runs: 500
