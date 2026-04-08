@@ -24,12 +24,11 @@ task-defaults:
         name: public/
   run-on-tasks-for: ["github-push"]
   run-on-git-branches: ["main"]
-  optimization:
-    skip-unless-changed: ["index.lock"]
   attributes:
     fetch-apworld: false
     artifact_prefix: public
     soft-docker-image: true
+    skip-unless-changed: ["index.lock"]
 
 tasks:
   apworld:
