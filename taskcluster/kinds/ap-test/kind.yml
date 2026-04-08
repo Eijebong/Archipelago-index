@@ -19,6 +19,7 @@ task-defaults:
 
 kind-dependencies:
   - diff
+  - fetch
 
 tasks:
   apworld:
@@ -34,7 +35,6 @@ tasks:
           patch -p1 < expectations.patch
         fi
 
-        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}"
         cd /ap/archipelago
         source .venv/bin/activate
         unshare -r -n python3 -W ignore /ap/archipelago/ap_tests.py /ap/supported_worlds /tmp/download "${TEST_APWORLD_NAME}" ${TEST_APWORLD_VERSION} "${TEST_WORLD_NAME}" /builds/worker/checkouts/vcs/meta /builds/worker/test_results
@@ -60,12 +60,3 @@ tasks:
           artifact: public/expectations.patch
           extract: false
           dest: /builds/worker/checkouts/vcs
-    fetches:
-      by-tasks-for:
-        github-push: {}
-        default:
-          diff:
-            - artifact: index.lock
-              extract: false
-              dest: /builds/worker/checkouts/vcs
-

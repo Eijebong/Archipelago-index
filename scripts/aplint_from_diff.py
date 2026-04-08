@@ -1,31 +1,31 @@
 import aplinter
 import json
 import sys
-import subprocess
 import os
-import tempfile
 
 if len(sys.argv) != 4:
-    print("Usage: aplint_from_diff <diff_path> <index_path> <output_dir>")
+    print("Usage: aplint_from_diff <output_path> <index_path> <lint_output_dir>")
     sys.exit(1)
 
+output_path = sys.argv[1]
 index_path = sys.argv[2]
-output = sys.argv[3]
+lint_output = sys.argv[3]
 
+changes_file = os.path.join(output_path, "changes.json")
+apworlds_dir = os.path.join(output_path, "apworlds")
 
-def download_apworld(apworld, version, dest):
-    subprocess.check_output(["apwm", "download", "-i", index_path, "-d", dest, "-p", f"{apworld}:{version}"])
-    return os.path.join(dest, f"{apworld}-{version}.apworld")
+with open(changes_file) as fd:
+    changes = json.load(fd)
 
+for apworld_name, world_changes in changes["worlds"].items():
+    for version in world_changes["added_versions"]:
+        checksum = world_changes["checksums"].get(version)
+        if isinstance(checksum, dict) and "supported" in checksum:
+            continue
 
-for diff_file in os.scandir(sys.argv[1]):
-    with open(diff_file) as fd:
-        diff = json.load(fd)
-        apworld_name = diff["apworld_name"]
-        with tempfile.TemporaryDirectory() as dest:
-            for version_diff in diff["diffs"]:
-                _, version = version_diff.split('...')
-                if not version:
-                    continue
-                file = download_apworld(apworld_name, version, dest)
-                aplinter.lint(file, output)
+        apworld_file = os.path.join(apworlds_dir, f"{apworld_name}-{version}.apworld")
+        if not os.path.exists(apworld_file):
+            print(f"Warning: {apworld_file} not found, skipping lint")
+            continue
+
+        aplinter.lint(apworld_file, lint_output)
