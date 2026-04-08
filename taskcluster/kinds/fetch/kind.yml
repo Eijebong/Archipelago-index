@@ -10,6 +10,9 @@ transforms:
 
 task-defaults:
   worker-type: linux-small
+  run:
+    # We can't use taskgraph to create caches for us because of the docker image being "soft" here
+    use-caches: false
   worker:
     max-run-time: 300
     docker-image: {in-tree: ap-checker}
