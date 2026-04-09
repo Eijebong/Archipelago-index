@@ -1,0 +1,5 @@
+name = "I Was a Teenage Exocolonist"
+home = "https://discord.com/channels/731205301247803413/1404597989749555362"
+
+[versions]
+"1.1.0" = { url = "https://github.com/pamymaf/Exocolonist-AP/releases/download/v1.1/exocolonist.apworld" }
