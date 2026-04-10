@@ -35,8 +35,6 @@ def fetch_index(config, tasks):
         else:
             optimization_paths = [main_index_path]
 
-        task["optimization"] = {
-            "index-search": optimization_paths,
-        }
+        task.setdefault("optimization", {})["index-search-or-skip"] = optimization_paths
 
         yield task
