@@ -1,0 +1,6 @@
+name = "Sonic Battle"
+home = "https://discord.com/channels/731205301247803413/1256300159701225572"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/sonic_battle_v{{version}}/sonic_battle.apworld"
+
+[versions]
+"0.1.3" = {}
