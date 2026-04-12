@@ -5,4 +5,4 @@ tags = ["ad"]
 default_url = "https://codeberg.org/niyrme/archipelago-titanfall-2-manual/releases/download/v{{version}}/manual_titanfall_2_niyrme.apworld"
 
 [versions]
-"0.12.1" = {}
+"0.14.0" = {}
