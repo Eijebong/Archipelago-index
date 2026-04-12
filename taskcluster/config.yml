@@ -6,7 +6,7 @@ taskgraph:
   cached-task-prefix: "ap.archipelago-index"
   repositories:
     archipelago_index:
-      name: "Archipelago-index"
+      name: "archipelago-index"
 
   register: src:register
   decision-parameters: src:get_decision_parameters
