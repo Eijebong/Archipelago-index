@@ -5,10 +5,14 @@ transforms:
   - src.transforms.fetch_index:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
+  - src.transforms.soft_docker_image:transforms
   - eije_taskgraph.transforms.common:transforms
 
 task-defaults:
   worker-type: linux-small
+  run:
+    # We can't use taskgraph to create caches for us because of the docker image being "soft" here
+    use-caches: false
   worker:
     max-run-time: 300
     docker-image: {in-tree: ap-checker}
@@ -23,6 +27,8 @@ task-defaults:
   attributes:
     fetch-apworld: false
     artifact_prefix: public
+    soft-docker-image: true
+    skip-unless-changed: ["index.lock"]
 
 tasks:
   apworld:
