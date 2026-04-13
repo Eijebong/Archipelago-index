@@ -4,3 +4,4 @@ default_url = "https://github.com/Rosalie-A/Archipelago/releases/download/FFT-v{
 
 [versions]
 "0.2.2" = {}
+"0.3.1" = {}
