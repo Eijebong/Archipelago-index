@@ -4,3 +4,4 @@ default_url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/release
 
 [versions]
 "1.0.6-alpha" = {}
+"1.0.7" = {url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/releases/download/v.1.0.7/minecraft_fabric.apworld"}
