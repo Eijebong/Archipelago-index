@@ -4,3 +4,4 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc-v{{ve
 
 [versions]
 "1.2.2" = {}
+"1.2.3" = {}
