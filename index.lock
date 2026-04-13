@@ -1159,6 +1159,7 @@
 
 [slime_rancher]
 "0.2.2" = "fe78421304f52a8241b6c7f9534d934ebd04935d1c015ea5a9dbea60fc80bcbc"
+"0.2.4" = "7d8b872bd0232fc31efcfb0eceb63b19d60bb7dda1e8e11e2869851d00ceb01f"
 
 [sly2]
 "0.8.2" = "d8bf6e877499cfcaf445cbe5221f394f1ae4b7ceab431c22ab24efee16c80ded"
