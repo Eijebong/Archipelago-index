@@ -1,0 +1,7 @@
+name = "We Love Katamari Reroll"
+home = "https://discord.com/channels/731205301247803413/1141745266723131523"
+default_url = "https://github.com/sapphisylph/We-Love-Archipelago-Reroll/releases/download/v{{version}}/wlkrr.apworld"
+
+[versions]
+
+"0.1.0" = {}
