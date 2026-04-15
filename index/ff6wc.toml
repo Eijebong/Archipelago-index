@@ -1,0 +1,5 @@
+name = "Final Fantasy 6 Worlds Collide"
+home = "https://docs.google.com/spreadsheets/d/1iuzDTOAvdoNe8Ne8i461qGNucg5OuEoF-Ikqs8aUQZw/edit?gid=58422002#gid=58422002"
+
+[versions]
+"0.6.7" = { url = "https://bigmalletman.com/dl/ff6wc.apworld" }
