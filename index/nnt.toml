@@ -1,0 +1,6 @@
+name = "New 'n' Tasty"
+home = "https://discord.com/channels/731205301247803413/1474177461708263565"
+default url = "https://github.com/Knuxfan24/New-n-Tasty-Archipelago/releases/download/v{{version}}/nnt.apworld"
+
+[versions]
+"1.0.0" = {}
