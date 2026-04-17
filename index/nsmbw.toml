@@ -1,0 +1,6 @@
+name = "NSMBW"
+home = "https://discord.com/channels/731205301247803413/1327187652864380948"
+default_url = "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases/download/v{{version}}/nsmbw.apworld"
+
+[versions]
+"0.0.4" = {}
