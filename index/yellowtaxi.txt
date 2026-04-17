@@ -1,0 +1,6 @@
+name = "Yellow Taxi Goes Vroom"
+home = "https://discord.com/channels/731205301247803413/1265482079118950422"
+default_url = "https://github.com/soopercool101/Archipelago/releases/download/YTGV.v{{version}}/yellowtaxi.apworld"
+
+[versions]
+"0.3.2" = {}
