@@ -1,0 +1,5 @@
+name = "Luigi's Mansion"
+default_url = "https://github.com/stubobis1/Archipelago/releases/download/{{version}}/poe.apworld"
+
+[versions]
+"1.3.2" = {}
