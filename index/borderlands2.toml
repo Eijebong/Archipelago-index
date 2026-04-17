@@ -1,5 +1,6 @@
-name = "borderlands2"
+name = "Borderlands 2"
 tags = ["ad"]
+home = "https://discord.com/channels/1085716850370957462/1164256699608219698"
 
 [versions]
 "0.5.1" = { url = "https://github.com/EdricY/Bouncy-Loot-God/releases/download/v0.5.1/borderlands2.apworld" }
