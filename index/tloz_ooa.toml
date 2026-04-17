@@ -1,6 +1,6 @@
 name = "The Legend of Zelda - Oracle of Ages"
-home = "https://discord.com/channels/731205301247803413/1279722186902601750"
+home = "https://discord.com/channels/731205301247803413/1492540520462024774"
 
 [versions]
-# https://discord.com/channels/731205301247803413/1279722186902601750/1394316324804497479
 "0.4.3+hotfix-0.6.2" = { local = "../apworlds/tloz_ooa-0.4.3+hotfix-0.6.2.apworld" }
+"0.5.1" = { url = "https://github.com/josephanimate2021/ArchipelagoOoA/releases/download/v0.5.1/tloz_ooa.apworld" }
