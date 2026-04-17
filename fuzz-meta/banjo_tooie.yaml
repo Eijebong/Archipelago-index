@@ -1,0 +1,63 @@
+meta_description: Constraint-aware fuzz meta for banjo_tooie.
+
+Banjo-Tooie:
+  custom_worlds: "1,4,8,14,20,28,36,45,55"
+
+  fuzz_constraints:
+    # If bt_moves is off, disable everything that requires it
+    - option: randomize_bt_moves
+      if_value: "false"
+      then:
+        progressive_beak_buster: "false"
+        progressive_shoes: "false"
+        progressive_flight: "false"
+        progressive_water_training: none
+        progressive_egg_aiming: none
+        progressive_bash_attack: "false"
+        egg_behaviour: start_with_blue_eggs
+        jamjars_silo_costs: vanilla
+
+    # If bk_moves is off, disable progressives that also require bk_moves
+    - option: randomize_bk_moves
+      if_value: none
+      then:
+        progressive_beak_buster: "false"
+        progressive_shoes: "false"
+        progressive_flight: "false"
+        progressive_water_training: none
+        progressive_egg_aiming: none
+        egg_behaviour: start_with_blue_eggs
+
+    # progressive_bash_attack also needs stop_n_swap
+    - option: randomize_stop_n_swap
+      if_value: "false"
+      then: {progressive_bash_attack: "false"}
+
+    # bk_moves != none requires notes/signposts/nestsanity. Force nestsanity on when bk is randomized
+    - option: randomize_bk_moves
+      if_value: mcjiggy_special
+      then: {nestsanity: "true"}
+    - option: randomize_bk_moves
+      if_value: all
+      then: {nestsanity: "true"}
+
+    # world_requirements != normal requires skip_puzzles
+    - option: skip_puzzles
+      if_value: "false"
+      then: {world_requirements: normal}
+
+    # Extra treble + bass clefs together need randomize_notes
+    # Zeroing either one is sufficient, so only touch extra_trebleclefs_count
+    - option: randomize_notes
+      if_value: "false"
+      then: {extra_trebleclefs_count: 0}
+
+    # randomize_worlds + bk_moves != none + intended logic is invalid
+    - option: logic_type
+      if_value: intended
+      then: {randomize_worlds: "false"}
+
+    # Token hunt with > 15 tokens in pool requires nestsanity
+    - option: victory_condition
+      if_value: token_hunt
+      then: {nestsanity: "true"}

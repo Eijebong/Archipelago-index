@@ -9,3 +9,15 @@ __version__ = ">=0.0.1"
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_DemonSlayerKimetsunoYaibaTheHinokamiChronicles_Inuzuka28', option='zenitsu_ic_dlc')"]]
 __expected__ = "error"
 __version__ = ">=0.0.1"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_DemonSlayerKimetsunoYaibaTheHinokamiChronicles_Inuzuka28', option='tanjiro_ic_dlc')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_DemonSlayerKimetsunoYaibaTheHinokamiChronicles_Inuzuka28', option='giyu_ic_dlc')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_DemonSlayerKimetsunoYaibaTheHinokamiChronicles_Inuzuka28', option='shinobu_ic_dlc')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2"
