@@ -1,5 +1,5 @@
 name = "Hololive Treasure Mountain"
-default_url = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases/download/{{version}}/HololiveTreasureMountain.apworld"
+default_url = "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases/download/v{{version}}/HololiveTreasureMountain.apworld"
 
 [versions]
 "1.0.0" = {}
