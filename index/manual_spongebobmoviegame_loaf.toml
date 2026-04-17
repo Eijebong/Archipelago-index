@@ -1,7 +1,7 @@
-name = "Manual_Spongebobmoviegame_Loaf"
+name = "Manual_spongebobmoviegame_loaf"
 display_name = "Manual: the Spongebob Movie Game"
+home = "https://github.com/kekosaurus-rex/Spongebob-movie-game-manual"
 
 [versions]
 "0.0.1" = { local = "../apworlds/manual_spongebobmoviegame_loaf-0.0.1.apworld" }
-
-
+"0.0.2" = { url = "https://github.com/kekosaurus-rex/Spongebob-movie-game-manual/releases/download/V0.0.2/manual_spongebobmoviegame_loaf.apworld" }
