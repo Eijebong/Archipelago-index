@@ -1,0 +1,171 @@
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Old Maid] (group_name='Old Maid', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Spit] (group_name='Spit', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [I Doubt It] (group_name='I Doubt It', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Sevens] (group_name='Sevens', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Memory] (group_name='Memory', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Pig] (group_name='Pig', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Blackjack] (group_name='Blackjack', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Hearts] (group_name='Hearts', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [President] (group_name='President', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Rummy] (group_name='Rummy', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Seven Bridge] (group_name='Seven Bridge', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Last Card] (group_name='Last Card', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Last Card Plus] (group_name='Last Card Plus', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Five Card Draw] (group_name='Five Card Draw', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Texas Hold'Em] (group_name=\"Texas Hold'Em\", game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Nap] (group_name='Nap', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Spades] (group_name='Spades', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Contract Bridge] (group_name='Contract Bridge', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Chinese Checkers] (group_name='Chinese Checkers', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Checkers] (group_name='Checkers', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Dots and Boxes] (group_name='Dots and Boxes', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Hasami Shogi] (group_name='Hasami Shogi', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Turncoat] (group_name='Turncoat', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Connect Five] (group_name='Connect Five', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Grid Attack] (group_name='Grid Attack', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Backgammon] (group_name='Backgammon', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Chess] (group_name='Chess', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Shogi] (group_name='Shogi', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Field Tactics] (group_name='Field Tactics', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Ludo] (group_name='Ludo', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Soda Shake] (group_name='Soda Shake', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Dominoes] (group_name='Dominoes', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Koi-Koi] (group_name='Koi-Koi', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Word Balloon] (group_name='Word Balloon', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Bowling] (group_name='Bowling', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Darts] (group_name='Darts', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Billiards] (group_name='Billiards', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Balance] (group_name='Balance', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Takeover] (group_name='Takeover', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Solitaire] (group_name='Solitaire', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Escape] (group_name='Escape', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_items.TestBase.test_item_name_group_conflict [Mahjong Solitaire] (group_name='Mahjong Solitaire', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"
+
+[["test.general.test_locations.TestBase.test_location_group [Victory] (group_name='Victory', game_name='Manual_ClubhouseGamesDS_Avery')"]]
+__expected__ = "fail"
+__version__ = ">=0.0.1"

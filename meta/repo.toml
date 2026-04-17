@@ -5,3 +5,7 @@ __version__ = ">=0.2.4"
 [["test.general.test_locations.TestBase.test_location_group [Event] (group_name='Event', game_name='R.E.P.O')"]]
 __expected__ = "fail"
 __version__ = ">=0.2.4"
+
+[["test.general.test_options.TestOptions.test_option_defaults (game='R.E.P.O', option='starting_level_type')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.4"

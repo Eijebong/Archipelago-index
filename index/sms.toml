@@ -5,3 +5,4 @@ default_url = "https://github.com/Joshark/archipelago-sms/releases/download/{{ve
 [versions]
 "0.5.2+hotfix1" = { url = "https://github.com/Joshark/archipelago-sms/releases/download/0.5.2/sms.apworld" }
 "0.5.3" = {}
+"0.6.2" = {}

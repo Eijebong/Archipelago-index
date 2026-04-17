@@ -6,8 +6,6 @@ from taskgraph.optimize.base import Any, OptimizationStrategy, register_strategy
 from taskgraph.optimize.strategies import SkipUnlessChanged, IndexSearch
 from taskgraph.util.taskcluster import find_task_id, status_task
 
-from . import schema
-
 logger = logging.getLogger("optimization")
 
 
@@ -54,4 +52,19 @@ class SkipOrAttempted(Any):
         super().__init__(IndexSearchIncludeFailed(), SkipUnlessChanged(), split_args=split_args, **kwargs)
 
     description = "Skip unless changed or use attempted (including failed) PR task if possible"
+
+
+@register_strategy("index-search-or-skip", ())
+class IndexSearchOrSkip(IndexSearch):
+    """IndexSearch subclass that also removes tasks when skip-unless-changed
+    files (read from task attributes) haven't changed. Being a direct
+    IndexSearch subclass means the batch API optimization in taskgraph works."""
+
+    description = "Index search with skip-unless-changed from attributes"
+
+    def should_remove_task(self, task, params, arg):
+        file_patterns = task.attributes.get("skip-unless-changed", [])
+        if not file_patterns:
+            return False
+        return SkipUnlessChanged().should_remove_task(task, params, file_patterns)
 

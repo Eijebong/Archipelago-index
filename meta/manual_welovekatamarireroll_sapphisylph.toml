@@ -1,27 +1,59 @@
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='filler_traps')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='start_with_new_file')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='level_unlock_mode')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='cousinsanity')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='presentsanity')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='enable_long_checks')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_WeLoveKatamariReroll_sapphisylph', option='enable_difficult_checks')"]]
 __expected__ = "error"
-__version__ = ">=0.3.3"
+__version__ = ">=0.3.3,<0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Existing File', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Study Time', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Night School', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Lots of Wheels', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Extra Special Training', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Ballerina Hunt', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Cousins', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Countries', game='Manual_WeLoveKatamariReroll_sapphisylph')"]]
+__expected__ = "fail"
+__version__ = ">=0.4.1"
