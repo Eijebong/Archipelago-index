@@ -6,3 +6,4 @@ default_url = "https://codeberg.org/niyrme/archipelago-titanfall-2-manual/releas
 
 [versions]
 "0.14.0" = {}
+"0.15.0" = {}
