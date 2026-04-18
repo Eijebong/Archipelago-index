@@ -3,5 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1378465872917827614"
 default_url = "https://github.com/UltiNaruto/MetroidAPrime/releases/download/v{{version}}/metroidprime.apworld"
 
 [versions]
-"0.5.2" = {}
-"0.5.3" = {}
+"0.5.3-h1" = {}
