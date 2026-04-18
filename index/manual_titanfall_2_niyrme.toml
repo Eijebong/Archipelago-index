@@ -1,0 +1,9 @@
+name = "Manual_Titanfall_2_niyrme"
+display_name = "Manual: Titanfall 2"
+home = "https://discord.com/channels/1097532591650910289/1489409190454890527"
+tags = ["ad"]
+default_url = "https://codeberg.org/niyrme/archipelago-titanfall-2-manual/releases/download/v{{version}}/manual_titanfall_2_niyrme.apworld"
+
+[versions]
+"0.14.0" = {}
+"0.15.1" = {}

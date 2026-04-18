@@ -5,3 +5,4 @@ default_url = "https://github.com/AllPoland/unbeatAP/releases/download/v{{versio
 [versions]
 "0.1.0-alpha" = { }
 "0.2.1-alpha" = { }
+"0.3.0-alpha" = {}

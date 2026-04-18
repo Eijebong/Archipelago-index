@@ -1,43 +1,87 @@
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='goal')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='co_op')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='shopsanity_currency')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='pure_soul')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='dark_soul')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='pre_prologue')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='prologue')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter1')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter2')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter3')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_BlockTales_WolfBoi008', option='chapter4')"]]
 __expected__ = "error"
-__version__ = ">=4.0.2"
+__version__ = ">=4.0.2,<4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Mountains', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Blackrock Castle', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Plains', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Turitopulis', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Rainforest', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Sacred Hollow', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Train', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Spooksville', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region=\"Telamon's Manor\", game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Catacombs', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
+
+[["test.general.test_reachability.TestBase.test_default_all_state_can_reach_everything [Region should be reached] (region='Dream World', game='Manual_BlockTales_WolfBoi008')"]]
+__expected__ = "fail"
+__version__ = ">=4.2.3"
