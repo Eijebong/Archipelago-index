@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1295008123131658270"
 default_url = "https://github.com/Str8UpWHITE64/CrabChampionsAP/releases/download/{{version}}/crabchampions.apworld"
 
 [versions]
-"1.2.0" = {}
+"1.3.0" = {}
