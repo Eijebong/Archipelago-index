@@ -569,10 +569,6 @@
 "1.1.2" = "849e324e6980a983e0ffd0095f6430426975b232c43a39040280d1268503d93a"
 "1.10.0" = "a65969651cac356e02c88dcada20e6c901c7a8f7b51b0b47c8638c8007566ca5"
 
-[manual_eowechohunt_killedragon]
-"0.0.1" = "9ac4d4397a2f88aaed38edbb3347c37d528173dc1a8083d57dffc00016faf9bb"
-"0.0.2" = "b57caf0a8009b34159312d8fff560b679c9e1b215fb452f6b2f159abb80ec8c8"
-
 [manual_epicuniversewandmagic_tornadowizard]
 "1.0.0" = "e9fefaa36ffd63dc0459b8b34ca5fe95869ab59941cf9c8c7481ff1f5d88fe37"
 
@@ -790,6 +786,9 @@
 
 [manual_teamfortress2_gp]
 "0.0.1" = "9f662512b775d3559db074aed5ee54d9c7a5b119ac1ff82f757d0d81a498fe4b"
+
+[manual_thelegendofzeldaechoesofwisdomechohunt_killedragon]
+"0.0.3" = "a69c31cede3ed3ecc642a25c45e4018c46c1be8918945b3227fe60cc6e9cb604"
 
 [manual_thelordoftheringsthereturnoftheking_zojalyx]
 "1.6.0" = "56cb389580387c8eef2de3a0e38c111df9f0a157867c079ab91b55b2da3750c2"
