@@ -1,0 +1,6 @@
+name = "System Shock 2"
+home = "https://discord.com/channels/731205301247803413/1340419754200010915"
+default_url = "https://codeberg.org/Partatio/SS2-Apworld/releases/download/{{version}}/ss2.apworld"
+
+[versions]
+"0.5.0" = {}
