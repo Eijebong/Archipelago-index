@@ -1,8 +1,6 @@
 name = "Cursed Mario 64"
 display_name = "Cursed Mario 64"
-home = "https://github.com/IncidiousJacob/Cursed-Mario-64/tree/archipelago"
-default_url = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/newapworld/Cursed_Mario_64.apworld"
-tags = []
+home = "https://discord.com/channels/731205301247803413/1494389627115536567"
 
 [versions]
-"0.1.2" = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/newapworld/Cursed_Mario_64.apworld"
+"0.1.5+hotfix" = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/Filler/Cursed_Mario_64.apworld"
