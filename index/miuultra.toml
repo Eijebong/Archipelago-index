@@ -1,0 +1,6 @@
+name = "Marble It Up! Ultra"
+home = "https://discord.com/channels/731205301247803413/1491886661829656676"
+default_url = "https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/download/v{{version}}/miuultra.apworld"
+
+[versions]
+"0.1.1-alpha" = {}
