@@ -4,3 +4,4 @@ default_url = "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/do
 
 [versions]
 "1.1.5" = {}
+"1.2.0-rc1" = {}
