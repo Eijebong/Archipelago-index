@@ -1,0 +1,40 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.per_apworld:transforms
+  - src.transforms.fetch_index:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - src.transforms.soft_docker_image:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-small
+  run:
+    # We can't use taskgraph to create caches for us because of the docker image being "soft" here
+    use-caches: false
+  worker:
+    max-run-time: 300
+    docker-image: {in-tree: ap-checker}
+    volumes:
+      - /builds/worker/checkouts
+    artifacts:
+      - type: directory
+        path: /builds/worker/apworlds
+        name: public/
+  run-on-tasks-for: ["github-push"]
+  run-on-git-branches: ["main"]
+  attributes:
+    fetch-apworld: false
+    artifact_prefix: public
+    soft-docker-image: true
+    skip-unless-changed: ["index.lock"]
+
+tasks:
+  apworld:
+    description: Fetch and index an apworld version
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH &&
+        apwm download -i ./ -d /builds/worker/apworlds -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}"

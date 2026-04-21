@@ -1,39 +1,39 @@
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_kanto')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_johto')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_hoenn')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_sinnoh')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_unova')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_kalos')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_alola')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_galar')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_hisui')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"
 
 [["test.general.test_options.TestOptions.test_options_have_doc_string (game='Pokepelago', option='include_paldea')"]]
 __expected__ = "fail"
-__version__ = ">=0.4.4"
+__version__ = ">=0.4.4,<0.5.1"

@@ -5,3 +5,4 @@ default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/bo
 [versions]
 # They pushed a version on top of 0.1.3 2 months after...
 "0.1.3+hotfix1" = { url = "https://github.com/Happyhappyism/Archipelago/releases/download/bomb64_v0.1.3/bomberman_64.apworld" }
+"0.1.4" = {}
