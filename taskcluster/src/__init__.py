@@ -44,6 +44,31 @@ def handle_soft_fetches(taskgraph, label_to_taskid, parameters, graph_config):
     return taskgraph, label_to_taskid
 
 @register_morph
+def restore_soft_docker_image_dependency(taskgraph, label_to_taskid, parameters, graph_config):
+    """Re-add the docker-image soft dependency as a hard dependency.
+
+    The `soft_docker_image` transform demotes the docker-image dep to a soft
+    dep so that it doesn't pull cached consumers back into the graph during
+    optimization. Once optimization is done, we still want the runtime edge
+    so the task actually waits for a freshly built image to land.
+    """
+    for task in taskgraph.tasks.values():
+        if not task.attributes.get("soft-docker-image"):
+            continue
+
+        for soft_dep_label in task.soft_dependencies:
+            if not soft_dep_label.startswith("docker-image-"):
+                continue
+            task_id = label_to_taskid.get(soft_dep_label)
+            if task_id is None:
+                continue
+            deps = task.task.setdefault("dependencies", [])
+            if task_id not in deps:
+                deps.append(task_id)
+
+    return taskgraph, label_to_taskid
+
+@register_morph
 def resolve_soft_payload(taskgraph, label_to_taskid, parameters, graph_config):
     """Resolve soft dependencies into payload fields.
 

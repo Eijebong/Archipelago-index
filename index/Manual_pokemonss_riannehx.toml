@@ -1,0 +1,7 @@
+name = "Manual_PokemonSS_Riannehx"
+display_name = "Manual: Pokemon Sword and Shield"
+home = "https://discord.com/channels/1097532591650910289/1470683499823366245"
+default_url = "https://github.com/willekeh/Manual/releases/download/PSS_v{{version}}/Manual_pokemonss_riannehx.apworld"
+
+[versions]
+"0.0.4" = {}

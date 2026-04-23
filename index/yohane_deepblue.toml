@@ -1,0 +1,5 @@
+name = "YOHANE THE PARHELION -BLAZE in the DEEPBLUE-"
+default_url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_bitdb-v{{version}}/yohane_deepblue.apworld"
+
+[versions]
+"0.0.3" = {}
