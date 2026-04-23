@@ -3,4 +3,4 @@ display_name = "Cursed Mario 64"
 home = "https://discord.com/channels/731205301247803413/1494389627115536567"
 
 [versions]
-"0.1.9" = { url = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/Toxic-Waters/Cursed_Mario_64.apworld" }
+"0.1.9+hotfix" = { url = "https://github.com/IncidiousJacob/Cursed-Mario-64/releases/download/Toxic-Waters/Cursed_Mario_64.apworld" }
