@@ -1,0 +1,15 @@
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonSS_Riannehx', option='Remove_weather_locations')"]]
+__expected__ = "error"
+__version__ = ">=0.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonSS_Riannehx', option='Example_Choice')"]]
+__expected__ = "error"
+__version__ = ">=0.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonSS_Riannehx', option='Example_Range')"]]
+__expected__ = "error"
+__version__ = ">=0.0.4"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_PokemonSS_Riannehx', option='DLC_enabled')"]]
+__expected__ = "error"
+__version__ = ">=0.0.4"
