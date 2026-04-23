@@ -1,0 +1,5 @@
+name = "YARGLEGORockBand"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGLEGORockBand.apworld"
+
+[versions]
+"26.04.12" = {}
