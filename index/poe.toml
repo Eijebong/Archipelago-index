@@ -1,4 +1,4 @@
-name = "Luigi's Mansion"
+name = "Path of Exile"
 default_url = "https://github.com/stubobis1/Archipelago/releases/download/{{version}}/poe.apworld"
 
 [versions]
