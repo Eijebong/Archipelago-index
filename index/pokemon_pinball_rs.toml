@@ -1,0 +1,7 @@
+name = "Pokemon Pinball Ruby & Sapphire"
+home = "https://discord.com/channels/731205301247803413/1488985632889110660"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/pbrs_{{version}}/pokemon_pinball_rs.apworld"
+
+[versions]
+"0.0.2" = {}
+
