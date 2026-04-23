@@ -1,0 +1,5 @@
+name = "Manual_TeamFortress2Frag_rowTF2"
+display_name = "Manual: Team Fortress 2 Frag"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_teamfortress2frag_rowtf2-0.0.1.apworld" }
