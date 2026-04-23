@@ -1,0 +1,5 @@
+name = "Slay the Spire II"
+default_url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/v{{version}}/spire2.apworld"
+
+[versions]
+"0.4.1-alpha" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/v0.4.1-alpha/spire2.apworld"}
