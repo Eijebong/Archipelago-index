@@ -4,3 +4,4 @@ default_url = "https://github.com/ArchipelagoDoom/APDoom/releases/download/v{{ve
 
 [versions]
 "2.0.0-beta2" = {}
+"2.0.0-beta3" = {}
