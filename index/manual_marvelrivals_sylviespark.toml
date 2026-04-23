@@ -1,0 +1,5 @@
+name = "Manual_MarvelRivals_SylvieSpark"
+display_name = "Manual: Marvel Rivals - SylvieSpark"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_marvelrivals_sylviespark-0.0.1.apworld" }
