@@ -1,0 +1,6 @@
+name = "Commander Keen"
+home = "https://discord.com/channels/731205301247803413/1478939374727987294"
+default_url = "https://github.com/kodbyte/Archipelago-Keen/releases/download/v{{version}}/keen.apworld"
+
+[versions]
+"0.0.4" = {}
