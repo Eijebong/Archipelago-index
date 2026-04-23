@@ -1,0 +1,7 @@
+name = "Manual_HEAT Pedal to the Metal_Makeshift"
+display_name = "Manual: HEAT Pedal to the Metal"
+home = "https://discord.com/channels/105852066324365312/214865144218517504/1496950086851367093" # no linkable thread
+
+[versions]
+"1.0.0" = { url = "https://github.com/makeshift715/Manual-APWorld-Heat-Pedal-to-the-Medal/releases/download/Stable/manual_heat_pedal_to_the_medal_makeshift.apworld" }
+
