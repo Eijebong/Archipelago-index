@@ -1,0 +1,7 @@
+name = "Minecraft Fabric"
+home = "https://discord.com/channels/731205301247803413/1461461958040621241"
+default_url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/releases/download/v{{version}}/minecraft_fabric.apworld"
+
+[versions]
+"1.0.6-alpha" = {}
+"1.0.7" = {url = "https://github.com/Deadlydiamond98/MinecraftFabricAPWorld/releases/download/v.1.0.7/minecraft_fabric.apworld"}

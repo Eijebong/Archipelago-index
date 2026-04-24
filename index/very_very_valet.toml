@@ -1,0 +1,6 @@
+name = "Very Very Valet"
+home = "https://discord.com/channels/731205301247803413/1481104627322851483"
+default_url = "https://github.com/xMcacutt-Archipelago/Archipelago-VeryVeryValet/releases/download/{{version}}/very_very_valet.apworld"
+
+[versions]
+"1.0.1" = {}

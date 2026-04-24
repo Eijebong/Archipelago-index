@@ -1,0 +1,3 @@
+[["test.general.test_options.TestOptions.test_option_set_keys_random (game='Nonograhmm', option='clue_types')"]]
+__expected__ = "fail"
+__version__ = ">=0.2.3"

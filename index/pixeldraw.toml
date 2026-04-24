@@ -1,0 +1,6 @@
+name = "PixelDraw"
+home = "https://discord.com/channels/731205301247803413/1483851572340457604"
+default_url = "https://github.com/TheOmnipresence/PixelDrawAPWorld/releases/download/{{version}}/pixeldraw.apworld"
+
+[versions]
+"1.2.1" = {}

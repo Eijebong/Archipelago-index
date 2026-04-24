@@ -6,7 +6,18 @@ taskgraph:
   cached-task-prefix: "ap.archipelago-index"
   repositories:
     archipelago_index:
-      name: "Archipelago-index"
+      name: "archipelago-index"
+  disabled-actions:
+    - rerun
+    - retrigger
+    - retrigger-decision
+    - retrigger-disabled
+    - add-new-jobs
+    - cancel
+    - cancel-all
+    - rebuild-cached-tasks
+    - retrigger-multiple
+
 
   register: src:register
   decision-parameters: src:get_decision_parameters

@@ -1,0 +1,8 @@
+name = "Once Upon a Katamari"
+home = "https://discord.com/channels/731205301247803413/1445303088020852831"
+default_url = "https://github.com/ItsSeafoamy/Once-Upon-an-Archipelago/releases/download/v{{version}}/ouakatamari.apworld"
+
+[versions]
+"0.1.0" = {}
+"0.2.0" = {}
+"0.2.2" = {}

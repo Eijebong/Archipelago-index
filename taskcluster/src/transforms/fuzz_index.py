@@ -20,7 +20,7 @@ def fuzz_index(config, tasks):
         version = quote(task["attributes"]["version"], safe="")
         extra_args_key = task["attributes"].get("extra_args_key", "default")
 
-        index_path = f"ap.{project}.fuzz.pr.{pr_number}.{apworld_name}.{version}.{extra_args_key}.latest"
+        index_path = f"ap.{project}.pr.fuzz.{pr_number}.{apworld_name}.{version}.{extra_args_key}.latest"
         task["attributes"].setdefault("eager-index-routes", []).append(index_path)
 
         target_tasks_method = config.params.get("target_tasks_method")

@@ -1,0 +1,6 @@
+name = "Manual_VacationSimulator_Basosaurus"
+display_name = "Manual: Vacation Simulator"
+home = "https://discord.com/channels/1097532591650910289/1495457119695274216"
+
+[versions]
+"1.0.1" = { local = "../apworlds/manual_vacationsimulator_basosaurus-0.0.1.apworld" }

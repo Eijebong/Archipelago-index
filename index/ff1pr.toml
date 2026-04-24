@@ -1,0 +1,7 @@
+name = "FF1 Pixel Remaster"
+home = "https://discord.com/channels/731205301247803413/1195372952166879262"
+default_url = "https://github.com/wildham0/FF1PRAP/releases/download/{{version}}/ff1pr.apworld"
+
+[versions]
+"0.5.15" = {}
+"0.5.17" = {}

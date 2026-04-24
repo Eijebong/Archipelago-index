@@ -4,3 +4,5 @@ default_url = "https://github.com/SWCreeperKing/Slimipelago/releases/download/v{
 
 [versions]
 "0.2.2" = {}
+"0.2.4" = {}
+"0.3.0" = {}
