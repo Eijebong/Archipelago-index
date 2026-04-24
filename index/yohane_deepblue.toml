@@ -1,5 +1,6 @@
 name = "YOHANE THE PARHELION -BLAZE in the DEEPBLUE-"
+home = "https://discord.com/channels/731205301247803413/1448194040175657055"
 default_url = "https://github.com/SilicDev/Archipelago/releases/download/yohane_bitdb-v{{version}}/yohane_deepblue.apworld"
 
 [versions]
-"0.0.3" = {}
+"0.0.5" = {}
