@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> This project has been archived. I have no intention on continuing working on
+> this. You can read more [here](https://gist.github.com/Eijebong/4a8a4a4f96bb64f1503113c81c410653)
+
 # How to add/update worlds
 
 - Add an `{apworld}.toml` file in the `index/` directory. The name of the file **MUST** match the apworld name. So for `A link to the Past` which apworld is `alttp`, you would create a file named `alttp.toml`.
